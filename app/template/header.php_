@@ -1,0 +1,283 @@
+<?php
+  session_start();
+  $user = new \User\User( ID_USER );
+  $directoryURI = $_SERVER['REQUEST_URI'];
+  $path = parse_url($directoryURI, PHP_URL_PATH);
+  $components = explode('/', $path);
+  $first_part = $components[1];
+  //$_SESSION['id_user'] = $user->id_user;
+  //$_SESSION['name'] = $user->name;
+?>
+<!DOCTYPE html>
+<!--[if IE 8]> <html lang="en" class="ie8 no-js"> <![endif]-->
+<!--[if IE 9]> <html lang="en" class="ie9 no-js"> <![endif]-->
+<!--[if !IE]><!-->
+<html lang="en" class="no-js">
+<!--<![endif]-->
+  <head>
+
+    <meta charset="utf-8"/>
+
+    <title><?php echo SITE_TITLE; ?></title>
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta content="width=device-width, initial-scale=1" name="viewport"/>
+    <meta content="" name="description"/>
+    <meta content="" name="author"/>
+
+    <link href="http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700&subset=all" rel="stylesheet" type="text/css"/>
+    <!--link href="<?php echo ST; ?>global/plugins/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css"/-->
+    <link href="<?php echo ST; ?>global/plugins/simple-line-icons/simple-line-icons.min.css" rel="stylesheet" type="text/css"/>
+
+    <!--link href="<?php echo ST; ?>admin/layout4/css/layout.css" rel="stylesheet" type="text/css"/>
+    <!--link href="<?php echo ST; ?>admin/layout4/css/themes/light.css" rel="stylesheet" type="text/css" id="style_color"/-->
+
+<!--JQUERY-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <link href="/css/bootstrap.min.css" rel="stylesheet">
+    <link href="/font-awesome/css/font-awesome.css" rel="stylesheet">
+    <link href="/css/animate.css" rel="stylesheet">
+    <link href="/css/plugins/jQueryUI/jquery-ui-1.10.4.custom.min.css" rel="stylesheet">
+    <link href="/css/plugins/jqGrid/ui.jqgrid.css" rel="stylesheet">
+
+    <!-- datatables -->
+    <link href="/css/plugins/dataTables/datatables.min.css" rel="stylesheet">
+
+    <!-- fin datatables -->
+
+    <link href="/css/style.css" rel="stylesheet">
+
+    <link rel="shortcut icon" href="favicon.ico"/>
+
+  </head>
+  <body class="page-header-fixed page-sidebar-closed-hide-logo page-sidebar-closed-hide-logo">
+
+    <nav class="navbar-default navbar-static-side" role="navigation">
+            <div class="sidebar-collapse">
+                <ul class="nav metismenu" id="side-menu">
+                    <li class="nav-header">
+                        <div class="dropdown profile-element"> <span>
+                            <img alt="image" class="img-circle" src="/img/profile_small.jpg" />
+                             </span>
+                            <a data-toggle="dropdown" class="dropdown-toggle" href="#">
+                            <span class="clear"> <span class="block m-t-xs"> <strong class="font-bold"><?php echo $_SESSION['name']; ?></strong><b class="caret"></b>
+                            <!-- </span> <span class="text-muted text-xs block"><?php echo $_SESSION["name"] ?><b class="caret"></b></span> </span> </a> -->
+                            <ul class="dropdown-menu animated fadeInRight m-t-xs">
+                                <li><a href="/perfil/lists">Perfil</a></li>
+                                <li class="divider"></li>
+                                <li><a href="login.html">Log out</a></li>
+                            </ul>
+                        </div>
+                        <div class="logo-element">
+                            AW
+                        </div>
+                    </li>
+                    <li <?php if (($_GET["m"]== "2")) { echo "class='active'"; }?>>
+                        <a href="#"><i class="fa fa-user"></i> <span class="nav-label">Seguridad</span><span class="fa arrow"></span></a>
+                        <ul class="nav nav-second-level collapse">
+                            <li class="<?php echo $first_part=='roles' ? 'active' : ''; ?>"><a href="/roles/lists?m=2"><i class=" entypo-doc-text"></i>Perfiles</a></li>
+                            <!-- <li class="<//?php echo $first_part=='perfiles' ? 'active' : ''; ?>"><a href="#"><i class=" entypo-doc-text"></i>Perfiles</a></li> -->
+                            <li class="<?php echo $first_part=='usuarios' ? 'active' : ''; ?>"><a href="/usuarios/lists?m=2"><i class=" entypo-doc-text"></i>Usuarios</a></li>
+                            <li <?php if ($_GET["m"]== "2") { echo "class='active'"; }?>><a href="#">Asignación de Usuarios a Almacenes <span class="fa arrow"></span></a>
+                                <ul class="nav nav-third-level">
+                                    <li class=""><a href="#"><i class=" entypo-doc-text"></i>Por Usuario</a></li>
+                                    <li class=""><a href="#"><i class=" entypo-doc-text"></i>Por Almacén</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+
+                    <li <?php if (($_GET["m"]== "3") or ($_GET["m"]== "4") or ($_GET["m"]== "5") or ($_GET["m"]== "6") or ($_GET["m"]== "7")) { echo "class='active'"; }?>>
+                        <a href="#"><i class="fa fa-bar-chart-o"></i> <span class="nav-label">Administraci&oacute;n</span><span class="fa arrow"></span></a>
+                        <ul class="nav nav-second-level collapse">
+                            <li <?php if ($_GET["m"]== "3") { echo "class='active'"; }?>><a href="#">Almacenes <span class="fa arrow"></span></a>
+                                <ul class="nav nav-third-level">
+                            		<li class="<?php echo $first_part=='tipocompania' ? 'active' : ''; ?>"><a href="/tipocompania/lists?m=3"><i class=" entypo-doc-text"></i>Tipo de Compañías</a></li>
+		                            <li class="<?php echo $first_part=='companias' ? 'active' : ''; ?>"><a href="/companias/lists?m=3"><i class=" entypo-doc-text"></i>Compañías</a></li>
+                                    <li class="<?php $menu2 = true; echo $first_part=='almacen' ? 'active' : ''; ?>"><a href="/almacen/lists?m=3"><i class=" entypo-doc-text"></i>Almacenes</a></li>
+		                            <li class="<?php echo $first_part=='ubicacionalmacenaje' ? 'active' : ''; ?>"><a href="/ubicacionalmacenaje/lists?m=3"><i class=" entypo-doc-text"></i>Ubicacion de Almacenaje</a></li>
+		                            <li class="<?php echo $first_part=='arearevision' ? 'active' : ''; ?>"><a href="/arearevision/lists?m=3"><i class=" entypo-doc-text"></i>Areas de Revisión</a></li>
+                                    <!-- <li class="<//hp echo $first_part=='cortinaentrada' ? 'active' : ''; ?>"><a href="/cortinaentrada/lists?m=2"><i class=" entypo-doc-text"></i>Cortina de Entrada</a></li> -->
+		                            <li><a href="#"><i class=" entypo-doc-text"></i>Cortinas</a></li>
+		                            <li><a href="#"><i class=" entypo-doc-text"></i>Impresoras</a></li>
+		                            <li class="<?php echo $first_part=='contenedores' ? 'active' : ''; ?>"><a href="/contenedores/lists?m=3"><i class=" entypo-doc-text"></i>Contenedores</a></li>
+                                    <li class="<?php echo $first_part=='ruta' ? 'active' : ''; ?>"><a href="/ruta/lists?m=3"><i class=" entypo-doc-text"></i>Rutas</a></li>
+                                    <li class="<?php echo $first_part=='transporte' ? 'active' : ''; ?>"><a href="/transporte/lists?m=3"><i class=" entypo-doc-text"></i>Transportes</a></li>
+                                </ul>
+                            </li>
+                            <li <?php if ($_GET["m"]== "4") { echo "class='active'"; }?>><a href="#">Inventarios <span class="fa arrow"></span></a>
+                                <ul class="nav nav-third-level">
+                                    <li class="<?php echo $first_part=='inventariosfisicos' ? 'active' : ''; ?>"><a href="/inventariosfisicos/lists?m=4"><i class=" entypo-doc-text"></i>Inventario Físico</a></li>
+                                    <li class="<?php echo $first_part=='inventariosciclicos' ? 'active' : ''; ?>"><a href="/inventariosciclicos/lists?m=4"><i class=" entypo-doc-text"></i>Inventario Cíclico</a></li>
+		                            <li class="<?php echo $first_part=='ajustesexistencias' ? 'active' : ''; ?>"><a href="/ajustesexistencias/lists?m=4"><i class=" entypo-doc-text"></i>Ajuste de Existencia</a></li>
+                                </ul>
+                            </li>
+                            <li <?php if ($_GET["m"]== "5") { echo "class='active'"; }?>><a href="#">Entradas <span class="fa arrow"></span></a>
+                                <ul class="nav nav-third-level">
+		                            <li><a href="#"><i class=" entypo-doc-text"></i>Administrar Entradas</a></li>
+		                            <li class="<?php echo $first_part=='ajustedeentradas' ? 'active' : ''; ?>"><a href="/ajustedeentradas/lists?m=5"><i class=" entypo-doc-text"></i>Ajuste de Entradas</a></li>
+                                </ul>
+                            </li>
+                            <li <?php if ($_GET["m"]== "6") { echo "class='active'"; }?>><a href="#">Pedidos <span class="fa arrow"></span></a>
+                                <ul class="nav nav-third-level">
+                            		<li><a href="#"><i class=" entypo-doc-text"></i>Status de Pedidos</a></li>
+		                            <li class="<?php echo $first_part=='adminpedidos' ? 'active' : ''; ?>"><a href="/adminpedidos/lists?m=6"><i class=" entypo-doc-text"></i>Administrar Pedidos</a></li>
+		                            <li><a href="#"><i class=" entypo-doc-text"></i>Administrar Subpedidos</a></li>
+                            		<li class="<?php echo $first_part=='pedidos' ? 'active' : ''; ?>"><a href="/pedidos/lists?m=6"><i class=" entypo-doc-text"></i>Editar Pedidos</a></li>
+		                            <li class="<?php echo $first_part=='rutasdesurtido' ? 'active' : ''; ?>"><a href="/rutasdesurtido/lists?m=6"><i class=" entypo-doc-text"></i>Rutas de Surtido</a></li>
+                                </ul>
+                            </li>
+                            <li <?php if ($_GET["m"]== "7") { echo "class='active'"; }?>><a href="#">Embarques <span class="fa arrow"></span></a>
+                                <ul class="nav nav-third-level">
+		                            <li class="<?php echo $first_part=='embarques' ? 'active' : ''; ?>"><a href="/embarques/lists?m=7"><i class=" entypo-doc-text"></i>Administrar Embarques</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+
+                    <li <?php if (($_GET["m"]== "8") or ($_GET["m"]== "9") or ($_GET["m"]== "10") or ($_GET["m"]== "11")) { echo "class='active'"; }?>>
+                        <a href="#"><i class="fa fa-book"></i> <span class="nav-label">Catálogos</span><span class="fa arrow"></span></a>
+                        <ul class="nav nav-second-level collapse">
+                            <li <?php if ($_GET["m"]== "9") { echo "class='active'"; }?>><a href="#">Entradas <span class="fa arrow"></span></a>
+                                <ul class="nav nav-third-level">
+		                            <li class="<?php echo $first_part=='proveedores' ? 'active' : ''; ?>"><a href="/proveedores/lists?m=9"><i class=" entypo-doc-text"></i>Proveedores</a></li>
+		                            <li class="<?php echo $first_part=='motivodevolucion' ? 'active' : ''; ?>"><a href="/motivodevolucion/list?m=9"><i class=" entypo-doc-text"></i>Motivo de Devolución</a></li>
+		                            <li class="<?php echo $first_part=='protocolos' ? 'active' : ''; ?>"><a href="/protocolos/lists?m=9"><i class=" entypo-doc-text"></i>Protocolos</a></li>
+		                            <li class="<?php echo $first_part=='ordendecompra' ? 'active' : ''; ?>"><a href="/ordendecompra/lists?m=9"><i class=" entypo-doc-text"></i>Ordenes de Compra</a></li>
+                                </ul>
+                            </li>
+                            <li <?php if ($_GET["m"]== "10") { echo "class='active'"; }?>><a href="#">Artículos <span class="fa arrow"></span></a>
+                                <ul class="nav nav-third-level">
+		                            <li class="<?php echo $first_part=='unidadesmedida' ? 'active' : ''; ?>"><a href="/unidadesmedida/lists?m=10"><i class=" entypo-doc-text"></i>Unidades de Medida</a></li>
+		                            <li class="<?php echo $first_part=='tipocaja' ? 'active' : ''; ?>"><a href="/tipocaja/list?m=10"><i class=" entypo-doc-text"></i>Tipos de Cajas</a></li>
+		                            <li class="<?php echo $first_part=='grupoarticulos' ? 'active' : ''; ?>"><a href="/grupoarticulos/list?m=10"><i class=" entypo-doc-text"></i>Grupos de Articulos</a></li>
+		                            <li class="<?php echo $first_part=='subgrupodearticulos' ? 'active' : ''; ?>"><a href="/subgrupodearticulos/list?m=10"><i class=" entypo-doc-text"></i>SubGrupo de Articulos</a></li>
+		                            <li class="<?php echo $first_part=='ssubgrupodearticulos' ? 'active' : ''; ?>"><a href="/ssubgrupodearticulos/list?m=10"><i class=" entypo-doc-text"></i>SubsubGrupos de Artículos</a></li>
+		                            <li class="<?php echo $first_part=='articulos' ? 'active' : ''; ?>"><a href="/articulos/lists?m=10"><i class=" entypo-doc-text"></i>Artículos</a></li>
+		                            <li class="<?php echo $first_part=='lotes' ? 'active' : ''; ?>"><a href="/lotes/lists?m=10"><i class=" entypo-doc-text"></i>Lotes</a></li>
+		                            <li class="<?php echo $first_part=='maximosyminimos' ? 'active' : ''; ?>"><a href="/maximosyminimos/lists?m=10"><i class=" entypo-doc-text"></i>Maximos y Minimos</a></li>
+                                </ul>
+                            </li>
+                            <li <?php if ($_GET["m"]== "11") { echo "class='active'"; }?>><a href="#">Salidas <span class="fa arrow"></span></a>
+                                <ul class="nav nav-third-level">
+		                            <li class="<?php echo $first_part=='clientes' ? 'active' : ''; ?>"><a href="/clientes/lists?m=11"><i class=" entypo-doc-text"></i>Clientes</a></li>
+		                            <li class="<?php echo $first_part=='poblaciones' ? 'active' : ''; ?>"><a href="/poblaciones/lists?m=11"><i class=" entypo-doc-text"></i>Poblaciones</a></li>
+		                            <li><a href="#"><i class=" entypo-doc-text"></i>Captura de Pedido</a></li>
+		                            <li class="<?php echo $first_part=='tipodeprioridad' ? 'active' : ''; ?>"><a href="/tipodeprioridad/lists?m=11"><i class=" entypo-doc-text"></i>Tipo de Prioridad</a></li>
+		                            <li class="<?php echo $first_part=='pedidosurgentes' ? 'active' : ''; ?>"><a href="/pedidosurgentes/lists?m=11"><i class=" entypo-doc-text"></i>Pedidos Urgentes</a></li>
+		                            <li><a href="#"><i class=" entypo-doc-text"></i>Acuse de Pedidos</a></li>
+		                            <li><a href="#"><i class=" entypo-doc-text"></i>Entrega de Pedidos</a></li>
+		                            <li class="<?php echo $first_part=='incidencias' ? 'active' : ''; ?>"><a href="/incidencias/lists?m=11"><i class=" entypo-doc-text"></i>Incidencias</a></li>
+                                </ul>
+                            </li>
+                            <li <?php if ($_GET["m"]== "9") { echo "class='active'"; }?>><a href="#">Promociones <span class="fa arrow"></span></a>
+                                
+                            </li>
+                        </ul>
+                    </li>
+
+                    <li <?php if (($_GET["m"]== "12") or ($_GET["m"]== "13") or ($_GET["m"]== "14") or ($_GET["m"]== "15") or ($_GET["m"]== "16")) { echo "class='active'"; }?>>
+                        <a href="#"><i class="fa fa-files-o"></i> <span class="nav-label">Informes</span><span class="fa arrow"></span></a>
+                        <ul class="nav nav-second-level collapse">
+                            <li <?php if ($_GET["m"]== "13") { echo "class='active'"; }?>><a href="#">Existencias <span class="fa arrow"></span></a>
+                                <ul class="nav nav-third-level">
+		                            <li><a href="#"><i class=" entypo-doc-text"></i>Existencia por Ubicación</a></li>
+		                            <li><a href="#"><i class=" entypo-doc-text"></i>Concentrado de Existencias</a></li>
+		                            <li><a href="#"><i class=" entypo-doc-text"></i>Pendientes de Acomodo</a></li>
+		                            <li><a href="#"><i class=" entypo-doc-text"></i>Faltantes de Producto</a></li>
+		                            <li><a href="#"><i class=" entypo-doc-text"></i>Artículos en más de una Ubicación</a></li>
+		                            <li><a href="#"><i class=" entypo-doc-text"></i>Existencia por Ubicación</a></li>
+		                            <li class="<?php echo $first_part=='ubicaciones' ? 'active' : ''; ?>"><a href="/ubicaciones/lists?m=13"><i class=" entypo-doc-text"></i>Ubicaciones</a></li>
+		                            <li><a href="#"><i class=" entypo-doc-text"></i>Artículos de Lento Movimiento</a></li>
+                                </ul>
+                            </li>
+                            <li <?php if ($_GET["m"]== "14") { echo "class='active'"; }?>><a href="#">Movimientos del Almacén <span class="fa arrow"></span></a>
+                                <ul class="nav nav-third-level">
+		                            <li><a href="#"><i class=" entypo-doc-text"></i>Movimientos de Entrada-Salida</a></li>
+		                            <li><a href="#"><i class=" entypo-doc-text"></i>Movimientos  de Almacén</a></li>
+		                            <li><a href="#"><i class=" entypo-doc-text"></i>Cardex</a></li>
+		                            <li><a href="#"><i class=" entypo-doc-text"></i>Traslados entre Almacenes</a></li>
+		                            <li><a href="#"><i class=" entypo-doc-text"></i>Traslado entre Ubicaciones</a></li>
+		                            <li><a href="#"><i class=" entypo-doc-text"></i>Reabastecimiento por Pedido</a></li>
+		                            <li><a href="#"><i class=" entypo-doc-text"></i>Reabastecimiento por Producto</a></li>
+		                            <li><a href="#"><i class=" entypo-doc-text"></i>Bitácora</a></li>
+                                </ul>
+                            </li>
+                            <li <?php if ($_GET["m"]== "15") { echo "class='active'"; }?>><a href="#">Entradas <span class="fa arrow"></span></a>
+                                <ul class="nav nav-third-level">
+		                            <li><a href="#"><i class=" entypo-doc-text"></i>Entradas</a></li>
+		                            <li><a href="#"><i class=" entypo-doc-text"></i>Comprobante de Ingreso</a></li>
+                                </ul>
+                            </li>
+                           <li <?php if ($_GET["m"]== "16") { echo "class='active'"; }?>><a href="#">Salidas <span class="fa arrow"></span></a>
+                                <ul class="nav nav-third-level">
+		                            <li><a href="#"><i class=" entypo-doc-text"></i>Importe de Pedidos</a></li>
+		                            <li><a href="#"><i class=" entypo-doc-text"></i>Orden de Surtido</a></li>
+		                            <li><a href="#"><i class=" entypo-doc-text"></i>Pedidos Servidos</a></li>
+		                            <li><a href="#"><i class=" entypo-doc-text"></i>Urgencias</a></li>
+		                            <li><a href="#"><i class=" entypo-doc-text"></i>Shipper</a></li>
+		                            <li><a href="#"><i class=" entypo-doc-text"></i>Incidencias</a></li>
+		                            <li><a href="#"><i class=" entypo-doc-text"></i>Status de Ordenes</a></li>
+		                            <li><a href="#"><i class=" entypo-doc-text"></i>Reporte de Rutas</a></li>
+		                            <li><a href="#"><i class=" entypo-doc-text"></i>Reporte de Back Orders</a></li>
+		                            <li><a href="#"><i class=" entypo-doc-text"></i>Back Orders liberados</a></li>
+                                </ul>
+                            </li>
+
+                        </ul>
+                    </li>
+
+                    <li <?php if (($_GET["m"]== "16") or ($_GET["m"]== "17") or ($_GET["m"]== "18") or ($_GET["m"]== "19") or ($_GET["m"]== "16")) { echo "class='active'"; }?>>
+                        <a href="#"><i class="fa fa-gears"></i> <span class="nav-label">Utilerías</span><span class="fa arrow"></span></a>
+                        <ul class="nav nav-second-level collapse">
+                            <li <?php if ($_GET["m"]== "17") { echo "class='active'"; }?>><a href="#">Configuración <span class="fa arrow"></span></a>
+                                <ul class="nav nav-third-level">
+		                            <li><a href="#"><i class=" entypo-doc-text"></i>Conexión Base de Datos</a></li>
+		                            <li><a href="#"><i class=" entypo-doc-text"></i>Configuración de Correo</a></li>
+		                            <li><a href="#"><i class=" entypo-doc-text"></i>Administrador de Terminales</a></li>
+                                </ul>
+                            </li>
+                            <li <?php if ($_GET["m"]== "18") { echo "class='active'"; }?>><a href="#">Impresión <span class="fa arrow"></span></a>
+                                <ul class="nav nav-third-level">
+		                            <li><a href="#"><i class=" entypo-doc-text"></i>Imprimir Ubicaciones</a></li>
+                                </ul>
+                            </li>
+                            <li <?php if ($_GET["m"]== "15") { echo "class='active'"; }?>><a href="#">Importación <span class="fa arrow"></span></a>
+                                <ul class="nav nav-third-level">
+		                            <li><a href="#"><i class=" entypo-doc-text"></i>Importación de Pedidos</a></li>
+		                            <li><a href="#"><i class=" entypo-doc-text"></i>Importación de Órdenes de Compra</a></li>
+                                </ul>
+                            </li>
+
+                            <li class="<?php echo $first_part=='promocion' ? 'active' : ''; ?>"><a href="/promocion/lists?m=1"><i class=" entypo-doc-text"></i>Promociones</a></li>                            
+                        </ul>
+                    </li>
+
+
+                </ul>
+
+            </div>
+        </nav>
+
+		<div id="page-wrapper" class="gray-bg dashbard-1">
+        <div class="row border-bottom">
+        <nav class="navbar navbar-static-top" role="navigation" style="margin-bottom: 0">
+        <div class="navbar-header">
+            <a class="navbar-minimalize minimalize-styl-2 btn btn-primary " href="#"><i class="fa fa-bars"></i> </a>
+        </div>
+            <ul class="nav navbar-top-links navbar-right">
+                <li>
+                    <span class="m-r-sm text-muted welcome-message"></span>
+                </li>
+
+                <li>
+                    <a href="/account/out">
+                        <i class="fa fa-sign-out"></i> Log out
+                    </a>
+                </li>
+            </ul>
+        </nav>
+        </div>
+
+      <div class="page-content-wrapper">
+        <div class="page-content">

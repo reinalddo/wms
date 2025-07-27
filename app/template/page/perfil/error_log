@@ -1,0 +1,11 @@
+[21-Nov-2017 23:20:51 UTC] PHP Warning:  move_uploaded_file(/img/imageperfil/youtube.png): failed to open stream: No such file or directory in /home/samenli1/public_html/subdominios/wms/app/template/page/perfil/upload.php on line 3
+[21-Nov-2017 23:20:51 UTC] PHP Warning:  move_uploaded_file(): Unable to move '/tmp/phpYhw3lO' to '/img/imageperfil/youtube.png' in /home/samenli1/public_html/subdominios/wms/app/template/page/perfil/upload.php on line 3
+[22-Nov-2017 01:41:23 UTC] PHP Warning:  chown(): Unable to find uid for 99 1005 in /home/samenli1/public_html/subdominios/wms/app/template/page/perfil/upload.php on line 6
+[22-Nov-2017 02:04:41 UTC] PHP Warning:  chown(): Operation not permitted in /home/samenli1/public_html/subdominios/wms/app/template/page/perfil/upload.php on line 6
+[22-Nov-2017 02:04:41 UTC] PHP Warning:  chgrp(): Operation not permitted in /home/samenli1/public_html/subdominios/wms/app/template/page/perfil/upload.php on line 7
+[22-Nov-2017 02:06:08 UTC] PHP Warning:  chown(): Operation not permitted in /home/samenli1/public_html/subdominios/wms/app/template/page/perfil/upload.php on line 6
+[22-Nov-2017 02:06:08 UTC] PHP Warning:  chgrp(): Operation not permitted in /home/samenli1/public_html/subdominios/wms/app/template/page/perfil/upload.php on line 7
+[22-Nov-2017 02:11:17 UTC] PHP Warning:  chown(): Operation not permitted in /home/samenli1/public_html/subdominios/wms/app/template/page/perfil/upload.php on line 6
+[22-Nov-2017 02:11:17 UTC] PHP Warning:  chgrp(): Operation not permitted in /home/samenli1/public_html/subdominios/wms/app/template/page/perfil/upload.php on line 7
+[27-Feb-2018 20:42:29 UTC] PHP Warning:  chown(): Operation not permitted in /home/samenli1/public_html/subdominios/wms/app/template/page/perfil/upload.php on line 6
+[27-Feb-2018 20:42:29 UTC] PHP Warning:  chgrp(): Operation not permitted in /home/samenli1/public_html/subdominios/wms/app/template/page/perfil/upload.php on line 7

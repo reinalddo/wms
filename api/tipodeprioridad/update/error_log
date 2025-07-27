@@ -1,0 +1,24 @@
+[26-Apr-2017 12:56:56 America/Los_Angeles] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '0' for key 'PRIMARY' in /home/samenli1/public_html/subdominios/wms/app/class/TipoPrioridad/TipoPrioridad.php:104
+Stack trace:
+#0 /home/samenli1/public_html/subdominios/wms/app/class/TipoPrioridad/TipoPrioridad.php(104): PDOStatement->execute()
+#1 /home/samenli1/public_html/subdominios/wms/api/tipodeprioridad/update/index.php(14): TipoPrioridad\TipoPrioridad->save(Array)
+#2 {main}
+  thrown in /home/samenli1/public_html/subdominios/wms/app/class/TipoPrioridad/TipoPrioridad.php on line 104
+[26-Apr-2017 12:57:28 America/Los_Angeles] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '0' for key 'PRIMARY' in /home/samenli1/public_html/subdominios/wms/app/class/TipoPrioridad/TipoPrioridad.php:104
+Stack trace:
+#0 /home/samenli1/public_html/subdominios/wms/app/class/TipoPrioridad/TipoPrioridad.php(104): PDOStatement->execute()
+#1 /home/samenli1/public_html/subdominios/wms/api/tipodeprioridad/update/index.php(14): TipoPrioridad\TipoPrioridad->save(Array)
+#2 {main}
+  thrown in /home/samenli1/public_html/subdominios/wms/app/class/TipoPrioridad/TipoPrioridad.php on line 104
+[26-Apr-2017 12:58:49 America/Los_Angeles] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '0' for key 'PRIMARY' in /home/samenli1/public_html/subdominios/wms/app/class/TipoPrioridad/TipoPrioridad.php:104
+Stack trace:
+#0 /home/samenli1/public_html/subdominios/wms/app/class/TipoPrioridad/TipoPrioridad.php(104): PDOStatement->execute()
+#1 /home/samenli1/public_html/subdominios/wms/api/tipodeprioridad/update/index.php(14): TipoPrioridad\TipoPrioridad->save(Array)
+#2 {main}
+  thrown in /home/samenli1/public_html/subdominios/wms/app/class/TipoPrioridad/TipoPrioridad.php on line 104
+[26-Apr-2017 13:01:40 America/Los_Angeles] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '0' for key 'PRIMARY' in /home/samenli1/public_html/subdominios/wms/app/class/TipoPrioridad/TipoPrioridad.php:104
+Stack trace:
+#0 /home/samenli1/public_html/subdominios/wms/app/class/TipoPrioridad/TipoPrioridad.php(104): PDOStatement->execute()
+#1 /home/samenli1/public_html/subdominios/wms/api/tipodeprioridad/update/index.php(14): TipoPrioridad\TipoPrioridad->save(Array)
+#2 {main}
+  thrown in /home/samenli1/public_html/subdominios/wms/app/class/TipoPrioridad/TipoPrioridad.php on line 104

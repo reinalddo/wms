@@ -1,0 +1,2 @@
+[20-Mar-2017 15:18:50 UTC] PHP Warning:  Creating default object from empty value in /home/samenli1/public_html/subdominios/wms/api/tipocompania/lista/index.php on line 55
+[22-Nov-2017 16:29:57 UTC] PHP Parse error:  syntax error, unexpected '",a.clave_tcia) like '%"' (T_CONSTANT_ENCAPSED_STRING) in /home/samenli1/public_html/subdominios/wms/api/tipocompania/lista/index.php on line 40

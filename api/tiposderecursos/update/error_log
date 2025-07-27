@@ -1,0 +1,28 @@
+[26-Dec-2018 09:37:10 America/Los_Angeles] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1 in /home/assistproadl/public_html/subdominios/wms/app/class/TipoDeRecursos/TipoDeRecursos.php:54
+Stack trace:
+#0 /home/assistproadl/public_html/subdominios/wms/app/class/TipoDeRecursos/TipoDeRecursos.php(54): PDOStatement->execute(Array)
+#1 /home/assistproadl/public_html/subdominios/wms/app/class/TipoDeRecursos/TipoDeRecursos.php(98): TipoDeRecursos\TipoDeRecursos->load()
+#2 /home/assistproadl/public_html/subdominios/wms/api/tiposderecursos/update/index.php(28): TipoDeRecursos\TipoDeRecursos->__get('id')
+#3 {main}
+  thrown in /home/assistproadl/public_html/subdominios/wms/app/class/TipoDeRecursos/TipoDeRecursos.php on line 54
+[26-Dec-2018 09:37:11 America/Los_Angeles] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1 in /home/assistproadl/public_html/subdominios/wms/app/class/TipoDeRecursos/TipoDeRecursos.php:54
+Stack trace:
+#0 /home/assistproadl/public_html/subdominios/wms/app/class/TipoDeRecursos/TipoDeRecursos.php(54): PDOStatement->execute(Array)
+#1 /home/assistproadl/public_html/subdominios/wms/app/class/TipoDeRecursos/TipoDeRecursos.php(98): TipoDeRecursos\TipoDeRecursos->load()
+#2 /home/assistproadl/public_html/subdominios/wms/api/tiposderecursos/update/index.php(28): TipoDeRecursos\TipoDeRecursos->__get('id')
+#3 {main}
+  thrown in /home/assistproadl/public_html/subdominios/wms/app/class/TipoDeRecursos/TipoDeRecursos.php on line 54
+[26-Dec-2018 09:37:11 America/Los_Angeles] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1 in /home/assistproadl/public_html/subdominios/wms/app/class/TipoDeRecursos/TipoDeRecursos.php:54
+Stack trace:
+#0 /home/assistproadl/public_html/subdominios/wms/app/class/TipoDeRecursos/TipoDeRecursos.php(54): PDOStatement->execute(Array)
+#1 /home/assistproadl/public_html/subdominios/wms/app/class/TipoDeRecursos/TipoDeRecursos.php(98): TipoDeRecursos\TipoDeRecursos->load()
+#2 /home/assistproadl/public_html/subdominios/wms/api/tiposderecursos/update/index.php(28): TipoDeRecursos\TipoDeRecursos->__get('id')
+#3 {main}
+  thrown in /home/assistproadl/public_html/subdominios/wms/app/class/TipoDeRecursos/TipoDeRecursos.php on line 54
+[26-Dec-2018 09:37:11 America/Los_Angeles] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1 in /home/assistproadl/public_html/subdominios/wms/app/class/TipoDeRecursos/TipoDeRecursos.php:54
+Stack trace:
+#0 /home/assistproadl/public_html/subdominios/wms/app/class/TipoDeRecursos/TipoDeRecursos.php(54): PDOStatement->execute(Array)
+#1 /home/assistproadl/public_html/subdominios/wms/app/class/TipoDeRecursos/TipoDeRecursos.php(98): TipoDeRecursos\TipoDeRecursos->load()
+#2 /home/assistproadl/public_html/subdominios/wms/api/tiposderecursos/update/index.php(28): TipoDeRecursos\TipoDeRecursos->__get('id')
+#3 {main}
+  thrown in /home/assistproadl/public_html/subdominios/wms/app/class/TipoDeRecursos/TipoDeRecursos.php on line 54

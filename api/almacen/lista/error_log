@@ -1,0 +1,1 @@
+[16-May-2017 13:03:07 UTC] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO), expecting ';' in /home/samenli1/public_html/subdominios/wms/api/almacen/lista/index.php on line 89

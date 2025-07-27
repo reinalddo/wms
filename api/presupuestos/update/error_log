@@ -1,0 +1,45 @@
+[25-Dec-2018 12:42:09 America/Los_Angeles] PHP Fatal error:  Uncaught Error: Call to a member function dbUpdate() on null in /home/assistproadl/public_html/subdominios/wms/app/class/Presupuestos/Presupuestos.php:250
+Stack trace:
+#0 /home/assistproadl/public_html/subdominios/wms/api/presupuestos/update/index.php(43): Presupuestos\Presupuestos->actualizarPresupuestos(Array)
+#1 {main}
+  thrown in /home/assistproadl/public_html/subdominios/wms/app/class/Presupuestos/Presupuestos.php on line 250
+[25-Dec-2018 12:42:10 America/Los_Angeles] PHP Fatal error:  Uncaught Error: Call to a member function dbUpdate() on null in /home/assistproadl/public_html/subdominios/wms/app/class/Presupuestos/Presupuestos.php:250
+Stack trace:
+#0 /home/assistproadl/public_html/subdominios/wms/api/presupuestos/update/index.php(43): Presupuestos\Presupuestos->actualizarPresupuestos(Array)
+#1 {main}
+  thrown in /home/assistproadl/public_html/subdominios/wms/app/class/Presupuestos/Presupuestos.php on line 250
+[25-Dec-2018 12:42:10 America/Los_Angeles] PHP Fatal error:  Uncaught Error: Call to a member function dbUpdate() on null in /home/assistproadl/public_html/subdominios/wms/app/class/Presupuestos/Presupuestos.php:250
+Stack trace:
+#0 /home/assistproadl/public_html/subdominios/wms/api/presupuestos/update/index.php(43): Presupuestos\Presupuestos->actualizarPresupuestos(Array)
+#1 {main}
+  thrown in /home/assistproadl/public_html/subdominios/wms/app/class/Presupuestos/Presupuestos.php on line 250
+[25-Dec-2018 12:42:10 America/Los_Angeles] PHP Fatal error:  Uncaught Error: Call to a member function dbUpdate() on null in /home/assistproadl/public_html/subdominios/wms/app/class/Presupuestos/Presupuestos.php:250
+Stack trace:
+#0 /home/assistproadl/public_html/subdominios/wms/api/presupuestos/update/index.php(43): Presupuestos\Presupuestos->actualizarPresupuestos(Array)
+#1 {main}
+  thrown in /home/assistproadl/public_html/subdominios/wms/app/class/Presupuestos/Presupuestos.php on line 250
+[25-Dec-2018 12:42:11 America/Los_Angeles] PHP Fatal error:  Uncaught Error: Call to a member function dbUpdate() on null in /home/assistproadl/public_html/subdominios/wms/app/class/Presupuestos/Presupuestos.php:250
+Stack trace:
+#0 /home/assistproadl/public_html/subdominios/wms/api/presupuestos/update/index.php(43): Presupuestos\Presupuestos->actualizarPresupuestos(Array)
+#1 {main}
+  thrown in /home/assistproadl/public_html/subdominios/wms/app/class/Presupuestos/Presupuestos.php on line 250
+[25-Dec-2018 12:42:11 America/Los_Angeles] PHP Fatal error:  Uncaught Error: Call to a member function dbUpdate() on null in /home/assistproadl/public_html/subdominios/wms/app/class/Presupuestos/Presupuestos.php:250
+Stack trace:
+#0 /home/assistproadl/public_html/subdominios/wms/api/presupuestos/update/index.php(43): Presupuestos\Presupuestos->actualizarPresupuestos(Array)
+#1 {main}
+  thrown in /home/assistproadl/public_html/subdominios/wms/app/class/Presupuestos/Presupuestos.php on line 250
+[25-Dec-2018 12:42:18 America/Los_Angeles] PHP Fatal error:  Uncaught Error: Call to a member function dbUpdate() on null in /home/assistproadl/public_html/subdominios/wms/app/class/Presupuestos/Presupuestos.php:250
+Stack trace:
+#0 /home/assistproadl/public_html/subdominios/wms/api/presupuestos/update/index.php(43): Presupuestos\Presupuestos->actualizarPresupuestos(Array)
+#1 {main}
+  thrown in /home/assistproadl/public_html/subdominios/wms/app/class/Presupuestos/Presupuestos.php on line 250
+[25-Dec-2018 13:34:05 America/Los_Angeles] PHP Fatal error:  Uncaught Error: Call to a member function dbUpdate() on null in /home/assistproadl/public_html/subdominios/wms/app/class/Presupuestos/Presupuestos.php:250
+Stack trace:
+#0 /home/assistproadl/public_html/subdominios/wms/api/presupuestos/update/index.php(43): Presupuestos\Presupuestos->actualizarPresupuestos(Array)
+#1 {main}
+  thrown in /home/assistproadl/public_html/subdominios/wms/app/class/Presupuestos/Presupuestos.php on line 250
+[25-Dec-2018 13:34:42 America/Los_Angeles] PHP Fatal error:  Uncaught Error: Call to a member function dbUpdate() on null in /home/assistproadl/public_html/subdominios/wms/app/class/Presupuestos/Presupuestos.php:250
+Stack trace:
+#0 /home/assistproadl/public_html/subdominios/wms/api/presupuestos/update/index.php(43): Presupuestos\Presupuestos->actualizarPresupuestos(Array)
+#1 {main}
+  thrown in /home/assistproadl/public_html/subdominios/wms/app/class/Presupuestos/Presupuestos.php on line 250

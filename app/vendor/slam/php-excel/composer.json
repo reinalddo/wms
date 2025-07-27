@@ -1,0 +1,19 @@
+{
+    "name": "slam/php-excel",
+    "type": "library",
+    "description": "Old faster PHPExcel",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Filippo Tessarotto",
+            "email": "zoeslam@gmail.com",
+            "role": "Developer"
+        }
+    ],
+    "autoload": {
+        "psr-4": { "Excel\\": "lib/" }
+    },
+    "require-dev": {
+        "mikey179/vfsStream": "^1.6"
+    }
+}

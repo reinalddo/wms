@@ -1,0 +1,12 @@
+[15-Oct-2018 14:59:41 America/Los_Angeles] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '602' for key 'clave' in /home/assistproadl/public_html/subdominios/wms.nikken/app/class/TipoCaja/TipoCaja.php:105
+Stack trace:
+#0 /home/assistproadl/public_html/subdominios/wms.nikken/app/class/TipoCaja/TipoCaja.php(105): PDOStatement->execute()
+#1 /home/assistproadl/public_html/subdominios/wms.nikken/api/tipocaja/update/index.php(14): TipoCaja\TipoCaja->save(Array)
+#2 {main}
+  thrown in /home/assistproadl/public_html/subdominios/wms.nikken/app/class/TipoCaja/TipoCaja.php on line 105
+[30-Oct-2018 11:00:53 America/Los_Angeles] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '603' for key 'clave' in /home/assistproadl/public_html/subdominios/wms.nikken/app/class/TipoCaja/TipoCaja.php:105
+Stack trace:
+#0 /home/assistproadl/public_html/subdominios/wms.nikken/app/class/TipoCaja/TipoCaja.php(105): PDOStatement->execute()
+#1 /home/assistproadl/public_html/subdominios/wms.nikken/api/tipocaja/update/index.php(14): TipoCaja\TipoCaja->save(Array)
+#2 {main}
+  thrown in /home/assistproadl/public_html/subdominios/wms.nikken/app/class/TipoCaja/TipoCaja.php on line 105

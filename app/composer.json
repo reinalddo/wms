@@ -1,0 +1,11 @@
+{
+    "require": {
+        "mpdf/mpdf": "6.1.0",
+        "phpoffice/phpexcel": "^1.8",
+        "mk-j/php_xlsxwriter": "^0.32.0",
+        "slim/slim": "2.6.3",
+        "phpmailer/phpmailer": "5.2.24",
+        "ircmaxell/password-compat": "1.0.4",
+        "mercadopago/sdk": "0.5.2"
+    }
+}

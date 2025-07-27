@@ -1,0 +1,23 @@
+[08-May-2017 13:37:55 America/Los_Angeles] PHP Warning:  array_merge(): Argument #2 is not an array in /home/samenli1/public_html/subdominios/wms/api/clientes/update/index.php on line 75
+[16-May-2017 18:03:37 America/Los_Angeles] PHP Warning:  array_merge(): Argument #2 is not an array in /home/samenli1/public_html/subdominios/wms/api/clientes/update/index.php on line 84
+[16-May-2017 18:06:58 America/Los_Angeles] PHP Warning:  array_merge(): Argument #2 is not an array in /home/samenli1/public_html/subdominios/wms/api/clientes/update/index.php on line 84
+[16-May-2017 18:07:22 America/Los_Angeles] PHP Warning:  array_merge(): Argument #2 is not an array in /home/samenli1/public_html/subdominios/wms/api/clientes/update/index.php on line 84
+[17-May-2017 02:34:51 America/Los_Angeles] PHP Warning:  array_merge(): Argument #2 is not an array in /home/samenli1/public_html/subdominios/wms/api/clientes/update/index.php on line 84
+[17-May-2017 02:35:42 America/Los_Angeles] PHP Warning:  array_merge(): Argument #2 is not an array in /home/samenli1/public_html/subdominios/wms/api/clientes/update/index.php on line 84
+[17-May-2017 17:25:13 America/Los_Angeles] PHP Fatal error:  Uncaught Error: Call to a member function recovery() on null in /home/samenli1/public_html/subdominios/wms/api/clientes/update/index.php:144
+Stack trace:
+#0 {main}
+  thrown in /home/samenli1/public_html/subdominios/wms/api/clientes/update/index.php on line 144
+[17-May-2017 17:26:15 America/Los_Angeles] PHP Fatal error:  Uncaught Error: Call to a member function recovery() on null in /home/samenli1/public_html/subdominios/wms/api/clientes/update/index.php:144
+Stack trace:
+#0 {main}
+  thrown in /home/samenli1/public_html/subdominios/wms/api/clientes/update/index.php on line 144
+[17-May-2017 17:28:24 America/Los_Angeles] PHP Fatal error:  Uncaught Error: Call to a member function recoveryCliente() on null in /home/samenli1/public_html/subdominios/wms/api/clientes/update/index.php:144
+Stack trace:
+#0 {main}
+  thrown in /home/samenli1/public_html/subdominios/wms/api/clientes/update/index.php on line 144
+[17-May-2017 17:31:49 America/Los_Angeles] PHP Fatal error:  Uncaught Error: Call to a member function recoveryCliente() on null in /home/samenli1/public_html/subdominios/wms/api/clientes/update/index.php:144
+Stack trace:
+#0 {main}
+  thrown in /home/samenli1/public_html/subdominios/wms/api/clientes/update/index.php on line 144
+[18-May-2017 11:54:52 America/Los_Angeles] PHP Warning:  array_merge(): Argument #2 is not an array in /home/samenli1/public_html/subdominios/wms/api/clientes/update/index.php on line 84

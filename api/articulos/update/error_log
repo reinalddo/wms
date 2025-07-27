@@ -1,0 +1,571 @@
+[16-May-2017 19:49:30 America/Los_Angeles] PHP Parse error:  syntax error, unexpected '(' in /home/samenli1/public_html/subdominios/wms/app/class/Articulos/Articulos.php on line 42
+[16-May-2017 19:53:17 America/Los_Angeles] PHP Parse error:  syntax error, unexpected 'va' (T_STRING) in /home/samenli1/public_html/subdominios/wms/app/class/Articulos/Articulos.php on line 37
+[16-May-2017 19:54:39 America/Los_Angeles] PHP Parse error:  syntax error, unexpected 'try' (T_TRY), expecting ';' or '{' in /home/samenli1/public_html/subdominios/wms/app/class/Articulos/Articulos.php on line 42
+[16-May-2017 19:55:55 America/Los_Angeles] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'c_articulo.barras3' in 'field list' in /home/samenli1/public_html/subdominios/wms/app/class/Articulos/Articulos.php:96
+Stack trace:
+#0 /home/samenli1/public_html/subdominios/wms/app/class/Articulos/Articulos.php(96): PDOStatement->execute(Array)
+#1 /home/samenli1/public_html/subdominios/wms/app/class/Articulos/Articulos.php(108): Articulos\Articulos->load()
+#2 /home/samenli1/public_html/subdominios/wms/api/articulos/update/index.php(36): Articulos\Articulos->__get('cve_articulo')
+#3 {main}
+  thrown in /home/samenli1/public_html/subdominios/wms/app/class/Articulos/Articulos.php on line 96
+[16-May-2017 20:01:43 America/Los_Angeles] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'material_peligroso' in 'field list' in /home/samenli1/public_html/subdominios/wms/app/class/Articulos/Articulos.php:188
+Stack trace:
+#0 /home/samenli1/public_html/subdominios/wms/app/class/Articulos/Articulos.php(188): PDOStatement->execute()
+#1 /home/samenli1/public_html/subdominios/wms/api/articulos/update/index.php(14): Articulos\Articulos->save(Array)
+#2 {main}
+  thrown in /home/samenli1/public_html/subdominios/wms/app/class/Articulos/Articulos.php on line 188
+[16-May-2017 20:04:17 America/Los_Angeles] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'samenli1_wms._ts_ubicxart' doesn't exist in /home/samenli1/public_html/subdominios/wms/app/class/Articulos/Articulos.php:205
+Stack trace:
+#0 /home/samenli1/public_html/subdominios/wms/app/class/Articulos/Articulos.php(205): PDOStatement->execute()
+#1 /home/samenli1/public_html/subdominios/wms/api/articulos/update/index.php(14): Articulos\Articulos->save(Array)
+#2 {main}
+  thrown in /home/samenli1/public_html/subdominios/wms/app/class/Articulos/Articulos.php on line 205
+[16-May-2017 20:08:46 America/Los_Angeles] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'edeferf-0' for key 'PRIMARY' in /home/samenli1/public_html/subdominios/wms/app/class/Articulos/Articulos.php:205
+Stack trace:
+#0 /home/samenli1/public_html/subdominios/wms/app/class/Articulos/Articulos.php(205): PDOStatement->execute()
+#1 /home/samenli1/public_html/subdominios/wms/api/articulos/update/index.php(14): Articulos\Articulos->save(Array)
+#2 {main}
+  thrown in /home/samenli1/public_html/subdominios/wms/app/class/Articulos/Articulos.php on line 205
+[16-May-2017 20:13:35 America/Los_Angeles] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '12123-0' for key 'PRIMARY' in /home/samenli1/public_html/subdominios/wms/app/class/Articulos/Articulos.php:205
+Stack trace:
+#0 /home/samenli1/public_html/subdominios/wms/app/class/Articulos/Articulos.php(205): PDOStatement->execute()
+#1 /home/samenli1/public_html/subdominios/wms/api/articulos/update/index.php(14): Articulos\Articulos->save(Array)
+#2 {main}
+  thrown in /home/samenli1/public_html/subdominios/wms/app/class/Articulos/Articulos.php on line 205
+[17-May-2017 13:07:58 America/Los_Angeles] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '.cve_articulo,
+							c_articulo.cve_codprov,
+                            c_arti' at line 3 in /home/samenli1/public_html/subdominios/wms/app/class/Articulos/Articulos.php:74
+Stack trace:
+#0 /home/samenli1/public_html/subdominios/wms/app/class/Articulos/Articulos.php(74): PDOStatement->execute(Array)
+#1 /home/samenli1/public_html/subdominios/wms/app/class/Articulos/Articulos.php(86): Articulos\Articulos->load()
+#2 /home/samenli1/public_html/subdominios/wms/api/articulos/update/index.php(62): Articulos\Articulos->__get('cve_articulo')
+#3 {main}
+  thrown in /home/samenli1/public_html/subdominios/wms/app/class/Articulos/Articulos.php on line 74
+[17-May-2017 13:08:34 America/Los_Angeles] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '.cve_articulo,
+							c_articulo.cve_codprov,
+                            c_arti' at line 3 in /home/samenli1/public_html/subdominios/wms/app/class/Articulos/Articulos.php:74
+Stack trace:
+#0 /home/samenli1/public_html/subdominios/wms/app/class/Articulos/Articulos.php(74): PDOStatement->execute(Array)
+#1 /home/samenli1/public_html/subdominios/wms/app/class/Articulos/Articulos.php(86): Articulos\Articulos->load()
+#2 /home/samenli1/public_html/subdominios/wms/api/articulos/update/index.php(62): Articulos\Articulos->__get('cve_articulo')
+#3 {main}
+  thrown in /home/samenli1/public_html/subdominios/wms/app/class/Articulos/Articulos.php on line 74
+[17-May-2017 13:09:07 America/Los_Angeles] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '.cve_articulo,
+							c_articulo.cve_codprov,
+                            c_arti' at line 3 in /home/samenli1/public_html/subdominios/wms/app/class/Articulos/Articulos.php:74
+Stack trace:
+#0 /home/samenli1/public_html/subdominios/wms/app/class/Articulos/Articulos.php(74): PDOStatement->execute(Array)
+#1 /home/samenli1/public_html/subdominios/wms/app/class/Articulos/Articulos.php(86): Articulos\Articulos->load()
+#2 /home/samenli1/public_html/subdominios/wms/api/articulos/update/index.php(62): Articulos\Articulos->__get('cve_articulo')
+#3 {main}
+  thrown in /home/samenli1/public_html/subdominios/wms/app/class/Articulos/Articulos.php on line 74
+[17-May-2017 13:25:34 America/Los_Angeles] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'cve_articulo.cve_articulo' in 'where clause' in /home/samenli1/public_html/subdominios/wms/app/class/Articulos/Articulos.php:71
+Stack trace:
+#0 /home/samenli1/public_html/subdominios/wms/app/class/Articulos/Articulos.php(71): PDOStatement->execute(Array)
+#1 /home/samenli1/public_html/subdominios/wms/app/class/Articulos/Articulos.php(83): Articulos\Articulos->load()
+#2 /home/samenli1/public_html/subdominios/wms/api/articulos/update/index.php(35): Articulos\Articulos->__get('cve_articulo')
+#3 {main}
+  thrown in /home/samenli1/public_html/subdominios/wms/app/class/Articulos/Articulos.php on line 71
+[17-May-2017 13:32:06 America/Los_Angeles] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'cve_articulo.cve_articulo' in 'where clause' in /home/samenli1/public_html/subdominios/wms/app/class/Articulos/Articulos.php:71
+Stack trace:
+#0 /home/samenli1/public_html/subdominios/wms/app/class/Articulos/Articulos.php(71): PDOStatement->execute(Array)
+#1 /home/samenli1/public_html/subdominios/wms/app/class/Articulos/Articulos.php(83): Articulos\Articulos->load()
+#2 /home/samenli1/public_html/subdominios/wms/api/articulos/update/index.php(35): Articulos\Articulos->__get('cve_articulo')
+#3 {main}
+  thrown in /home/samenli1/public_html/subdominios/wms/app/class/Articulos/Articulos.php on line 71
+[17-May-2017 14:32:38 America/Los_Angeles] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '45-0' for key 'PRIMARY' in /home/samenli1/public_html/subdominios/wms/app/class/Articulos/Articulos.php:184
+Stack trace:
+#0 /home/samenli1/public_html/subdominios/wms/app/class/Articulos/Articulos.php(184): PDOStatement->execute()
+#1 /home/samenli1/public_html/subdominios/wms/api/articulos/update/index.php(15): Articulos\Articulos->save(Array)
+#2 {main}
+  thrown in /home/samenli1/public_html/subdominios/wms/app/class/Articulos/Articulos.php on line 184
+[17-May-2017 14:34:56 America/Los_Angeles] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens in /home/samenli1/public_html/subdominios/wms/app/class/Articulos/Articulos.php:183
+Stack trace:
+#0 /home/samenli1/public_html/subdominios/wms/app/class/Articulos/Articulos.php(183): PDOStatement->execute()
+#1 /home/samenli1/public_html/subdominios/wms/api/articulos/update/index.php(15): Articulos\Articulos->save(Array)
+#2 {main}
+  thrown in /home/samenli1/public_html/subdominios/wms/app/class/Articulos/Articulos.php on line 183
+[18-May-2017 13:16:24 America/Los_Angeles] PHP Warning:  Invalid argument supplied for foreach() in /home/samenli1/public_html/subdominios/wms/api/articulos/update/index.php on line 68
+[18-May-2017 13:16:24 America/Los_Angeles] PHP Warning:  array_merge(): Argument #2 is not an array in /home/samenli1/public_html/subdominios/wms/api/articulos/update/index.php on line 70
+[18-May-2017 13:16:29 America/Los_Angeles] PHP Warning:  Invalid argument supplied for foreach() in /home/samenli1/public_html/subdominios/wms/api/articulos/update/index.php on line 68
+[18-May-2017 13:16:29 America/Los_Angeles] PHP Warning:  array_merge(): Argument #2 is not an array in /home/samenli1/public_html/subdominios/wms/api/articulos/update/index.php on line 70
+[18-May-2017 13:16:37 America/Los_Angeles] PHP Warning:  Invalid argument supplied for foreach() in /home/samenli1/public_html/subdominios/wms/api/articulos/update/index.php on line 68
+[18-May-2017 13:16:37 America/Los_Angeles] PHP Warning:  array_merge(): Argument #2 is not an array in /home/samenli1/public_html/subdominios/wms/api/articulos/update/index.php on line 70
+[18-May-2017 13:17:01 America/Los_Angeles] PHP Warning:  Invalid argument supplied for foreach() in /home/samenli1/public_html/subdominios/wms/api/articulos/update/index.php on line 68
+[18-May-2017 13:17:01 America/Los_Angeles] PHP Warning:  array_merge(): Argument #2 is not an array in /home/samenli1/public_html/subdominios/wms/api/articulos/update/index.php on line 70
+[18-May-2017 13:18:11 America/Los_Angeles] PHP Warning:  Invalid argument supplied for foreach() in /home/samenli1/public_html/subdominios/wms/api/articulos/update/index.php on line 68
+[18-May-2017 13:18:11 America/Los_Angeles] PHP Warning:  array_merge(): Argument #2 is not an array in /home/samenli1/public_html/subdominios/wms/api/articulos/update/index.php on line 70
+[18-May-2017 13:18:38 America/Los_Angeles] PHP Warning:  Invalid argument supplied for foreach() in /home/samenli1/public_html/subdominios/wms/api/articulos/update/index.php on line 68
+[18-May-2017 13:18:38 America/Los_Angeles] PHP Warning:  array_merge(): Argument #2 is not an array in /home/samenli1/public_html/subdominios/wms/api/articulos/update/index.php on line 70
+[18-May-2017 13:19:04 America/Los_Angeles] PHP Warning:  Invalid argument supplied for foreach() in /home/samenli1/public_html/subdominios/wms/api/articulos/update/index.php on line 68
+[18-May-2017 13:19:04 America/Los_Angeles] PHP Warning:  array_merge(): Argument #2 is not an array in /home/samenli1/public_html/subdominios/wms/api/articulos/update/index.php on line 70
+[18-May-2017 13:19:08 America/Los_Angeles] PHP Warning:  Invalid argument supplied for foreach() in /home/samenli1/public_html/subdominios/wms/api/articulos/update/index.php on line 68
+[18-May-2017 13:19:08 America/Los_Angeles] PHP Warning:  array_merge(): Argument #2 is not an array in /home/samenli1/public_html/subdominios/wms/api/articulos/update/index.php on line 70
+[18-May-2017 13:19:09 America/Los_Angeles] PHP Warning:  Invalid argument supplied for foreach() in /home/samenli1/public_html/subdominios/wms/api/articulos/update/index.php on line 68
+[18-May-2017 13:19:09 America/Los_Angeles] PHP Warning:  array_merge(): Argument #2 is not an array in /home/samenli1/public_html/subdominios/wms/api/articulos/update/index.php on line 70
+[18-May-2017 13:19:10 America/Los_Angeles] PHP Warning:  Invalid argument supplied for foreach() in /home/samenli1/public_html/subdominios/wms/api/articulos/update/index.php on line 68
+[18-May-2017 13:19:10 America/Los_Angeles] PHP Warning:  array_merge(): Argument #2 is not an array in /home/samenli1/public_html/subdominios/wms/api/articulos/update/index.php on line 70
+[18-May-2017 13:19:11 America/Los_Angeles] PHP Warning:  Invalid argument supplied for foreach() in /home/samenli1/public_html/subdominios/wms/api/articulos/update/index.php on line 68
+[18-May-2017 13:19:11 America/Los_Angeles] PHP Warning:  array_merge(): Argument #2 is not an array in /home/samenli1/public_html/subdominios/wms/api/articulos/update/index.php on line 70
+[18-May-2017 13:19:12 America/Los_Angeles] PHP Warning:  Invalid argument supplied for foreach() in /home/samenli1/public_html/subdominios/wms/api/articulos/update/index.php on line 68
+[18-May-2017 13:19:12 America/Los_Angeles] PHP Warning:  array_merge(): Argument #2 is not an array in /home/samenli1/public_html/subdominios/wms/api/articulos/update/index.php on line 70
+[18-May-2017 13:19:12 America/Los_Angeles] PHP Warning:  Invalid argument supplied for foreach() in /home/samenli1/public_html/subdominios/wms/api/articulos/update/index.php on line 68
+[18-May-2017 13:19:12 America/Los_Angeles] PHP Warning:  array_merge(): Argument #2 is not an array in /home/samenli1/public_html/subdominios/wms/api/articulos/update/index.php on line 70
+[18-May-2017 13:19:12 America/Los_Angeles] PHP Warning:  Invalid argument supplied for foreach() in /home/samenli1/public_html/subdominios/wms/api/articulos/update/index.php on line 68
+[18-May-2017 13:19:12 America/Los_Angeles] PHP Warning:  array_merge(): Argument #2 is not an array in /home/samenli1/public_html/subdominios/wms/api/articulos/update/index.php on line 70
+[18-May-2017 13:19:37 America/Los_Angeles] PHP Warning:  Invalid argument supplied for foreach() in /home/samenli1/public_html/subdominios/wms/api/articulos/update/index.php on line 68
+[18-May-2017 13:19:37 America/Los_Angeles] PHP Warning:  array_merge(): Argument #2 is not an array in /home/samenli1/public_html/subdominios/wms/api/articulos/update/index.php on line 70
+[18-May-2017 14:29:43 America/Los_Angeles] PHP Warning:  Invalid argument supplied for foreach() in /home/samenli1/public_html/subdominios/wms/api/articulos/update/index.php on line 68
+[18-May-2017 14:29:43 America/Los_Angeles] PHP Warning:  array_merge(): Argument #2 is not an array in /home/samenli1/public_html/subdominios/wms/api/articulos/update/index.php on line 70
+[18-May-2017 14:29:53 America/Los_Angeles] PHP Warning:  Invalid argument supplied for foreach() in /home/samenli1/public_html/subdominios/wms/api/articulos/update/index.php on line 68
+[18-May-2017 14:29:53 America/Los_Angeles] PHP Warning:  array_merge(): Argument #2 is not an array in /home/samenli1/public_html/subdominios/wms/api/articulos/update/index.php on line 70
+[18-May-2017 14:29:55 America/Los_Angeles] PHP Warning:  Invalid argument supplied for foreach() in /home/samenli1/public_html/subdominios/wms/api/articulos/update/index.php on line 68
+[18-May-2017 14:29:55 America/Los_Angeles] PHP Warning:  array_merge(): Argument #2 is not an array in /home/samenli1/public_html/subdominios/wms/api/articulos/update/index.php on line 70
+[18-May-2017 14:29:55 America/Los_Angeles] PHP Warning:  Invalid argument supplied for foreach() in /home/samenli1/public_html/subdominios/wms/api/articulos/update/index.php on line 68
+[18-May-2017 14:29:55 America/Los_Angeles] PHP Warning:  array_merge(): Argument #2 is not an array in /home/samenli1/public_html/subdominios/wms/api/articulos/update/index.php on line 70
+[18-May-2017 14:31:07 America/Los_Angeles] PHP Warning:  Invalid argument supplied for foreach() in /home/samenli1/public_html/subdominios/wms/api/articulos/update/index.php on line 68
+[18-May-2017 14:31:07 America/Los_Angeles] PHP Warning:  array_merge(): Argument #2 is not an array in /home/samenli1/public_html/subdominios/wms/api/articulos/update/index.php on line 70
+[21-May-2017 20:33:53 America/Los_Angeles] PHP Warning:  Invalid argument supplied for foreach() in /home/samenli1/public_html/subdominios/wms/api/articulos/update/index.php on line 68
+[21-May-2017 20:33:53 America/Los_Angeles] PHP Warning:  array_merge(): Argument #2 is not an array in /home/samenli1/public_html/subdominios/wms/api/articulos/update/index.php on line 70
+[21-May-2017 20:33:57 America/Los_Angeles] PHP Warning:  Invalid argument supplied for foreach() in /home/samenli1/public_html/subdominios/wms/api/articulos/update/index.php on line 68
+[21-May-2017 20:33:57 America/Los_Angeles] PHP Warning:  array_merge(): Argument #2 is not an array in /home/samenli1/public_html/subdominios/wms/api/articulos/update/index.php on line 70
+[21-May-2017 20:34:00 America/Los_Angeles] PHP Warning:  Invalid argument supplied for foreach() in /home/samenli1/public_html/subdominios/wms/api/articulos/update/index.php on line 68
+[21-May-2017 20:34:00 America/Los_Angeles] PHP Warning:  array_merge(): Argument #2 is not an array in /home/samenli1/public_html/subdominios/wms/api/articulos/update/index.php on line 70
+[21-May-2017 20:34:02 America/Los_Angeles] PHP Warning:  Invalid argument supplied for foreach() in /home/samenli1/public_html/subdominios/wms/api/articulos/update/index.php on line 68
+[21-May-2017 20:34:02 America/Los_Angeles] PHP Warning:  array_merge(): Argument #2 is not an array in /home/samenli1/public_html/subdominios/wms/api/articulos/update/index.php on line 70
+[21-May-2017 20:36:40 America/Los_Angeles] PHP Warning:  Invalid argument supplied for foreach() in /home/samenli1/public_html/subdominios/wms/api/articulos/update/index.php on line 68
+[21-May-2017 20:36:40 America/Los_Angeles] PHP Warning:  array_merge(): Argument #2 is not an array in /home/samenli1/public_html/subdominios/wms/api/articulos/update/index.php on line 70
+[21-May-2017 20:36:53 America/Los_Angeles] PHP Warning:  Invalid argument supplied for foreach() in /home/samenli1/public_html/subdominios/wms/api/articulos/update/index.php on line 68
+[21-May-2017 20:36:53 America/Los_Angeles] PHP Warning:  array_merge(): Argument #2 is not an array in /home/samenli1/public_html/subdominios/wms/api/articulos/update/index.php on line 70
+[21-May-2017 20:43:39 America/Los_Angeles] PHP Warning:  Invalid argument supplied for foreach() in /home/samenli1/public_html/subdominios/wms/api/articulos/update/index.php on line 68
+[21-May-2017 20:43:39 America/Los_Angeles] PHP Warning:  array_merge(): Argument #2 is not an array in /home/samenli1/public_html/subdominios/wms/api/articulos/update/index.php on line 70
+[02-Jun-2017 08:12:32 America/Los_Angeles] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY093]: Invalid parameter number: parameter was not defined in /home/samenli1/public_html/subdominios/wms/app/class/Articulos/Articulos.php:188
+Stack trace:
+#0 /home/samenli1/public_html/subdominios/wms/app/class/Articulos/Articulos.php(188): PDOStatement->execute()
+#1 /home/samenli1/public_html/subdominios/wms/api/articulos/update/index.php(15): Articulos\Articulos->save(Array)
+#2 {main}
+  thrown in /home/samenli1/public_html/subdominios/wms/app/class/Articulos/Articulos.php on line 188
+[02-Jun-2017 09:25:36 America/Los_Angeles] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY093]: Invalid parameter number: parameter was not defined in /home/samenli1/public_html/subdominios/wms/app/class/Articulos/Articulos.php:188
+Stack trace:
+#0 /home/samenli1/public_html/subdominios/wms/app/class/Articulos/Articulos.php(188): PDOStatement->execute()
+#1 /home/samenli1/public_html/subdominios/wms/api/articulos/update/index.php(15): Articulos\Articulos->save(Array)
+#2 {main}
+  thrown in /home/samenli1/public_html/subdominios/wms/app/class/Articulos/Articulos.php on line 188
+[02-Jun-2017 09:25:47 America/Los_Angeles] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY093]: Invalid parameter number: parameter was not defined in /home/samenli1/public_html/subdominios/wms/app/class/Articulos/Articulos.php:188
+Stack trace:
+#0 /home/samenli1/public_html/subdominios/wms/app/class/Articulos/Articulos.php(188): PDOStatement->execute()
+#1 /home/samenli1/public_html/subdominios/wms/api/articulos/update/index.php(15): Articulos\Articulos->save(Array)
+#2 {main}
+  thrown in /home/samenli1/public_html/subdominios/wms/app/class/Articulos/Articulos.php on line 188
+[02-Jun-2017 09:29:35 America/Los_Angeles] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY093]: Invalid parameter number: parameter was not defined in /home/samenli1/public_html/subdominios/wms/app/class/Articulos/Articulos.php:188
+Stack trace:
+#0 /home/samenli1/public_html/subdominios/wms/app/class/Articulos/Articulos.php(188): PDOStatement->execute()
+#1 /home/samenli1/public_html/subdominios/wms/api/articulos/update/index.php(15): Articulos\Articulos->save(Array)
+#2 {main}
+  thrown in /home/samenli1/public_html/subdominios/wms/app/class/Articulos/Articulos.php on line 188
+[03-Jul-2017 19:10:10 America/Los_Angeles] PHP Warning:  Invalid argument supplied for foreach() in /home/samenli1/public_html/subdominios/wms/api/articulos/update/index.php on line 85
+[03-Jul-2017 19:10:10 America/Los_Angeles] PHP Warning:  array_merge(): Argument #2 is not an array in /home/samenli1/public_html/subdominios/wms/api/articulos/update/index.php on line 87
+[03-Jul-2017 19:10:22 America/Los_Angeles] PHP Warning:  Invalid argument supplied for foreach() in /home/samenli1/public_html/subdominios/wms/api/articulos/update/index.php on line 85
+[03-Jul-2017 19:10:22 America/Los_Angeles] PHP Warning:  array_merge(): Argument #2 is not an array in /home/samenli1/public_html/subdominios/wms/api/articulos/update/index.php on line 87
+[03-Jul-2017 19:10:25 America/Los_Angeles] PHP Warning:  Invalid argument supplied for foreach() in /home/samenli1/public_html/subdominios/wms/api/articulos/update/index.php on line 85
+[03-Jul-2017 19:10:25 America/Los_Angeles] PHP Warning:  array_merge(): Argument #2 is not an array in /home/samenli1/public_html/subdominios/wms/api/articulos/update/index.php on line 87
+[05-Jul-2017 13:54:04 America/Los_Angeles] PHP Warning:  Invalid argument supplied for foreach() in /home/samenli1/public_html/subdominios/wms/api/articulos/update/index.php on line 85
+[05-Jul-2017 13:54:04 America/Los_Angeles] PHP Warning:  array_merge(): Argument #2 is not an array in /home/samenli1/public_html/subdominios/wms/api/articulos/update/index.php on line 87
+[05-Jul-2017 13:55:14 America/Los_Angeles] PHP Warning:  Invalid argument supplied for foreach() in /home/samenli1/public_html/subdominios/wms/api/articulos/update/index.php on line 85
+[05-Jul-2017 13:55:14 America/Los_Angeles] PHP Warning:  array_merge(): Argument #2 is not an array in /home/samenli1/public_html/subdominios/wms/api/articulos/update/index.php on line 87
+[05-Jul-2017 13:55:16 America/Los_Angeles] PHP Warning:  Invalid argument supplied for foreach() in /home/samenli1/public_html/subdominios/wms/api/articulos/update/index.php on line 85
+[05-Jul-2017 13:55:16 America/Los_Angeles] PHP Warning:  array_merge(): Argument #2 is not an array in /home/samenli1/public_html/subdominios/wms/api/articulos/update/index.php on line 87
+[05-Jul-2017 13:55:19 America/Los_Angeles] PHP Warning:  Invalid argument supplied for foreach() in /home/samenli1/public_html/subdominios/wms/api/articulos/update/index.php on line 85
+[05-Jul-2017 13:55:19 America/Los_Angeles] PHP Warning:  array_merge(): Argument #2 is not an array in /home/samenli1/public_html/subdominios/wms/api/articulos/update/index.php on line 87
+[05-Jul-2017 13:55:28 America/Los_Angeles] PHP Warning:  Invalid argument supplied for foreach() in /home/samenli1/public_html/subdominios/wms/api/articulos/update/index.php on line 85
+[05-Jul-2017 13:55:28 America/Los_Angeles] PHP Warning:  array_merge(): Argument #2 is not an array in /home/samenli1/public_html/subdominios/wms/api/articulos/update/index.php on line 87
+[05-Jul-2017 13:55:28 America/Los_Angeles] PHP Warning:  Invalid argument supplied for foreach() in /home/samenli1/public_html/subdominios/wms/api/articulos/update/index.php on line 85
+[05-Jul-2017 13:55:28 America/Los_Angeles] PHP Warning:  array_merge(): Argument #2 is not an array in /home/samenli1/public_html/subdominios/wms/api/articulos/update/index.php on line 87
+[05-Jul-2017 13:55:30 America/Los_Angeles] PHP Warning:  Invalid argument supplied for foreach() in /home/samenli1/public_html/subdominios/wms/api/articulos/update/index.php on line 85
+[05-Jul-2017 13:55:30 America/Los_Angeles] PHP Warning:  array_merge(): Argument #2 is not an array in /home/samenli1/public_html/subdominios/wms/api/articulos/update/index.php on line 87
+[05-Jul-2017 13:55:30 America/Los_Angeles] PHP Warning:  Invalid argument supplied for foreach() in /home/samenli1/public_html/subdominios/wms/api/articulos/update/index.php on line 85
+[05-Jul-2017 13:55:30 America/Los_Angeles] PHP Warning:  array_merge(): Argument #2 is not an array in /home/samenli1/public_html/subdominios/wms/api/articulos/update/index.php on line 87
+[05-Jul-2017 13:55:35 America/Los_Angeles] PHP Warning:  Invalid argument supplied for foreach() in /home/samenli1/public_html/subdominios/wms/api/articulos/update/index.php on line 85
+[05-Jul-2017 13:55:35 America/Los_Angeles] PHP Warning:  array_merge(): Argument #2 is not an array in /home/samenli1/public_html/subdominios/wms/api/articulos/update/index.php on line 87
+[05-Jul-2017 13:55:35 America/Los_Angeles] PHP Warning:  Invalid argument supplied for foreach() in /home/samenli1/public_html/subdominios/wms/api/articulos/update/index.php on line 85
+[05-Jul-2017 13:55:35 America/Los_Angeles] PHP Warning:  array_merge(): Argument #2 is not an array in /home/samenli1/public_html/subdominios/wms/api/articulos/update/index.php on line 87
+[05-Jul-2017 13:55:37 America/Los_Angeles] PHP Warning:  Invalid argument supplied for foreach() in /home/samenli1/public_html/subdominios/wms/api/articulos/update/index.php on line 85
+[05-Jul-2017 13:55:37 America/Los_Angeles] PHP Warning:  array_merge(): Argument #2 is not an array in /home/samenli1/public_html/subdominios/wms/api/articulos/update/index.php on line 87
+[05-Jul-2017 13:55:37 America/Los_Angeles] PHP Warning:  Invalid argument supplied for foreach() in /home/samenli1/public_html/subdominios/wms/api/articulos/update/index.php on line 85
+[05-Jul-2017 13:55:37 America/Los_Angeles] PHP Warning:  array_merge(): Argument #2 is not an array in /home/samenli1/public_html/subdominios/wms/api/articulos/update/index.php on line 87
+[05-Jul-2017 13:55:42 America/Los_Angeles] PHP Warning:  Invalid argument supplied for foreach() in /home/samenli1/public_html/subdominios/wms/api/articulos/update/index.php on line 85
+[05-Jul-2017 13:55:42 America/Los_Angeles] PHP Warning:  array_merge(): Argument #2 is not an array in /home/samenli1/public_html/subdominios/wms/api/articulos/update/index.php on line 87
+[05-Jul-2017 13:55:43 America/Los_Angeles] PHP Warning:  Invalid argument supplied for foreach() in /home/samenli1/public_html/subdominios/wms/api/articulos/update/index.php on line 85
+[05-Jul-2017 13:55:43 America/Los_Angeles] PHP Warning:  array_merge(): Argument #2 is not an array in /home/samenli1/public_html/subdominios/wms/api/articulos/update/index.php on line 87
+[05-Jul-2017 13:55:44 America/Los_Angeles] PHP Warning:  Invalid argument supplied for foreach() in /home/samenli1/public_html/subdominios/wms/api/articulos/update/index.php on line 85
+[05-Jul-2017 13:55:44 America/Los_Angeles] PHP Warning:  array_merge(): Argument #2 is not an array in /home/samenli1/public_html/subdominios/wms/api/articulos/update/index.php on line 87
+[05-Jul-2017 13:55:46 America/Los_Angeles] PHP Warning:  Invalid argument supplied for foreach() in /home/samenli1/public_html/subdominios/wms/api/articulos/update/index.php on line 85
+[05-Jul-2017 13:55:46 America/Los_Angeles] PHP Warning:  array_merge(): Argument #2 is not an array in /home/samenli1/public_html/subdominios/wms/api/articulos/update/index.php on line 87
+[05-Jul-2017 13:55:47 America/Los_Angeles] PHP Warning:  Invalid argument supplied for foreach() in /home/samenli1/public_html/subdominios/wms/api/articulos/update/index.php on line 85
+[05-Jul-2017 13:55:47 America/Los_Angeles] PHP Warning:  array_merge(): Argument #2 is not an array in /home/samenli1/public_html/subdominios/wms/api/articulos/update/index.php on line 87
+[05-Jul-2017 13:55:48 America/Los_Angeles] PHP Warning:  Invalid argument supplied for foreach() in /home/samenli1/public_html/subdominios/wms/api/articulos/update/index.php on line 85
+[05-Jul-2017 13:55:48 America/Los_Angeles] PHP Warning:  array_merge(): Argument #2 is not an array in /home/samenli1/public_html/subdominios/wms/api/articulos/update/index.php on line 87
+[05-Jul-2017 13:55:48 America/Los_Angeles] PHP Warning:  Invalid argument supplied for foreach() in /home/samenli1/public_html/subdominios/wms/api/articulos/update/index.php on line 85
+[05-Jul-2017 13:55:48 America/Los_Angeles] PHP Warning:  array_merge(): Argument #2 is not an array in /home/samenli1/public_html/subdominios/wms/api/articulos/update/index.php on line 87
+[05-Jul-2017 13:55:48 America/Los_Angeles] PHP Warning:  Invalid argument supplied for foreach() in /home/samenli1/public_html/subdominios/wms/api/articulos/update/index.php on line 85
+[05-Jul-2017 13:55:48 America/Los_Angeles] PHP Warning:  array_merge(): Argument #2 is not an array in /home/samenli1/public_html/subdominios/wms/api/articulos/update/index.php on line 87
+[05-Jul-2017 13:55:49 America/Los_Angeles] PHP Warning:  Invalid argument supplied for foreach() in /home/samenli1/public_html/subdominios/wms/api/articulos/update/index.php on line 85
+[05-Jul-2017 13:55:49 America/Los_Angeles] PHP Warning:  array_merge(): Argument #2 is not an array in /home/samenli1/public_html/subdominios/wms/api/articulos/update/index.php on line 87
+[05-Jul-2017 13:55:49 America/Los_Angeles] PHP Warning:  Invalid argument supplied for foreach() in /home/samenli1/public_html/subdominios/wms/api/articulos/update/index.php on line 85
+[05-Jul-2017 13:55:49 America/Los_Angeles] PHP Warning:  array_merge(): Argument #2 is not an array in /home/samenli1/public_html/subdominios/wms/api/articulos/update/index.php on line 87
+[05-Jul-2017 13:55:49 America/Los_Angeles] PHP Warning:  Invalid argument supplied for foreach() in /home/samenli1/public_html/subdominios/wms/api/articulos/update/index.php on line 85
+[05-Jul-2017 13:55:49 America/Los_Angeles] PHP Warning:  array_merge(): Argument #2 is not an array in /home/samenli1/public_html/subdominios/wms/api/articulos/update/index.php on line 87
+[05-Jul-2017 13:55:49 America/Los_Angeles] PHP Warning:  Invalid argument supplied for foreach() in /home/samenli1/public_html/subdominios/wms/api/articulos/update/index.php on line 85
+[05-Jul-2017 13:55:49 America/Los_Angeles] PHP Warning:  array_merge(): Argument #2 is not an array in /home/samenli1/public_html/subdominios/wms/api/articulos/update/index.php on line 87
+[05-Jul-2017 13:55:49 America/Los_Angeles] PHP Warning:  Invalid argument supplied for foreach() in /home/samenli1/public_html/subdominios/wms/api/articulos/update/index.php on line 85
+[05-Jul-2017 13:55:49 America/Los_Angeles] PHP Warning:  array_merge(): Argument #2 is not an array in /home/samenli1/public_html/subdominios/wms/api/articulos/update/index.php on line 87
+[05-Jul-2017 13:55:49 America/Los_Angeles] PHP Warning:  Invalid argument supplied for foreach() in /home/samenli1/public_html/subdominios/wms/api/articulos/update/index.php on line 85
+[05-Jul-2017 13:55:49 America/Los_Angeles] PHP Warning:  array_merge(): Argument #2 is not an array in /home/samenli1/public_html/subdominios/wms/api/articulos/update/index.php on line 87
+[05-Jul-2017 13:56:07 America/Los_Angeles] PHP Warning:  Invalid argument supplied for foreach() in /home/samenli1/public_html/subdominios/wms/api/articulos/update/index.php on line 85
+[05-Jul-2017 13:56:07 America/Los_Angeles] PHP Warning:  array_merge(): Argument #2 is not an array in /home/samenli1/public_html/subdominios/wms/api/articulos/update/index.php on line 87
+[05-Jul-2017 13:56:37 America/Los_Angeles] PHP Warning:  Invalid argument supplied for foreach() in /home/samenli1/public_html/subdominios/wms/api/articulos/update/index.php on line 85
+[05-Jul-2017 13:56:37 America/Los_Angeles] PHP Warning:  array_merge(): Argument #2 is not an array in /home/samenli1/public_html/subdominios/wms/api/articulos/update/index.php on line 87
+[05-Jul-2017 13:56:41 America/Los_Angeles] PHP Warning:  Invalid argument supplied for foreach() in /home/samenli1/public_html/subdominios/wms/api/articulos/update/index.php on line 85
+[05-Jul-2017 13:56:41 America/Los_Angeles] PHP Warning:  array_merge(): Argument #2 is not an array in /home/samenli1/public_html/subdominios/wms/api/articulos/update/index.php on line 87
+[05-Jul-2017 13:56:42 America/Los_Angeles] PHP Warning:  Invalid argument supplied for foreach() in /home/samenli1/public_html/subdominios/wms/api/articulos/update/index.php on line 85
+[05-Jul-2017 13:56:42 America/Los_Angeles] PHP Warning:  array_merge(): Argument #2 is not an array in /home/samenli1/public_html/subdominios/wms/api/articulos/update/index.php on line 87
+[05-Jul-2017 13:56:42 America/Los_Angeles] PHP Warning:  Invalid argument supplied for foreach() in /home/samenli1/public_html/subdominios/wms/api/articulos/update/index.php on line 85
+[05-Jul-2017 13:56:42 America/Los_Angeles] PHP Warning:  array_merge(): Argument #2 is not an array in /home/samenli1/public_html/subdominios/wms/api/articulos/update/index.php on line 87
+[05-Jul-2017 13:56:42 America/Los_Angeles] PHP Warning:  Invalid argument supplied for foreach() in /home/samenli1/public_html/subdominios/wms/api/articulos/update/index.php on line 85
+[05-Jul-2017 13:56:42 America/Los_Angeles] PHP Warning:  array_merge(): Argument #2 is not an array in /home/samenli1/public_html/subdominios/wms/api/articulos/update/index.php on line 87
+[05-Jul-2017 13:56:43 America/Los_Angeles] PHP Warning:  Invalid argument supplied for foreach() in /home/samenli1/public_html/subdominios/wms/api/articulos/update/index.php on line 85
+[05-Jul-2017 13:56:43 America/Los_Angeles] PHP Warning:  array_merge(): Argument #2 is not an array in /home/samenli1/public_html/subdominios/wms/api/articulos/update/index.php on line 87
+[05-Jul-2017 13:56:43 America/Los_Angeles] PHP Warning:  Invalid argument supplied for foreach() in /home/samenli1/public_html/subdominios/wms/api/articulos/update/index.php on line 85
+[05-Jul-2017 13:56:43 America/Los_Angeles] PHP Warning:  array_merge(): Argument #2 is not an array in /home/samenli1/public_html/subdominios/wms/api/articulos/update/index.php on line 87
+[05-Jul-2017 13:58:29 America/Los_Angeles] PHP Warning:  Invalid argument supplied for foreach() in /home/samenli1/public_html/subdominios/wms/api/articulos/update/index.php on line 85
+[05-Jul-2017 13:58:29 America/Los_Angeles] PHP Warning:  array_merge(): Argument #2 is not an array in /home/samenli1/public_html/subdominios/wms/api/articulos/update/index.php on line 87
+[05-Jul-2017 14:00:02 America/Los_Angeles] PHP Warning:  Invalid argument supplied for foreach() in /home/samenli1/public_html/subdominios/wms/api/articulos/update/index.php on line 85
+[05-Jul-2017 14:00:02 America/Los_Angeles] PHP Warning:  array_merge(): Argument #2 is not an array in /home/samenli1/public_html/subdominios/wms/api/articulos/update/index.php on line 87
+[05-Jul-2017 14:00:36 America/Los_Angeles] PHP Warning:  Invalid argument supplied for foreach() in /home/samenli1/public_html/subdominios/wms/api/articulos/update/index.php on line 85
+[05-Jul-2017 14:00:36 America/Los_Angeles] PHP Warning:  array_merge(): Argument #2 is not an array in /home/samenli1/public_html/subdominios/wms/api/articulos/update/index.php on line 87
+[05-Jul-2017 14:01:41 America/Los_Angeles] PHP Warning:  Invalid argument supplied for foreach() in /home/samenli1/public_html/subdominios/wms/api/articulos/update/index.php on line 85
+[05-Jul-2017 14:01:41 America/Los_Angeles] PHP Warning:  array_merge(): Argument #2 is not an array in /home/samenli1/public_html/subdominios/wms/api/articulos/update/index.php on line 87
+[05-Jul-2017 14:22:48 America/Los_Angeles] PHP Warning:  Invalid argument supplied for foreach() in /home/samenli1/public_html/subdominios/wms/api/articulos/update/index.php on line 85
+[05-Jul-2017 14:22:48 America/Los_Angeles] PHP Warning:  array_merge(): Argument #2 is not an array in /home/samenli1/public_html/subdominios/wms/api/articulos/update/index.php on line 87
+[05-Jul-2017 14:23:24 America/Los_Angeles] PHP Warning:  Invalid argument supplied for foreach() in /home/samenli1/public_html/subdominios/wms/api/articulos/update/index.php on line 85
+[05-Jul-2017 14:23:24 America/Los_Angeles] PHP Warning:  array_merge(): Argument #2 is not an array in /home/samenli1/public_html/subdominios/wms/api/articulos/update/index.php on line 87
+[05-Jul-2017 14:24:13 America/Los_Angeles] PHP Warning:  Invalid argument supplied for foreach() in /home/samenli1/public_html/subdominios/wms/api/articulos/update/index.php on line 85
+[05-Jul-2017 14:24:13 America/Los_Angeles] PHP Warning:  array_merge(): Argument #2 is not an array in /home/samenli1/public_html/subdominios/wms/api/articulos/update/index.php on line 87
+[05-Jul-2017 14:24:48 America/Los_Angeles] PHP Warning:  Invalid argument supplied for foreach() in /home/samenli1/public_html/subdominios/wms/api/articulos/update/index.php on line 85
+[05-Jul-2017 14:24:48 America/Los_Angeles] PHP Warning:  array_merge(): Argument #2 is not an array in /home/samenli1/public_html/subdominios/wms/api/articulos/update/index.php on line 87
+[06-Jul-2017 15:08:20 America/Los_Angeles] PHP Warning:  Invalid argument supplied for foreach() in /home/samenli1/public_html/subdominios/wms/api/articulos/update/index.php on line 85
+[06-Jul-2017 15:08:20 America/Los_Angeles] PHP Warning:  array_merge(): Argument #2 is not an array in /home/samenli1/public_html/subdominios/wms/api/articulos/update/index.php on line 87
+[06-Jul-2017 15:08:27 America/Los_Angeles] PHP Warning:  Invalid argument supplied for foreach() in /home/samenli1/public_html/subdominios/wms/api/articulos/update/index.php on line 85
+[06-Jul-2017 15:08:27 America/Los_Angeles] PHP Warning:  array_merge(): Argument #2 is not an array in /home/samenli1/public_html/subdominios/wms/api/articulos/update/index.php on line 87
+[06-Jul-2017 15:08:36 America/Los_Angeles] PHP Warning:  Invalid argument supplied for foreach() in /home/samenli1/public_html/subdominios/wms/api/articulos/update/index.php on line 85
+[06-Jul-2017 15:08:36 America/Los_Angeles] PHP Warning:  array_merge(): Argument #2 is not an array in /home/samenli1/public_html/subdominios/wms/api/articulos/update/index.php on line 87
+[07-Jul-2017 13:24:46 America/Los_Angeles] PHP Warning:  Invalid argument supplied for foreach() in /home/samenli1/public_html/subdominios/wms/api/articulos/update/index.php on line 85
+[07-Jul-2017 13:24:46 America/Los_Angeles] PHP Warning:  array_merge(): Argument #2 is not an array in /home/samenli1/public_html/subdominios/wms/api/articulos/update/index.php on line 87
+[07-Jul-2017 13:27:23 America/Los_Angeles] PHP Warning:  Invalid argument supplied for foreach() in /home/samenli1/public_html/subdominios/wms/api/articulos/update/index.php on line 85
+[07-Jul-2017 13:27:23 America/Los_Angeles] PHP Warning:  array_merge(): Argument #2 is not an array in /home/samenli1/public_html/subdominios/wms/api/articulos/update/index.php on line 87
+[07-Jul-2017 13:28:57 America/Los_Angeles] PHP Warning:  Invalid argument supplied for foreach() in /home/samenli1/public_html/subdominios/wms/api/articulos/update/index.php on line 85
+[07-Jul-2017 13:28:57 America/Los_Angeles] PHP Warning:  array_merge(): Argument #2 is not an array in /home/samenli1/public_html/subdominios/wms/api/articulos/update/index.php on line 87
+[07-Jul-2017 13:31:06 America/Los_Angeles] PHP Warning:  Invalid argument supplied for foreach() in /home/samenli1/public_html/subdominios/wms/api/articulos/update/index.php on line 85
+[07-Jul-2017 13:31:06 America/Los_Angeles] PHP Warning:  array_merge(): Argument #2 is not an array in /home/samenli1/public_html/subdominios/wms/api/articulos/update/index.php on line 87
+[07-Jul-2017 13:31:15 America/Los_Angeles] PHP Warning:  Invalid argument supplied for foreach() in /home/samenli1/public_html/subdominios/wms/api/articulos/update/index.php on line 85
+[07-Jul-2017 13:31:15 America/Los_Angeles] PHP Warning:  array_merge(): Argument #2 is not an array in /home/samenli1/public_html/subdominios/wms/api/articulos/update/index.php on line 87
+[07-Jul-2017 13:36:14 America/Los_Angeles] PHP Warning:  Invalid argument supplied for foreach() in /home/samenli1/public_html/subdominios/wms/api/articulos/update/index.php on line 85
+[07-Jul-2017 13:36:14 America/Los_Angeles] PHP Warning:  array_merge(): Argument #2 is not an array in /home/samenli1/public_html/subdominios/wms/api/articulos/update/index.php on line 87
+[07-Jul-2017 13:39:57 America/Los_Angeles] PHP Warning:  Invalid argument supplied for foreach() in /home/samenli1/public_html/subdominios/wms/api/articulos/update/index.php on line 85
+[07-Jul-2017 13:39:57 America/Los_Angeles] PHP Warning:  array_merge(): Argument #2 is not an array in /home/samenli1/public_html/subdominios/wms/api/articulos/update/index.php on line 87
+[07-Jul-2017 13:45:13 America/Los_Angeles] PHP Warning:  Invalid argument supplied for foreach() in /home/samenli1/public_html/subdominios/wms/api/articulos/update/index.php on line 85
+[07-Jul-2017 13:45:13 America/Los_Angeles] PHP Warning:  array_merge(): Argument #2 is not an array in /home/samenli1/public_html/subdominios/wms/api/articulos/update/index.php on line 87
+[07-Jul-2017 13:45:59 America/Los_Angeles] PHP Warning:  Invalid argument supplied for foreach() in /home/samenli1/public_html/subdominios/wms/api/articulos/update/index.php on line 85
+[07-Jul-2017 13:45:59 America/Los_Angeles] PHP Warning:  array_merge(): Argument #2 is not an array in /home/samenli1/public_html/subdominios/wms/api/articulos/update/index.php on line 87
+[07-Jul-2017 13:47:22 America/Los_Angeles] PHP Warning:  Invalid argument supplied for foreach() in /home/samenli1/public_html/subdominios/wms/api/articulos/update/index.php on line 85
+[07-Jul-2017 13:47:22 America/Los_Angeles] PHP Warning:  array_merge(): Argument #2 is not an array in /home/samenli1/public_html/subdominios/wms/api/articulos/update/index.php on line 87
+[07-Jul-2017 14:50:48 America/Los_Angeles] PHP Warning:  Invalid argument supplied for foreach() in /home/samenli1/public_html/subdominios/wms/api/articulos/update/index.php on line 85
+[07-Jul-2017 14:50:48 America/Los_Angeles] PHP Warning:  array_merge(): Argument #2 is not an array in /home/samenli1/public_html/subdominios/wms/api/articulos/update/index.php on line 87
+[07-Jul-2017 16:03:03 America/Los_Angeles] PHP Warning:  Invalid argument supplied for foreach() in /home/samenli1/public_html/subdominios/wms/api/articulos/update/index.php on line 85
+[07-Jul-2017 16:03:03 America/Los_Angeles] PHP Warning:  array_merge(): Argument #2 is not an array in /home/samenli1/public_html/subdominios/wms/api/articulos/update/index.php on line 87
+[07-Jul-2017 16:08:30 America/Los_Angeles] PHP Warning:  Invalid argument supplied for foreach() in /home/samenli1/public_html/subdominios/wms/api/articulos/update/index.php on line 85
+[07-Jul-2017 16:08:30 America/Los_Angeles] PHP Warning:  array_merge(): Argument #2 is not an array in /home/samenli1/public_html/subdominios/wms/api/articulos/update/index.php on line 87
+[07-Jul-2017 16:08:46 America/Los_Angeles] PHP Warning:  Invalid argument supplied for foreach() in /home/samenli1/public_html/subdominios/wms/api/articulos/update/index.php on line 85
+[07-Jul-2017 16:08:46 America/Los_Angeles] PHP Warning:  array_merge(): Argument #2 is not an array in /home/samenli1/public_html/subdominios/wms/api/articulos/update/index.php on line 87
+[07-Jul-2017 16:09:32 America/Los_Angeles] PHP Warning:  Invalid argument supplied for foreach() in /home/samenli1/public_html/subdominios/wms/api/articulos/update/index.php on line 85
+[07-Jul-2017 16:09:32 America/Los_Angeles] PHP Warning:  array_merge(): Argument #2 is not an array in /home/samenli1/public_html/subdominios/wms/api/articulos/update/index.php on line 87
+[07-Jul-2017 16:09:40 America/Los_Angeles] PHP Warning:  Invalid argument supplied for foreach() in /home/samenli1/public_html/subdominios/wms/api/articulos/update/index.php on line 85
+[07-Jul-2017 16:09:40 America/Los_Angeles] PHP Warning:  array_merge(): Argument #2 is not an array in /home/samenli1/public_html/subdominios/wms/api/articulos/update/index.php on line 87
+[07-Jul-2017 16:09:45 America/Los_Angeles] PHP Warning:  Invalid argument supplied for foreach() in /home/samenli1/public_html/subdominios/wms/api/articulos/update/index.php on line 85
+[07-Jul-2017 16:09:45 America/Los_Angeles] PHP Warning:  array_merge(): Argument #2 is not an array in /home/samenli1/public_html/subdominios/wms/api/articulos/update/index.php on line 87
+[07-Jul-2017 16:09:48 America/Los_Angeles] PHP Warning:  Invalid argument supplied for foreach() in /home/samenli1/public_html/subdominios/wms/api/articulos/update/index.php on line 85
+[07-Jul-2017 16:09:48 America/Los_Angeles] PHP Warning:  array_merge(): Argument #2 is not an array in /home/samenli1/public_html/subdominios/wms/api/articulos/update/index.php on line 87
+[07-Jul-2017 16:09:56 America/Los_Angeles] PHP Warning:  Invalid argument supplied for foreach() in /home/samenli1/public_html/subdominios/wms/api/articulos/update/index.php on line 85
+[07-Jul-2017 16:09:56 America/Los_Angeles] PHP Warning:  array_merge(): Argument #2 is not an array in /home/samenli1/public_html/subdominios/wms/api/articulos/update/index.php on line 87
+[07-Jul-2017 16:09:58 America/Los_Angeles] PHP Warning:  Invalid argument supplied for foreach() in /home/samenli1/public_html/subdominios/wms/api/articulos/update/index.php on line 85
+[07-Jul-2017 16:09:58 America/Los_Angeles] PHP Warning:  array_merge(): Argument #2 is not an array in /home/samenli1/public_html/subdominios/wms/api/articulos/update/index.php on line 87
+[07-Jul-2017 16:10:03 America/Los_Angeles] PHP Warning:  Invalid argument supplied for foreach() in /home/samenli1/public_html/subdominios/wms/api/articulos/update/index.php on line 85
+[07-Jul-2017 16:10:03 America/Los_Angeles] PHP Warning:  array_merge(): Argument #2 is not an array in /home/samenli1/public_html/subdominios/wms/api/articulos/update/index.php on line 87
+[07-Jul-2017 16:10:05 America/Los_Angeles] PHP Warning:  Invalid argument supplied for foreach() in /home/samenli1/public_html/subdominios/wms/api/articulos/update/index.php on line 85
+[07-Jul-2017 16:10:05 America/Los_Angeles] PHP Warning:  array_merge(): Argument #2 is not an array in /home/samenli1/public_html/subdominios/wms/api/articulos/update/index.php on line 87
+[07-Jul-2017 16:10:05 America/Los_Angeles] PHP Warning:  Invalid argument supplied for foreach() in /home/samenli1/public_html/subdominios/wms/api/articulos/update/index.php on line 85
+[07-Jul-2017 16:10:05 America/Los_Angeles] PHP Warning:  array_merge(): Argument #2 is not an array in /home/samenli1/public_html/subdominios/wms/api/articulos/update/index.php on line 87
+[07-Jul-2017 16:10:06 America/Los_Angeles] PHP Warning:  Invalid argument supplied for foreach() in /home/samenli1/public_html/subdominios/wms/api/articulos/update/index.php on line 85
+[07-Jul-2017 16:10:06 America/Los_Angeles] PHP Warning:  array_merge(): Argument #2 is not an array in /home/samenli1/public_html/subdominios/wms/api/articulos/update/index.php on line 87
+[07-Jul-2017 16:10:44 America/Los_Angeles] PHP Warning:  Invalid argument supplied for foreach() in /home/samenli1/public_html/subdominios/wms/api/articulos/update/index.php on line 85
+[07-Jul-2017 16:10:44 America/Los_Angeles] PHP Warning:  array_merge(): Argument #2 is not an array in /home/samenli1/public_html/subdominios/wms/api/articulos/update/index.php on line 87
+[07-Jul-2017 16:10:48 America/Los_Angeles] PHP Warning:  Invalid argument supplied for foreach() in /home/samenli1/public_html/subdominios/wms/api/articulos/update/index.php on line 85
+[07-Jul-2017 16:10:48 America/Los_Angeles] PHP Warning:  array_merge(): Argument #2 is not an array in /home/samenli1/public_html/subdominios/wms/api/articulos/update/index.php on line 87
+[07-Jul-2017 16:10:48 America/Los_Angeles] PHP Warning:  Invalid argument supplied for foreach() in /home/samenli1/public_html/subdominios/wms/api/articulos/update/index.php on line 85
+[07-Jul-2017 16:10:48 America/Los_Angeles] PHP Warning:  array_merge(): Argument #2 is not an array in /home/samenli1/public_html/subdominios/wms/api/articulos/update/index.php on line 87
+[07-Jul-2017 16:10:49 America/Los_Angeles] PHP Warning:  Invalid argument supplied for foreach() in /home/samenli1/public_html/subdominios/wms/api/articulos/update/index.php on line 85
+[07-Jul-2017 16:10:49 America/Los_Angeles] PHP Warning:  array_merge(): Argument #2 is not an array in /home/samenli1/public_html/subdominios/wms/api/articulos/update/index.php on line 87
+[07-Jul-2017 16:10:49 America/Los_Angeles] PHP Warning:  Invalid argument supplied for foreach() in /home/samenli1/public_html/subdominios/wms/api/articulos/update/index.php on line 85
+[07-Jul-2017 16:10:49 America/Los_Angeles] PHP Warning:  array_merge(): Argument #2 is not an array in /home/samenli1/public_html/subdominios/wms/api/articulos/update/index.php on line 87
+[07-Jul-2017 16:10:49 America/Los_Angeles] PHP Warning:  Invalid argument supplied for foreach() in /home/samenli1/public_html/subdominios/wms/api/articulos/update/index.php on line 85
+[07-Jul-2017 16:10:49 America/Los_Angeles] PHP Warning:  array_merge(): Argument #2 is not an array in /home/samenli1/public_html/subdominios/wms/api/articulos/update/index.php on line 87
+[07-Jul-2017 16:10:51 America/Los_Angeles] PHP Warning:  Invalid argument supplied for foreach() in /home/samenli1/public_html/subdominios/wms/api/articulos/update/index.php on line 85
+[07-Jul-2017 16:10:51 America/Los_Angeles] PHP Warning:  array_merge(): Argument #2 is not an array in /home/samenli1/public_html/subdominios/wms/api/articulos/update/index.php on line 87
+[07-Jul-2017 16:10:53 America/Los_Angeles] PHP Warning:  Invalid argument supplied for foreach() in /home/samenli1/public_html/subdominios/wms/api/articulos/update/index.php on line 85
+[07-Jul-2017 16:10:53 America/Los_Angeles] PHP Warning:  array_merge(): Argument #2 is not an array in /home/samenli1/public_html/subdominios/wms/api/articulos/update/index.php on line 87
+[07-Jul-2017 16:10:53 America/Los_Angeles] PHP Warning:  Invalid argument supplied for foreach() in /home/samenli1/public_html/subdominios/wms/api/articulos/update/index.php on line 85
+[07-Jul-2017 16:10:53 America/Los_Angeles] PHP Warning:  array_merge(): Argument #2 is not an array in /home/samenli1/public_html/subdominios/wms/api/articulos/update/index.php on line 87
+[07-Jul-2017 16:10:53 America/Los_Angeles] PHP Warning:  Invalid argument supplied for foreach() in /home/samenli1/public_html/subdominios/wms/api/articulos/update/index.php on line 85
+[07-Jul-2017 16:10:53 America/Los_Angeles] PHP Warning:  array_merge(): Argument #2 is not an array in /home/samenli1/public_html/subdominios/wms/api/articulos/update/index.php on line 87
+[07-Jul-2017 16:11:39 America/Los_Angeles] PHP Warning:  Invalid argument supplied for foreach() in /home/samenli1/public_html/subdominios/wms/api/articulos/update/index.php on line 85
+[07-Jul-2017 16:11:39 America/Los_Angeles] PHP Warning:  array_merge(): Argument #2 is not an array in /home/samenli1/public_html/subdominios/wms/api/articulos/update/index.php on line 87
+[07-Jul-2017 16:11:41 America/Los_Angeles] PHP Warning:  Invalid argument supplied for foreach() in /home/samenli1/public_html/subdominios/wms/api/articulos/update/index.php on line 85
+[07-Jul-2017 16:11:41 America/Los_Angeles] PHP Warning:  array_merge(): Argument #2 is not an array in /home/samenli1/public_html/subdominios/wms/api/articulos/update/index.php on line 87
+[07-Jul-2017 16:11:42 America/Los_Angeles] PHP Warning:  Invalid argument supplied for foreach() in /home/samenli1/public_html/subdominios/wms/api/articulos/update/index.php on line 85
+[07-Jul-2017 16:11:42 America/Los_Angeles] PHP Warning:  array_merge(): Argument #2 is not an array in /home/samenli1/public_html/subdominios/wms/api/articulos/update/index.php on line 87
+[07-Jul-2017 16:11:42 America/Los_Angeles] PHP Warning:  Invalid argument supplied for foreach() in /home/samenli1/public_html/subdominios/wms/api/articulos/update/index.php on line 85
+[07-Jul-2017 16:11:42 America/Los_Angeles] PHP Warning:  array_merge(): Argument #2 is not an array in /home/samenli1/public_html/subdominios/wms/api/articulos/update/index.php on line 87
+[07-Jul-2017 16:11:43 America/Los_Angeles] PHP Warning:  Invalid argument supplied for foreach() in /home/samenli1/public_html/subdominios/wms/api/articulos/update/index.php on line 85
+[07-Jul-2017 16:11:43 America/Los_Angeles] PHP Warning:  array_merge(): Argument #2 is not an array in /home/samenli1/public_html/subdominios/wms/api/articulos/update/index.php on line 87
+[07-Jul-2017 16:11:43 America/Los_Angeles] PHP Warning:  Invalid argument supplied for foreach() in /home/samenli1/public_html/subdominios/wms/api/articulos/update/index.php on line 85
+[07-Jul-2017 16:11:43 America/Los_Angeles] PHP Warning:  array_merge(): Argument #2 is not an array in /home/samenli1/public_html/subdominios/wms/api/articulos/update/index.php on line 87
+[07-Jul-2017 16:12:17 America/Los_Angeles] PHP Warning:  Invalid argument supplied for foreach() in /home/samenli1/public_html/subdominios/wms/api/articulos/update/index.php on line 85
+[07-Jul-2017 16:12:17 America/Los_Angeles] PHP Warning:  array_merge(): Argument #2 is not an array in /home/samenli1/public_html/subdominios/wms/api/articulos/update/index.php on line 87
+[07-Jul-2017 16:12:41 America/Los_Angeles] PHP Warning:  Invalid argument supplied for foreach() in /home/samenli1/public_html/subdominios/wms/api/articulos/update/index.php on line 85
+[07-Jul-2017 16:12:41 America/Los_Angeles] PHP Warning:  array_merge(): Argument #2 is not an array in /home/samenli1/public_html/subdominios/wms/api/articulos/update/index.php on line 87
+[07-Jul-2017 16:14:40 America/Los_Angeles] PHP Warning:  Invalid argument supplied for foreach() in /home/samenli1/public_html/subdominios/wms/api/articulos/update/index.php on line 85
+[07-Jul-2017 16:14:40 America/Los_Angeles] PHP Warning:  array_merge(): Argument #2 is not an array in /home/samenli1/public_html/subdominios/wms/api/articulos/update/index.php on line 87
+[07-Jul-2017 16:14:58 America/Los_Angeles] PHP Warning:  Invalid argument supplied for foreach() in /home/samenli1/public_html/subdominios/wms/api/articulos/update/index.php on line 85
+[07-Jul-2017 16:14:58 America/Los_Angeles] PHP Warning:  array_merge(): Argument #2 is not an array in /home/samenli1/public_html/subdominios/wms/api/articulos/update/index.php on line 87
+[07-Jul-2017 16:16:13 America/Los_Angeles] PHP Warning:  Invalid argument supplied for foreach() in /home/samenli1/public_html/subdominios/wms/api/articulos/update/index.php on line 85
+[07-Jul-2017 16:16:13 America/Los_Angeles] PHP Warning:  array_merge(): Argument #2 is not an array in /home/samenli1/public_html/subdominios/wms/api/articulos/update/index.php on line 87
+[07-Jul-2017 16:16:30 America/Los_Angeles] PHP Warning:  Invalid argument supplied for foreach() in /home/samenli1/public_html/subdominios/wms/api/articulos/update/index.php on line 85
+[07-Jul-2017 16:16:30 America/Los_Angeles] PHP Warning:  array_merge(): Argument #2 is not an array in /home/samenli1/public_html/subdominios/wms/api/articulos/update/index.php on line 87
+[07-Jul-2017 16:19:06 America/Los_Angeles] PHP Warning:  Invalid argument supplied for foreach() in /home/samenli1/public_html/subdominios/wms/api/articulos/update/index.php on line 85
+[07-Jul-2017 16:19:06 America/Los_Angeles] PHP Warning:  array_merge(): Argument #2 is not an array in /home/samenli1/public_html/subdominios/wms/api/articulos/update/index.php on line 87
+[07-Jul-2017 16:19:55 America/Los_Angeles] PHP Warning:  Invalid argument supplied for foreach() in /home/samenli1/public_html/subdominios/wms/api/articulos/update/index.php on line 85
+[07-Jul-2017 16:19:55 America/Los_Angeles] PHP Warning:  array_merge(): Argument #2 is not an array in /home/samenli1/public_html/subdominios/wms/api/articulos/update/index.php on line 87
+[07-Jul-2017 16:20:51 America/Los_Angeles] PHP Warning:  Invalid argument supplied for foreach() in /home/samenli1/public_html/subdominios/wms/api/articulos/update/index.php on line 85
+[07-Jul-2017 16:20:51 America/Los_Angeles] PHP Warning:  array_merge(): Argument #2 is not an array in /home/samenli1/public_html/subdominios/wms/api/articulos/update/index.php on line 87
+[07-Jul-2017 16:26:23 America/Los_Angeles] PHP Warning:  Invalid argument supplied for foreach() in /home/samenli1/public_html/subdominios/wms/api/articulos/update/index.php on line 85
+[07-Jul-2017 16:26:23 America/Los_Angeles] PHP Warning:  array_merge(): Argument #2 is not an array in /home/samenli1/public_html/subdominios/wms/api/articulos/update/index.php on line 87
+[07-Jul-2017 16:26:28 America/Los_Angeles] PHP Warning:  Invalid argument supplied for foreach() in /home/samenli1/public_html/subdominios/wms/api/articulos/update/index.php on line 85
+[07-Jul-2017 16:26:28 America/Los_Angeles] PHP Warning:  array_merge(): Argument #2 is not an array in /home/samenli1/public_html/subdominios/wms/api/articulos/update/index.php on line 87
+[07-Jul-2017 16:26:33 America/Los_Angeles] PHP Warning:  Invalid argument supplied for foreach() in /home/samenli1/public_html/subdominios/wms/api/articulos/update/index.php on line 85
+[07-Jul-2017 16:26:33 America/Los_Angeles] PHP Warning:  array_merge(): Argument #2 is not an array in /home/samenli1/public_html/subdominios/wms/api/articulos/update/index.php on line 87
+[07-Jul-2017 16:26:35 America/Los_Angeles] PHP Warning:  Invalid argument supplied for foreach() in /home/samenli1/public_html/subdominios/wms/api/articulos/update/index.php on line 85
+[07-Jul-2017 16:26:35 America/Los_Angeles] PHP Warning:  array_merge(): Argument #2 is not an array in /home/samenli1/public_html/subdominios/wms/api/articulos/update/index.php on line 87
+[07-Jul-2017 16:26:42 America/Los_Angeles] PHP Warning:  Invalid argument supplied for foreach() in /home/samenli1/public_html/subdominios/wms/api/articulos/update/index.php on line 85
+[07-Jul-2017 16:26:42 America/Los_Angeles] PHP Warning:  array_merge(): Argument #2 is not an array in /home/samenli1/public_html/subdominios/wms/api/articulos/update/index.php on line 87
+[07-Jul-2017 16:26:43 America/Los_Angeles] PHP Warning:  Invalid argument supplied for foreach() in /home/samenli1/public_html/subdominios/wms/api/articulos/update/index.php on line 85
+[07-Jul-2017 16:26:43 America/Los_Angeles] PHP Warning:  array_merge(): Argument #2 is not an array in /home/samenli1/public_html/subdominios/wms/api/articulos/update/index.php on line 87
+[07-Jul-2017 16:26:59 America/Los_Angeles] PHP Warning:  Invalid argument supplied for foreach() in /home/samenli1/public_html/subdominios/wms/api/articulos/update/index.php on line 85
+[07-Jul-2017 16:26:59 America/Los_Angeles] PHP Warning:  array_merge(): Argument #2 is not an array in /home/samenli1/public_html/subdominios/wms/api/articulos/update/index.php on line 87
+[07-Jul-2017 16:27:37 America/Los_Angeles] PHP Warning:  Invalid argument supplied for foreach() in /home/samenli1/public_html/subdominios/wms/api/articulos/update/index.php on line 85
+[07-Jul-2017 16:27:37 America/Los_Angeles] PHP Warning:  array_merge(): Argument #2 is not an array in /home/samenli1/public_html/subdominios/wms/api/articulos/update/index.php on line 87
+[07-Jul-2017 16:27:41 America/Los_Angeles] PHP Warning:  Invalid argument supplied for foreach() in /home/samenli1/public_html/subdominios/wms/api/articulos/update/index.php on line 85
+[07-Jul-2017 16:27:41 America/Los_Angeles] PHP Warning:  array_merge(): Argument #2 is not an array in /home/samenli1/public_html/subdominios/wms/api/articulos/update/index.php on line 87
+[07-Jul-2017 16:27:54 America/Los_Angeles] PHP Warning:  Invalid argument supplied for foreach() in /home/samenli1/public_html/subdominios/wms/api/articulos/update/index.php on line 85
+[07-Jul-2017 16:27:54 America/Los_Angeles] PHP Warning:  array_merge(): Argument #2 is not an array in /home/samenli1/public_html/subdominios/wms/api/articulos/update/index.php on line 87
+[07-Jul-2017 16:30:57 America/Los_Angeles] PHP Warning:  Invalid argument supplied for foreach() in /home/samenli1/public_html/subdominios/wms/api/articulos/update/index.php on line 85
+[07-Jul-2017 16:30:57 America/Los_Angeles] PHP Warning:  array_merge(): Argument #2 is not an array in /home/samenli1/public_html/subdominios/wms/api/articulos/update/index.php on line 87
+[07-Jul-2017 16:30:58 America/Los_Angeles] PHP Warning:  Invalid argument supplied for foreach() in /home/samenli1/public_html/subdominios/wms/api/articulos/update/index.php on line 85
+[07-Jul-2017 16:30:58 America/Los_Angeles] PHP Warning:  array_merge(): Argument #2 is not an array in /home/samenli1/public_html/subdominios/wms/api/articulos/update/index.php on line 87
+[07-Jul-2017 16:30:58 America/Los_Angeles] PHP Warning:  Invalid argument supplied for foreach() in /home/samenli1/public_html/subdominios/wms/api/articulos/update/index.php on line 85
+[07-Jul-2017 16:30:58 America/Los_Angeles] PHP Warning:  array_merge(): Argument #2 is not an array in /home/samenli1/public_html/subdominios/wms/api/articulos/update/index.php on line 87
+[07-Jul-2017 16:31:00 America/Los_Angeles] PHP Warning:  Invalid argument supplied for foreach() in /home/samenli1/public_html/subdominios/wms/api/articulos/update/index.php on line 85
+[07-Jul-2017 16:31:00 America/Los_Angeles] PHP Warning:  array_merge(): Argument #2 is not an array in /home/samenli1/public_html/subdominios/wms/api/articulos/update/index.php on line 87
+[07-Jul-2017 16:31:38 America/Los_Angeles] PHP Warning:  Invalid argument supplied for foreach() in /home/samenli1/public_html/subdominios/wms/api/articulos/update/index.php on line 85
+[07-Jul-2017 16:31:38 America/Los_Angeles] PHP Warning:  array_merge(): Argument #2 is not an array in /home/samenli1/public_html/subdominios/wms/api/articulos/update/index.php on line 87
+[07-Jul-2017 16:31:40 America/Los_Angeles] PHP Warning:  Invalid argument supplied for foreach() in /home/samenli1/public_html/subdominios/wms/api/articulos/update/index.php on line 85
+[07-Jul-2017 16:31:40 America/Los_Angeles] PHP Warning:  array_merge(): Argument #2 is not an array in /home/samenli1/public_html/subdominios/wms/api/articulos/update/index.php on line 87
+[07-Jul-2017 16:31:44 America/Los_Angeles] PHP Warning:  Invalid argument supplied for foreach() in /home/samenli1/public_html/subdominios/wms/api/articulos/update/index.php on line 85
+[07-Jul-2017 16:31:44 America/Los_Angeles] PHP Warning:  array_merge(): Argument #2 is not an array in /home/samenli1/public_html/subdominios/wms/api/articulos/update/index.php on line 87
+[07-Jul-2017 16:31:56 America/Los_Angeles] PHP Warning:  Invalid argument supplied for foreach() in /home/samenli1/public_html/subdominios/wms/api/articulos/update/index.php on line 85
+[07-Jul-2017 16:31:56 America/Los_Angeles] PHP Warning:  array_merge(): Argument #2 is not an array in /home/samenli1/public_html/subdominios/wms/api/articulos/update/index.php on line 87
+[07-Jul-2017 16:31:58 America/Los_Angeles] PHP Warning:  Invalid argument supplied for foreach() in /home/samenli1/public_html/subdominios/wms/api/articulos/update/index.php on line 85
+[07-Jul-2017 16:31:58 America/Los_Angeles] PHP Warning:  array_merge(): Argument #2 is not an array in /home/samenli1/public_html/subdominios/wms/api/articulos/update/index.php on line 87
+[07-Jul-2017 16:32:07 America/Los_Angeles] PHP Warning:  Invalid argument supplied for foreach() in /home/samenli1/public_html/subdominios/wms/api/articulos/update/index.php on line 85
+[07-Jul-2017 16:32:07 America/Los_Angeles] PHP Warning:  array_merge(): Argument #2 is not an array in /home/samenli1/public_html/subdominios/wms/api/articulos/update/index.php on line 87
+[07-Jul-2017 16:42:49 America/Los_Angeles] PHP Warning:  Invalid argument supplied for foreach() in /home/samenli1/public_html/subdominios/wms/api/articulos/update/index.php on line 85
+[07-Jul-2017 16:42:49 America/Los_Angeles] PHP Warning:  array_merge(): Argument #2 is not an array in /home/samenli1/public_html/subdominios/wms/api/articulos/update/index.php on line 87
+[07-Jul-2017 17:12:29 America/Los_Angeles] PHP Warning:  Invalid argument supplied for foreach() in /home/samenli1/public_html/subdominios/wms/api/articulos/update/index.php on line 85
+[07-Jul-2017 17:12:29 America/Los_Angeles] PHP Warning:  array_merge(): Argument #2 is not an array in /home/samenli1/public_html/subdominios/wms/api/articulos/update/index.php on line 87
+[07-Jul-2017 17:12:33 America/Los_Angeles] PHP Warning:  Invalid argument supplied for foreach() in /home/samenli1/public_html/subdominios/wms/api/articulos/update/index.php on line 85
+[07-Jul-2017 17:12:33 America/Los_Angeles] PHP Warning:  array_merge(): Argument #2 is not an array in /home/samenli1/public_html/subdominios/wms/api/articulos/update/index.php on line 87
+[07-Jul-2017 17:12:45 America/Los_Angeles] PHP Warning:  Invalid argument supplied for foreach() in /home/samenli1/public_html/subdominios/wms/api/articulos/update/index.php on line 85
+[07-Jul-2017 17:12:45 America/Los_Angeles] PHP Warning:  array_merge(): Argument #2 is not an array in /home/samenli1/public_html/subdominios/wms/api/articulos/update/index.php on line 87
+[07-Jul-2017 17:14:36 America/Los_Angeles] PHP Warning:  Invalid argument supplied for foreach() in /home/samenli1/public_html/subdominios/wms/api/articulos/update/index.php on line 85
+[07-Jul-2017 17:14:36 America/Los_Angeles] PHP Warning:  array_merge(): Argument #2 is not an array in /home/samenli1/public_html/subdominios/wms/api/articulos/update/index.php on line 87
+[07-Jul-2017 17:16:24 America/Los_Angeles] PHP Warning:  Invalid argument supplied for foreach() in /home/samenli1/public_html/subdominios/wms/api/articulos/update/index.php on line 85
+[07-Jul-2017 17:16:24 America/Los_Angeles] PHP Warning:  array_merge(): Argument #2 is not an array in /home/samenli1/public_html/subdominios/wms/api/articulos/update/index.php on line 87
+[07-Jul-2017 17:19:29 America/Los_Angeles] PHP Warning:  Invalid argument supplied for foreach() in /home/samenli1/public_html/subdominios/wms/api/articulos/update/index.php on line 85
+[07-Jul-2017 17:19:29 America/Los_Angeles] PHP Warning:  array_merge(): Argument #2 is not an array in /home/samenli1/public_html/subdominios/wms/api/articulos/update/index.php on line 87
+[07-Jul-2017 17:21:29 America/Los_Angeles] PHP Warning:  Invalid argument supplied for foreach() in /home/samenli1/public_html/subdominios/wms/api/articulos/update/index.php on line 85
+[07-Jul-2017 17:21:29 America/Los_Angeles] PHP Warning:  array_merge(): Argument #2 is not an array in /home/samenli1/public_html/subdominios/wms/api/articulos/update/index.php on line 87
+[07-Jul-2017 17:22:22 America/Los_Angeles] PHP Warning:  Invalid argument supplied for foreach() in /home/samenli1/public_html/subdominios/wms/api/articulos/update/index.php on line 85
+[07-Jul-2017 17:22:22 America/Los_Angeles] PHP Warning:  array_merge(): Argument #2 is not an array in /home/samenli1/public_html/subdominios/wms/api/articulos/update/index.php on line 87
+[07-Jul-2017 17:24:44 America/Los_Angeles] PHP Warning:  Invalid argument supplied for foreach() in /home/samenli1/public_html/subdominios/wms/api/articulos/update/index.php on line 85
+[07-Jul-2017 17:24:44 America/Los_Angeles] PHP Warning:  array_merge(): Argument #2 is not an array in /home/samenli1/public_html/subdominios/wms/api/articulos/update/index.php on line 87
+[07-Jul-2017 17:24:53 America/Los_Angeles] PHP Warning:  Invalid argument supplied for foreach() in /home/samenli1/public_html/subdominios/wms/api/articulos/update/index.php on line 85
+[07-Jul-2017 17:24:53 America/Los_Angeles] PHP Warning:  array_merge(): Argument #2 is not an array in /home/samenli1/public_html/subdominios/wms/api/articulos/update/index.php on line 87
+[27-Jul-2017 14:13:38 America/Los_Angeles] PHP Warning:  Creating default object from empty value in /home/samenli1/public_html/subdominios/wms/app/class/Articulos/Articulos.php on line 89
+[27-Jul-2017 14:17:08 America/Los_Angeles] PHP Warning:  Creating default object from empty value in /home/samenli1/public_html/subdominios/wms/app/class/Articulos/Articulos.php on line 89
+[27-Jul-2017 14:20:26 America/Los_Angeles] PHP Warning:  Creating default object from empty value in /home/samenli1/public_html/subdominios/wms/app/class/Articulos/Articulos.php on line 89
+[27-Jul-2017 14:45:05 America/Los_Angeles] PHP Warning:  Creating default object from empty value in /home/samenli1/public_html/subdominios/wms/app/class/Articulos/Articulos.php on line 89
+[27-Jul-2017 14:45:19 America/Los_Angeles] PHP Warning:  Creating default object from empty value in /home/samenli1/public_html/subdominios/wms/app/class/Articulos/Articulos.php on line 89
+[31-Jul-2017 12:52:49 America/Los_Angeles] PHP Warning:  Creating default object from empty value in /home/samenli1/public_html/subdominios/wms/app/class/Articulos/Articulos.php on line 89
+[01-Aug-2017 15:01:25 America/Los_Angeles] PHP Warning:  Creating default object from empty value in /home/samenli1/public_html/subdominios/wms/app/class/Articulos/Articulos.php on line 89
+[02-Aug-2017 08:42:10 America/Los_Angeles] PHP Warning:  Creating default object from empty value in /home/samenli1/public_html/subdominios/wms/app/class/Articulos/Articulos.php on line 89
+[02-Aug-2017 08:55:18 America/Los_Angeles] PHP Warning:  Creating default object from empty value in /home/samenli1/public_html/subdominios/wms/app/class/Articulos/Articulos.php on line 89
+[02-Aug-2017 11:15:01 America/Los_Angeles] PHP Warning:  Creating default object from empty value in /home/samenli1/public_html/subdominios/wms/app/class/Articulos/Articulos.php on line 89
+[03-Aug-2017 09:59:23 America/Los_Angeles] PHP Warning:  Creating default object from empty value in /home/samenli1/public_html/subdominios/wms/app/class/Articulos/Articulos.php on line 89
+[03-Aug-2017 10:06:07 America/Los_Angeles] PHP Warning:  Creating default object from empty value in /home/samenli1/public_html/subdominios/wms/app/class/Articulos/Articulos.php on line 89
+[03-Aug-2017 10:18:59 America/Los_Angeles] PHP Warning:  Creating default object from empty value in /home/samenli1/public_html/subdominios/wms/app/class/Articulos/Articulos.php on line 89
+[03-Aug-2017 10:43:46 America/Los_Angeles] PHP Warning:  Creating default object from empty value in /home/samenli1/public_html/subdominios/wms/app/class/Articulos/Articulos.php on line 89
+[03-Aug-2017 10:46:01 America/Los_Angeles] PHP Warning:  Creating default object from empty value in /home/samenli1/public_html/subdominios/wms/app/class/Articulos/Articulos.php on line 89
+[03-Aug-2017 10:47:41 America/Los_Angeles] PHP Warning:  Creating default object from empty value in /home/samenli1/public_html/subdominios/wms/app/class/Articulos/Articulos.php on line 89
+[03-Aug-2017 13:42:51 America/Los_Angeles] PHP Warning:  Creating default object from empty value in /home/samenli1/public_html/subdominios/wms/app/class/Articulos/Articulos.php on line 89
+[03-Aug-2017 13:43:30 America/Los_Angeles] PHP Warning:  Creating default object from empty value in /home/samenli1/public_html/subdominios/wms/app/class/Articulos/Articulos.php on line 89
+[03-Aug-2017 13:44:59 America/Los_Angeles] PHP Warning:  Creating default object from empty value in /home/samenli1/public_html/subdominios/wms/app/class/Articulos/Articulos.php on line 89
+[03-Aug-2017 13:56:37 America/Los_Angeles] PHP Warning:  Creating default object from empty value in /home/samenli1/public_html/subdominios/wms/app/class/Articulos/Articulos.php on line 89
+[03-Aug-2017 14:24:56 America/Los_Angeles] PHP Warning:  Creating default object from empty value in /home/samenli1/public_html/subdominios/wms/app/class/Articulos/Articulos.php on line 89
+[03-Aug-2017 14:27:58 America/Los_Angeles] PHP Warning:  Creating default object from empty value in /home/samenli1/public_html/subdominios/wms/app/class/Articulos/Articulos.php on line 89
+[03-Aug-2017 14:33:48 America/Los_Angeles] PHP Warning:  Creating default object from empty value in /home/samenli1/public_html/subdominios/wms/app/class/Articulos/Articulos.php on line 89
+[03-Aug-2017 14:35:28 America/Los_Angeles] PHP Warning:  Creating default object from empty value in /home/samenli1/public_html/subdominios/wms/app/class/Articulos/Articulos.php on line 89
+[03-Aug-2017 14:43:37 America/Los_Angeles] PHP Warning:  Creating default object from empty value in /home/samenli1/public_html/subdominios/wms/app/class/Articulos/Articulos.php on line 89
+[03-Aug-2017 14:46:17 America/Los_Angeles] PHP Warning:  Creating default object from empty value in /home/samenli1/public_html/subdominios/wms/app/class/Articulos/Articulos.php on line 89
+[03-Aug-2017 14:53:44 America/Los_Angeles] PHP Warning:  Creating default object from empty value in /home/samenli1/public_html/subdominios/wms/app/class/Articulos/Articulos.php on line 89
+[03-Aug-2017 14:55:36 America/Los_Angeles] PHP Warning:  Creating default object from empty value in /home/samenli1/public_html/subdominios/wms/app/class/Articulos/Articulos.php on line 89
+[03-Aug-2017 21:24:45 America/Los_Angeles] PHP Warning:  Creating default object from empty value in /home/samenli1/public_html/subdominios/wms/app/class/Articulos/Articulos.php on line 89
+[03-Aug-2017 21:26:42 America/Los_Angeles] PHP Warning:  Creating default object from empty value in /home/samenli1/public_html/subdominios/wms/app/class/Articulos/Articulos.php on line 89
+[04-Aug-2017 18:58:12 America/Los_Angeles] PHP Warning:  Creating default object from empty value in /home/samenli1/public_html/subdominios/wms/app/class/Articulos/Articulos.php on line 89
+[04-Aug-2017 19:31:51 America/Los_Angeles] PHP Warning:  Creating default object from empty value in /home/samenli1/public_html/subdominios/wms/app/class/Articulos/Articulos.php on line 89
+[04-Aug-2017 19:33:01 America/Los_Angeles] PHP Warning:  Creating default object from empty value in /home/samenli1/public_html/subdominios/wms/app/class/Articulos/Articulos.php on line 89
+[04-Aug-2017 19:33:59 America/Los_Angeles] PHP Warning:  Creating default object from empty value in /home/samenli1/public_html/subdominios/wms/app/class/Articulos/Articulos.php on line 89
+[05-Aug-2017 06:03:03 America/Los_Angeles] PHP Warning:  Creating default object from empty value in /home/samenli1/public_html/subdominios/wms/app/class/Articulos/Articulos.php on line 89
+[05-Aug-2017 06:03:48 America/Los_Angeles] PHP Warning:  Creating default object from empty value in /home/samenli1/public_html/subdominios/wms/app/class/Articulos/Articulos.php on line 89
+[05-Aug-2017 06:04:07 America/Los_Angeles] PHP Warning:  Creating default object from empty value in /home/samenli1/public_html/subdominios/wms/app/class/Articulos/Articulos.php on line 89
+[05-Aug-2017 06:04:58 America/Los_Angeles] PHP Warning:  Creating default object from empty value in /home/samenli1/public_html/subdominios/wms/app/class/Articulos/Articulos.php on line 89
+[07-Aug-2017 13:38:49 America/Los_Angeles] PHP Warning:  Creating default object from empty value in /home/samenli1/public_html/subdominios/wms/app/class/Articulos/Articulos.php on line 89
+[08-Aug-2017 12:41:55 America/Los_Angeles] PHP Warning:  Creating default object from empty value in /home/samenli1/public_html/subdominios/wms/app/class/Articulos/Articulos.php on line 89
+[08-Aug-2017 12:42:22 America/Los_Angeles] PHP Warning:  Creating default object from empty value in /home/samenli1/public_html/subdominios/wms/app/class/Articulos/Articulos.php on line 89
+[08-Aug-2017 12:43:28 America/Los_Angeles] PHP Warning:  Creating default object from empty value in /home/samenli1/public_html/subdominios/wms/app/class/Articulos/Articulos.php on line 89
+[08-Aug-2017 12:44:06 America/Los_Angeles] PHP Warning:  Creating default object from empty value in /home/samenli1/public_html/subdominios/wms/app/class/Articulos/Articulos.php on line 89
+[08-Aug-2017 12:44:24 America/Los_Angeles] PHP Warning:  Creating default object from empty value in /home/samenli1/public_html/subdominios/wms/app/class/Articulos/Articulos.php on line 89
+[08-Aug-2017 13:24:19 America/Los_Angeles] PHP Warning:  Creating default object from empty value in /home/samenli1/public_html/subdominios/wms/app/class/Articulos/Articulos.php on line 89
+[08-Aug-2017 13:26:14 America/Los_Angeles] PHP Warning:  Creating default object from empty value in /home/samenli1/public_html/subdominios/wms/app/class/Articulos/Articulos.php on line 89
+[08-Aug-2017 13:27:18 America/Los_Angeles] PHP Warning:  Creating default object from empty value in /home/samenli1/public_html/subdominios/wms/app/class/Articulos/Articulos.php on line 89
+[08-Aug-2017 13:27:40 America/Los_Angeles] PHP Warning:  Creating default object from empty value in /home/samenli1/public_html/subdominios/wms/app/class/Articulos/Articulos.php on line 89
+[08-Aug-2017 14:13:25 America/Los_Angeles] PHP Warning:  Creating default object from empty value in /home/samenli1/public_html/subdominios/wms/app/class/Articulos/Articulos.php on line 89
+[08-Aug-2017 14:13:44 America/Los_Angeles] PHP Warning:  Creating default object from empty value in /home/samenli1/public_html/subdominios/wms/app/class/Articulos/Articulos.php on line 89
+[08-Aug-2017 14:19:27 America/Los_Angeles] PHP Warning:  Creating default object from empty value in /home/samenli1/public_html/subdominios/wms/app/class/Articulos/Articulos.php on line 89
+[11-Aug-2017 07:09:14 America/Los_Angeles] PHP Warning:  Creating default object from empty value in /home/samenli1/public_html/subdominios/wms/app/class/Articulos/Articulos.php on line 89
+[13-Aug-2017 15:15:29 America/Los_Angeles] PHP Warning:  Creating default object from empty value in /home/samenli1/public_html/subdominios/wms/app/class/Articulos/Articulos.php on line 89
+[15-Aug-2017 09:59:22 America/Los_Angeles] PHP Warning:  Creating default object from empty value in /home/samenli1/public_html/subdominios/wms/app/class/Articulos/Articulos.php on line 89
+[17-Aug-2017 21:49:39 America/Los_Angeles] PHP Warning:  Creating default object from empty value in /home/samenli1/public_html/subdominios/wms/app/class/Articulos/Articulos.php on line 89
+[18-Aug-2017 05:37:26 America/Los_Angeles] PHP Warning:  Creating default object from empty value in /home/samenli1/public_html/subdominios/wms/app/class/Articulos/Articulos.php on line 89
+[18-Aug-2017 05:57:33 America/Los_Angeles] PHP Warning:  Creating default object from empty value in /home/samenli1/public_html/subdominios/wms/app/class/Articulos/Articulos.php on line 89
+[21-Aug-2017 16:04:21 America/Los_Angeles] PHP Warning:  Creating default object from empty value in /home/samenli1/public_html/subdominios/wms/app/class/Articulos/Articulos.php on line 89
+[21-Aug-2017 16:04:53 America/Los_Angeles] PHP Warning:  Creating default object from empty value in /home/samenli1/public_html/subdominios/wms/app/class/Articulos/Articulos.php on line 89
+[21-Aug-2017 16:09:14 America/Los_Angeles] PHP Warning:  Creating default object from empty value in /home/samenli1/public_html/subdominios/wms/app/class/Articulos/Articulos.php on line 89
+[21-Aug-2017 16:09:51 America/Los_Angeles] PHP Warning:  Creating default object from empty value in /home/samenli1/public_html/subdominios/wms/app/class/Articulos/Articulos.php on line 89
+[21-Aug-2017 16:10:59 America/Los_Angeles] PHP Warning:  Creating default object from empty value in /home/samenli1/public_html/subdominios/wms/app/class/Articulos/Articulos.php on line 89
+[21-Aug-2017 16:11:22 America/Los_Angeles] PHP Warning:  Creating default object from empty value in /home/samenli1/public_html/subdominios/wms/app/class/Articulos/Articulos.php on line 89
+[21-Aug-2017 16:49:52 America/Los_Angeles] PHP Warning:  Creating default object from empty value in /home/samenli1/public_html/subdominios/wms/app/class/Articulos/Articulos.php on line 89
+[22-Aug-2017 09:59:17 America/Los_Angeles] PHP Warning:  Creating default object from empty value in /home/samenli1/public_html/subdominios/wms/app/class/Articulos/Articulos.php on line 89
+[22-Aug-2017 18:07:35 America/Los_Angeles] PHP Warning:  Creating default object from empty value in /home/samenli1/public_html/subdominios/wms/app/class/Articulos/Articulos.php on line 89
+[22-Aug-2017 18:09:02 America/Los_Angeles] PHP Warning:  Creating default object from empty value in /home/samenli1/public_html/subdominios/wms/app/class/Articulos/Articulos.php on line 89
+[22-Aug-2017 18:10:14 America/Los_Angeles] PHP Warning:  Creating default object from empty value in /home/samenli1/public_html/subdominios/wms/app/class/Articulos/Articulos.php on line 89
+[22-Aug-2017 18:11:30 America/Los_Angeles] PHP Warning:  Creating default object from empty value in /home/samenli1/public_html/subdominios/wms/app/class/Articulos/Articulos.php on line 89
+[22-Aug-2017 18:12:02 America/Los_Angeles] PHP Warning:  Creating default object from empty value in /home/samenli1/public_html/subdominios/wms/app/class/Articulos/Articulos.php on line 89
+[23-Aug-2017 08:44:24 America/Los_Angeles] PHP Warning:  Creating default object from empty value in /home/samenli1/public_html/subdominios/wms/app/class/Articulos/Articulos.php on line 89
+[23-Aug-2017 08:45:27 America/Los_Angeles] PHP Warning:  Creating default object from empty value in /home/samenli1/public_html/subdominios/wms/app/class/Articulos/Articulos.php on line 89
+[23-Aug-2017 09:38:40 America/Los_Angeles] PHP Warning:  Creating default object from empty value in /home/samenli1/public_html/subdominios/wms/app/class/Articulos/Articulos.php on line 89
+[23-Aug-2017 09:42:53 America/Los_Angeles] PHP Warning:  Creating default object from empty value in /home/samenli1/public_html/subdominios/wms/app/class/Articulos/Articulos.php on line 89
+[23-Aug-2017 09:46:12 America/Los_Angeles] PHP Warning:  Creating default object from empty value in /home/samenli1/public_html/subdominios/wms/app/class/Articulos/Articulos.php on line 89
+[23-Aug-2017 09:49:32 America/Los_Angeles] PHP Warning:  Creating default object from empty value in /home/samenli1/public_html/subdominios/wms/app/class/Articulos/Articulos.php on line 89
+[23-Aug-2017 09:49:52 America/Los_Angeles] PHP Warning:  Creating default object from empty value in /home/samenli1/public_html/subdominios/wms/app/class/Articulos/Articulos.php on line 89
+[23-Aug-2017 10:10:12 America/Los_Angeles] PHP Warning:  Creating default object from empty value in /home/samenli1/public_html/subdominios/wms/app/class/Articulos/Articulos.php on line 89
+[23-Aug-2017 10:13:24 America/Los_Angeles] PHP Warning:  Creating default object from empty value in /home/samenli1/public_html/subdominios/wms/app/class/Articulos/Articulos.php on line 89
+[23-Aug-2017 10:16:35 America/Los_Angeles] PHP Warning:  Creating default object from empty value in /home/samenli1/public_html/subdominios/wms/app/class/Articulos/Articulos.php on line 89
+[23-Aug-2017 11:03:22 America/Los_Angeles] PHP Warning:  Creating default object from empty value in /home/samenli1/public_html/subdominios/wms/app/class/Articulos/Articulos.php on line 89
+[23-Aug-2017 11:05:26 America/Los_Angeles] PHP Warning:  Creating default object from empty value in /home/samenli1/public_html/subdominios/wms/app/class/Articulos/Articulos.php on line 89
+[23-Aug-2017 11:28:56 America/Los_Angeles] PHP Warning:  Creating default object from empty value in /home/samenli1/public_html/subdominios/wms/app/class/Articulos/Articulos.php on line 89
+[23-Aug-2017 11:30:25 America/Los_Angeles] PHP Warning:  Creating default object from empty value in /home/samenli1/public_html/subdominios/wms/app/class/Articulos/Articulos.php on line 89
+[23-Aug-2017 11:51:15 America/Los_Angeles] PHP Warning:  Creating default object from empty value in /home/samenli1/public_html/subdominios/wms/app/class/Articulos/Articulos.php on line 89
+[23-Aug-2017 11:51:50 America/Los_Angeles] PHP Warning:  Creating default object from empty value in /home/samenli1/public_html/subdominios/wms/app/class/Articulos/Articulos.php on line 89
+[23-Aug-2017 11:52:12 America/Los_Angeles] PHP Warning:  Creating default object from empty value in /home/samenli1/public_html/subdominios/wms/app/class/Articulos/Articulos.php on line 89
+[23-Aug-2017 11:52:55 America/Los_Angeles] PHP Warning:  Creating default object from empty value in /home/samenli1/public_html/subdominios/wms/app/class/Articulos/Articulos.php on line 89
+[23-Aug-2017 11:54:09 America/Los_Angeles] PHP Warning:  Creating default object from empty value in /home/samenli1/public_html/subdominios/wms/app/class/Articulos/Articulos.php on line 89
+[23-Aug-2017 12:52:49 America/Los_Angeles] PHP Warning:  Creating default object from empty value in /home/samenli1/public_html/subdominios/wms/app/class/Articulos/Articulos.php on line 89
+[23-Aug-2017 12:54:18 America/Los_Angeles] PHP Warning:  Creating default object from empty value in /home/samenli1/public_html/subdominios/wms/app/class/Articulos/Articulos.php on line 89
+[23-Aug-2017 18:08:32 America/Los_Angeles] PHP Warning:  Creating default object from empty value in /home/samenli1/public_html/subdominios/wms/app/class/Articulos/Articulos.php on line 89
+[23-Aug-2017 18:11:33 America/Los_Angeles] PHP Warning:  Creating default object from empty value in /home/samenli1/public_html/subdominios/wms/app/class/Articulos/Articulos.php on line 89
+[23-Aug-2017 18:13:02 America/Los_Angeles] PHP Warning:  Creating default object from empty value in /home/samenli1/public_html/subdominios/wms/app/class/Articulos/Articulos.php on line 89
+[23-Aug-2017 18:14:04 America/Los_Angeles] PHP Warning:  Creating default object from empty value in /home/samenli1/public_html/subdominios/wms/app/class/Articulos/Articulos.php on line 89
+[28-Aug-2017 18:20:07 America/Los_Angeles] PHP Warning:  Creating default object from empty value in /home/samenli1/public_html/subdominios/wms/app/class/Articulos/Articulos.php on line 89
+[28-Aug-2017 18:20:24 America/Los_Angeles] PHP Warning:  Creating default object from empty value in /home/samenli1/public_html/subdominios/wms/app/class/Articulos/Articulos.php on line 89
+[06-Sep-2017 13:02:10 America/Los_Angeles] PHP Warning:  Invalid argument supplied for foreach() in /home/samenli1/public_html/subdominios/wms/app/class/Articulos/Articulos.php on line 233
+[14-Mar-2019 12:14:17 America/Los_Angeles] PHP Warning:  escapeshellcmd() has been disabled for security reasons in /home/assistproadl/public_html/subdominios/wms/app/class/Articulos/Articulos.php on line 753
+[14-Mar-2019 12:14:17 America/Los_Angeles] PHP Warning:  shell_exec() has been disabled for security reasons in /home/assistproadl/public_html/subdominios/wms/app/class/Articulos/Articulos.php on line 754
+[14-Mar-2019 12:16:58 America/Los_Angeles] PHP Warning:  escapeshellcmd() has been disabled for security reasons in /home/assistproadl/public_html/subdominios/wms/app/class/Articulos/Articulos.php on line 753
+[14-Mar-2019 12:16:58 America/Los_Angeles] PHP Warning:  shell_exec() has been disabled for security reasons in /home/assistproadl/public_html/subdominios/wms/app/class/Articulos/Articulos.php on line 754
+[14-Mar-2019 12:17:34 America/Los_Angeles] PHP Warning:  escapeshellcmd() has been disabled for security reasons in /home/assistproadl/public_html/subdominios/wms/app/class/Articulos/Articulos.php on line 753
+[14-Mar-2019 12:17:34 America/Los_Angeles] PHP Warning:  shell_exec() has been disabled for security reasons in /home/assistproadl/public_html/subdominios/wms/app/class/Articulos/Articulos.php on line 754
+[14-Mar-2019 12:38:05 America/Los_Angeles] PHP Warning:  chmod(): No such file or directory in /home/assistproadl/public_html/subdominios/wms/app/class/Articulos/Articulos.php on line 756
+[14-Mar-2019 12:39:23 America/Los_Angeles] PHP Warning:  chmod(): No such file or directory in /home/assistproadl/public_html/subdominios/wms/app/class/Articulos/Articulos.php on line 756
+[14-Mar-2019 12:45:26 America/Los_Angeles] PHP Warning:  chown(): Unable to find uid for nobody:proftpd in /home/assistproadl/public_html/subdominios/wms/app/class/Articulos/Articulos.php on line 757
+[14-Mar-2019 12:45:58 America/Los_Angeles] PHP Warning:  chown(): Operation not permitted in /home/assistproadl/public_html/subdominios/wms/app/class/Articulos/Articulos.php on line 757
+[14-Mar-2019 16:54:33 America/Los_Angeles] PHP Warning:  escapeshellcmd() has been disabled for security reasons in /home/assistproadl/public_html/subdominios/wms/app/class/Articulos/Articulos.php on line 753
+[14-Mar-2019 16:54:33 America/Los_Angeles] PHP Warning:  shell_exec() has been disabled for security reasons in /home/assistproadl/public_html/subdominios/wms/app/class/Articulos/Articulos.php on line 754
+[14-Mar-2019 16:55:09 America/Los_Angeles] PHP Warning:  escapeshellcmd() has been disabled for security reasons in /home/assistproadl/public_html/subdominios/wms/app/class/Articulos/Articulos.php on line 753
+[14-Mar-2019 16:55:09 America/Los_Angeles] PHP Warning:  shell_exec() has been disabled for security reasons in /home/assistproadl/public_html/subdominios/wms/app/class/Articulos/Articulos.php on line 754
+[14-Mar-2019 16:55:18 America/Los_Angeles] PHP Warning:  chown(): Operation not permitted in /home/assistproadl/public_html/subdominios/wms/app/class/Articulos/Articulos.php on line 757
+[14-Mar-2019 16:59:46 America/Los_Angeles] PHP Warning:  chgrp(): Operation not permitted in /home/assistproadl/public_html/subdominios/wms/app/class/Articulos/Articulos.php on line 757
+[14-Mar-2019 16:59:46 America/Los_Angeles] PHP Warning:  chown(): Operation not permitted in /home/assistproadl/public_html/subdominios/wms/app/class/Articulos/Articulos.php on line 758
+[22-Mar-2019 11:34:36 America/Los_Angeles] PHP Warning:  chmod(): No such file or directory in /home/assistproadl/public_html/subdominios/wms/app/class/Articulos/Articulos.php on line 756
+[22-Mar-2019 11:34:36 America/Los_Angeles] PHP Warning:  chgrp(): Operation not permitted in /home/assistproadl/public_html/subdominios/wms/app/class/Articulos/Articulos.php on line 757
+[22-Mar-2019 11:34:36 America/Los_Angeles] PHP Warning:  chown(): No such file or directory in /home/assistproadl/public_html/subdominios/wms/app/class/Articulos/Articulos.php on line 758
+[22-Mar-2019 11:36:32 America/Los_Angeles] PHP Warning:  chmod(): No such file or directory in /home/assistproadl/public_html/subdominios/wms/app/class/Articulos/Articulos.php on line 756
+[22-Mar-2019 11:36:32 America/Los_Angeles] PHP Warning:  chgrp(): Operation not permitted in /home/assistproadl/public_html/subdominios/wms/app/class/Articulos/Articulos.php on line 757
+[22-Mar-2019 11:36:32 America/Los_Angeles] PHP Warning:  chown(): No such file or directory in /home/assistproadl/public_html/subdominios/wms/app/class/Articulos/Articulos.php on line 758
+[22-Mar-2019 11:37:52 America/Los_Angeles] PHP Warning:  chgrp(): Operation not permitted in /home/assistproadl/public_html/subdominios/wms/app/class/Articulos/Articulos.php on line 757
+[22-Mar-2019 11:37:52 America/Los_Angeles] PHP Warning:  chown(): Operation not permitted in /home/assistproadl/public_html/subdominios/wms/app/class/Articulos/Articulos.php on line 758
+[22-Mar-2019 11:38:44 America/Los_Angeles] PHP Warning:  chmod(): No such file or directory in /home/assistproadl/public_html/subdominios/wms/app/class/Articulos/Articulos.php on line 756
+[22-Mar-2019 11:38:44 America/Los_Angeles] PHP Warning:  chgrp(): Operation not permitted in /home/assistproadl/public_html/subdominios/wms/app/class/Articulos/Articulos.php on line 757
+[22-Mar-2019 11:38:44 America/Los_Angeles] PHP Warning:  chown(): No such file or directory in /home/assistproadl/public_html/subdominios/wms/app/class/Articulos/Articulos.php on line 758
+[22-Mar-2019 11:40:01 America/Los_Angeles] PHP Warning:  chmod(): No such file or directory in /home/assistproadl/public_html/subdominios/wms/app/class/Articulos/Articulos.php on line 756
+[22-Mar-2019 11:40:01 America/Los_Angeles] PHP Warning:  chgrp(): Operation not permitted in /home/assistproadl/public_html/subdominios/wms/app/class/Articulos/Articulos.php on line 757
+[22-Mar-2019 11:40:01 America/Los_Angeles] PHP Warning:  chown(): No such file or directory in /home/assistproadl/public_html/subdominios/wms/app/class/Articulos/Articulos.php on line 758
+[22-Mar-2019 11:40:40 America/Los_Angeles] PHP Warning:  chmod(): No such file or directory in /home/assistproadl/public_html/subdominios/wms/app/class/Articulos/Articulos.php on line 756
+[22-Mar-2019 11:40:40 America/Los_Angeles] PHP Warning:  chgrp(): Operation not permitted in /home/assistproadl/public_html/subdominios/wms/app/class/Articulos/Articulos.php on line 757
+[22-Mar-2019 11:40:40 America/Los_Angeles] PHP Warning:  chown(): No such file or directory in /home/assistproadl/public_html/subdominios/wms/app/class/Articulos/Articulos.php on line 758
+[22-Mar-2019 11:44:35 America/Los_Angeles] PHP Warning:  chmod(): No such file or directory in /home/assistproadl/public_html/subdominios/wms/app/class/Articulos/Articulos.php on line 756
+[22-Mar-2019 11:44:35 America/Los_Angeles] PHP Warning:  chgrp(): Operation not permitted in /home/assistproadl/public_html/subdominios/wms/app/class/Articulos/Articulos.php on line 757
+[22-Mar-2019 11:44:35 America/Los_Angeles] PHP Warning:  chown(): No such file or directory in /home/assistproadl/public_html/subdominios/wms/app/class/Articulos/Articulos.php on line 758
+[22-Mar-2019 11:48:12 America/Los_Angeles] PHP Warning:  chmod(): No such file or directory in /home/assistproadl/public_html/subdominios/wms/app/class/Articulos/Articulos.php on line 756
+[22-Mar-2019 11:48:12 America/Los_Angeles] PHP Warning:  chgrp(): Operation not permitted in /home/assistproadl/public_html/subdominios/wms/app/class/Articulos/Articulos.php on line 757
+[22-Mar-2019 11:48:12 America/Los_Angeles] PHP Warning:  chown(): No such file or directory in /home/assistproadl/public_html/subdominios/wms/app/class/Articulos/Articulos.php on line 758
+[22-Mar-2019 12:11:36 America/Los_Angeles] PHP Warning:  chmod(): No such file or directory in /home/assistproadl/public_html/subdominios/wms/app/class/Articulos/Articulos.php on line 756
+[22-Mar-2019 12:11:36 America/Los_Angeles] PHP Warning:  chgrp(): Operation not permitted in /home/assistproadl/public_html/subdominios/wms/app/class/Articulos/Articulos.php on line 757
+[22-Mar-2019 12:11:36 America/Los_Angeles] PHP Warning:  chown(): No such file or directory in /home/assistproadl/public_html/subdominios/wms/app/class/Articulos/Articulos.php on line 758
+[22-Mar-2019 12:16:56 America/Los_Angeles] PHP Warning:  chmod(): No such file or directory in /home/assistproadl/public_html/subdominios/wms/app/class/Articulos/Articulos.php on line 756
+[22-Mar-2019 12:16:56 America/Los_Angeles] PHP Warning:  chgrp(): Operation not permitted in /home/assistproadl/public_html/subdominios/wms/app/class/Articulos/Articulos.php on line 757
+[22-Mar-2019 12:16:56 America/Los_Angeles] PHP Warning:  chown(): No such file or directory in /home/assistproadl/public_html/subdominios/wms/app/class/Articulos/Articulos.php on line 758
+[22-Mar-2019 12:20:09 America/Los_Angeles] PHP Warning:  chmod(): No such file or directory in /home/assistproadl/public_html/subdominios/wms/app/class/Articulos/Articulos.php on line 756
+[22-Mar-2019 12:20:09 America/Los_Angeles] PHP Warning:  chgrp(): Operation not permitted in /home/assistproadl/public_html/subdominios/wms/app/class/Articulos/Articulos.php on line 757
+[22-Mar-2019 12:20:09 America/Los_Angeles] PHP Warning:  chown(): No such file or directory in /home/assistproadl/public_html/subdominios/wms/app/class/Articulos/Articulos.php on line 758
+[22-Mar-2019 13:09:40 America/Los_Angeles] PHP Warning:  chmod(): No such file or directory in /home/assistproadl/public_html/subdominios/wms/app/class/Articulos/Articulos.php on line 756
+[22-Mar-2019 13:09:40 America/Los_Angeles] PHP Warning:  chgrp(): Operation not permitted in /home/assistproadl/public_html/subdominios/wms/app/class/Articulos/Articulos.php on line 757
+[22-Mar-2019 13:09:40 America/Los_Angeles] PHP Warning:  chown(): No such file or directory in /home/assistproadl/public_html/subdominios/wms/app/class/Articulos/Articulos.php on line 758

@@ -1,0 +1,38 @@
+[24-Sep-2017 06:34:11 America/Los_Angeles] PHP Fatal error:  Uncaught PDOException: SQLSTATE[21000]: Cardinality violation: 1242 Subquery returns more than 1 row in /home/samenli1/public_html/subdominios/wms/app/class/RutasSurtido/RutasSurtido.php:72
+Stack trace:
+#0 /home/samenli1/public_html/subdominios/wms/app/class/RutasSurtido/RutasSurtido.php(72): PDOStatement->execute()
+#1 /home/samenli1/public_html/subdominios/wms/api/rutassurtido/update/index.php(17): RutasSurtido\RutasSurtido->guardarRuta(Array)
+#2 {main}
+  thrown in /home/samenli1/public_html/subdominios/wms/app/class/RutasSurtido/RutasSurtido.php on line 72
+[14-Nov-2018 11:52:38 America/Los_Angeles] PHP Warning:  Illegal string offset 'nombre' in /home/assistproadl/public_html/subdominios/wms.nikken/app/class/RutasSurtido/RutasSurtido.php on line 69
+[14-Nov-2018 11:52:38 America/Los_Angeles] PHP Warning:  Illegal string offset 'orden_secuencia' in /home/assistproadl/public_html/subdominios/wms.nikken/app/class/RutasSurtido/RutasSurtido.php on line 85
+[14-Nov-2018 11:52:38 America/Los_Angeles] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/assistproadl/public_html/subdominios/wms.nikken/api/rutassurtido/update/index.php on line 23
+[14-Nov-2018 11:52:38 America/Los_Angeles] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, null given in /home/assistproadl/public_html/subdominios/wms.nikken/api/rutassurtido/update/index.php on line 24
+[14-Nov-2018 11:52:38 America/Los_Angeles] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/assistproadl/public_html/subdominios/wms.nikken/api/rutassurtido/update/index.php on line 26
+[14-Nov-2018 11:52:38 America/Los_Angeles] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/assistproadl/public_html/subdominios/wms.nikken/api/rutassurtido/update/index.php on line 31
+[14-Nov-2018 11:52:38 America/Los_Angeles] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, null given in /home/assistproadl/public_html/subdominios/wms.nikken/api/rutassurtido/update/index.php on line 32
+[14-Nov-2018 11:58:49 America/Los_Angeles] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/assistproadl/public_html/subdominios/wms.nikken/api/rutassurtido/update/index.php on line 27
+[14-Nov-2018 12:08:26 America/Los_Angeles] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/assistproadl/public_html/subdominios/wms.nikken/api/rutassurtido/update/index.php on line 27
+[14-Nov-2018 12:10:59 America/Los_Angeles] PHP Fatal error:  Uncaught PDOException: SQLSTATE[21000]: Cardinality violation: 1242 Subquery returns more than 1 row in /home/assistproadl/public_html/subdominios/wms.nikken/app/class/RutasSurtido/RutasSurtido.php:71
+Stack trace:
+#0 /home/assistproadl/public_html/subdominios/wms.nikken/app/class/RutasSurtido/RutasSurtido.php(71): PDOStatement->execute()
+#1 /home/assistproadl/public_html/subdominios/wms.nikken/api/rutassurtido/update/index.php(17): RutasSurtido\RutasSurtido->guardarRuta(Array)
+#2 {main}
+  thrown in /home/assistproadl/public_html/subdominios/wms.nikken/app/class/RutasSurtido/RutasSurtido.php on line 71
+[14-Nov-2018 12:11:19 America/Los_Angeles] PHP Fatal error:  Uncaught PDOException: SQLSTATE[21000]: Cardinality violation: 1242 Subquery returns more than 1 row in /home/assistproadl/public_html/subdominios/wms.nikken/app/class/RutasSurtido/RutasSurtido.php:71
+Stack trace:
+#0 /home/assistproadl/public_html/subdominios/wms.nikken/app/class/RutasSurtido/RutasSurtido.php(71): PDOStatement->execute()
+#1 /home/assistproadl/public_html/subdominios/wms.nikken/api/rutassurtido/update/index.php(17): RutasSurtido\RutasSurtido->guardarRuta(Array)
+#2 {main}
+  thrown in /home/assistproadl/public_html/subdominios/wms.nikken/app/class/RutasSurtido/RutasSurtido.php on line 71
+[14-Nov-2018 12:16:11 America/Los_Angeles] PHP Fatal error:  Uncaught PDOException: SQLSTATE[21000]: Cardinality violation: 1242 Subquery returns more than 1 row in /home/assistproadl/public_html/subdominios/wms.nikken/app/class/RutasSurtido/RutasSurtido.php:71
+Stack trace:
+#0 /home/assistproadl/public_html/subdominios/wms.nikken/app/class/RutasSurtido/RutasSurtido.php(71): PDOStatement->execute()
+#1 /home/assistproadl/public_html/subdominios/wms.nikken/api/rutassurtido/update/index.php(17): RutasSurtido\RutasSurtido->guardarRuta(Array)
+#2 {main}
+  thrown in /home/assistproadl/public_html/subdominios/wms.nikken/app/class/RutasSurtido/RutasSurtido.php on line 71
+[14-Nov-2018 12:18:39 America/Los_Angeles] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/assistproadl/public_html/subdominios/wms.nikken/api/rutassurtido/update/index.php on line 27
+[14-Nov-2018 12:23:18 America/Los_Angeles] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/assistproadl/public_html/subdominios/wms.nikken/api/rutassurtido/update/index.php on line 28
+[18-Mar-2019 11:59:07 America/Los_Angeles] PHP Catchable fatal error:  Object of class mysqli_result could not be converted to string in /home/assistproadl/public_html/subdominios/wms/api/rutassurtido/update/index.php on line 54
+[18-Mar-2019 19:01:40 UTC] PHP Fatal error:  Cannot use [] for reading in /home/assistproadl/public_html/subdominios/wms/api/rutassurtido/update/index.php on line 57
+[18-Mar-2019 19:02:24 UTC] PHP Fatal error:  Cannot use [] for reading in /home/assistproadl/public_html/subdominios/wms/api/rutassurtido/update/index.php on line 58

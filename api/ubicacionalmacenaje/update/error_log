@@ -1,0 +1,140 @@
+[18-Jan-2018 15:30:35 America/Los_Angeles] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'a.desc_almac' in 'field list' in /home/samenli1/public_html/subdominios/wms/app/class/UbicacionAlmacenaje/UbicacionAlmacenaje.php:78
+Stack trace:
+#0 /home/samenli1/public_html/subdominios/wms/app/class/UbicacionAlmacenaje/UbicacionAlmacenaje.php(78): PDOStatement->execute(Array)
+#1 /home/samenli1/public_html/subdominios/wms/app/class/UbicacionAlmacenaje/UbicacionAlmacenaje.php(135): UbicacionAlmacenaje\UbicacionAlmacenaje->loadUbica()
+#2 /home/samenli1/public_html/subdominios/wms/api/ubicacionalmacenaje/update/index.php(32): UbicacionAlmacenaje\UbicacionAlmacenaje->__getLoadUbica('idy_ubica')
+#3 {main}
+  thrown in /home/samenli1/public_html/subdominios/wms/app/class/UbicacionAlmacenaje/UbicacionAlmacenaje.php on line 78
+[18-Jan-2018 15:30:50 America/Los_Angeles] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'a.desc_almac' in 'field list' in /home/samenli1/public_html/subdominios/wms/app/class/UbicacionAlmacenaje/UbicacionAlmacenaje.php:78
+Stack trace:
+#0 /home/samenli1/public_html/subdominios/wms/app/class/UbicacionAlmacenaje/UbicacionAlmacenaje.php(78): PDOStatement->execute(Array)
+#1 /home/samenli1/public_html/subdominios/wms/app/class/UbicacionAlmacenaje/UbicacionAlmacenaje.php(135): UbicacionAlmacenaje\UbicacionAlmacenaje->loadUbica()
+#2 /home/samenli1/public_html/subdominios/wms/api/ubicacionalmacenaje/update/index.php(32): UbicacionAlmacenaje\UbicacionAlmacenaje->__getLoadUbica('idy_ubica')
+#3 {main}
+  thrown in /home/samenli1/public_html/subdominios/wms/app/class/UbicacionAlmacenaje/UbicacionAlmacenaje.php on line 78
+[18-Jan-2018 15:30:51 America/Los_Angeles] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'a.desc_almac' in 'field list' in /home/samenli1/public_html/subdominios/wms/app/class/UbicacionAlmacenaje/UbicacionAlmacenaje.php:78
+Stack trace:
+#0 /home/samenli1/public_html/subdominios/wms/app/class/UbicacionAlmacenaje/UbicacionAlmacenaje.php(78): PDOStatement->execute(Array)
+#1 /home/samenli1/public_html/subdominios/wms/app/class/UbicacionAlmacenaje/UbicacionAlmacenaje.php(135): UbicacionAlmacenaje\UbicacionAlmacenaje->loadUbica()
+#2 /home/samenli1/public_html/subdominios/wms/api/ubicacionalmacenaje/update/index.php(32): UbicacionAlmacenaje\UbicacionAlmacenaje->__getLoadUbica('idy_ubica')
+#3 {main}
+  thrown in /home/samenli1/public_html/subdominios/wms/app/class/UbicacionAlmacenaje/UbicacionAlmacenaje.php on line 78
+[18-Jan-2018 15:30:51 America/Los_Angeles] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'a.desc_almac' in 'field list' in /home/samenli1/public_html/subdominios/wms/app/class/UbicacionAlmacenaje/UbicacionAlmacenaje.php:78
+Stack trace:
+#0 /home/samenli1/public_html/subdominios/wms/app/class/UbicacionAlmacenaje/UbicacionAlmacenaje.php(78): PDOStatement->execute(Array)
+#1 /home/samenli1/public_html/subdominios/wms/app/class/UbicacionAlmacenaje/UbicacionAlmacenaje.php(135): UbicacionAlmacenaje\UbicacionAlmacenaje->loadUbica()
+#2 /home/samenli1/public_html/subdominios/wms/api/ubicacionalmacenaje/update/index.php(32): UbicacionAlmacenaje\UbicacionAlmacenaje->__getLoadUbica('idy_ubica')
+#3 {main}
+  thrown in /home/samenli1/public_html/subdominios/wms/app/class/UbicacionAlmacenaje/UbicacionAlmacenaje.php on line 78
+[18-Jan-2018 15:30:51 America/Los_Angeles] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'a.desc_almac' in 'field list' in /home/samenli1/public_html/subdominios/wms/app/class/UbicacionAlmacenaje/UbicacionAlmacenaje.php:78
+Stack trace:
+#0 /home/samenli1/public_html/subdominios/wms/app/class/UbicacionAlmacenaje/UbicacionAlmacenaje.php(78): PDOStatement->execute(Array)
+#1 /home/samenli1/public_html/subdominios/wms/app/class/UbicacionAlmacenaje/UbicacionAlmacenaje.php(135): UbicacionAlmacenaje\UbicacionAlmacenaje->loadUbica()
+#2 /home/samenli1/public_html/subdominios/wms/api/ubicacionalmacenaje/update/index.php(32): UbicacionAlmacenaje\UbicacionAlmacenaje->__getLoadUbica('idy_ubica')
+#3 {main}
+  thrown in /home/samenli1/public_html/subdominios/wms/app/class/UbicacionAlmacenaje/UbicacionAlmacenaje.php on line 78
+[18-Jan-2018 15:30:51 America/Los_Angeles] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'a.desc_almac' in 'field list' in /home/samenli1/public_html/subdominios/wms/app/class/UbicacionAlmacenaje/UbicacionAlmacenaje.php:78
+Stack trace:
+#0 /home/samenli1/public_html/subdominios/wms/app/class/UbicacionAlmacenaje/UbicacionAlmacenaje.php(78): PDOStatement->execute(Array)
+#1 /home/samenli1/public_html/subdominios/wms/app/class/UbicacionAlmacenaje/UbicacionAlmacenaje.php(135): UbicacionAlmacenaje\UbicacionAlmacenaje->loadUbica()
+#2 /home/samenli1/public_html/subdominios/wms/api/ubicacionalmacenaje/update/index.php(32): UbicacionAlmacenaje\UbicacionAlmacenaje->__getLoadUbica('idy_ubica')
+#3 {main}
+  thrown in /home/samenli1/public_html/subdominios/wms/app/class/UbicacionAlmacenaje/UbicacionAlmacenaje.php on line 78
+[18-Jan-2018 15:30:51 America/Los_Angeles] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'a.desc_almac' in 'field list' in /home/samenli1/public_html/subdominios/wms/app/class/UbicacionAlmacenaje/UbicacionAlmacenaje.php:78
+Stack trace:
+#0 /home/samenli1/public_html/subdominios/wms/app/class/UbicacionAlmacenaje/UbicacionAlmacenaje.php(78): PDOStatement->execute(Array)
+#1 /home/samenli1/public_html/subdominios/wms/app/class/UbicacionAlmacenaje/UbicacionAlmacenaje.php(135): UbicacionAlmacenaje\UbicacionAlmacenaje->loadUbica()
+#2 /home/samenli1/public_html/subdominios/wms/api/ubicacionalmacenaje/update/index.php(32): UbicacionAlmacenaje\UbicacionAlmacenaje->__getLoadUbica('idy_ubica')
+#3 {main}
+  thrown in /home/samenli1/public_html/subdominios/wms/app/class/UbicacionAlmacenaje/UbicacionAlmacenaje.php on line 78
+[18-Jan-2018 15:30:51 America/Los_Angeles] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'a.desc_almac' in 'field list' in /home/samenli1/public_html/subdominios/wms/app/class/UbicacionAlmacenaje/UbicacionAlmacenaje.php:78
+Stack trace:
+#0 /home/samenli1/public_html/subdominios/wms/app/class/UbicacionAlmacenaje/UbicacionAlmacenaje.php(78): PDOStatement->execute(Array)
+#1 /home/samenli1/public_html/subdominios/wms/app/class/UbicacionAlmacenaje/UbicacionAlmacenaje.php(135): UbicacionAlmacenaje\UbicacionAlmacenaje->loadUbica()
+#2 /home/samenli1/public_html/subdominios/wms/api/ubicacionalmacenaje/update/index.php(32): UbicacionAlmacenaje\UbicacionAlmacenaje->__getLoadUbica('idy_ubica')
+#3 {main}
+  thrown in /home/samenli1/public_html/subdominios/wms/app/class/UbicacionAlmacenaje/UbicacionAlmacenaje.php on line 78
+[18-Jan-2018 15:30:52 America/Los_Angeles] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'a.desc_almac' in 'field list' in /home/samenli1/public_html/subdominios/wms/app/class/UbicacionAlmacenaje/UbicacionAlmacenaje.php:78
+Stack trace:
+#0 /home/samenli1/public_html/subdominios/wms/app/class/UbicacionAlmacenaje/UbicacionAlmacenaje.php(78): PDOStatement->execute(Array)
+#1 /home/samenli1/public_html/subdominios/wms/app/class/UbicacionAlmacenaje/UbicacionAlmacenaje.php(135): UbicacionAlmacenaje\UbicacionAlmacenaje->loadUbica()
+#2 /home/samenli1/public_html/subdominios/wms/api/ubicacionalmacenaje/update/index.php(32): UbicacionAlmacenaje\UbicacionAlmacenaje->__getLoadUbica('idy_ubica')
+#3 {main}
+  thrown in /home/samenli1/public_html/subdominios/wms/app/class/UbicacionAlmacenaje/UbicacionAlmacenaje.php on line 78
+[18-Jan-2018 15:30:52 America/Los_Angeles] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'a.desc_almac' in 'field list' in /home/samenli1/public_html/subdominios/wms/app/class/UbicacionAlmacenaje/UbicacionAlmacenaje.php:78
+Stack trace:
+#0 /home/samenli1/public_html/subdominios/wms/app/class/UbicacionAlmacenaje/UbicacionAlmacenaje.php(78): PDOStatement->execute(Array)
+#1 /home/samenli1/public_html/subdominios/wms/app/class/UbicacionAlmacenaje/UbicacionAlmacenaje.php(135): UbicacionAlmacenaje\UbicacionAlmacenaje->loadUbica()
+#2 /home/samenli1/public_html/subdominios/wms/api/ubicacionalmacenaje/update/index.php(32): UbicacionAlmacenaje\UbicacionAlmacenaje->__getLoadUbica('idy_ubica')
+#3 {main}
+  thrown in /home/samenli1/public_html/subdominios/wms/app/class/UbicacionAlmacenaje/UbicacionAlmacenaje.php on line 78
+[18-Jan-2018 15:30:52 America/Los_Angeles] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'a.desc_almac' in 'field list' in /home/samenli1/public_html/subdominios/wms/app/class/UbicacionAlmacenaje/UbicacionAlmacenaje.php:78
+Stack trace:
+#0 /home/samenli1/public_html/subdominios/wms/app/class/UbicacionAlmacenaje/UbicacionAlmacenaje.php(78): PDOStatement->execute(Array)
+#1 /home/samenli1/public_html/subdominios/wms/app/class/UbicacionAlmacenaje/UbicacionAlmacenaje.php(135): UbicacionAlmacenaje\UbicacionAlmacenaje->loadUbica()
+#2 /home/samenli1/public_html/subdominios/wms/api/ubicacionalmacenaje/update/index.php(32): UbicacionAlmacenaje\UbicacionAlmacenaje->__getLoadUbica('idy_ubica')
+#3 {main}
+  thrown in /home/samenli1/public_html/subdominios/wms/app/class/UbicacionAlmacenaje/UbicacionAlmacenaje.php on line 78
+[18-Jan-2018 15:30:52 America/Los_Angeles] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'a.desc_almac' in 'field list' in /home/samenli1/public_html/subdominios/wms/app/class/UbicacionAlmacenaje/UbicacionAlmacenaje.php:78
+Stack trace:
+#0 /home/samenli1/public_html/subdominios/wms/app/class/UbicacionAlmacenaje/UbicacionAlmacenaje.php(78): PDOStatement->execute(Array)
+#1 /home/samenli1/public_html/subdominios/wms/app/class/UbicacionAlmacenaje/UbicacionAlmacenaje.php(135): UbicacionAlmacenaje\UbicacionAlmacenaje->loadUbica()
+#2 /home/samenli1/public_html/subdominios/wms/api/ubicacionalmacenaje/update/index.php(32): UbicacionAlmacenaje\UbicacionAlmacenaje->__getLoadUbica('idy_ubica')
+#3 {main}
+  thrown in /home/samenli1/public_html/subdominios/wms/app/class/UbicacionAlmacenaje/UbicacionAlmacenaje.php on line 78
+[18-Jan-2018 15:30:52 America/Los_Angeles] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'a.desc_almac' in 'field list' in /home/samenli1/public_html/subdominios/wms/app/class/UbicacionAlmacenaje/UbicacionAlmacenaje.php:78
+Stack trace:
+#0 /home/samenli1/public_html/subdominios/wms/app/class/UbicacionAlmacenaje/UbicacionAlmacenaje.php(78): PDOStatement->execute(Array)
+#1 /home/samenli1/public_html/subdominios/wms/app/class/UbicacionAlmacenaje/UbicacionAlmacenaje.php(135): UbicacionAlmacenaje\UbicacionAlmacenaje->loadUbica()
+#2 /home/samenli1/public_html/subdominios/wms/api/ubicacionalmacenaje/update/index.php(32): UbicacionAlmacenaje\UbicacionAlmacenaje->__getLoadUbica('idy_ubica')
+#3 {main}
+  thrown in /home/samenli1/public_html/subdominios/wms/app/class/UbicacionAlmacenaje/UbicacionAlmacenaje.php on line 78
+[18-Jan-2018 15:30:53 America/Los_Angeles] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'a.desc_almac' in 'field list' in /home/samenli1/public_html/subdominios/wms/app/class/UbicacionAlmacenaje/UbicacionAlmacenaje.php:78
+Stack trace:
+#0 /home/samenli1/public_html/subdominios/wms/app/class/UbicacionAlmacenaje/UbicacionAlmacenaje.php(78): PDOStatement->execute(Array)
+#1 /home/samenli1/public_html/subdominios/wms/app/class/UbicacionAlmacenaje/UbicacionAlmacenaje.php(135): UbicacionAlmacenaje\UbicacionAlmacenaje->loadUbica()
+#2 /home/samenli1/public_html/subdominios/wms/api/ubicacionalmacenaje/update/index.php(32): UbicacionAlmacenaje\UbicacionAlmacenaje->__getLoadUbica('idy_ubica')
+#3 {main}
+  thrown in /home/samenli1/public_html/subdominios/wms/app/class/UbicacionAlmacenaje/UbicacionAlmacenaje.php on line 78
+[18-Jan-2018 15:30:53 America/Los_Angeles] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'a.desc_almac' in 'field list' in /home/samenli1/public_html/subdominios/wms/app/class/UbicacionAlmacenaje/UbicacionAlmacenaje.php:78
+Stack trace:
+#0 /home/samenli1/public_html/subdominios/wms/app/class/UbicacionAlmacenaje/UbicacionAlmacenaje.php(78): PDOStatement->execute(Array)
+#1 /home/samenli1/public_html/subdominios/wms/app/class/UbicacionAlmacenaje/UbicacionAlmacenaje.php(135): UbicacionAlmacenaje\UbicacionAlmacenaje->loadUbica()
+#2 /home/samenli1/public_html/subdominios/wms/api/ubicacionalmacenaje/update/index.php(32): UbicacionAlmacenaje\UbicacionAlmacenaje->__getLoadUbica('idy_ubica')
+#3 {main}
+  thrown in /home/samenli1/public_html/subdominios/wms/app/class/UbicacionAlmacenaje/UbicacionAlmacenaje.php on line 78
+[18-Jan-2018 15:30:53 America/Los_Angeles] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'a.desc_almac' in 'field list' in /home/samenli1/public_html/subdominios/wms/app/class/UbicacionAlmacenaje/UbicacionAlmacenaje.php:78
+Stack trace:
+#0 /home/samenli1/public_html/subdominios/wms/app/class/UbicacionAlmacenaje/UbicacionAlmacenaje.php(78): PDOStatement->execute(Array)
+#1 /home/samenli1/public_html/subdominios/wms/app/class/UbicacionAlmacenaje/UbicacionAlmacenaje.php(135): UbicacionAlmacenaje\UbicacionAlmacenaje->loadUbica()
+#2 /home/samenli1/public_html/subdominios/wms/api/ubicacionalmacenaje/update/index.php(32): UbicacionAlmacenaje\UbicacionAlmacenaje->__getLoadUbica('idy_ubica')
+#3 {main}
+  thrown in /home/samenli1/public_html/subdominios/wms/app/class/UbicacionAlmacenaje/UbicacionAlmacenaje.php on line 78
+[18-Jan-2018 15:30:53 America/Los_Angeles] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'a.desc_almac' in 'field list' in /home/samenli1/public_html/subdominios/wms/app/class/UbicacionAlmacenaje/UbicacionAlmacenaje.php:78
+Stack trace:
+#0 /home/samenli1/public_html/subdominios/wms/app/class/UbicacionAlmacenaje/UbicacionAlmacenaje.php(78): PDOStatement->execute(Array)
+#1 /home/samenli1/public_html/subdominios/wms/app/class/UbicacionAlmacenaje/UbicacionAlmacenaje.php(135): UbicacionAlmacenaje\UbicacionAlmacenaje->loadUbica()
+#2 /home/samenli1/public_html/subdominios/wms/api/ubicacionalmacenaje/update/index.php(32): UbicacionAlmacenaje\UbicacionAlmacenaje->__getLoadUbica('idy_ubica')
+#3 {main}
+  thrown in /home/samenli1/public_html/subdominios/wms/app/class/UbicacionAlmacenaje/UbicacionAlmacenaje.php on line 78
+[18-Jan-2018 15:30:54 America/Los_Angeles] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'a.desc_almac' in 'field list' in /home/samenli1/public_html/subdominios/wms/app/class/UbicacionAlmacenaje/UbicacionAlmacenaje.php:78
+Stack trace:
+#0 /home/samenli1/public_html/subdominios/wms/app/class/UbicacionAlmacenaje/UbicacionAlmacenaje.php(78): PDOStatement->execute(Array)
+#1 /home/samenli1/public_html/subdominios/wms/app/class/UbicacionAlmacenaje/UbicacionAlmacenaje.php(135): UbicacionAlmacenaje\UbicacionAlmacenaje->loadUbica()
+#2 /home/samenli1/public_html/subdominios/wms/api/ubicacionalmacenaje/update/index.php(32): UbicacionAlmacenaje\UbicacionAlmacenaje->__getLoadUbica('idy_ubica')
+#3 {main}
+  thrown in /home/samenli1/public_html/subdominios/wms/app/class/UbicacionAlmacenaje/UbicacionAlmacenaje.php on line 78
+[18-Jan-2018 15:30:55 America/Los_Angeles] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'a.desc_almac' in 'field list' in /home/samenli1/public_html/subdominios/wms/app/class/UbicacionAlmacenaje/UbicacionAlmacenaje.php:78
+Stack trace:
+#0 /home/samenli1/public_html/subdominios/wms/app/class/UbicacionAlmacenaje/UbicacionAlmacenaje.php(78): PDOStatement->execute(Array)
+#1 /home/samenli1/public_html/subdominios/wms/app/class/UbicacionAlmacenaje/UbicacionAlmacenaje.php(135): UbicacionAlmacenaje\UbicacionAlmacenaje->loadUbica()
+#2 /home/samenli1/public_html/subdominios/wms/api/ubicacionalmacenaje/update/index.php(32): UbicacionAlmacenaje\UbicacionAlmacenaje->__getLoadUbica('idy_ubica')
+#3 {main}
+  thrown in /home/samenli1/public_html/subdominios/wms/app/class/UbicacionAlmacenaje/UbicacionAlmacenaje.php on line 78
+[18-Jan-2018 15:31:17 America/Los_Angeles] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'a.desc_almac' in 'field list' in /home/samenli1/public_html/subdominios/wms/app/class/UbicacionAlmacenaje/UbicacionAlmacenaje.php:78
+Stack trace:
+#0 /home/samenli1/public_html/subdominios/wms/app/class/UbicacionAlmacenaje/UbicacionAlmacenaje.php(78): PDOStatement->execute(Array)
+#1 /home/samenli1/public_html/subdominios/wms/app/class/UbicacionAlmacenaje/UbicacionAlmacenaje.php(135): UbicacionAlmacenaje\UbicacionAlmacenaje->loadUbica()
+#2 /home/samenli1/public_html/subdominios/wms/api/ubicacionalmacenaje/update/index.php(32): UbicacionAlmacenaje\UbicacionAlmacenaje->__getLoadUbica('idy_ubica')
+#3 {main}
+  thrown in /home/samenli1/public_html/subdominios/wms/app/class/UbicacionAlmacenaje/UbicacionAlmacenaje.php on line 78

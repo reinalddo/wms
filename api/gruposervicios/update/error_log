@@ -1,0 +1,12 @@
+[06-Jul-2017 15:20:25 America/Los_Angeles] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '25' for key 'PRIMARY' in /home/samenli1/public_html/subdominios/wms/app/class/GrupoArticulos/GrupoArticulos.php:125
+Stack trace:
+#0 /home/samenli1/public_html/subdominios/wms/app/class/GrupoArticulos/GrupoArticulos.php(125): PDOStatement->execute()
+#1 /home/samenli1/public_html/subdominios/wms/api/grupoarticulos/update/index.php(14): GrupoArticulos\GrupoArticulos->save(Array)
+#2 {main}
+  thrown in /home/samenli1/public_html/subdominios/wms/app/class/GrupoArticulos/GrupoArticulos.php on line 125
+[20-Apr-2018 15:07:21 America/Los_Angeles] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '50' for key 'cve_gpoart' in /home/samenli1/public_html/subdominios/wms/app/class/GrupoArticulos/GrupoArticulos.php:125
+Stack trace:
+#0 /home/samenli1/public_html/subdominios/wms/app/class/GrupoArticulos/GrupoArticulos.php(125): PDOStatement->execute()
+#1 /home/samenli1/public_html/subdominios/wms/api/grupoarticulos/update/index.php(14): GrupoArticulos\GrupoArticulos->save(Array)
+#2 {main}
+  thrown in /home/samenli1/public_html/subdominios/wms/app/class/GrupoArticulos/GrupoArticulos.php on line 125

@@ -1,0 +1,72 @@
+[14-Nov-2017 14:42:00 UTC] PHP Parse error:  syntax error, unexpected '$conn' (T_VARIABLE) in /home/samenli1/public_html/subdominios/wms/api/inventariosciclicos/update/index.php on line 114
+[14-Feb-2018 12:35:16 America/Los_Angeles] PHP Warning:  Creating default object from empty value in /home/samenli1/public_html/subdominios/wms/api/inventariosciclicos/update/index.php on line 87
+[14-Feb-2018 12:35:16 America/Los_Angeles] PHP Fatal error:  Uncaught PDOException: SQLSTATE[21000]: Cardinality violation: 1242 Subquery returns more than 1 row in /home/samenli1/public_html/subdominios/wms/app/class/InventariosCiclicos/InventariosCiclicos.php:205
+Stack trace:
+#0 /home/samenli1/public_html/subdominios/wms/app/class/InventariosCiclicos/InventariosCiclicos.php(205): PDOStatement->execute()
+#1 /home/samenli1/public_html/subdominios/wms/api/inventariosciclicos/update/index.php(92): InventariosCiclicos\InventariosCiclicos->loadDetalleCi('3', 0, '30')
+#2 {main}
+  thrown in /home/samenli1/public_html/subdominios/wms/app/class/InventariosCiclicos/InventariosCiclicos.php on line 205
+[14-Feb-2018 12:36:59 America/Los_Angeles] PHP Warning:  Creating default object from empty value in /home/samenli1/public_html/subdominios/wms/api/inventariosciclicos/update/index.php on line 87
+[14-Feb-2018 12:36:59 America/Los_Angeles] PHP Notice:  Undefined index: oper in /home/samenli1/public_html/subdominios/wms/api/inventariosciclicos/update/index.php on line 128
+[14-Feb-2018 12:37:10 America/Los_Angeles] PHP Warning:  Creating default object from empty value in /home/samenli1/public_html/subdominios/wms/api/inventariosciclicos/update/index.php on line 87
+[14-Feb-2018 12:37:10 America/Los_Angeles] PHP Notice:  Undefined index: oper in /home/samenli1/public_html/subdominios/wms/api/inventariosciclicos/update/index.php on line 128
+[14-Feb-2018 12:37:21 America/Los_Angeles] PHP Notice:  Undefined index: oper in /home/samenli1/public_html/subdominios/wms/api/inventariosciclicos/update/index.php on line 128
+[14-Feb-2018 12:37:26 America/Los_Angeles] PHP Notice:  Undefined index: oper in /home/samenli1/public_html/subdominios/wms/api/inventariosciclicos/update/index.php on line 128
+[14-Feb-2018 12:37:28 America/Los_Angeles] PHP Notice:  Undefined index: oper in /home/samenli1/public_html/subdominios/wms/api/inventariosciclicos/update/index.php on line 128
+[14-Feb-2018 12:37:32 America/Los_Angeles] PHP Notice:  Undefined index: oper in /home/samenli1/public_html/subdominios/wms/api/inventariosciclicos/update/index.php on line 128
+[14-Feb-2018 12:37:32 America/Los_Angeles] PHP Notice:  Undefined index: oper in /home/samenli1/public_html/subdominios/wms/api/inventariosciclicos/update/index.php on line 128
+[14-Feb-2018 12:37:39 America/Los_Angeles] PHP Warning:  Creating default object from empty value in /home/samenli1/public_html/subdominios/wms/api/inventariosciclicos/update/index.php on line 87
+[14-Feb-2018 12:37:39 America/Los_Angeles] PHP Fatal error:  Uncaught PDOException: SQLSTATE[21000]: Cardinality violation: 1242 Subquery returns more than 1 row in /home/samenli1/public_html/subdominios/wms/app/class/InventariosCiclicos/InventariosCiclicos.php:205
+Stack trace:
+#0 /home/samenli1/public_html/subdominios/wms/app/class/InventariosCiclicos/InventariosCiclicos.php(205): PDOStatement->execute()
+#1 /home/samenli1/public_html/subdominios/wms/api/inventariosciclicos/update/index.php(92): InventariosCiclicos\InventariosCiclicos->loadDetalleCi('3', 0, '30')
+#2 {main}
+  thrown in /home/samenli1/public_html/subdominios/wms/app/class/InventariosCiclicos/InventariosCiclicos.php on line 205
+[14-Feb-2018 12:37:49 America/Los_Angeles] PHP Warning:  Creating default object from empty value in /home/samenli1/public_html/subdominios/wms/api/inventariosciclicos/update/index.php on line 87
+[14-Feb-2018 12:37:49 America/Los_Angeles] PHP Fatal error:  Uncaught PDOException: SQLSTATE[21000]: Cardinality violation: 1242 Subquery returns more than 1 row in /home/samenli1/public_html/subdominios/wms/app/class/InventariosCiclicos/InventariosCiclicos.php:205
+Stack trace:
+#0 /home/samenli1/public_html/subdominios/wms/app/class/InventariosCiclicos/InventariosCiclicos.php(205): PDOStatement->execute()
+#1 /home/samenli1/public_html/subdominios/wms/api/inventariosciclicos/update/index.php(92): InventariosCiclicos\InventariosCiclicos->loadDetalleCi('3', 0, '30')
+#2 {main}
+  thrown in /home/samenli1/public_html/subdominios/wms/app/class/InventariosCiclicos/InventariosCiclicos.php on line 205
+[14-Feb-2018 12:37:53 America/Los_Angeles] PHP Warning:  Creating default object from empty value in /home/samenli1/public_html/subdominios/wms/api/inventariosciclicos/update/index.php on line 87
+[14-Feb-2018 12:37:53 America/Los_Angeles] PHP Fatal error:  Uncaught PDOException: SQLSTATE[21000]: Cardinality violation: 1242 Subquery returns more than 1 row in /home/samenli1/public_html/subdominios/wms/app/class/InventariosCiclicos/InventariosCiclicos.php:205
+Stack trace:
+#0 /home/samenli1/public_html/subdominios/wms/app/class/InventariosCiclicos/InventariosCiclicos.php(205): PDOStatement->execute()
+#1 /home/samenli1/public_html/subdominios/wms/api/inventariosciclicos/update/index.php(92): InventariosCiclicos\InventariosCiclicos->loadDetalleCi('3', 0, '30')
+#2 {main}
+  thrown in /home/samenli1/public_html/subdominios/wms/app/class/InventariosCiclicos/InventariosCiclicos.php on line 205
+[14-Feb-2018 12:38:01 America/Los_Angeles] PHP Warning:  Creating default object from empty value in /home/samenli1/public_html/subdominios/wms/api/inventariosciclicos/update/index.php on line 87
+[14-Feb-2018 12:38:01 America/Los_Angeles] PHP Fatal error:  Uncaught PDOException: SQLSTATE[21000]: Cardinality violation: 1242 Subquery returns more than 1 row in /home/samenli1/public_html/subdominios/wms/app/class/InventariosCiclicos/InventariosCiclicos.php:205
+Stack trace:
+#0 /home/samenli1/public_html/subdominios/wms/app/class/InventariosCiclicos/InventariosCiclicos.php(205): PDOStatement->execute()
+#1 /home/samenli1/public_html/subdominios/wms/api/inventariosciclicos/update/index.php(92): InventariosCiclicos\InventariosCiclicos->loadDetalleCi('3', 0, '30')
+#2 {main}
+  thrown in /home/samenli1/public_html/subdominios/wms/app/class/InventariosCiclicos/InventariosCiclicos.php on line 205
+[14-Feb-2018 12:38:09 America/Los_Angeles] PHP Warning:  Creating default object from empty value in /home/samenli1/public_html/subdominios/wms/api/inventariosciclicos/update/index.php on line 87
+[14-Feb-2018 12:38:09 America/Los_Angeles] PHP Notice:  Undefined index: oper in /home/samenli1/public_html/subdominios/wms/api/inventariosciclicos/update/index.php on line 128
+[14-Feb-2018 12:39:37 America/Los_Angeles] PHP Warning:  Creating default object from empty value in /home/samenli1/public_html/subdominios/wms/api/inventariosciclicos/update/index.php on line 87
+[14-Feb-2018 12:39:37 America/Los_Angeles] PHP Fatal error:  Uncaught PDOException: SQLSTATE[21000]: Cardinality violation: 1242 Subquery returns more than 1 row in /home/samenli1/public_html/subdominios/wms/app/class/InventariosCiclicos/InventariosCiclicos.php:205
+Stack trace:
+#0 /home/samenli1/public_html/subdominios/wms/app/class/InventariosCiclicos/InventariosCiclicos.php(205): PDOStatement->execute()
+#1 /home/samenli1/public_html/subdominios/wms/api/inventariosciclicos/update/index.php(92): InventariosCiclicos\InventariosCiclicos->loadDetalleCi('3', 0, '30')
+#2 {main}
+  thrown in /home/samenli1/public_html/subdominios/wms/app/class/InventariosCiclicos/InventariosCiclicos.php on line 205
+[14-Feb-2018 12:45:58 America/Los_Angeles] PHP Warning:  Creating default object from empty value in /home/samenli1/public_html/subdominios/wms/api/inventariosciclicos/update/index.php on line 87
+[14-Feb-2018 12:45:58 America/Los_Angeles] PHP Notice:  Undefined index: oper in /home/samenli1/public_html/subdominios/wms/api/inventariosciclicos/update/index.php on line 128
+[14-Feb-2018 12:53:36 America/Los_Angeles] PHP Warning:  Creating default object from empty value in /home/samenli1/public_html/subdominios/wms/api/inventariosciclicos/update/index.php on line 87
+[14-Feb-2018 12:53:36 America/Los_Angeles] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '<<<<<<< HEAD
+                        (SELECT Cantidad FROM t_invpiezasciclico WH' at line 10 in /home/samenli1/public_html/subdominios/wms/app/class/InventariosCiclicos/InventariosCiclicos.php:209
+Stack trace:
+#0 /home/samenli1/public_html/subdominios/wms/app/class/InventariosCiclicos/InventariosCiclicos.php(209): PDOStatement->execute()
+#1 /home/samenli1/public_html/subdominios/wms/api/inventariosciclicos/update/index.php(92): InventariosCiclicos\InventariosCiclicos->loadDetalleCi('2', 0, '30')
+#2 {main}
+  thrown in /home/samenli1/public_html/subdominios/wms/app/class/InventariosCiclicos/InventariosCiclicos.php on line 209
+[14-Feb-2018 12:56:09 America/Los_Angeles] PHP Warning:  Creating default object from empty value in /home/samenli1/public_html/subdominios/wms/api/inventariosciclicos/update/index.php on line 87
+[14-Feb-2018 12:56:09 America/Los_Angeles] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '<<<<<<< HEAD
+                        (SELECT Cantidad FROM t_invpiezasciclico WH' at line 10 in /home/samenli1/public_html/subdominios/wms/app/class/InventariosCiclicos/InventariosCiclicos.php:209
+Stack trace:
+#0 /home/samenli1/public_html/subdominios/wms/app/class/InventariosCiclicos/InventariosCiclicos.php(209): PDOStatement->execute()
+#1 /home/samenli1/public_html/subdominios/wms/api/inventariosciclicos/update/index.php(92): InventariosCiclicos\InventariosCiclicos->loadDetalleCi('3', 0, '30')
+#2 {main}
+  thrown in /home/samenli1/public_html/subdominios/wms/app/class/InventariosCiclicos/InventariosCiclicos.php on line 209

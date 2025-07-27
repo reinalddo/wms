@@ -1,0 +1,23 @@
+[16-Jun-2017 08:49:07 America/Los_Angeles] PHP Warning:  Invalid argument supplied for foreach() in /home/samenli1/public_html/subdominios/wms/app/class/Embarques/Embarques.php on line 135
+[22-Jun-2017 12:57:56 America/Los_Angeles] PHP Warning:  Invalid argument supplied for foreach() in /home/samenli1/public_html/subdominios/wms/app/class/Embarques/Embarques.php on line 135
+[13-Sep-2017 12:48:37 America/Los_Angeles] PHP Warning:  Invalid argument supplied for foreach() in /home/samenli1/public_html/subdominios/wms/app/class/Embarques/Embarques.php on line 135
+[15-Dec-2017 09:28:12 America/Los_Angeles] PHP Fatal error:  Uncaught Error: Call to undefined method Embarques\Embarques::informe() in /home/samenli1/public_html/subdominios/wms/api/embarques/update/index.php:75
+Stack trace:
+#0 {main}
+  thrown in /home/samenli1/public_html/subdominios/wms/api/embarques/update/index.php on line 75
+[15-Dec-2017 09:28:21 America/Los_Angeles] PHP Fatal error:  Uncaught Error: Call to undefined method Embarques\Embarques::informe() in /home/samenli1/public_html/subdominios/wms/api/embarques/update/index.php:75
+Stack trace:
+#0 {main}
+  thrown in /home/samenli1/public_html/subdominios/wms/api/embarques/update/index.php on line 75
+[15-Dec-2017 09:32:21 America/Los_Angeles] PHP Fatal error:  Uncaught Error: Call to undefined method Embarques\Embarques::informe() in /home/samenli1/public_html/subdominios/wms/api/embarques/update/index.php:75
+Stack trace:
+#0 {main}
+  thrown in /home/samenli1/public_html/subdominios/wms/api/embarques/update/index.php on line 75
+[15-Dec-2017 09:33:33 America/Los_Angeles] PHP Fatal error:  Uncaught Error: Call to undefined method Embarques\Embarques::informe() in /home/samenli1/public_html/subdominios/wms/api/embarques/update/index.php:75
+Stack trace:
+#0 {main}
+  thrown in /home/samenli1/public_html/subdominios/wms/api/embarques/update/index.php on line 75
+[15-Dec-2017 09:35:22 America/Los_Angeles] PHP Fatal error:  Uncaught Error: Call to undefined method Embarques\Embarques::informe() in /home/samenli1/public_html/subdominios/wms/api/embarques/update/index.php:75
+Stack trace:
+#0 {main}
+  thrown in /home/samenli1/public_html/subdominios/wms/api/embarques/update/index.php on line 75

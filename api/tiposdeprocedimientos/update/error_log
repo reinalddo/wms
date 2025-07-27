@@ -1,0 +1,17 @@
+[26-Dec-2018 07:59:38 America/Los_Angeles] PHP Fatal error:  Uncaught Error: Call to a member function dbUpdate() on null in /home/assistproadl/public_html/subdominios/wms/app/class/TipoDeProcedimientos/TipoDeProcedimientos.php:368
+Stack trace:
+#0 /home/assistproadl/public_html/subdominios/wms/api/tiposdeprocedimientos/update/index.php(43): TipoDeProcedimientos\TipoDeProcedimientos->actualizarProcedimientos(Array)
+#1 {main}
+  thrown in /home/assistproadl/public_html/subdominios/wms/app/class/TipoDeProcedimientos/TipoDeProcedimientos.php on line 368
+[26-Dec-2018 07:59:51 America/Los_Angeles] PHP Fatal error:  Uncaught Error: Call to a member function dbUpdate() on null in /home/assistproadl/public_html/subdominios/wms/app/class/TipoDeProcedimientos/TipoDeProcedimientos.php:368
+Stack trace:
+#0 /home/assistproadl/public_html/subdominios/wms/api/tiposdeprocedimientos/update/index.php(43): TipoDeProcedimientos\TipoDeProcedimientos->actualizarProcedimientos(Array)
+#1 {main}
+  thrown in /home/assistproadl/public_html/subdominios/wms/app/class/TipoDeProcedimientos/TipoDeProcedimientos.php on line 368
+[26-Dec-2018 08:00:49 America/Los_Angeles] PHP Fatal error:  Uncaught Error: Using $this when not in object context in /home/assistproadl/public_html/subdominios/wms/app/class/TipoDeProcedimientos/TipoDeProcedimientos.php:5
+Stack trace:
+#0 /home/assistproadl/public_html/subdominios/wms/app/autoload.php(22): require()
+#1 [internal function]: autoload('TipoDeProcedimi...')
+#2 /home/assistproadl/public_html/subdominios/wms/api/tiposdeprocedimientos/update/index.php(11): spl_autoload_call('TipoDeProcedimi...')
+#3 {main}
+  thrown in /home/assistproadl/public_html/subdominios/wms/app/class/TipoDeProcedimientos/TipoDeProcedimientos.php on line 5

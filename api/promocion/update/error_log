@@ -1,0 +1,2 @@
+[08-Mar-2017 18:28:11 America/Los_Angeles] PHP Warning:  mysqli_query(): (42S02/1146): Table 'samenli1_wms.T_ArtCompuesto' doesn't exist in /home/samenli1/public_html/subdominios/wms/app/class/Promocion/Promocion.php on line 86
+[20-Mar-2017 11:11:00 America/Los_Angeles] PHP Warning:  mysqli_query(): (42S02/1146): Table 'samenli1_wms.T_ArtCompuesto' doesn't exist in /home/samenli1/public_html/subdominios/wms/app/class/Promocion/Promocion.php on line 86

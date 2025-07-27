@@ -1,0 +1,1 @@
+[29-Aug-2017 20:42:58 UTC] PHP Warning:  utf8_encode() expects parameter 1 to be string, array given in /home/samenli1/public_html/subdominios/wms/api/incidencias/lista/index.php on line 140

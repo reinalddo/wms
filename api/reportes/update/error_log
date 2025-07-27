@@ -1,0 +1,539 @@
+[08-May-2017 08:15:59 America/Los_Angeles] PHP Fatal error:  Uncaught Error: Call to undefined method Almacen\Almacen::loadAlmacenUser() in /home/samenli1/public_html/subdominios/wms/api/almacen/update/index.php:229
+Stack trace:
+#0 {main}
+  thrown in /home/samenli1/public_html/subdominios/wms/api/almacen/update/index.php on line 229
+[08-May-2017 08:16:01 America/Los_Angeles] PHP Fatal error:  Uncaught Error: Call to undefined method Almacen\Almacen::loadAlmacenUser() in /home/samenli1/public_html/subdominios/wms/api/almacen/update/index.php:229
+Stack trace:
+#0 {main}
+  thrown in /home/samenli1/public_html/subdominios/wms/api/almacen/update/index.php on line 229
+[08-May-2017 08:16:04 America/Los_Angeles] PHP Fatal error:  Uncaught Error: Call to undefined method Almacen\Almacen::loadAlmacenUser() in /home/samenli1/public_html/subdominios/wms/api/almacen/update/index.php:229
+Stack trace:
+#0 {main}
+  thrown in /home/samenli1/public_html/subdominios/wms/api/almacen/update/index.php on line 229
+[08-May-2017 08:16:06 America/Los_Angeles] PHP Fatal error:  Uncaught Error: Call to undefined method Almacen\Almacen::loadAlmacenUser() in /home/samenli1/public_html/subdominios/wms/api/almacen/update/index.php:229
+Stack trace:
+#0 {main}
+  thrown in /home/samenli1/public_html/subdominios/wms/api/almacen/update/index.php on line 229
+[08-May-2017 08:16:26 America/Los_Angeles] PHP Fatal error:  Uncaught Error: Call to undefined method Almacen\Almacen::loadAlmacenUser() in /home/samenli1/public_html/subdominios/wms/api/almacen/update/index.php:229
+Stack trace:
+#0 {main}
+  thrown in /home/samenli1/public_html/subdominios/wms/api/almacen/update/index.php on line 229
+[08-May-2017 10:50:51 America/Los_Angeles] PHP Warning:  array_diff(): Argument #2 is not an array in /home/samenli1/public_html/subdominios/wms/api/almacen/update/index.php on line 291
+[08-May-2017 10:50:51 America/Los_Angeles] PHP Warning:  Invalid argument supplied for foreach() in /home/samenli1/public_html/subdominios/wms/api/almacen/update/index.php on line 294
+[08-May-2017 10:50:51 America/Los_Angeles] PHP Warning:  array_diff(): Argument #1 is not an array in /home/samenli1/public_html/subdominios/wms/api/almacen/update/index.php on line 304
+[08-May-2017 10:50:51 America/Los_Angeles] PHP Warning:  Invalid argument supplied for foreach() in /home/samenli1/public_html/subdominios/wms/api/almacen/update/index.php on line 307
+[08-May-2017 11:40:08 America/Los_Angeles] PHP Fatal error:  Uncaught ErrorException: des_direcc is required. in /home/samenli1/public_html/subdominios/wms/app/class/Almacen/Almacen.php:104
+Stack trace:
+#0 /home/samenli1/public_html/subdominios/wms/api/almacen/update/index.php(14): Almacen\Almacen->save(Array)
+#1 {main}
+  thrown in /home/samenli1/public_html/subdominios/wms/app/class/Almacen/Almacen.php on line 104
+[08-May-2017 12:58:16 America/Los_Angeles] PHP Fatal error:  Uncaught ErrorException: des_direcc is required. in /home/samenli1/public_html/subdominios/wms/app/class/Almacen/Almacen.php:104
+Stack trace:
+#0 /home/samenli1/public_html/subdominios/wms/api/almacen/update/index.php(14): Almacen\Almacen->save(Array)
+#1 {main}
+  thrown in /home/samenli1/public_html/subdominios/wms/app/class/Almacen/Almacen.php on line 104
+[13-May-2017 13:33:54 America/Los_Angeles] PHP Fatal error:  Uncaught ErrorException: des_direcc is required. in /home/samenli1/public_html/subdominios/wms/app/class/Almacen/Almacen.php:105
+Stack trace:
+#0 /home/samenli1/public_html/subdominios/wms/api/almacen/update/index.php(14): Almacen\Almacen->save(Array)
+#1 {main}
+  thrown in /home/samenli1/public_html/subdominios/wms/app/class/Almacen/Almacen.php on line 105
+[13-May-2017 13:34:11 America/Los_Angeles] PHP Fatal error:  Uncaught ErrorException: cve_cia is required. in /home/samenli1/public_html/subdominios/wms/app/class/Almacen/Almacen.php:102
+Stack trace:
+#0 /home/samenli1/public_html/subdominios/wms/api/almacen/update/index.php(14): Almacen\Almacen->save(Array)
+#1 {main}
+  thrown in /home/samenli1/public_html/subdominios/wms/app/class/Almacen/Almacen.php on line 102
+[13-May-2017 13:36:43 America/Los_Angeles] PHP Fatal error:  Uncaught ErrorException: cve_cia is required. in /home/samenli1/public_html/subdominios/wms/app/class/Almacen/Almacen.php:102
+Stack trace:
+#0 /home/samenli1/public_html/subdominios/wms/api/almacen/update/index.php(14): Almacen\Almacen->save(Array)
+#1 {main}
+  thrown in /home/samenli1/public_html/subdominios/wms/app/class/Almacen/Almacen.php on line 102
+[13-May-2017 13:43:37 America/Los_Angeles] PHP Fatal error:  Uncaught ErrorException: des_direcc is required. in /home/samenli1/public_html/subdominios/wms/app/class/Almacen/Almacen.php:105
+Stack trace:
+#0 /home/samenli1/public_html/subdominios/wms/api/almacen/update/index.php(14): Almacen\Almacen->save(Array)
+#1 {main}
+  thrown in /home/samenli1/public_html/subdominios/wms/app/class/Almacen/Almacen.php on line 105
+[13-May-2017 13:44:05 America/Los_Angeles] PHP Fatal error:  Uncaught ErrorException: cve_cia is required. in /home/samenli1/public_html/subdominios/wms/app/class/Almacen/Almacen.php:102
+Stack trace:
+#0 /home/samenli1/public_html/subdominios/wms/api/almacen/update/index.php(14): Almacen\Almacen->save(Array)
+#1 {main}
+  thrown in /home/samenli1/public_html/subdominios/wms/app/class/Almacen/Almacen.php on line 102
+[13-May-2017 13:46:48 America/Los_Angeles] PHP Fatal error:  Uncaught ErrorException: cve_cia is required. in /home/samenli1/public_html/subdominios/wms/app/class/Almacen/Almacen.php:102
+Stack trace:
+#0 /home/samenli1/public_html/subdominios/wms/api/almacen/update/index.php(14): Almacen\Almacen->save(Array)
+#1 {main}
+  thrown in /home/samenli1/public_html/subdominios/wms/app/class/Almacen/Almacen.php on line 102
+[13-May-2017 13:47:37 America/Los_Angeles] PHP Fatal error:  Uncaught ErrorException: des_direcc is required. in /home/samenli1/public_html/subdominios/wms/app/class/Almacen/Almacen.php:105
+Stack trace:
+#0 /home/samenli1/public_html/subdominios/wms/api/almacen/update/index.php(14): Almacen\Almacen->save(Array)
+#1 {main}
+  thrown in /home/samenli1/public_html/subdominios/wms/app/class/Almacen/Almacen.php on line 105
+[13-May-2017 13:48:00 America/Los_Angeles] PHP Fatal error:  Uncaught ErrorException: cve_cia is required. in /home/samenli1/public_html/subdominios/wms/app/class/Almacen/Almacen.php:102
+Stack trace:
+#0 /home/samenli1/public_html/subdominios/wms/api/almacen/update/index.php(14): Almacen\Almacen->save(Array)
+#1 {main}
+  thrown in /home/samenli1/public_html/subdominios/wms/app/class/Almacen/Almacen.php on line 102
+[13-May-2017 13:48:11 America/Los_Angeles] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens in /home/samenli1/public_html/subdominios/wms/app/class/Almacen/Almacen.php:123
+Stack trace:
+#0 /home/samenli1/public_html/subdominios/wms/app/class/Almacen/Almacen.php(123): PDOStatement->execute()
+#1 /home/samenli1/public_html/subdominios/wms/api/almacen/update/index.php(14): Almacen\Almacen->save(Array)
+#2 {main}
+  thrown in /home/samenli1/public_html/subdominios/wms/app/class/Almacen/Almacen.php on line 123
+[13-May-2017 13:48:51 America/Los_Angeles] PHP Fatal error:  Uncaught ErrorException: cve_cia is required. in /home/samenli1/public_html/subdominios/wms/app/class/Almacen/Almacen.php:102
+Stack trace:
+#0 /home/samenli1/public_html/subdominios/wms/api/almacen/update/index.php(14): Almacen\Almacen->save(Array)
+#1 {main}
+  thrown in /home/samenli1/public_html/subdominios/wms/app/class/Almacen/Almacen.php on line 102
+[13-May-2017 13:49:11 America/Los_Angeles] PHP Fatal error:  Uncaught ErrorException: cve_cia is required. in /home/samenli1/public_html/subdominios/wms/app/class/Almacen/Almacen.php:102
+Stack trace:
+#0 /home/samenli1/public_html/subdominios/wms/api/almacen/update/index.php(14): Almacen\Almacen->save(Array)
+#1 {main}
+  thrown in /home/samenli1/public_html/subdominios/wms/app/class/Almacen/Almacen.php on line 102
+[13-May-2017 13:54:38 America/Los_Angeles] PHP Fatal error:  Uncaught ErrorException: cve_cia is required. in /home/samenli1/public_html/subdominios/wms/app/class/Almacen/Almacen.php:102
+Stack trace:
+#0 /home/samenli1/public_html/subdominios/wms/api/almacen/update/index.php(14): Almacen\Almacen->save(Array)
+#1 {main}
+  thrown in /home/samenli1/public_html/subdominios/wms/app/class/Almacen/Almacen.php on line 102
+[13-May-2017 14:12:00 America/Los_Angeles] PHP Fatal error:  Uncaught ErrorException: cve_cia is required. in /home/samenli1/public_html/subdominios/wms/app/class/Almacen/Almacen.php:102
+Stack trace:
+#0 /home/samenli1/public_html/subdominios/wms/api/almacen/update/index.php(14): Almacen\Almacen->save(Array)
+#1 {main}
+  thrown in /home/samenli1/public_html/subdominios/wms/app/class/Almacen/Almacen.php on line 102
+[13-May-2017 21:59:22 UTC] PHP Parse error:  syntax error, unexpected '=', expecting ')' in /home/samenli1/public_html/subdominios/wms/api/almacen/update/index.php on line 96
+[13-May-2017 22:04:30 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ',' or ')' in /home/samenli1/public_html/subdominios/wms/api/almacen/update/index.php on line 86
+[13-May-2017 22:05:06 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ',' or ')' in /home/samenli1/public_html/subdominios/wms/api/almacen/update/index.php on line 86
+[13-May-2017 22:05:30 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ',' or ')' in /home/samenli1/public_html/subdominios/wms/api/almacen/update/index.php on line 86
+[13-May-2017 22:06:40 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ',' or ')' in /home/samenli1/public_html/subdominios/wms/api/almacen/update/index.php on line 86
+[13-May-2017 15:09:28 America/Los_Angeles] PHP Fatal error:  Uncaught ErrorException: cve_cia is required. in /home/samenli1/public_html/subdominios/wms/app/class/Almacen/Almacen.php:131
+Stack trace:
+#0 /home/samenli1/public_html/subdominios/wms/api/almacen/update/index.php(14): Almacen\Almacen->save(Array)
+#1 {main}
+  thrown in /home/samenli1/public_html/subdominios/wms/app/class/Almacen/Almacen.php on line 131
+[13-May-2017 15:09:46 America/Los_Angeles] PHP Fatal error:  Uncaught ErrorException: cve_cia is required. in /home/samenli1/public_html/subdominios/wms/app/class/Almacen/Almacen.php:131
+Stack trace:
+#0 /home/samenli1/public_html/subdominios/wms/api/almacen/update/index.php(14): Almacen\Almacen->save(Array)
+#1 {main}
+  thrown in /home/samenli1/public_html/subdominios/wms/app/class/Almacen/Almacen.php on line 131
+[13-May-2017 15:10:51 America/Los_Angeles] PHP Fatal error:  Uncaught ErrorException: cve_cia is required. in /home/samenli1/public_html/subdominios/wms/app/class/Almacen/Almacen.php:131
+Stack trace:
+#0 /home/samenli1/public_html/subdominios/wms/api/almacen/update/index.php(14): Almacen\Almacen->save(Array)
+#1 {main}
+  thrown in /home/samenli1/public_html/subdominios/wms/app/class/Almacen/Almacen.php on line 131
+[14-May-2017 16:10:25 America/Los_Angeles] PHP Warning:  array_diff(): Argument #2 is not an array in /home/samenli1/public_html/subdominios/wms/api/almacen/update/index.php on line 298
+[14-May-2017 16:10:25 America/Los_Angeles] PHP Warning:  Invalid argument supplied for foreach() in /home/samenli1/public_html/subdominios/wms/api/almacen/update/index.php on line 301
+[14-May-2017 16:10:25 America/Los_Angeles] PHP Warning:  array_diff(): Argument #1 is not an array in /home/samenli1/public_html/subdominios/wms/api/almacen/update/index.php on line 311
+[14-May-2017 16:10:25 America/Los_Angeles] PHP Warning:  Invalid argument supplied for foreach() in /home/samenli1/public_html/subdominios/wms/api/almacen/update/index.php on line 314
+[14-May-2017 16:10:39 America/Los_Angeles] PHP Warning:  array_diff(): Argument #2 is not an array in /home/samenli1/public_html/subdominios/wms/api/almacen/update/index.php on line 298
+[14-May-2017 16:10:39 America/Los_Angeles] PHP Warning:  Invalid argument supplied for foreach() in /home/samenli1/public_html/subdominios/wms/api/almacen/update/index.php on line 301
+[14-May-2017 16:10:39 America/Los_Angeles] PHP Warning:  array_diff(): Argument #1 is not an array in /home/samenli1/public_html/subdominios/wms/api/almacen/update/index.php on line 311
+[14-May-2017 16:10:39 America/Los_Angeles] PHP Warning:  Invalid argument supplied for foreach() in /home/samenli1/public_html/subdominios/wms/api/almacen/update/index.php on line 314
+[14-May-2017 16:10:53 America/Los_Angeles] PHP Warning:  array_diff(): Argument #2 is not an array in /home/samenli1/public_html/subdominios/wms/api/almacen/update/index.php on line 298
+[14-May-2017 16:10:53 America/Los_Angeles] PHP Warning:  Invalid argument supplied for foreach() in /home/samenli1/public_html/subdominios/wms/api/almacen/update/index.php on line 301
+[14-May-2017 16:10:53 America/Los_Angeles] PHP Warning:  array_diff(): Argument #1 is not an array in /home/samenli1/public_html/subdominios/wms/api/almacen/update/index.php on line 311
+[14-May-2017 16:10:53 America/Los_Angeles] PHP Warning:  Invalid argument supplied for foreach() in /home/samenli1/public_html/subdominios/wms/api/almacen/update/index.php on line 314
+[14-May-2017 16:11:03 America/Los_Angeles] PHP Warning:  array_diff(): Argument #2 is not an array in /home/samenli1/public_html/subdominios/wms/api/almacen/update/index.php on line 298
+[14-May-2017 16:11:03 America/Los_Angeles] PHP Warning:  Invalid argument supplied for foreach() in /home/samenli1/public_html/subdominios/wms/api/almacen/update/index.php on line 301
+[14-May-2017 16:11:03 America/Los_Angeles] PHP Warning:  array_diff(): Argument #1 is not an array in /home/samenli1/public_html/subdominios/wms/api/almacen/update/index.php on line 311
+[14-May-2017 16:11:03 America/Los_Angeles] PHP Warning:  Invalid argument supplied for foreach() in /home/samenli1/public_html/subdominios/wms/api/almacen/update/index.php on line 314
+[18-May-2017 10:57:12 America/Los_Angeles] PHP Fatal error:  Uncaught ErrorException: cve_cia is required. in /home/samenli1/public_html/subdominios/wms/app/class/Almacen/Almacen.php:133
+Stack trace:
+#0 /home/samenli1/public_html/subdominios/wms/api/almacen/update/index.php(14): Almacen\Almacen->save(Array)
+#1 {main}
+  thrown in /home/samenli1/public_html/subdominios/wms/app/class/Almacen/Almacen.php on line 133
+[18-May-2017 10:58:13 America/Los_Angeles] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'cve_cia' in 'field list' in /home/samenli1/public_html/subdominios/wms/app/class/Almacen/Almacen.php:156
+Stack trace:
+#0 /home/samenli1/public_html/subdominios/wms/app/class/Almacen/Almacen.php(156): PDOStatement->execute()
+#1 /home/samenli1/public_html/subdominios/wms/api/almacen/update/index.php(14): Almacen\Almacen->save(Array)
+#2 {main}
+  thrown in /home/samenli1/public_html/subdominios/wms/app/class/Almacen/Almacen.php on line 156
+[18-May-2017 11:04:51 America/Los_Angeles] PHP Fatal error:  Uncaught ErrorException: clave_almacen is required. in /home/samenli1/public_html/subdominios/wms/app/class/Almacen/Almacen.php:133
+Stack trace:
+#0 /home/samenli1/public_html/subdominios/wms/api/almacen/update/index.php(14): Almacen\Almacen->save(Array)
+#1 {main}
+  thrown in /home/samenli1/public_html/subdominios/wms/app/class/Almacen/Almacen.php on line 133
+[18-Jul-2017 17:34:19 America/Los_Angeles] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'c_lotes.id_lote' in 'on clause' in /home/samenli1/public_html/subdominios/wms/app/class/Reportes/Reportes.php:194
+Stack trace:
+#0 /home/samenli1/public_html/subdominios/wms/app/class/Reportes/Reportes.php(194): PDOStatement->execute()
+#1 /home/samenli1/public_html/subdominios/wms/api/reportes/update/index.php(153): Reportes\Reportes->invcicl()
+#2 {main}
+  thrown in /home/samenli1/public_html/subdominios/wms/app/class/Reportes/Reportes.php on line 194
+[18-Jul-2017 17:35:08 America/Los_Angeles] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'c_lotes.id_lote' in 'on clause' in /home/samenli1/public_html/subdominios/wms/app/class/Reportes/Reportes.php:194
+Stack trace:
+#0 /home/samenli1/public_html/subdominios/wms/app/class/Reportes/Reportes.php(194): PDOStatement->execute()
+#1 /home/samenli1/public_html/subdominios/wms/api/reportes/update/index.php(153): Reportes\Reportes->invcicl()
+#2 {main}
+  thrown in /home/samenli1/public_html/subdominios/wms/app/class/Reportes/Reportes.php on line 194
+[18-Jul-2017 17:35:28 America/Los_Angeles] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'c_lotes.id_lote' in 'on clause' in /home/samenli1/public_html/subdominios/wms/app/class/Reportes/Reportes.php:194
+Stack trace:
+#0 /home/samenli1/public_html/subdominios/wms/app/class/Reportes/Reportes.php(194): PDOStatement->execute()
+#1 /home/samenli1/public_html/subdominios/wms/api/reportes/update/index.php(153): Reportes\Reportes->invcicl()
+#2 {main}
+  thrown in /home/samenli1/public_html/subdominios/wms/app/class/Reportes/Reportes.php on line 194
+[18-Jul-2017 17:36:06 America/Los_Angeles] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'c_lotes.id_lote' in 'on clause' in /home/samenli1/public_html/subdominios/wms/app/class/Reportes/Reportes.php:194
+Stack trace:
+#0 /home/samenli1/public_html/subdominios/wms/app/class/Reportes/Reportes.php(194): PDOStatement->execute()
+#1 /home/samenli1/public_html/subdominios/wms/api/reportes/update/index.php(153): Reportes\Reportes->invcicl()
+#2 {main}
+  thrown in /home/samenli1/public_html/subdominios/wms/app/class/Reportes/Reportes.php on line 194
+[18-Jul-2017 17:36:44 America/Los_Angeles] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'c_lotes.id_lote' in 'on clause' in /home/samenli1/public_html/subdominios/wms/app/class/Reportes/Reportes.php:194
+Stack trace:
+#0 /home/samenli1/public_html/subdominios/wms/app/class/Reportes/Reportes.php(194): PDOStatement->execute()
+#1 /home/samenli1/public_html/subdominios/wms/api/reportes/update/index.php(153): Reportes\Reportes->invcicl()
+#2 {main}
+  thrown in /home/samenli1/public_html/subdominios/wms/app/class/Reportes/Reportes.php on line 194
+[18-Jul-2017 17:47:41 America/Los_Angeles] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'c_lotes.id_lote' in 'on clause' in /home/samenli1/public_html/subdominios/wms/app/class/Reportes/Reportes.php:194
+Stack trace:
+#0 /home/samenli1/public_html/subdominios/wms/app/class/Reportes/Reportes.php(194): PDOStatement->execute()
+#1 /home/samenli1/public_html/subdominios/wms/api/reportes/update/index.php(153): Reportes\Reportes->invcicl()
+#2 {main}
+  thrown in /home/samenli1/public_html/subdominios/wms/app/class/Reportes/Reportes.php on line 194
+[27-Aug-2017 19:26:41 America/Los_Angeles] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 20480 bytes) in /home/samenli1/public_html/subdominios/wms/app/class/Reportes/Reportes.php on line 200
+[08-Sep-2017 11:06:23 America/Los_Angeles] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'e.cve_almacen' in 'where clause' in /home/samenli1/public_html/subdominios/wms/app/class/Reportes/Reportes.php:362
+Stack trace:
+#0 /home/samenli1/public_html/subdominios/wms/app/class/Reportes/Reportes.php(362): PDOStatement->execute()
+#1 /home/samenli1/public_html/subdominios/wms/api/reportes/update/index.php(270): Reportes\Reportes->existenciaubica('2131', '01')
+#2 {main}
+  thrown in /home/samenli1/public_html/subdominios/wms/app/class/Reportes/Reportes.php on line 362
+[08-Sep-2017 11:07:05 America/Los_Angeles] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'e.cve_almacen' in 'where clause' in /home/samenli1/public_html/subdominios/wms/app/class/Reportes/Reportes.php:362
+Stack trace:
+#0 /home/samenli1/public_html/subdominios/wms/app/class/Reportes/Reportes.php(362): PDOStatement->execute()
+#1 /home/samenli1/public_html/subdominios/wms/api/reportes/update/index.php(270): Reportes\Reportes->existenciaubica('2131', '01')
+#2 {main}
+  thrown in /home/samenli1/public_html/subdominios/wms/app/class/Reportes/Reportes.php on line 362
+[08-Sep-2017 11:08:04 America/Los_Angeles] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'e.cve_almacen' in 'where clause' in /home/samenli1/public_html/subdominios/wms/app/class/Reportes/Reportes.php:362
+Stack trace:
+#0 /home/samenli1/public_html/subdominios/wms/app/class/Reportes/Reportes.php(362): PDOStatement->execute()
+#1 /home/samenli1/public_html/subdominios/wms/api/reportes/update/index.php(270): Reportes\Reportes->existenciaubica('01', '01')
+#2 {main}
+  thrown in /home/samenli1/public_html/subdominios/wms/app/class/Reportes/Reportes.php on line 362
+[08-Sep-2017 11:08:08 America/Los_Angeles] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'e.cve_almacen' in 'where clause' in /home/samenli1/public_html/subdominios/wms/app/class/Reportes/Reportes.php:362
+Stack trace:
+#0 /home/samenli1/public_html/subdominios/wms/app/class/Reportes/Reportes.php(362): PDOStatement->execute()
+#1 /home/samenli1/public_html/subdominios/wms/api/reportes/update/index.php(270): Reportes\Reportes->existenciaubica('01', '09858')
+#2 {main}
+  thrown in /home/samenli1/public_html/subdominios/wms/app/class/Reportes/Reportes.php on line 362
+[08-Sep-2017 11:10:14 America/Los_Angeles] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 20480 bytes) in /home/samenli1/public_html/subdominios/wms/app/class/Reportes/Reportes.php on line 363
+[08-Sep-2017 11:12:02 America/Los_Angeles] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 20480 bytes) in /home/samenli1/public_html/subdominios/wms/app/class/Reportes/Reportes.php on line 363
+[12-Sep-2017 13:26:53 America/Los_Angeles] PHP Warning:  Empty row packet body in /home/samenli1/public_html/subdominios/wms/app/class/Reportes/Reportes.php on line 362
+[12-Sep-2017 13:26:59 America/Los_Angeles] PHP Warning:  Empty row packet body in /home/samenli1/public_html/subdominios/wms/app/class/Reportes/Reportes.php on line 362
+[12-Sep-2017 13:27:07 America/Los_Angeles] PHP Warning:  Empty row packet body in /home/samenli1/public_html/subdominios/wms/app/class/Reportes/Reportes.php on line 362
+[12-Sep-2017 13:27:22 America/Los_Angeles] PHP Warning:  Empty row packet body in /home/samenli1/public_html/subdominios/wms/app/class/Reportes/Reportes.php on line 362
+[13-Sep-2017 12:26:22 America/Los_Angeles] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 20480 bytes) in /home/samenli1/public_html/subdominios/wms/app/class/Reportes/Reportes.php on line 200
+[13-Sep-2017 12:26:28 America/Los_Angeles] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 20480 bytes) in /home/samenli1/public_html/subdominios/wms/app/class/Reportes/Reportes.php on line 200
+[13-Sep-2017 12:29:17 America/Los_Angeles] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 20480 bytes) in /home/samenli1/public_html/subdominios/wms/app/class/Reportes/Reportes.php on line 200
+[12-Jan-2018 15:09:07 America/Los_Angeles] PHP Parse error:  syntax error, unexpected ''.$id.'' (T_CONSTANT_ENCAPSED_STRING) in /home/samenli1/public_html/subdominios/wms/app/class/Reportes/Reportes.php on line 126
+[12-Jan-2018 15:09:09 America/Los_Angeles] PHP Parse error:  syntax error, unexpected ''.$id.'' (T_CONSTANT_ENCAPSED_STRING) in /home/samenli1/public_html/subdominios/wms/app/class/Reportes/Reportes.php on line 126
+[12-Jan-2018 15:09:11 America/Los_Angeles] PHP Parse error:  syntax error, unexpected ''.$id.'' (T_CONSTANT_ENCAPSED_STRING) in /home/samenli1/public_html/subdominios/wms/app/class/Reportes/Reportes.php on line 126
+[12-Jan-2018 15:09:12 America/Los_Angeles] PHP Parse error:  syntax error, unexpected ''.$id.'' (T_CONSTANT_ENCAPSED_STRING) in /home/samenli1/public_html/subdominios/wms/app/class/Reportes/Reportes.php on line 126
+[12-Jan-2018 15:09:14 America/Los_Angeles] PHP Parse error:  syntax error, unexpected ''.$id.'' (T_CONSTANT_ENCAPSED_STRING) in /home/samenli1/public_html/subdominios/wms/app/class/Reportes/Reportes.php on line 126
+[12-Jan-2018 15:30:31 America/Los_Angeles] PHP Parse error:  syntax error, unexpected ''.$id.'' (T_CONSTANT_ENCAPSED_STRING) in /home/samenli1/public_html/subdominios/wms/app/class/Reportes/Reportes.php on line 126
+[12-Jan-2018 15:30:33 America/Los_Angeles] PHP Parse error:  syntax error, unexpected ''.$id.'' (T_CONSTANT_ENCAPSED_STRING) in /home/samenli1/public_html/subdominios/wms/app/class/Reportes/Reportes.php on line 126
+[12-Jan-2018 15:30:34 America/Los_Angeles] PHP Parse error:  syntax error, unexpected ''.$id.'' (T_CONSTANT_ENCAPSED_STRING) in /home/samenli1/public_html/subdominios/wms/app/class/Reportes/Reportes.php on line 126
+[12-Jan-2018 15:30:34 America/Los_Angeles] PHP Parse error:  syntax error, unexpected ''.$id.'' (T_CONSTANT_ENCAPSED_STRING) in /home/samenli1/public_html/subdominios/wms/app/class/Reportes/Reportes.php on line 126
+[12-Jan-2018 15:30:34 America/Los_Angeles] PHP Parse error:  syntax error, unexpected ''.$id.'' (T_CONSTANT_ENCAPSED_STRING) in /home/samenli1/public_html/subdominios/wms/app/class/Reportes/Reportes.php on line 126
+[12-Jan-2018 15:30:34 America/Los_Angeles] PHP Parse error:  syntax error, unexpected ''.$id.'' (T_CONSTANT_ENCAPSED_STRING) in /home/samenli1/public_html/subdominios/wms/app/class/Reportes/Reportes.php on line 126
+[16-Jan-2018 11:27:26 America/Los_Angeles] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND cve_articulo = ip.cve_articulo AND idy_ubica =ip.idy_ubica AND NConteo = ip.' at line 10 in /home/samenli1/public_html/subdominios/wms/app/class/Reportes/Reportes.php:339
+Stack trace:
+#0 /home/samenli1/public_html/subdominios/wms/app/class/Reportes/Reportes.php(339): PDOStatement->execute()
+#1 /home/samenli1/public_html/subdominios/wms/api/reportes/update/index.php(243): Reportes\Reportes->invcicldet('1')
+#2 {main}
+  thrown in /home/samenli1/public_html/subdominios/wms/app/class/Reportes/Reportes.php on line 339
+[16-Jan-2018 11:27:33 America/Los_Angeles] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND cve_articulo = ip.cve_articulo AND idy_ubica =ip.idy_ubica AND NConteo = ip.' at line 10 in /home/samenli1/public_html/subdominios/wms/app/class/Reportes/Reportes.php:339
+Stack trace:
+#0 /home/samenli1/public_html/subdominios/wms/app/class/Reportes/Reportes.php(339): PDOStatement->execute()
+#1 /home/samenli1/public_html/subdominios/wms/api/reportes/update/index.php(243): Reportes\Reportes->invcicldet('1')
+#2 {main}
+  thrown in /home/samenli1/public_html/subdominios/wms/app/class/Reportes/Reportes.php on line 339
+[16-Jan-2018 11:28:04 America/Los_Angeles] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND cve_articulo = ip.cve_articulo AND idy_ubica =ip.idy_ubica AND NConteo = ip.' at line 10 in /home/samenli1/public_html/subdominios/wms/app/class/Reportes/Reportes.php:339
+Stack trace:
+#0 /home/samenli1/public_html/subdominios/wms/app/class/Reportes/Reportes.php(339): PDOStatement->execute()
+#1 /home/samenli1/public_html/subdominios/wms/api/reportes/update/index.php(243): Reportes\Reportes->invcicldet('1')
+#2 {main}
+  thrown in /home/samenli1/public_html/subdominios/wms/app/class/Reportes/Reportes.php on line 339
+[16-Jan-2018 11:31:41 America/Los_Angeles] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND cve_articulo = ip.cve_articulo AND idy_ubica =ip.idy_ubica AND NConteo = ip.' at line 10 in /home/samenli1/public_html/subdominios/wms/app/class/Reportes/Reportes.php:339
+Stack trace:
+#0 /home/samenli1/public_html/subdominios/wms/app/class/Reportes/Reportes.php(339): PDOStatement->execute()
+#1 /home/samenli1/public_html/subdominios/wms/api/reportes/update/index.php(243): Reportes\Reportes->invcicldet('1')
+#2 {main}
+  thrown in /home/samenli1/public_html/subdominios/wms/app/class/Reportes/Reportes.php on line 339
+[16-Jan-2018 11:31:54 America/Los_Angeles] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND cve_articulo = ip.cve_articulo AND idy_ubica =ip.idy_ubica AND NConteo = ip.' at line 10 in /home/samenli1/public_html/subdominios/wms/app/class/Reportes/Reportes.php:339
+Stack trace:
+#0 /home/samenli1/public_html/subdominios/wms/app/class/Reportes/Reportes.php(339): PDOStatement->execute()
+#1 /home/samenli1/public_html/subdominios/wms/api/reportes/update/index.php(243): Reportes\Reportes->invcicldet('1')
+#2 {main}
+  thrown in /home/samenli1/public_html/subdominios/wms/app/class/Reportes/Reportes.php on line 339
+[16-Jan-2018 11:32:02 America/Los_Angeles] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND cve_articulo = ip.cve_articulo AND idy_ubica =ip.idy_ubica AND NConteo = ip.' at line 10 in /home/samenli1/public_html/subdominios/wms/app/class/Reportes/Reportes.php:339
+Stack trace:
+#0 /home/samenli1/public_html/subdominios/wms/app/class/Reportes/Reportes.php(339): PDOStatement->execute()
+#1 /home/samenli1/public_html/subdominios/wms/api/reportes/update/index.php(243): Reportes\Reportes->invcicldet('1')
+#2 {main}
+  thrown in /home/samenli1/public_html/subdominios/wms/app/class/Reportes/Reportes.php on line 339
+[16-Jan-2018 11:33:49 America/Los_Angeles] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND cve_articulo = ip.cve_articulo AND idy_ubica =ip.idy_ubica AND NConteo = ip.' at line 10 in /home/samenli1/public_html/subdominios/wms/app/class/Reportes/Reportes.php:339
+Stack trace:
+#0 /home/samenli1/public_html/subdominios/wms/app/class/Reportes/Reportes.php(339): PDOStatement->execute()
+#1 /home/samenli1/public_html/subdominios/wms/api/reportes/update/index.php(243): Reportes\Reportes->invcicldet('1')
+#2 {main}
+  thrown in /home/samenli1/public_html/subdominios/wms/app/class/Reportes/Reportes.php on line 339
+[16-Jan-2018 11:35:58 America/Los_Angeles] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND cve_articulo = ip.cve_articulo AND idy_ubica =ip.idy_ubica AND NConteo = ip.' at line 10 in /home/samenli1/public_html/subdominios/wms/app/class/Reportes/Reportes.php:339
+Stack trace:
+#0 /home/samenli1/public_html/subdominios/wms/app/class/Reportes/Reportes.php(339): PDOStatement->execute()
+#1 /home/samenli1/public_html/subdominios/wms/api/reportes/update/index.php(243): Reportes\Reportes->invcicldet('1')
+#2 {main}
+  thrown in /home/samenli1/public_html/subdominios/wms/app/class/Reportes/Reportes.php on line 339
+[16-Jan-2018 11:36:05 America/Los_Angeles] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND cve_articulo = ip.cve_articulo AND idy_ubica =ip.idy_ubica AND NConteo = ip.' at line 10 in /home/samenli1/public_html/subdominios/wms/app/class/Reportes/Reportes.php:339
+Stack trace:
+#0 /home/samenli1/public_html/subdominios/wms/app/class/Reportes/Reportes.php(339): PDOStatement->execute()
+#1 /home/samenli1/public_html/subdominios/wms/api/reportes/update/index.php(243): Reportes\Reportes->invcicldet('1')
+#2 {main}
+  thrown in /home/samenli1/public_html/subdominios/wms/app/class/Reportes/Reportes.php on line 339
+[16-Jan-2018 11:43:04 America/Los_Angeles] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND cve_articulo = ip.cve_articulo AND idy_ubica =ip.idy_ubica AND NConteo = ip.' at line 10 in /home/samenli1/public_html/subdominios/wms/app/class/Reportes/Reportes.php:339
+Stack trace:
+#0 /home/samenli1/public_html/subdominios/wms/app/class/Reportes/Reportes.php(339): PDOStatement->execute()
+#1 /home/samenli1/public_html/subdominios/wms/api/reportes/update/index.php(243): Reportes\Reportes->invcicldet('1')
+#2 {main}
+  thrown in /home/samenli1/public_html/subdominios/wms/app/class/Reportes/Reportes.php on line 339
+[16-Jan-2018 12:27:24 America/Los_Angeles] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1583 Incorrect parameters in the call to native function 'IFNULL' in /home/samenli1/public_html/subdominios/wms/app/class/Reportes/Reportes.php:93
+Stack trace:
+#0 /home/samenli1/public_html/subdominios/wms/app/class/Reportes/Reportes.php(93): PDOStatement->execute()
+#1 /home/samenli1/public_html/subdominios/wms/api/reportes/update/index.php(25): Reportes\Reportes->entrada('17')
+#2 {main}
+  thrown in /home/samenli1/public_html/subdominios/wms/app/class/Reportes/Reportes.php on line 93
+[16-Jan-2018 12:30:01 America/Los_Angeles] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1583 Incorrect parameters in the call to native function 'IFNULL' in /home/samenli1/public_html/subdominios/wms/app/class/Reportes/Reportes.php:93
+Stack trace:
+#0 /home/samenli1/public_html/subdominios/wms/app/class/Reportes/Reportes.php(93): PDOStatement->execute()
+#1 /home/samenli1/public_html/subdominios/wms/api/reportes/update/index.php(25): Reportes\Reportes->entrada('17')
+#2 {main}
+  thrown in /home/samenli1/public_html/subdominios/wms/app/class/Reportes/Reportes.php on line 93
+[16-Jan-2018 12:30:01 America/Los_Angeles] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1583 Incorrect parameters in the call to native function 'IFNULL' in /home/samenli1/public_html/subdominios/wms/app/class/Reportes/Reportes.php:93
+Stack trace:
+#0 /home/samenli1/public_html/subdominios/wms/app/class/Reportes/Reportes.php(93): PDOStatement->execute()
+#1 /home/samenli1/public_html/subdominios/wms/api/reportes/update/index.php(25): Reportes\Reportes->entrada('17')
+#2 {main}
+  thrown in /home/samenli1/public_html/subdominios/wms/app/class/Reportes/Reportes.php on line 93
+[16-Jan-2018 12:30:13 America/Los_Angeles] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1583 Incorrect parameters in the call to native function 'IFNULL' in /home/samenli1/public_html/subdominios/wms/app/class/Reportes/Reportes.php:93
+Stack trace:
+#0 /home/samenli1/public_html/subdominios/wms/app/class/Reportes/Reportes.php(93): PDOStatement->execute()
+#1 /home/samenli1/public_html/subdominios/wms/api/reportes/update/index.php(25): Reportes\Reportes->entrada('17')
+#2 {main}
+  thrown in /home/samenli1/public_html/subdominios/wms/app/class/Reportes/Reportes.php on line 93
+[16-Jan-2018 12:30:13 America/Los_Angeles] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1583 Incorrect parameters in the call to native function 'IFNULL' in /home/samenli1/public_html/subdominios/wms/app/class/Reportes/Reportes.php:93
+Stack trace:
+#0 /home/samenli1/public_html/subdominios/wms/app/class/Reportes/Reportes.php(93): PDOStatement->execute()
+#1 /home/samenli1/public_html/subdominios/wms/api/reportes/update/index.php(25): Reportes\Reportes->entrada('17')
+#2 {main}
+  thrown in /home/samenli1/public_html/subdominios/wms/app/class/Reportes/Reportes.php on line 93
+[16-Jan-2018 12:30:28 America/Los_Angeles] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1583 Incorrect parameters in the call to native function 'IFNULL' in /home/samenli1/public_html/subdominios/wms/app/class/Reportes/Reportes.php:93
+Stack trace:
+#0 /home/samenli1/public_html/subdominios/wms/app/class/Reportes/Reportes.php(93): PDOStatement->execute()
+#1 /home/samenli1/public_html/subdominios/wms/api/reportes/update/index.php(25): Reportes\Reportes->entrada('17')
+#2 {main}
+  thrown in /home/samenli1/public_html/subdominios/wms/app/class/Reportes/Reportes.php on line 93
+[16-Jan-2018 12:30:28 America/Los_Angeles] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1583 Incorrect parameters in the call to native function 'IFNULL' in /home/samenli1/public_html/subdominios/wms/app/class/Reportes/Reportes.php:93
+Stack trace:
+#0 /home/samenli1/public_html/subdominios/wms/app/class/Reportes/Reportes.php(93): PDOStatement->execute()
+#1 /home/samenli1/public_html/subdominios/wms/api/reportes/update/index.php(25): Reportes\Reportes->entrada('17')
+#2 {main}
+  thrown in /home/samenli1/public_html/subdominios/wms/app/class/Reportes/Reportes.php on line 93
+[14-Feb-2018 12:47:32 America/Los_Angeles] PHP Fatal error:  Uncaught PDOException: SQLSTATE[21000]: Cardinality violation: 1242 Subquery returns more than 1 row in /home/samenli1/public_html/subdominios/wms/app/class/Reportes/Reportes.php:428
+Stack trace:
+#0 /home/samenli1/public_html/subdominios/wms/app/class/Reportes/Reportes.php(428): PDOStatement->execute()
+#1 /home/samenli1/public_html/subdominios/wms/api/reportes/update/index.php(261): Reportes\Reportes->invcicldet('3')
+#2 {main}
+  thrown in /home/samenli1/public_html/subdominios/wms/app/class/Reportes/Reportes.php on line 428
+[14-Feb-2018 12:47:36 America/Los_Angeles] PHP Fatal error:  Uncaught PDOException: SQLSTATE[21000]: Cardinality violation: 1242 Subquery returns more than 1 row in /home/samenli1/public_html/subdominios/wms/app/class/Reportes/Reportes.php:428
+Stack trace:
+#0 /home/samenli1/public_html/subdominios/wms/app/class/Reportes/Reportes.php(428): PDOStatement->execute()
+#1 /home/samenli1/public_html/subdominios/wms/api/reportes/update/index.php(261): Reportes\Reportes->invcicldet('3')
+#2 {main}
+  thrown in /home/samenli1/public_html/subdominios/wms/app/class/Reportes/Reportes.php on line 428
+[14-Feb-2018 12:48:17 America/Los_Angeles] PHP Fatal error:  Uncaught PDOException: SQLSTATE[21000]: Cardinality violation: 1242 Subquery returns more than 1 row in /home/samenli1/public_html/subdominios/wms/app/class/Reportes/Reportes.php:226
+Stack trace:
+#0 /home/samenli1/public_html/subdominios/wms/app/class/Reportes/Reportes.php(226): PDOStatement->execute()
+#1 /home/samenli1/public_html/subdominios/wms/api/reportes/update/index.php(191): Reportes\Reportes->invfidet('15')
+#2 {main}
+  thrown in /home/samenli1/public_html/subdominios/wms/app/class/Reportes/Reportes.php on line 226
+[14-Feb-2018 12:48:22 America/Los_Angeles] PHP Fatal error:  Uncaught PDOException: SQLSTATE[21000]: Cardinality violation: 1242 Subquery returns more than 1 row in /home/samenli1/public_html/subdominios/wms/app/class/Reportes/Reportes.php:226
+Stack trace:
+#0 /home/samenli1/public_html/subdominios/wms/app/class/Reportes/Reportes.php(226): PDOStatement->execute()
+#1 /home/samenli1/public_html/subdominios/wms/api/reportes/update/index.php(191): Reportes\Reportes->invfidet('15')
+#2 {main}
+  thrown in /home/samenli1/public_html/subdominios/wms/app/class/Reportes/Reportes.php on line 226
+[14-Feb-2018 13:01:52 America/Los_Angeles] PHP Fatal error:  Uncaught PDOException: SQLSTATE[21000]: Cardinality violation: 1242 Subquery returns more than 1 row in /home/samenli1/public_html/subdominios/wms/app/class/Reportes/Reportes.php:226
+Stack trace:
+#0 /home/samenli1/public_html/subdominios/wms/app/class/Reportes/Reportes.php(226): PDOStatement->execute()
+#1 /home/samenli1/public_html/subdominios/wms/api/reportes/update/index.php(191): Reportes\Reportes->invfidet('15')
+#2 {main}
+  thrown in /home/samenli1/public_html/subdominios/wms/app/class/Reportes/Reportes.php on line 226
+[27-Feb-2019 12:11:01 America/Los_Angeles] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 's.clave_articulo' in 'on clause' in /home/assistproadl/public_html/subdominios/wms/app/class/Reportes/Reportes.php:647
+Stack trace:
+#0 /home/assistproadl/public_html/subdominios/wms/app/class/Reportes/Reportes.php(647): PDOStatement->execute()
+#1 /home/assistproadl/public_html/subdominios/wms/api/reportes/update/index.php(303): Reportes\Reportes->existenciaubica('3', '', '')
+#2 {main}
+  thrown in /home/assistproadl/public_html/subdominios/wms/app/class/Reportes/Reportes.php on line 647
+[27-Feb-2019 12:11:02 America/Los_Angeles] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 's.clave_articulo' in 'on clause' in /home/assistproadl/public_html/subdominios/wms/app/class/Reportes/Reportes.php:647
+Stack trace:
+#0 /home/assistproadl/public_html/subdominios/wms/app/class/Reportes/Reportes.php(647): PDOStatement->execute()
+#1 /home/assistproadl/public_html/subdominios/wms/api/reportes/update/index.php(303): Reportes\Reportes->existenciaubica('3', '', '')
+#2 {main}
+  thrown in /home/assistproadl/public_html/subdominios/wms/app/class/Reportes/Reportes.php on line 647
+[27-Feb-2019 12:11:03 America/Los_Angeles] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 's.clave_articulo' in 'on clause' in /home/assistproadl/public_html/subdominios/wms/app/class/Reportes/Reportes.php:647
+Stack trace:
+#0 /home/assistproadl/public_html/subdominios/wms/app/class/Reportes/Reportes.php(647): PDOStatement->execute()
+#1 /home/assistproadl/public_html/subdominios/wms/api/reportes/update/index.php(303): Reportes\Reportes->existenciaubica('3', '', '')
+#2 {main}
+  thrown in /home/assistproadl/public_html/subdominios/wms/app/class/Reportes/Reportes.php on line 647
+[27-Feb-2019 12:11:03 America/Los_Angeles] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 's.clave_articulo' in 'on clause' in /home/assistproadl/public_html/subdominios/wms/app/class/Reportes/Reportes.php:647
+Stack trace:
+#0 /home/assistproadl/public_html/subdominios/wms/app/class/Reportes/Reportes.php(647): PDOStatement->execute()
+#1 /home/assistproadl/public_html/subdominios/wms/api/reportes/update/index.php(303): Reportes\Reportes->existenciaubica('3', '', '')
+#2 {main}
+  thrown in /home/assistproadl/public_html/subdominios/wms/app/class/Reportes/Reportes.php on line 647
+[27-Feb-2019 12:11:03 America/Los_Angeles] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 's.clave_articulo' in 'on clause' in /home/assistproadl/public_html/subdominios/wms/app/class/Reportes/Reportes.php:647
+Stack trace:
+#0 /home/assistproadl/public_html/subdominios/wms/app/class/Reportes/Reportes.php(647): PDOStatement->execute()
+#1 /home/assistproadl/public_html/subdominios/wms/api/reportes/update/index.php(303): Reportes\Reportes->existenciaubica('3', '', '')
+#2 {main}
+  thrown in /home/assistproadl/public_html/subdominios/wms/app/class/Reportes/Reportes.php on line 647
+[27-Feb-2019 12:11:04 America/Los_Angeles] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 's.clave_articulo' in 'on clause' in /home/assistproadl/public_html/subdominios/wms/app/class/Reportes/Reportes.php:647
+Stack trace:
+#0 /home/assistproadl/public_html/subdominios/wms/app/class/Reportes/Reportes.php(647): PDOStatement->execute()
+#1 /home/assistproadl/public_html/subdominios/wms/api/reportes/update/index.php(303): Reportes\Reportes->existenciaubica('3', '', '')
+#2 {main}
+  thrown in /home/assistproadl/public_html/subdominios/wms/app/class/Reportes/Reportes.php on line 647
+[27-Feb-2019 12:11:04 America/Los_Angeles] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 's.clave_articulo' in 'on clause' in /home/assistproadl/public_html/subdominios/wms/app/class/Reportes/Reportes.php:647
+Stack trace:
+#0 /home/assistproadl/public_html/subdominios/wms/app/class/Reportes/Reportes.php(647): PDOStatement->execute()
+#1 /home/assistproadl/public_html/subdominios/wms/api/reportes/update/index.php(303): Reportes\Reportes->existenciaubica('3', '', '')
+#2 {main}
+  thrown in /home/assistproadl/public_html/subdominios/wms/app/class/Reportes/Reportes.php on line 647
+[27-Feb-2019 12:11:04 America/Los_Angeles] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 's.clave_articulo' in 'on clause' in /home/assistproadl/public_html/subdominios/wms/app/class/Reportes/Reportes.php:647
+Stack trace:
+#0 /home/assistproadl/public_html/subdominios/wms/app/class/Reportes/Reportes.php(647): PDOStatement->execute()
+#1 /home/assistproadl/public_html/subdominios/wms/api/reportes/update/index.php(303): Reportes\Reportes->existenciaubica('3', '', '')
+#2 {main}
+  thrown in /home/assistproadl/public_html/subdominios/wms/app/class/Reportes/Reportes.php on line 647
+[27-Feb-2019 12:11:05 America/Los_Angeles] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 's.clave_articulo' in 'on clause' in /home/assistproadl/public_html/subdominios/wms/app/class/Reportes/Reportes.php:647
+Stack trace:
+#0 /home/assistproadl/public_html/subdominios/wms/app/class/Reportes/Reportes.php(647): PDOStatement->execute()
+#1 /home/assistproadl/public_html/subdominios/wms/api/reportes/update/index.php(303): Reportes\Reportes->existenciaubica('3', '', '')
+#2 {main}
+  thrown in /home/assistproadl/public_html/subdominios/wms/app/class/Reportes/Reportes.php on line 647
+[27-Feb-2019 12:11:05 America/Los_Angeles] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 's.clave_articulo' in 'on clause' in /home/assistproadl/public_html/subdominios/wms/app/class/Reportes/Reportes.php:647
+Stack trace:
+#0 /home/assistproadl/public_html/subdominios/wms/app/class/Reportes/Reportes.php(647): PDOStatement->execute()
+#1 /home/assistproadl/public_html/subdominios/wms/api/reportes/update/index.php(303): Reportes\Reportes->existenciaubica('3', '', '')
+#2 {main}
+  thrown in /home/assistproadl/public_html/subdominios/wms/app/class/Reportes/Reportes.php on line 647
+[27-Feb-2019 12:11:05 America/Los_Angeles] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 's.clave_articulo' in 'on clause' in /home/assistproadl/public_html/subdominios/wms/app/class/Reportes/Reportes.php:647
+Stack trace:
+#0 /home/assistproadl/public_html/subdominios/wms/app/class/Reportes/Reportes.php(647): PDOStatement->execute()
+#1 /home/assistproadl/public_html/subdominios/wms/api/reportes/update/index.php(303): Reportes\Reportes->existenciaubica('3', '', '')
+#2 {main}
+  thrown in /home/assistproadl/public_html/subdominios/wms/app/class/Reportes/Reportes.php on line 647
+[27-Feb-2019 12:11:11 America/Los_Angeles] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 's.clave_articulo' in 'on clause' in /home/assistproadl/public_html/subdominios/wms/app/class/Reportes/Reportes.php:647
+Stack trace:
+#0 /home/assistproadl/public_html/subdominios/wms/app/class/Reportes/Reportes.php(647): PDOStatement->execute()
+#1 /home/assistproadl/public_html/subdominios/wms/api/reportes/update/index.php(303): Reportes\Reportes->existenciaubica('3', '', '')
+#2 {main}
+  thrown in /home/assistproadl/public_html/subdominios/wms/app/class/Reportes/Reportes.php on line 647
+[27-Feb-2019 12:11:11 America/Los_Angeles] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 's.clave_articulo' in 'on clause' in /home/assistproadl/public_html/subdominios/wms/app/class/Reportes/Reportes.php:647
+Stack trace:
+#0 /home/assistproadl/public_html/subdominios/wms/app/class/Reportes/Reportes.php(647): PDOStatement->execute()
+#1 /home/assistproadl/public_html/subdominios/wms/api/reportes/update/index.php(303): Reportes\Reportes->existenciaubica('3', '', '')
+#2 {main}
+  thrown in /home/assistproadl/public_html/subdominios/wms/app/class/Reportes/Reportes.php on line 647
+[27-Feb-2019 12:11:44 America/Los_Angeles] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 's.clave_articulo' in 'on clause' in /home/assistproadl/public_html/subdominios/wms/app/class/Reportes/Reportes.php:647
+Stack trace:
+#0 /home/assistproadl/public_html/subdominios/wms/app/class/Reportes/Reportes.php(647): PDOStatement->execute()
+#1 /home/assistproadl/public_html/subdominios/wms/api/reportes/update/index.php(303): Reportes\Reportes->existenciaubica('3', '', '')
+#2 {main}
+  thrown in /home/assistproadl/public_html/subdominios/wms/app/class/Reportes/Reportes.php on line 647
+[27-Feb-2019 12:15:56 America/Los_Angeles] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 's.clave_articulo' in 'on clause' in /home/assistproadl/public_html/subdominios/wms/app/class/Reportes/Reportes.php:643
+Stack trace:
+#0 /home/assistproadl/public_html/subdominios/wms/app/class/Reportes/Reportes.php(643): PDOStatement->execute()
+#1 /home/assistproadl/public_html/subdominios/wms/api/reportes/update/index.php(303): Reportes\Reportes->existenciaubica('3', '', '')
+#2 {main}
+  thrown in /home/assistproadl/public_html/subdominios/wms/app/class/Reportes/Reportes.php on line 643
+[03-Mar-2019 16:02:30 America/Los_Angeles] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'c_serie.clave_articulo' in 'on clause' in /home/assistproadl/public_html/subdominios/wms/app/class/Reportes/Reportes.php:234
+Stack trace:
+#0 /home/assistproadl/public_html/subdominios/wms/app/class/Reportes/Reportes.php(234): PDOStatement->execute()
+#1 /home/assistproadl/public_html/subdominios/wms/api/reportes/update/index.php(185): Reportes\Reportes->invfidet('24')
+#2 {main}
+  thrown in /home/assistproadl/public_html/subdominios/wms/app/class/Reportes/Reportes.php on line 234
+[03-Mar-2019 16:02:34 America/Los_Angeles] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'c_serie.clave_articulo' in 'on clause' in /home/assistproadl/public_html/subdominios/wms/app/class/Reportes/Reportes.php:234
+Stack trace:
+#0 /home/assistproadl/public_html/subdominios/wms/app/class/Reportes/Reportes.php(234): PDOStatement->execute()
+#1 /home/assistproadl/public_html/subdominios/wms/api/reportes/update/index.php(185): Reportes\Reportes->invfidet('24')
+#2 {main}
+  thrown in /home/assistproadl/public_html/subdominios/wms/app/class/Reportes/Reportes.php on line 234
+[03-Mar-2019 16:02:35 America/Los_Angeles] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'c_serie.clave_articulo' in 'on clause' in /home/assistproadl/public_html/subdominios/wms/app/class/Reportes/Reportes.php:234
+Stack trace:
+#0 /home/assistproadl/public_html/subdominios/wms/app/class/Reportes/Reportes.php(234): PDOStatement->execute()
+#1 /home/assistproadl/public_html/subdominios/wms/api/reportes/update/index.php(185): Reportes\Reportes->invfidet('24')
+#2 {main}
+  thrown in /home/assistproadl/public_html/subdominios/wms/app/class/Reportes/Reportes.php on line 234
+[03-Mar-2019 16:04:13 America/Los_Angeles] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'c_serie.clave_articulo' in 'on clause' in /home/assistproadl/public_html/subdominios/wms/app/class/Reportes/Reportes.php:234
+Stack trace:
+#0 /home/assistproadl/public_html/subdominios/wms/app/class/Reportes/Reportes.php(234): PDOStatement->execute()
+#1 /home/assistproadl/public_html/subdominios/wms/api/reportes/update/index.php(185): Reportes\Reportes->invfidet('24')
+#2 {main}
+  thrown in /home/assistproadl/public_html/subdominios/wms/app/class/Reportes/Reportes.php on line 234
+[05-Mar-2019 10:41:00 America/Los_Angeles] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'c_serie.clave_articulo' in 'on clause' in /home/assistproadl/public_html/subdominios/wms/app/class/Reportes/Reportes.php:234
+Stack trace:
+#0 /home/assistproadl/public_html/subdominios/wms/app/class/Reportes/Reportes.php(234): PDOStatement->execute()
+#1 /home/assistproadl/public_html/subdominios/wms/api/reportes/update/index.php(185): Reportes\Reportes->invfidet('24')
+#2 {main}
+  thrown in /home/assistproadl/public_html/subdominios/wms/app/class/Reportes/Reportes.php on line 234
+[05-Mar-2019 10:41:08 America/Los_Angeles] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'c_serie.clave_articulo' in 'on clause' in /home/assistproadl/public_html/subdominios/wms/app/class/Reportes/Reportes.php:234
+Stack trace:
+#0 /home/assistproadl/public_html/subdominios/wms/app/class/Reportes/Reportes.php(234): PDOStatement->execute()
+#1 /home/assistproadl/public_html/subdominios/wms/api/reportes/update/index.php(185): Reportes\Reportes->invfidet('24')
+#2 {main}
+  thrown in /home/assistproadl/public_html/subdominios/wms/app/class/Reportes/Reportes.php on line 234
+[05-Mar-2019 10:41:10 America/Los_Angeles] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'c_serie.clave_articulo' in 'on clause' in /home/assistproadl/public_html/subdominios/wms/app/class/Reportes/Reportes.php:234
+Stack trace:
+#0 /home/assistproadl/public_html/subdominios/wms/app/class/Reportes/Reportes.php(234): PDOStatement->execute()
+#1 /home/assistproadl/public_html/subdominios/wms/api/reportes/update/index.php(185): Reportes\Reportes->invfidet('24')
+#2 {main}
+  thrown in /home/assistproadl/public_html/subdominios/wms/app/class/Reportes/Reportes.php on line 234
+[05-Mar-2019 10:41:10 America/Los_Angeles] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'c_serie.clave_articulo' in 'on clause' in /home/assistproadl/public_html/subdominios/wms/app/class/Reportes/Reportes.php:234
+Stack trace:
+#0 /home/assistproadl/public_html/subdominios/wms/app/class/Reportes/Reportes.php(234): PDOStatement->execute()
+#1 /home/assistproadl/public_html/subdominios/wms/api/reportes/update/index.php(185): Reportes\Reportes->invfidet('24')
+#2 {main}
+  thrown in /home/assistproadl/public_html/subdominios/wms/app/class/Reportes/Reportes.php on line 234
+[05-Mar-2019 10:41:10 America/Los_Angeles] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'c_serie.clave_articulo' in 'on clause' in /home/assistproadl/public_html/subdominios/wms/app/class/Reportes/Reportes.php:234
+Stack trace:
+#0 /home/assistproadl/public_html/subdominios/wms/app/class/Reportes/Reportes.php(234): PDOStatement->execute()
+#1 /home/assistproadl/public_html/subdominios/wms/api/reportes/update/index.php(185): Reportes\Reportes->invfidet('24')
+#2 {main}
+  thrown in /home/assistproadl/public_html/subdominios/wms/app/class/Reportes/Reportes.php on line 234
+[05-Mar-2019 10:41:11 America/Los_Angeles] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'c_serie.clave_articulo' in 'on clause' in /home/assistproadl/public_html/subdominios/wms/app/class/Reportes/Reportes.php:234
+Stack trace:
+#0 /home/assistproadl/public_html/subdominios/wms/app/class/Reportes/Reportes.php(234): PDOStatement->execute()
+#1 /home/assistproadl/public_html/subdominios/wms/api/reportes/update/index.php(185): Reportes\Reportes->invfidet('24')
+#2 {main}
+  thrown in /home/assistproadl/public_html/subdominios/wms/app/class/Reportes/Reportes.php on line 234
+[05-Mar-2019 10:41:11 America/Los_Angeles] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'c_serie.clave_articulo' in 'on clause' in /home/assistproadl/public_html/subdominios/wms/app/class/Reportes/Reportes.php:234
+Stack trace:
+#0 /home/assistproadl/public_html/subdominios/wms/app/class/Reportes/Reportes.php(234): PDOStatement->execute()
+#1 /home/assistproadl/public_html/subdominios/wms/api/reportes/update/index.php(185): Reportes\Reportes->invfidet('24')
+#2 {main}
+  thrown in /home/assistproadl/public_html/subdominios/wms/app/class/Reportes/Reportes.php on line 234
+[05-Mar-2019 10:41:15 America/Los_Angeles] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'c_serie.clave_articulo' in 'on clause' in /home/assistproadl/public_html/subdominios/wms/app/class/Reportes/Reportes.php:234
+Stack trace:
+#0 /home/assistproadl/public_html/subdominios/wms/app/class/Reportes/Reportes.php(234): PDOStatement->execute()
+#1 /home/assistproadl/public_html/subdominios/wms/api/reportes/update/index.php(185): Reportes\Reportes->invfidet('24')
+#2 {main}
+  thrown in /home/assistproadl/public_html/subdominios/wms/app/class/Reportes/Reportes.php on line 234
+[16-Mar-2019 18:24:19 America/Los_Angeles] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'c_serie.clave_articulo' in 'on clause' in /home/assistproadl/public_html/subdominios/wms/app/class/Reportes/Reportes.php:234
+Stack trace:
+#0 /home/assistproadl/public_html/subdominios/wms/app/class/Reportes/Reportes.php(234): PDOStatement->execute()
+#1 /home/assistproadl/public_html/subdominios/wms/api/reportes/update/index.php(185): Reportes\Reportes->invfidet('28')
+#2 {main}
+  thrown in /home/assistproadl/public_html/subdominios/wms/app/class/Reportes/Reportes.php on line 234
+[16-Mar-2019 18:24:20 America/Los_Angeles] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'c_serie.clave_articulo' in 'on clause' in /home/assistproadl/public_html/subdominios/wms/app/class/Reportes/Reportes.php:234
+Stack trace:
+#0 /home/assistproadl/public_html/subdominios/wms/app/class/Reportes/Reportes.php(234): PDOStatement->execute()
+#1 /home/assistproadl/public_html/subdominios/wms/api/reportes/update/index.php(185): Reportes\Reportes->invfidet('28')
+#2 {main}
+  thrown in /home/assistproadl/public_html/subdominios/wms/app/class/Reportes/Reportes.php on line 234

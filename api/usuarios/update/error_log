@@ -1,0 +1,72 @@
+[27-Feb-2018 12:42:29 America/Los_Angeles] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'prueba' for key 'cve_usuario' in /home/samenli1/public_html/subdominios/wms/app/class/Usuarios/Usuarios.php:202
+Stack trace:
+#0 /home/samenli1/public_html/subdominios/wms/app/class/Usuarios/Usuarios.php(202): PDOStatement->execute()
+#1 /home/samenli1/public_html/subdominios/wms/api/usuarios/update/index.php(14): Usuarios\Usuarios->saveUser(Array)
+#2 {main}
+  thrown in /home/samenli1/public_html/subdominios/wms/app/class/Usuarios/Usuarios.php on line 202
+[17-Apr-2018 10:58:56 America/Los_Angeles] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'jmojica' for key 'cve_usuario' in /home/samenli1/public_html/subdominios/wms/app/class/Usuarios/Usuarios.php:202
+Stack trace:
+#0 /home/samenli1/public_html/subdominios/wms/app/class/Usuarios/Usuarios.php(202): PDOStatement->execute()
+#1 /home/samenli1/public_html/subdominios/wms/api/usuarios/update/index.php(14): Usuarios\Usuarios->saveUser(Array)
+#2 {main}
+  thrown in /home/samenli1/public_html/subdominios/wms/app/class/Usuarios/Usuarios.php on line 202
+[25-Sep-2018 15:37:18 America/Los_Angeles] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'nmgmex' for key 'cve_usuario' in /home/assistproadl/public_html/subdominios/wms.nikken/app/class/Usuarios/Usuarios.php:204
+Stack trace:
+#0 /home/assistproadl/public_html/subdominios/wms.nikken/app/class/Usuarios/Usuarios.php(204): PDOStatement->execute()
+#1 /home/assistproadl/public_html/subdominios/wms.nikken/api/usuarios/update/index.php(14): Usuarios\Usuarios->saveUser(Array)
+#2 {main}
+  thrown in /home/assistproadl/public_html/subdominios/wms.nikken/app/class/Usuarios/Usuarios.php on line 204
+[27-Sep-2018 07:51:53 America/Los_Angeles] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'ERIKA' for key 'cve_usuario' in /home/assistproadl/public_html/subdominios/wms.nikken/app/class/Usuarios/Usuarios.php:204
+Stack trace:
+#0 /home/assistproadl/public_html/subdominios/wms.nikken/app/class/Usuarios/Usuarios.php(204): PDOStatement->execute()
+#1 /home/assistproadl/public_html/subdominios/wms.nikken/api/usuarios/update/index.php(14): Usuarios\Usuarios->saveUser(Array)
+#2 {main}
+  thrown in /home/assistproadl/public_html/subdominios/wms.nikken/app/class/Usuarios/Usuarios.php on line 204
+[27-Sep-2018 07:53:19 America/Los_Angeles] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'Erika' for key 'cve_usuario' in /home/assistproadl/public_html/subdominios/wms.nikken/app/class/Usuarios/Usuarios.php:204
+Stack trace:
+#0 /home/assistproadl/public_html/subdominios/wms.nikken/app/class/Usuarios/Usuarios.php(204): PDOStatement->execute()
+#1 /home/assistproadl/public_html/subdominios/wms.nikken/api/usuarios/update/index.php(14): Usuarios\Usuarios->saveUser(Array)
+#2 {main}
+  thrown in /home/assistproadl/public_html/subdominios/wms.nikken/app/class/Usuarios/Usuarios.php on line 204
+[27-Sep-2018 08:08:36 America/Los_Angeles] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'ephmex' for key 'cve_usuario' in /home/assistproadl/public_html/subdominios/wms.nikken/app/class/Usuarios/Usuarios.php:204
+Stack trace:
+#0 /home/assistproadl/public_html/subdominios/wms.nikken/app/class/Usuarios/Usuarios.php(204): PDOStatement->execute()
+#1 /home/assistproadl/public_html/subdominios/wms.nikken/api/usuarios/update/index.php(14): Usuarios\Usuarios->saveUser(Array)
+#2 {main}
+  thrown in /home/assistproadl/public_html/subdominios/wms.nikken/app/class/Usuarios/Usuarios.php on line 204
+[27-Sep-2018 08:16:09 America/Los_Angeles] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'amfmex2' for key 'cve_usuario' in /home/assistproadl/public_html/subdominios/wms.nikken/app/class/Usuarios/Usuarios.php:204
+Stack trace:
+#0 /home/assistproadl/public_html/subdominios/wms.nikken/app/class/Usuarios/Usuarios.php(204): PDOStatement->execute()
+#1 /home/assistproadl/public_html/subdominios/wms.nikken/api/usuarios/update/index.php(14): Usuarios\Usuarios->saveUser(Array)
+#2 {main}
+  thrown in /home/assistproadl/public_html/subdominios/wms.nikken/app/class/Usuarios/Usuarios.php on line 204
+[27-Sep-2018 08:16:09 America/Los_Angeles] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'amfmex2' for key 'cve_usuario' in /home/assistproadl/public_html/subdominios/wms.nikken/app/class/Usuarios/Usuarios.php:204
+Stack trace:
+#0 /home/assistproadl/public_html/subdominios/wms.nikken/app/class/Usuarios/Usuarios.php(204): PDOStatement->execute()
+#1 /home/assistproadl/public_html/subdominios/wms.nikken/api/usuarios/update/index.php(14): Usuarios\Usuarios->saveUser(Array)
+#2 {main}
+  thrown in /home/assistproadl/public_html/subdominios/wms.nikken/app/class/Usuarios/Usuarios.php on line 204
+[22-Oct-2018 12:51:28 America/Los_Angeles] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'mgtmex' for key 'cve_usuario' in /home/assistproadl/public_html/subdominios/wms.nikken/app/class/Usuarios/Usuarios.php:204
+Stack trace:
+#0 /home/assistproadl/public_html/subdominios/wms.nikken/app/class/Usuarios/Usuarios.php(204): PDOStatement->execute()
+#1 /home/assistproadl/public_html/subdominios/wms.nikken/api/usuarios/update/index.php(14): Usuarios\Usuarios->saveUser(Array)
+#2 {main}
+  thrown in /home/assistproadl/public_html/subdominios/wms.nikken/app/class/Usuarios/Usuarios.php on line 204
+[18-Nov-2018 13:06:29 America/Los_Angeles] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'adve' for key 'cve_usuario' in /home/assistproadl/public_html/subdominios/wms.nikken/app/class/Usuarios/Usuarios.php:204
+Stack trace:
+#0 /home/assistproadl/public_html/subdominios/wms.nikken/app/class/Usuarios/Usuarios.php(204): PDOStatement->execute()
+#1 /home/assistproadl/public_html/subdominios/wms.nikken/api/usuarios/update/index.php(14): Usuarios\Usuarios->saveUser(Array)
+#2 {main}
+  thrown in /home/assistproadl/public_html/subdominios/wms.nikken/app/class/Usuarios/Usuarios.php on line 204
+[06-Mar-2019 09:16:30 America/Los_Angeles] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'Luis' for key 'cve_usuario' in /home/assistproadl/public_html/subdominios/wms/app/class/Usuarios/Usuarios.php:204
+Stack trace:
+#0 /home/assistproadl/public_html/subdominios/wms/app/class/Usuarios/Usuarios.php(204): PDOStatement->execute()
+#1 /home/assistproadl/public_html/subdominios/wms/api/usuarios/update/index.php(14): Usuarios\Usuarios->saveUser(Array)
+#2 {main}
+  thrown in /home/assistproadl/public_html/subdominios/wms/app/class/Usuarios/Usuarios.php on line 204
+[12-Mar-2019 09:38:52 America/Los_Angeles] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'Cesaro' for key 'cve_usuario' in /home/assistproadl/public_html/subdominios/wms/app/class/Usuarios/Usuarios.php:204
+Stack trace:
+#0 /home/assistproadl/public_html/subdominios/wms/app/class/Usuarios/Usuarios.php(204): PDOStatement->execute()
+#1 /home/assistproadl/public_html/subdominios/wms/api/usuarios/update/index.php(14): Usuarios\Usuarios->saveUser(Array)
+#2 {main}
+  thrown in /home/assistproadl/public_html/subdominios/wms/app/class/Usuarios/Usuarios.php on line 204

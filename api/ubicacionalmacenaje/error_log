@@ -1,0 +1,2 @@
+[15-May-2018 15:37:31 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/samenli1/public_html/subdominios/wms/api/ubicacionalmacenaje/index.php on line 159
+[21-Sep-2018 16:56:50 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ',' or ')' in /home/assistproadl/public_html/subdominios/wms.nikken/api/ubicacionalmacenaje/index.php on line 201

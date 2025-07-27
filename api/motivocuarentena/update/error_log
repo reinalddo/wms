@@ -1,0 +1,39 @@
+[17-May-2017 00:38:53 UTC] PHP Parse error:  syntax error, unexpected '}', expecting end of file in /home/samenli1/public_html/subdominios/wms/api/motivodevolucion/update/index.php on line 38
+[17-May-2017 00:41:29 UTC] PHP Parse error:  syntax error, unexpected '}', expecting end of file in /home/samenli1/public_html/subdominios/wms/api/motivodevolucion/update/index.php on line 38
+[17-May-2017 00:42:32 UTC] PHP Parse error:  syntax error, unexpected '}', expecting end of file in /home/samenli1/public_html/subdominios/wms/api/motivodevolucion/update/index.php on line 37
+[16-May-2017 17:42:52 America/Los_Angeles] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ': Clave_motivo' at line 5 in /home/samenli1/public_html/subdominios/wms/app/class/MotivoDevolucion/MotivoDevolucion.php:118
+Stack trace:
+#0 /home/samenli1/public_html/subdominios/wms/app/class/MotivoDevolucion/MotivoDevolucion.php(118): PDOStatement->execute()
+#1 /home/samenli1/public_html/subdominios/wms/api/motivodevolucion/update/index.php(14): MotivoDevolucion\MotivoDevolucion->save(Array)
+#2 {main}
+  thrown in /home/samenli1/public_html/subdominios/wms/app/class/MotivoDevolucion/MotivoDevolucion.php on line 118
+[16-May-2017 17:44:08 America/Los_Angeles] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens in /home/samenli1/public_html/subdominios/wms/app/class/MotivoDevolucion/MotivoDevolucion.php:118
+Stack trace:
+#0 /home/samenli1/public_html/subdominios/wms/app/class/MotivoDevolucion/MotivoDevolucion.php(118): PDOStatement->execute()
+#1 /home/samenli1/public_html/subdominios/wms/api/motivodevolucion/update/index.php(14): MotivoDevolucion\MotivoDevolucion->save(Array)
+#2 {main}
+  thrown in /home/samenli1/public_html/subdominios/wms/app/class/MotivoDevolucion/MotivoDevolucion.php on line 118
+[16-May-2017 17:45:02 America/Los_Angeles] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'Clave_motivo' cannot be null in /home/samenli1/public_html/subdominios/wms/app/class/MotivoDevolucion/MotivoDevolucion.php:118
+Stack trace:
+#0 /home/samenli1/public_html/subdominios/wms/app/class/MotivoDevolucion/MotivoDevolucion.php(118): PDOStatement->execute()
+#1 /home/samenli1/public_html/subdominios/wms/api/motivodevolucion/update/index.php(14): MotivoDevolucion\MotivoDevolucion->save(Array)
+#2 {main}
+  thrown in /home/samenli1/public_html/subdominios/wms/app/class/MotivoDevolucion/MotivoDevolucion.php on line 118
+[16-May-2017 17:45:57 America/Los_Angeles] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'Clave_motivo' cannot be null in /home/samenli1/public_html/subdominios/wms/app/class/MotivoDevolucion/MotivoDevolucion.php:118
+Stack trace:
+#0 /home/samenli1/public_html/subdominios/wms/app/class/MotivoDevolucion/MotivoDevolucion.php(118): PDOStatement->execute()
+#1 /home/samenli1/public_html/subdominios/wms/api/motivodevolucion/update/index.php(14): MotivoDevolucion\MotivoDevolucion->save(Array)
+#2 {main}
+  thrown in /home/samenli1/public_html/subdominios/wms/app/class/MotivoDevolucion/MotivoDevolucion.php on line 118
+[16-May-2017 17:47:41 America/Los_Angeles] PHP Fatal error:  Uncaught Error: Call to a member function exist() on null in /home/samenli1/public_html/subdominios/wms/api/motivodevolucion/update/index.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/samenli1/public_html/subdominios/wms/api/motivodevolucion/update/index.php on line 20
+[16-May-2017 17:48:49 America/Los_Angeles] PHP Fatal error:  Uncaught Error: Call to a member function exist() on null in /home/samenli1/public_html/subdominios/wms/api/motivodevolucion/update/index.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/samenli1/public_html/subdominios/wms/api/motivodevolucion/update/index.php on line 20
+[16-May-2017 17:49:23 America/Los_Angeles] PHP Fatal error:  Uncaught Error: Call to a member function exist() on null in /home/samenli1/public_html/subdominios/wms/api/motivodevolucion/update/index.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/samenli1/public_html/subdominios/wms/api/motivodevolucion/update/index.php on line 20

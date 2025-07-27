@@ -1,0 +1,11 @@
+[16-May-2017 13:03:07 UTC] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO), expecting ';' in /home/samenli1/public_html/subdominios/wms/api/almacen/lista/index.php on line 89
+[06-Jul-2017 23:18:33 UTC] PHP Parse error:  syntax error, unexpected '<<' (T_SL) in /home/samenli1/public_html/subdominios/wms/api/adminentrada/lista/index.php on line 202
+[06-Jul-2017 23:18:37 UTC] PHP Parse error:  syntax error, unexpected '<<' (T_SL) in /home/samenli1/public_html/subdominios/wms/api/adminentrada/lista/index.php on line 202
+[06-Jul-2017 23:18:41 UTC] PHP Parse error:  syntax error, unexpected '<<' (T_SL) in /home/samenli1/public_html/subdominios/wms/api/adminentrada/lista/index.php on line 202
+[06-Jul-2017 23:18:56 UTC] PHP Parse error:  syntax error, unexpected '<<' (T_SL) in /home/samenli1/public_html/subdominios/wms/api/adminentrada/lista/index.php on line 202
+[06-Jul-2017 23:19:27 UTC] PHP Parse error:  syntax error, unexpected '<<' (T_SL) in /home/samenli1/public_html/subdominios/wms/api/adminentrada/lista/index.php on line 202
+[06-Jul-2017 23:19:27 UTC] PHP Parse error:  syntax error, unexpected '<<' (T_SL) in /home/samenli1/public_html/subdominios/wms/api/adminentrada/lista/index.php on line 202
+[06-Jul-2017 23:19:31 UTC] PHP Parse error:  syntax error, unexpected '<<' (T_SL) in /home/samenli1/public_html/subdominios/wms/api/adminentrada/lista/index.php on line 202
+[06-Jul-2017 23:19:38 UTC] PHP Parse error:  syntax error, unexpected '<<' (T_SL) in /home/samenli1/public_html/subdominios/wms/api/adminentrada/lista/index.php on line 202
+[06-Jul-2017 23:19:39 UTC] PHP Parse error:  syntax error, unexpected '<<' (T_SL) in /home/samenli1/public_html/subdominios/wms/api/adminentrada/lista/index.php on line 202
+[06-Jul-2017 23:19:56 UTC] PHP Parse error:  syntax error, unexpected '<<' (T_SL) in /home/samenli1/public_html/subdominios/wms/api/adminentrada/lista/index.php on line 202

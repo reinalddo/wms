@@ -1,0 +1,666 @@
+[08-May-2017 08:15:59 America/Los_Angeles] PHP Fatal error:  Uncaught Error: Call to undefined method Almacen\Almacen::loadAlmacenUser() in /home/samenli1/public_html/subdominios/wms/api/almacen/update/index.php:229
+Stack trace:
+#0 {main}
+  thrown in /home/samenli1/public_html/subdominios/wms/api/almacen/update/index.php on line 229
+[08-May-2017 08:16:01 America/Los_Angeles] PHP Fatal error:  Uncaught Error: Call to undefined method Almacen\Almacen::loadAlmacenUser() in /home/samenli1/public_html/subdominios/wms/api/almacen/update/index.php:229
+Stack trace:
+#0 {main}
+  thrown in /home/samenli1/public_html/subdominios/wms/api/almacen/update/index.php on line 229
+[08-May-2017 08:16:04 America/Los_Angeles] PHP Fatal error:  Uncaught Error: Call to undefined method Almacen\Almacen::loadAlmacenUser() in /home/samenli1/public_html/subdominios/wms/api/almacen/update/index.php:229
+Stack trace:
+#0 {main}
+  thrown in /home/samenli1/public_html/subdominios/wms/api/almacen/update/index.php on line 229
+[08-May-2017 08:16:06 America/Los_Angeles] PHP Fatal error:  Uncaught Error: Call to undefined method Almacen\Almacen::loadAlmacenUser() in /home/samenli1/public_html/subdominios/wms/api/almacen/update/index.php:229
+Stack trace:
+#0 {main}
+  thrown in /home/samenli1/public_html/subdominios/wms/api/almacen/update/index.php on line 229
+[08-May-2017 08:16:26 America/Los_Angeles] PHP Fatal error:  Uncaught Error: Call to undefined method Almacen\Almacen::loadAlmacenUser() in /home/samenli1/public_html/subdominios/wms/api/almacen/update/index.php:229
+Stack trace:
+#0 {main}
+  thrown in /home/samenli1/public_html/subdominios/wms/api/almacen/update/index.php on line 229
+[08-May-2017 10:50:51 America/Los_Angeles] PHP Warning:  array_diff(): Argument #2 is not an array in /home/samenli1/public_html/subdominios/wms/api/almacen/update/index.php on line 291
+[08-May-2017 10:50:51 America/Los_Angeles] PHP Warning:  Invalid argument supplied for foreach() in /home/samenli1/public_html/subdominios/wms/api/almacen/update/index.php on line 294
+[08-May-2017 10:50:51 America/Los_Angeles] PHP Warning:  array_diff(): Argument #1 is not an array in /home/samenli1/public_html/subdominios/wms/api/almacen/update/index.php on line 304
+[08-May-2017 10:50:51 America/Los_Angeles] PHP Warning:  Invalid argument supplied for foreach() in /home/samenli1/public_html/subdominios/wms/api/almacen/update/index.php on line 307
+[08-May-2017 11:40:08 America/Los_Angeles] PHP Fatal error:  Uncaught ErrorException: des_direcc is required. in /home/samenli1/public_html/subdominios/wms/app/class/Almacen/Almacen.php:104
+Stack trace:
+#0 /home/samenli1/public_html/subdominios/wms/api/almacen/update/index.php(14): Almacen\Almacen->save(Array)
+#1 {main}
+  thrown in /home/samenli1/public_html/subdominios/wms/app/class/Almacen/Almacen.php on line 104
+[08-May-2017 12:58:16 America/Los_Angeles] PHP Fatal error:  Uncaught ErrorException: des_direcc is required. in /home/samenli1/public_html/subdominios/wms/app/class/Almacen/Almacen.php:104
+Stack trace:
+#0 /home/samenli1/public_html/subdominios/wms/api/almacen/update/index.php(14): Almacen\Almacen->save(Array)
+#1 {main}
+  thrown in /home/samenli1/public_html/subdominios/wms/app/class/Almacen/Almacen.php on line 104
+[13-May-2017 13:33:54 America/Los_Angeles] PHP Fatal error:  Uncaught ErrorException: des_direcc is required. in /home/samenli1/public_html/subdominios/wms/app/class/Almacen/Almacen.php:105
+Stack trace:
+#0 /home/samenli1/public_html/subdominios/wms/api/almacen/update/index.php(14): Almacen\Almacen->save(Array)
+#1 {main}
+  thrown in /home/samenli1/public_html/subdominios/wms/app/class/Almacen/Almacen.php on line 105
+[13-May-2017 13:34:11 America/Los_Angeles] PHP Fatal error:  Uncaught ErrorException: cve_cia is required. in /home/samenli1/public_html/subdominios/wms/app/class/Almacen/Almacen.php:102
+Stack trace:
+#0 /home/samenli1/public_html/subdominios/wms/api/almacen/update/index.php(14): Almacen\Almacen->save(Array)
+#1 {main}
+  thrown in /home/samenli1/public_html/subdominios/wms/app/class/Almacen/Almacen.php on line 102
+[13-May-2017 13:36:43 America/Los_Angeles] PHP Fatal error:  Uncaught ErrorException: cve_cia is required. in /home/samenli1/public_html/subdominios/wms/app/class/Almacen/Almacen.php:102
+Stack trace:
+#0 /home/samenli1/public_html/subdominios/wms/api/almacen/update/index.php(14): Almacen\Almacen->save(Array)
+#1 {main}
+  thrown in /home/samenli1/public_html/subdominios/wms/app/class/Almacen/Almacen.php on line 102
+[13-May-2017 13:43:37 America/Los_Angeles] PHP Fatal error:  Uncaught ErrorException: des_direcc is required. in /home/samenli1/public_html/subdominios/wms/app/class/Almacen/Almacen.php:105
+Stack trace:
+#0 /home/samenli1/public_html/subdominios/wms/api/almacen/update/index.php(14): Almacen\Almacen->save(Array)
+#1 {main}
+  thrown in /home/samenli1/public_html/subdominios/wms/app/class/Almacen/Almacen.php on line 105
+[13-May-2017 13:44:05 America/Los_Angeles] PHP Fatal error:  Uncaught ErrorException: cve_cia is required. in /home/samenli1/public_html/subdominios/wms/app/class/Almacen/Almacen.php:102
+Stack trace:
+#0 /home/samenli1/public_html/subdominios/wms/api/almacen/update/index.php(14): Almacen\Almacen->save(Array)
+#1 {main}
+  thrown in /home/samenli1/public_html/subdominios/wms/app/class/Almacen/Almacen.php on line 102
+[13-May-2017 13:46:48 America/Los_Angeles] PHP Fatal error:  Uncaught ErrorException: cve_cia is required. in /home/samenli1/public_html/subdominios/wms/app/class/Almacen/Almacen.php:102
+Stack trace:
+#0 /home/samenli1/public_html/subdominios/wms/api/almacen/update/index.php(14): Almacen\Almacen->save(Array)
+#1 {main}
+  thrown in /home/samenli1/public_html/subdominios/wms/app/class/Almacen/Almacen.php on line 102
+[13-May-2017 13:47:37 America/Los_Angeles] PHP Fatal error:  Uncaught ErrorException: des_direcc is required. in /home/samenli1/public_html/subdominios/wms/app/class/Almacen/Almacen.php:105
+Stack trace:
+#0 /home/samenli1/public_html/subdominios/wms/api/almacen/update/index.php(14): Almacen\Almacen->save(Array)
+#1 {main}
+  thrown in /home/samenli1/public_html/subdominios/wms/app/class/Almacen/Almacen.php on line 105
+[13-May-2017 13:48:00 America/Los_Angeles] PHP Fatal error:  Uncaught ErrorException: cve_cia is required. in /home/samenli1/public_html/subdominios/wms/app/class/Almacen/Almacen.php:102
+Stack trace:
+#0 /home/samenli1/public_html/subdominios/wms/api/almacen/update/index.php(14): Almacen\Almacen->save(Array)
+#1 {main}
+  thrown in /home/samenli1/public_html/subdominios/wms/app/class/Almacen/Almacen.php on line 102
+[13-May-2017 13:48:11 America/Los_Angeles] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens in /home/samenli1/public_html/subdominios/wms/app/class/Almacen/Almacen.php:123
+Stack trace:
+#0 /home/samenli1/public_html/subdominios/wms/app/class/Almacen/Almacen.php(123): PDOStatement->execute()
+#1 /home/samenli1/public_html/subdominios/wms/api/almacen/update/index.php(14): Almacen\Almacen->save(Array)
+#2 {main}
+  thrown in /home/samenli1/public_html/subdominios/wms/app/class/Almacen/Almacen.php on line 123
+[13-May-2017 13:48:51 America/Los_Angeles] PHP Fatal error:  Uncaught ErrorException: cve_cia is required. in /home/samenli1/public_html/subdominios/wms/app/class/Almacen/Almacen.php:102
+Stack trace:
+#0 /home/samenli1/public_html/subdominios/wms/api/almacen/update/index.php(14): Almacen\Almacen->save(Array)
+#1 {main}
+  thrown in /home/samenli1/public_html/subdominios/wms/app/class/Almacen/Almacen.php on line 102
+[13-May-2017 13:49:11 America/Los_Angeles] PHP Fatal error:  Uncaught ErrorException: cve_cia is required. in /home/samenli1/public_html/subdominios/wms/app/class/Almacen/Almacen.php:102
+Stack trace:
+#0 /home/samenli1/public_html/subdominios/wms/api/almacen/update/index.php(14): Almacen\Almacen->save(Array)
+#1 {main}
+  thrown in /home/samenli1/public_html/subdominios/wms/app/class/Almacen/Almacen.php on line 102
+[13-May-2017 13:54:38 America/Los_Angeles] PHP Fatal error:  Uncaught ErrorException: cve_cia is required. in /home/samenli1/public_html/subdominios/wms/app/class/Almacen/Almacen.php:102
+Stack trace:
+#0 /home/samenli1/public_html/subdominios/wms/api/almacen/update/index.php(14): Almacen\Almacen->save(Array)
+#1 {main}
+  thrown in /home/samenli1/public_html/subdominios/wms/app/class/Almacen/Almacen.php on line 102
+[13-May-2017 14:12:00 America/Los_Angeles] PHP Fatal error:  Uncaught ErrorException: cve_cia is required. in /home/samenli1/public_html/subdominios/wms/app/class/Almacen/Almacen.php:102
+Stack trace:
+#0 /home/samenli1/public_html/subdominios/wms/api/almacen/update/index.php(14): Almacen\Almacen->save(Array)
+#1 {main}
+  thrown in /home/samenli1/public_html/subdominios/wms/app/class/Almacen/Almacen.php on line 102
+[13-May-2017 21:59:22 UTC] PHP Parse error:  syntax error, unexpected '=', expecting ')' in /home/samenli1/public_html/subdominios/wms/api/almacen/update/index.php on line 96
+[13-May-2017 22:04:30 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ',' or ')' in /home/samenli1/public_html/subdominios/wms/api/almacen/update/index.php on line 86
+[13-May-2017 22:05:06 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ',' or ')' in /home/samenli1/public_html/subdominios/wms/api/almacen/update/index.php on line 86
+[13-May-2017 22:05:30 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ',' or ')' in /home/samenli1/public_html/subdominios/wms/api/almacen/update/index.php on line 86
+[13-May-2017 22:06:40 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ',' or ')' in /home/samenli1/public_html/subdominios/wms/api/almacen/update/index.php on line 86
+[13-May-2017 15:09:28 America/Los_Angeles] PHP Fatal error:  Uncaught ErrorException: cve_cia is required. in /home/samenli1/public_html/subdominios/wms/app/class/Almacen/Almacen.php:131
+Stack trace:
+#0 /home/samenli1/public_html/subdominios/wms/api/almacen/update/index.php(14): Almacen\Almacen->save(Array)
+#1 {main}
+  thrown in /home/samenli1/public_html/subdominios/wms/app/class/Almacen/Almacen.php on line 131
+[13-May-2017 15:09:46 America/Los_Angeles] PHP Fatal error:  Uncaught ErrorException: cve_cia is required. in /home/samenli1/public_html/subdominios/wms/app/class/Almacen/Almacen.php:131
+Stack trace:
+#0 /home/samenli1/public_html/subdominios/wms/api/almacen/update/index.php(14): Almacen\Almacen->save(Array)
+#1 {main}
+  thrown in /home/samenli1/public_html/subdominios/wms/app/class/Almacen/Almacen.php on line 131
+[13-May-2017 15:10:51 America/Los_Angeles] PHP Fatal error:  Uncaught ErrorException: cve_cia is required. in /home/samenli1/public_html/subdominios/wms/app/class/Almacen/Almacen.php:131
+Stack trace:
+#0 /home/samenli1/public_html/subdominios/wms/api/almacen/update/index.php(14): Almacen\Almacen->save(Array)
+#1 {main}
+  thrown in /home/samenli1/public_html/subdominios/wms/app/class/Almacen/Almacen.php on line 131
+[14-May-2017 16:10:25 America/Los_Angeles] PHP Warning:  array_diff(): Argument #2 is not an array in /home/samenli1/public_html/subdominios/wms/api/almacen/update/index.php on line 298
+[14-May-2017 16:10:25 America/Los_Angeles] PHP Warning:  Invalid argument supplied for foreach() in /home/samenli1/public_html/subdominios/wms/api/almacen/update/index.php on line 301
+[14-May-2017 16:10:25 America/Los_Angeles] PHP Warning:  array_diff(): Argument #1 is not an array in /home/samenli1/public_html/subdominios/wms/api/almacen/update/index.php on line 311
+[14-May-2017 16:10:25 America/Los_Angeles] PHP Warning:  Invalid argument supplied for foreach() in /home/samenli1/public_html/subdominios/wms/api/almacen/update/index.php on line 314
+[14-May-2017 16:10:39 America/Los_Angeles] PHP Warning:  array_diff(): Argument #2 is not an array in /home/samenli1/public_html/subdominios/wms/api/almacen/update/index.php on line 298
+[14-May-2017 16:10:39 America/Los_Angeles] PHP Warning:  Invalid argument supplied for foreach() in /home/samenli1/public_html/subdominios/wms/api/almacen/update/index.php on line 301
+[14-May-2017 16:10:39 America/Los_Angeles] PHP Warning:  array_diff(): Argument #1 is not an array in /home/samenli1/public_html/subdominios/wms/api/almacen/update/index.php on line 311
+[14-May-2017 16:10:39 America/Los_Angeles] PHP Warning:  Invalid argument supplied for foreach() in /home/samenli1/public_html/subdominios/wms/api/almacen/update/index.php on line 314
+[14-May-2017 16:10:53 America/Los_Angeles] PHP Warning:  array_diff(): Argument #2 is not an array in /home/samenli1/public_html/subdominios/wms/api/almacen/update/index.php on line 298
+[14-May-2017 16:10:53 America/Los_Angeles] PHP Warning:  Invalid argument supplied for foreach() in /home/samenli1/public_html/subdominios/wms/api/almacen/update/index.php on line 301
+[14-May-2017 16:10:53 America/Los_Angeles] PHP Warning:  array_diff(): Argument #1 is not an array in /home/samenli1/public_html/subdominios/wms/api/almacen/update/index.php on line 311
+[14-May-2017 16:10:53 America/Los_Angeles] PHP Warning:  Invalid argument supplied for foreach() in /home/samenli1/public_html/subdominios/wms/api/almacen/update/index.php on line 314
+[14-May-2017 16:11:03 America/Los_Angeles] PHP Warning:  array_diff(): Argument #2 is not an array in /home/samenli1/public_html/subdominios/wms/api/almacen/update/index.php on line 298
+[14-May-2017 16:11:03 America/Los_Angeles] PHP Warning:  Invalid argument supplied for foreach() in /home/samenli1/public_html/subdominios/wms/api/almacen/update/index.php on line 301
+[14-May-2017 16:11:03 America/Los_Angeles] PHP Warning:  array_diff(): Argument #1 is not an array in /home/samenli1/public_html/subdominios/wms/api/almacen/update/index.php on line 311
+[14-May-2017 16:11:03 America/Los_Angeles] PHP Warning:  Invalid argument supplied for foreach() in /home/samenli1/public_html/subdominios/wms/api/almacen/update/index.php on line 314
+[18-May-2017 10:57:12 America/Los_Angeles] PHP Fatal error:  Uncaught ErrorException: cve_cia is required. in /home/samenli1/public_html/subdominios/wms/app/class/Almacen/Almacen.php:133
+Stack trace:
+#0 /home/samenli1/public_html/subdominios/wms/api/almacen/update/index.php(14): Almacen\Almacen->save(Array)
+#1 {main}
+  thrown in /home/samenli1/public_html/subdominios/wms/app/class/Almacen/Almacen.php on line 133
+[18-May-2017 10:58:13 America/Los_Angeles] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'cve_cia' in 'field list' in /home/samenli1/public_html/subdominios/wms/app/class/Almacen/Almacen.php:156
+Stack trace:
+#0 /home/samenli1/public_html/subdominios/wms/app/class/Almacen/Almacen.php(156): PDOStatement->execute()
+#1 /home/samenli1/public_html/subdominios/wms/api/almacen/update/index.php(14): Almacen\Almacen->save(Array)
+#2 {main}
+  thrown in /home/samenli1/public_html/subdominios/wms/app/class/Almacen/Almacen.php on line 156
+[18-May-2017 11:04:51 America/Los_Angeles] PHP Fatal error:  Uncaught ErrorException: clave_almacen is required. in /home/samenli1/public_html/subdominios/wms/app/class/Almacen/Almacen.php:133
+Stack trace:
+#0 /home/samenli1/public_html/subdominios/wms/api/almacen/update/index.php(14): Almacen\Almacen->save(Array)
+#1 {main}
+  thrown in /home/samenli1/public_html/subdominios/wms/app/class/Almacen/Almacen.php on line 133
+[09-Aug-2017 16:37:31 America/Los_Angeles] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1 in /home/samenli1/public_html/subdominios/wms/app/class/Almacen/Almacen.php:377
+Stack trace:
+#0 /home/samenli1/public_html/subdominios/wms/app/class/Almacen/Almacen.php(377): PDOStatement->execute()
+#1 /home/samenli1/public_html/subdominios/wms/api/almacen/update/index.php(274): Almacen\Almacen->loadUbicacionesDeZonas('', '', 'true', NULL)
+#2 {main}
+  thrown in /home/samenli1/public_html/subdominios/wms/app/class/Almacen/Almacen.php on line 377
+[09-Aug-2017 16:37:34 America/Los_Angeles] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1 in /home/samenli1/public_html/subdominios/wms/app/class/Almacen/Almacen.php:377
+Stack trace:
+#0 /home/samenli1/public_html/subdominios/wms/app/class/Almacen/Almacen.php(377): PDOStatement->execute()
+#1 /home/samenli1/public_html/subdominios/wms/api/almacen/update/index.php(274): Almacen\Almacen->loadUbicacionesDeZonas('', '', 'true', NULL)
+#2 {main}
+  thrown in /home/samenli1/public_html/subdominios/wms/app/class/Almacen/Almacen.php on line 377
+[10-Aug-2017 07:26:40 America/Los_Angeles] PHP Warning:  Missing argument 3 for Almacen\Almacen::loadUbicacionesDeZonas(), called in /home/samenli1/public_html/subdominios/wms/api/almacen/update/index.php on line 288 and defined in /home/samenli1/public_html/subdominios/wms/app/class/Almacen/Almacen.php on line 353
+[10-Aug-2017 07:26:40 America/Los_Angeles] PHP Warning:  Missing argument 4 for Almacen\Almacen::loadUbicacionesDeZonas(), called in /home/samenli1/public_html/subdominios/wms/api/almacen/update/index.php on line 288 and defined in /home/samenli1/public_html/subdominios/wms/app/class/Almacen/Almacen.php on line 353
+[10-Aug-2017 07:27:00 America/Los_Angeles] PHP Warning:  Missing argument 3 for Almacen\Almacen::loadUbicacionesDeZonas(), called in /home/samenli1/public_html/subdominios/wms/api/almacen/update/index.php on line 288 and defined in /home/samenli1/public_html/subdominios/wms/app/class/Almacen/Almacen.php on line 353
+[10-Aug-2017 07:27:00 America/Los_Angeles] PHP Warning:  Missing argument 4 for Almacen\Almacen::loadUbicacionesDeZonas(), called in /home/samenli1/public_html/subdominios/wms/api/almacen/update/index.php on line 288 and defined in /home/samenli1/public_html/subdominios/wms/app/class/Almacen/Almacen.php on line 353
+[10-Aug-2017 07:27:04 America/Los_Angeles] PHP Warning:  Missing argument 3 for Almacen\Almacen::loadUbicacionesDeZonas(), called in /home/samenli1/public_html/subdominios/wms/api/almacen/update/index.php on line 288 and defined in /home/samenli1/public_html/subdominios/wms/app/class/Almacen/Almacen.php on line 353
+[10-Aug-2017 07:27:04 America/Los_Angeles] PHP Warning:  Missing argument 4 for Almacen\Almacen::loadUbicacionesDeZonas(), called in /home/samenli1/public_html/subdominios/wms/api/almacen/update/index.php on line 288 and defined in /home/samenli1/public_html/subdominios/wms/app/class/Almacen/Almacen.php on line 353
+[10-Aug-2017 07:27:07 America/Los_Angeles] PHP Warning:  Missing argument 3 for Almacen\Almacen::loadUbicacionesDeZonas(), called in /home/samenli1/public_html/subdominios/wms/api/almacen/update/index.php on line 288 and defined in /home/samenli1/public_html/subdominios/wms/app/class/Almacen/Almacen.php on line 353
+[10-Aug-2017 07:27:07 America/Los_Angeles] PHP Warning:  Missing argument 4 for Almacen\Almacen::loadUbicacionesDeZonas(), called in /home/samenli1/public_html/subdominios/wms/api/almacen/update/index.php on line 288 and defined in /home/samenli1/public_html/subdominios/wms/app/class/Almacen/Almacen.php on line 353
+[10-Aug-2017 07:27:14 America/Los_Angeles] PHP Warning:  Missing argument 3 for Almacen\Almacen::loadUbicacionesDeZonas(), called in /home/samenli1/public_html/subdominios/wms/api/almacen/update/index.php on line 288 and defined in /home/samenli1/public_html/subdominios/wms/app/class/Almacen/Almacen.php on line 353
+[10-Aug-2017 07:27:14 America/Los_Angeles] PHP Warning:  Missing argument 4 for Almacen\Almacen::loadUbicacionesDeZonas(), called in /home/samenli1/public_html/subdominios/wms/api/almacen/update/index.php on line 288 and defined in /home/samenli1/public_html/subdominios/wms/app/class/Almacen/Almacen.php on line 353
+[10-Aug-2017 07:28:11 America/Los_Angeles] PHP Warning:  Missing argument 3 for Almacen\Almacen::loadUbicacionesDeZonas(), called in /home/samenli1/public_html/subdominios/wms/api/almacen/update/index.php on line 288 and defined in /home/samenli1/public_html/subdominios/wms/app/class/Almacen/Almacen.php on line 353
+[10-Aug-2017 07:28:11 America/Los_Angeles] PHP Warning:  Missing argument 4 for Almacen\Almacen::loadUbicacionesDeZonas(), called in /home/samenli1/public_html/subdominios/wms/api/almacen/update/index.php on line 288 and defined in /home/samenli1/public_html/subdominios/wms/app/class/Almacen/Almacen.php on line 353
+[22-Aug-2017 09:13:06 America/Los_Angeles] PHP Warning:  Missing argument 3 for Almacen\Almacen::loadUbicacionesDeZonas(), called in /home/samenli1/public_html/subdominios/wms/api/almacen/update/index.php on line 288 and defined in /home/samenli1/public_html/subdominios/wms/app/class/Almacen/Almacen.php on line 353
+[22-Aug-2017 09:13:06 America/Los_Angeles] PHP Warning:  Missing argument 4 for Almacen\Almacen::loadUbicacionesDeZonas(), called in /home/samenli1/public_html/subdominios/wms/api/almacen/update/index.php on line 288 and defined in /home/samenli1/public_html/subdominios/wms/app/class/Almacen/Almacen.php on line 353
+[23-Aug-2017 17:48:48 America/Los_Angeles] PHP Warning:  Missing argument 3 for Almacen\Almacen::loadUbicacionesDeZonas(), called in /home/samenli1/public_html/subdominios/wms/api/almacen/update/index.php on line 288 and defined in /home/samenli1/public_html/subdominios/wms/app/class/Almacen/Almacen.php on line 353
+[23-Aug-2017 17:48:48 America/Los_Angeles] PHP Warning:  Missing argument 4 for Almacen\Almacen::loadUbicacionesDeZonas(), called in /home/samenli1/public_html/subdominios/wms/api/almacen/update/index.php on line 288 and defined in /home/samenli1/public_html/subdominios/wms/app/class/Almacen/Almacen.php on line 353
+[23-Aug-2017 18:14:06 America/Los_Angeles] PHP Warning:  Missing argument 3 for Almacen\Almacen::loadUbicacionesDeZonas(), called in /home/samenli1/public_html/subdominios/wms/api/almacen/update/index.php on line 288 and defined in /home/samenli1/public_html/subdominios/wms/app/class/Almacen/Almacen.php on line 353
+[23-Aug-2017 18:14:06 America/Los_Angeles] PHP Warning:  Missing argument 4 for Almacen\Almacen::loadUbicacionesDeZonas(), called in /home/samenli1/public_html/subdominios/wms/api/almacen/update/index.php on line 288 and defined in /home/samenli1/public_html/subdominios/wms/app/class/Almacen/Almacen.php on line 353
+[27-Oct-2017 21:56:30 America/Los_Angeles] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'samenli1_wms.v_existenciagral' doesn't exist in /home/samenli1/public_html/subdominios/wms/app/class/Almacen/Almacen.php:480
+Stack trace:
+#0 /home/samenli1/public_html/subdominios/wms/app/class/Almacen/Almacen.php(480): PDOStatement->execute()
+#1 /home/samenli1/public_html/subdominios/wms/api/almacen/update/index.php(342): Almacen\Almacen->traerArticulosDeAlmacenExist('1')
+#2 {main}
+  thrown in /home/samenli1/public_html/subdominios/wms/app/class/Almacen/Almacen.php on line 480
+[27-Oct-2017 21:56:41 America/Los_Angeles] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'samenli1_wms.v_existenciagral' doesn't exist in /home/samenli1/public_html/subdominios/wms/app/class/Almacen/Almacen.php:491
+Stack trace:
+#0 /home/samenli1/public_html/subdominios/wms/app/class/Almacen/Almacen.php(491): PDOStatement->execute()
+#1 /home/samenli1/public_html/subdominios/wms/api/almacen/update/index.php(356): Almacen\Almacen->buscarArticulos('1', '1234')
+#2 {main}
+  thrown in /home/samenli1/public_html/subdominios/wms/app/class/Almacen/Almacen.php on line 491
+[27-Oct-2017 21:56:45 America/Los_Angeles] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'samenli1_wms.v_existenciagral' doesn't exist in /home/samenli1/public_html/subdominios/wms/app/class/Almacen/Almacen.php:491
+Stack trace:
+#0 /home/samenli1/public_html/subdominios/wms/app/class/Almacen/Almacen.php(491): PDOStatement->execute()
+#1 /home/samenli1/public_html/subdominios/wms/api/almacen/update/index.php(356): Almacen\Almacen->buscarArticulos('1', '1234')
+#2 {main}
+  thrown in /home/samenli1/public_html/subdominios/wms/app/class/Almacen/Almacen.php on line 491
+[27-Oct-2017 21:56:51 America/Los_Angeles] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'samenli1_wms.v_existenciagral' doesn't exist in /home/samenli1/public_html/subdominios/wms/app/class/Almacen/Almacen.php:491
+Stack trace:
+#0 /home/samenli1/public_html/subdominios/wms/app/class/Almacen/Almacen.php(491): PDOStatement->execute()
+#1 /home/samenli1/public_html/subdominios/wms/api/almacen/update/index.php(356): Almacen\Almacen->buscarArticulos('1', '1234')
+#2 {main}
+  thrown in /home/samenli1/public_html/subdominios/wms/app/class/Almacen/Almacen.php on line 491
+[27-Oct-2017 21:56:51 America/Los_Angeles] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'samenli1_wms.v_existenciagral' doesn't exist in /home/samenli1/public_html/subdominios/wms/app/class/Almacen/Almacen.php:491
+Stack trace:
+#0 /home/samenli1/public_html/subdominios/wms/app/class/Almacen/Almacen.php(491): PDOStatement->execute()
+#1 /home/samenli1/public_html/subdominios/wms/api/almacen/update/index.php(356): Almacen\Almacen->buscarArticulos('1', '1234')
+#2 {main}
+  thrown in /home/samenli1/public_html/subdominios/wms/app/class/Almacen/Almacen.php on line 491
+[27-Oct-2017 21:56:59 America/Los_Angeles] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'samenli1_wms.v_existenciagral' doesn't exist in /home/samenli1/public_html/subdominios/wms/app/class/Almacen/Almacen.php:491
+Stack trace:
+#0 /home/samenli1/public_html/subdominios/wms/app/class/Almacen/Almacen.php(491): PDOStatement->execute()
+#1 /home/samenli1/public_html/subdominios/wms/api/almacen/update/index.php(356): Almacen\Almacen->buscarArticulos('1', '')
+#2 {main}
+  thrown in /home/samenli1/public_html/subdominios/wms/app/class/Almacen/Almacen.php on line 491
+[27-Oct-2017 21:57:05 America/Los_Angeles] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'samenli1_wms.v_existenciagral' doesn't exist in /home/samenli1/public_html/subdominios/wms/app/class/Almacen/Almacen.php:491
+Stack trace:
+#0 /home/samenli1/public_html/subdominios/wms/app/class/Almacen/Almacen.php(491): PDOStatement->execute()
+#1 /home/samenli1/public_html/subdominios/wms/api/almacen/update/index.php(356): Almacen\Almacen->buscarArticulos('1', '')
+#2 {main}
+  thrown in /home/samenli1/public_html/subdominios/wms/app/class/Almacen/Almacen.php on line 491
+[27-Oct-2017 21:57:14 America/Los_Angeles] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'samenli1_wms.v_existenciagral' doesn't exist in /home/samenli1/public_html/subdominios/wms/app/class/Almacen/Almacen.php:491
+Stack trace:
+#0 /home/samenli1/public_html/subdominios/wms/app/class/Almacen/Almacen.php(491): PDOStatement->execute()
+#1 /home/samenli1/public_html/subdominios/wms/api/almacen/update/index.php(356): Almacen\Almacen->buscarArticulos('1', '')
+#2 {main}
+  thrown in /home/samenli1/public_html/subdominios/wms/app/class/Almacen/Almacen.php on line 491
+[27-Oct-2017 21:57:15 America/Los_Angeles] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'samenli1_wms.v_existenciagral' doesn't exist in /home/samenli1/public_html/subdominios/wms/app/class/Almacen/Almacen.php:491
+Stack trace:
+#0 /home/samenli1/public_html/subdominios/wms/app/class/Almacen/Almacen.php(491): PDOStatement->execute()
+#1 /home/samenli1/public_html/subdominios/wms/api/almacen/update/index.php(356): Almacen\Almacen->buscarArticulos('1', '')
+#2 {main}
+  thrown in /home/samenli1/public_html/subdominios/wms/app/class/Almacen/Almacen.php on line 491
+[27-Oct-2017 21:57:16 America/Los_Angeles] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'samenli1_wms.v_existenciagral' doesn't exist in /home/samenli1/public_html/subdominios/wms/app/class/Almacen/Almacen.php:491
+Stack trace:
+#0 /home/samenli1/public_html/subdominios/wms/app/class/Almacen/Almacen.php(491): PDOStatement->execute()
+#1 /home/samenli1/public_html/subdominios/wms/api/almacen/update/index.php(356): Almacen\Almacen->buscarArticulos('1', '')
+#2 {main}
+  thrown in /home/samenli1/public_html/subdominios/wms/app/class/Almacen/Almacen.php on line 491
+[27-Oct-2017 21:57:26 America/Los_Angeles] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'samenli1_wms.v_existenciagral' doesn't exist in /home/samenli1/public_html/subdominios/wms/app/class/Almacen/Almacen.php:491
+Stack trace:
+#0 /home/samenli1/public_html/subdominios/wms/app/class/Almacen/Almacen.php(491): PDOStatement->execute()
+#1 /home/samenli1/public_html/subdominios/wms/api/almacen/update/index.php(356): Almacen\Almacen->buscarArticulos('1', '555')
+#2 {main}
+  thrown in /home/samenli1/public_html/subdominios/wms/app/class/Almacen/Almacen.php on line 491
+[27-Oct-2017 21:57:27 America/Los_Angeles] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'samenli1_wms.v_existenciagral' doesn't exist in /home/samenli1/public_html/subdominios/wms/app/class/Almacen/Almacen.php:491
+Stack trace:
+#0 /home/samenli1/public_html/subdominios/wms/app/class/Almacen/Almacen.php(491): PDOStatement->execute()
+#1 /home/samenli1/public_html/subdominios/wms/api/almacen/update/index.php(356): Almacen\Almacen->buscarArticulos('1', '555')
+#2 {main}
+  thrown in /home/samenli1/public_html/subdominios/wms/app/class/Almacen/Almacen.php on line 491
+[27-Oct-2017 21:57:27 America/Los_Angeles] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'samenli1_wms.v_existenciagral' doesn't exist in /home/samenli1/public_html/subdominios/wms/app/class/Almacen/Almacen.php:491
+Stack trace:
+#0 /home/samenli1/public_html/subdominios/wms/app/class/Almacen/Almacen.php(491): PDOStatement->execute()
+#1 /home/samenli1/public_html/subdominios/wms/api/almacen/update/index.php(356): Almacen\Almacen->buscarArticulos('1', '555')
+#2 {main}
+  thrown in /home/samenli1/public_html/subdominios/wms/app/class/Almacen/Almacen.php on line 491
+[27-Oct-2017 21:57:28 America/Los_Angeles] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'samenli1_wms.v_existenciagral' doesn't exist in /home/samenli1/public_html/subdominios/wms/app/class/Almacen/Almacen.php:491
+Stack trace:
+#0 /home/samenli1/public_html/subdominios/wms/app/class/Almacen/Almacen.php(491): PDOStatement->execute()
+#1 /home/samenli1/public_html/subdominios/wms/api/almacen/update/index.php(356): Almacen\Almacen->buscarArticulos('1', '555')
+#2 {main}
+  thrown in /home/samenli1/public_html/subdominios/wms/app/class/Almacen/Almacen.php on line 491
+[28-Oct-2017 11:46:37 America/Los_Angeles] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'samenli1_wms.v_existenciagral' doesn't exist in /home/samenli1/public_html/subdominios/wms/app/class/Almacen/Almacen.php:480
+Stack trace:
+#0 /home/samenli1/public_html/subdominios/wms/app/class/Almacen/Almacen.php(480): PDOStatement->execute()
+#1 /home/samenli1/public_html/subdominios/wms/api/almacen/update/index.php(342): Almacen\Almacen->traerArticulosDeAlmacenExist('1')
+#2 {main}
+  thrown in /home/samenli1/public_html/subdominios/wms/app/class/Almacen/Almacen.php on line 480
+[28-Oct-2017 11:47:01 America/Los_Angeles] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'samenli1_wms.v_existenciagral' doesn't exist in /home/samenli1/public_html/subdominios/wms/app/class/Almacen/Almacen.php:480
+Stack trace:
+#0 /home/samenli1/public_html/subdominios/wms/app/class/Almacen/Almacen.php(480): PDOStatement->execute()
+#1 /home/samenli1/public_html/subdominios/wms/api/almacen/update/index.php(342): Almacen\Almacen->traerArticulosDeAlmacenExist('7')
+#2 {main}
+  thrown in /home/samenli1/public_html/subdominios/wms/app/class/Almacen/Almacen.php on line 480
+[28-Oct-2017 11:47:05 America/Los_Angeles] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'samenli1_wms.v_existenciagral' doesn't exist in /home/samenli1/public_html/subdominios/wms/app/class/Almacen/Almacen.php:480
+Stack trace:
+#0 /home/samenli1/public_html/subdominios/wms/app/class/Almacen/Almacen.php(480): PDOStatement->execute()
+#1 /home/samenli1/public_html/subdominios/wms/api/almacen/update/index.php(342): Almacen\Almacen->traerArticulosDeAlmacenExist('1')
+#2 {main}
+  thrown in /home/samenli1/public_html/subdominios/wms/app/class/Almacen/Almacen.php on line 480
+[03-Nov-2017 11:02:20 America/Los_Angeles] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'samenli1_wms.v_existenciagral' doesn't exist in /home/samenli1/public_html/subdominios/wms/app/class/Almacen/Almacen.php:480
+Stack trace:
+#0 /home/samenli1/public_html/subdominios/wms/app/class/Almacen/Almacen.php(480): PDOStatement->execute()
+#1 /home/samenli1/public_html/subdominios/wms/api/almacen/update/index.php(342): Almacen\Almacen->traerArticulosDeAlmacenExist('1')
+#2 {main}
+  thrown in /home/samenli1/public_html/subdominios/wms/app/class/Almacen/Almacen.php on line 480
+[03-Nov-2017 11:02:24 America/Los_Angeles] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'samenli1_wms.v_existenciagral' doesn't exist in /home/samenli1/public_html/subdominios/wms/app/class/Almacen/Almacen.php:491
+Stack trace:
+#0 /home/samenli1/public_html/subdominios/wms/app/class/Almacen/Almacen.php(491): PDOStatement->execute()
+#1 /home/samenli1/public_html/subdominios/wms/api/almacen/update/index.php(356): Almacen\Almacen->buscarArticulos('1', '')
+#2 {main}
+  thrown in /home/samenli1/public_html/subdominios/wms/app/class/Almacen/Almacen.php on line 491
+[03-Nov-2017 11:02:36 America/Los_Angeles] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'samenli1_wms.v_existenciagral' doesn't exist in /home/samenli1/public_html/subdominios/wms/app/class/Almacen/Almacen.php:491
+Stack trace:
+#0 /home/samenli1/public_html/subdominios/wms/app/class/Almacen/Almacen.php(491): PDOStatement->execute()
+#1 /home/samenli1/public_html/subdominios/wms/api/almacen/update/index.php(356): Almacen\Almacen->buscarArticulos('1', '555')
+#2 {main}
+  thrown in /home/samenli1/public_html/subdominios/wms/app/class/Almacen/Almacen.php on line 491
+[03-Nov-2017 11:03:09 America/Los_Angeles] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'samenli1_wms.v_existenciagral' doesn't exist in /home/samenli1/public_html/subdominios/wms/app/class/Almacen/Almacen.php:491
+Stack trace:
+#0 /home/samenli1/public_html/subdominios/wms/app/class/Almacen/Almacen.php(491): PDOStatement->execute()
+#1 /home/samenli1/public_html/subdominios/wms/api/almacen/update/index.php(356): Almacen\Almacen->buscarArticulos('1', '555')
+#2 {main}
+  thrown in /home/samenli1/public_html/subdominios/wms/app/class/Almacen/Almacen.php on line 491
+[03-Nov-2017 11:03:09 America/Los_Angeles] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'samenli1_wms.v_existenciagral' doesn't exist in /home/samenli1/public_html/subdominios/wms/app/class/Almacen/Almacen.php:491
+Stack trace:
+#0 /home/samenli1/public_html/subdominios/wms/app/class/Almacen/Almacen.php(491): PDOStatement->execute()
+#1 /home/samenli1/public_html/subdominios/wms/api/almacen/update/index.php(356): Almacen\Almacen->buscarArticulos('1', '555')
+#2 {main}
+  thrown in /home/samenli1/public_html/subdominios/wms/app/class/Almacen/Almacen.php on line 491
+[03-Nov-2017 11:03:09 America/Los_Angeles] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'samenli1_wms.v_existenciagral' doesn't exist in /home/samenli1/public_html/subdominios/wms/app/class/Almacen/Almacen.php:491
+Stack trace:
+#0 /home/samenli1/public_html/subdominios/wms/app/class/Almacen/Almacen.php(491): PDOStatement->execute()
+#1 /home/samenli1/public_html/subdominios/wms/api/almacen/update/index.php(356): Almacen\Almacen->buscarArticulos('1', '555')
+#2 {main}
+  thrown in /home/samenli1/public_html/subdominios/wms/app/class/Almacen/Almacen.php on line 491
+[03-Nov-2017 11:03:16 America/Los_Angeles] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'samenli1_wms.v_existenciagral' doesn't exist in /home/samenli1/public_html/subdominios/wms/app/class/Almacen/Almacen.php:491
+Stack trace:
+#0 /home/samenli1/public_html/subdominios/wms/app/class/Almacen/Almacen.php(491): PDOStatement->execute()
+#1 /home/samenli1/public_html/subdominios/wms/api/almacen/update/index.php(356): Almacen\Almacen->buscarArticulos('1', 'sha')
+#2 {main}
+  thrown in /home/samenli1/public_html/subdominios/wms/app/class/Almacen/Almacen.php on line 491
+[03-Nov-2017 11:05:58 America/Los_Angeles] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'samenli1_wms.v_existenciagral' doesn't exist in /home/samenli1/public_html/subdominios/wms/app/class/Almacen/Almacen.php:480
+Stack trace:
+#0 /home/samenli1/public_html/subdominios/wms/app/class/Almacen/Almacen.php(480): PDOStatement->execute()
+#1 /home/samenli1/public_html/subdominios/wms/api/almacen/update/index.php(342): Almacen\Almacen->traerArticulosDeAlmacenExist('1')
+#2 {main}
+  thrown in /home/samenli1/public_html/subdominios/wms/app/class/Almacen/Almacen.php on line 480
+[03-Nov-2017 11:06:02 America/Los_Angeles] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'samenli1_wms.v_existenciagral' doesn't exist in /home/samenli1/public_html/subdominios/wms/app/class/Almacen/Almacen.php:491
+Stack trace:
+#0 /home/samenli1/public_html/subdominios/wms/app/class/Almacen/Almacen.php(491): PDOStatement->execute()
+#1 /home/samenli1/public_html/subdominios/wms/api/almacen/update/index.php(356): Almacen\Almacen->buscarArticulos('1', '')
+#2 {main}
+  thrown in /home/samenli1/public_html/subdominios/wms/app/class/Almacen/Almacen.php on line 491
+[03-Nov-2017 11:06:12 America/Los_Angeles] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'samenli1_wms.v_existenciagral' doesn't exist in /home/samenli1/public_html/subdominios/wms/app/class/Almacen/Almacen.php:491
+Stack trace:
+#0 /home/samenli1/public_html/subdominios/wms/app/class/Almacen/Almacen.php(491): PDOStatement->execute()
+#1 /home/samenli1/public_html/subdominios/wms/api/almacen/update/index.php(356): Almacen\Almacen->buscarArticulos('1', '555')
+#2 {main}
+  thrown in /home/samenli1/public_html/subdominios/wms/app/class/Almacen/Almacen.php on line 491
+[03-Nov-2017 11:06:14 America/Los_Angeles] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'samenli1_wms.v_existenciagral' doesn't exist in /home/samenli1/public_html/subdominios/wms/app/class/Almacen/Almacen.php:491
+Stack trace:
+#0 /home/samenli1/public_html/subdominios/wms/app/class/Almacen/Almacen.php(491): PDOStatement->execute()
+#1 /home/samenli1/public_html/subdominios/wms/api/almacen/update/index.php(356): Almacen\Almacen->buscarArticulos('1', '555')
+#2 {main}
+  thrown in /home/samenli1/public_html/subdominios/wms/app/class/Almacen/Almacen.php on line 491
+[06-Nov-2017 16:55:41 America/Los_Angeles] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'samenli1_wms.v_existenciagral' doesn't exist in /home/samenli1/public_html/subdominios/wms/app/class/Almacen/Almacen.php:480
+Stack trace:
+#0 /home/samenli1/public_html/subdominios/wms/app/class/Almacen/Almacen.php(480): PDOStatement->execute()
+#1 /home/samenli1/public_html/subdominios/wms/api/almacen/update/index.php(342): Almacen\Almacen->traerArticulosDeAlmacenExist('1')
+#2 {main}
+  thrown in /home/samenli1/public_html/subdominios/wms/app/class/Almacen/Almacen.php on line 480
+[06-Nov-2017 16:55:43 America/Los_Angeles] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'samenli1_wms.v_existenciagral' doesn't exist in /home/samenli1/public_html/subdominios/wms/app/class/Almacen/Almacen.php:491
+Stack trace:
+#0 /home/samenli1/public_html/subdominios/wms/app/class/Almacen/Almacen.php(491): PDOStatement->execute()
+#1 /home/samenli1/public_html/subdominios/wms/api/almacen/update/index.php(356): Almacen\Almacen->buscarArticulos('1', '')
+#2 {main}
+  thrown in /home/samenli1/public_html/subdominios/wms/app/class/Almacen/Almacen.php on line 491
+[06-Nov-2017 16:55:50 America/Los_Angeles] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'samenli1_wms.v_existenciagral' doesn't exist in /home/samenli1/public_html/subdominios/wms/app/class/Almacen/Almacen.php:491
+Stack trace:
+#0 /home/samenli1/public_html/subdominios/wms/app/class/Almacen/Almacen.php(491): PDOStatement->execute()
+#1 /home/samenli1/public_html/subdominios/wms/api/almacen/update/index.php(356): Almacen\Almacen->buscarArticulos('1', '')
+#2 {main}
+  thrown in /home/samenli1/public_html/subdominios/wms/app/class/Almacen/Almacen.php on line 491
+[06-Nov-2017 16:57:52 America/Los_Angeles] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'samenli1_wms.v_existenciagral' doesn't exist in /home/samenli1/public_html/subdominios/wms/app/class/Almacen/Almacen.php:491
+Stack trace:
+#0 /home/samenli1/public_html/subdominios/wms/app/class/Almacen/Almacen.php(491): PDOStatement->execute()
+#1 /home/samenli1/public_html/subdominios/wms/api/almacen/update/index.php(356): Almacen\Almacen->buscarArticulos('1', '')
+#2 {main}
+  thrown in /home/samenli1/public_html/subdominios/wms/app/class/Almacen/Almacen.php on line 491
+[06-Nov-2017 16:57:55 America/Los_Angeles] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'samenli1_wms.v_existenciagral' doesn't exist in /home/samenli1/public_html/subdominios/wms/app/class/Almacen/Almacen.php:480
+Stack trace:
+#0 /home/samenli1/public_html/subdominios/wms/app/class/Almacen/Almacen.php(480): PDOStatement->execute()
+#1 /home/samenli1/public_html/subdominios/wms/api/almacen/update/index.php(342): Almacen\Almacen->traerArticulosDeAlmacenExist('5')
+#2 {main}
+  thrown in /home/samenli1/public_html/subdominios/wms/app/class/Almacen/Almacen.php on line 480
+[06-Nov-2017 16:57:56 America/Los_Angeles] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'samenli1_wms.v_existenciagral' doesn't exist in /home/samenli1/public_html/subdominios/wms/app/class/Almacen/Almacen.php:491
+Stack trace:
+#0 /home/samenli1/public_html/subdominios/wms/app/class/Almacen/Almacen.php(491): PDOStatement->execute()
+#1 /home/samenli1/public_html/subdominios/wms/api/almacen/update/index.php(356): Almacen\Almacen->buscarArticulos('5', '')
+#2 {main}
+  thrown in /home/samenli1/public_html/subdominios/wms/app/class/Almacen/Almacen.php on line 491
+[06-Nov-2017 16:58:05 America/Los_Angeles] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'samenli1_wms.v_existenciagral' doesn't exist in /home/samenli1/public_html/subdominios/wms/app/class/Almacen/Almacen.php:480
+Stack trace:
+#0 /home/samenli1/public_html/subdominios/wms/app/class/Almacen/Almacen.php(480): PDOStatement->execute()
+#1 /home/samenli1/public_html/subdominios/wms/api/almacen/update/index.php(342): Almacen\Almacen->traerArticulosDeAlmacenExist('1')
+#2 {main}
+  thrown in /home/samenli1/public_html/subdominios/wms/app/class/Almacen/Almacen.php on line 480
+[06-Nov-2017 16:58:06 America/Los_Angeles] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'samenli1_wms.v_existenciagral' doesn't exist in /home/samenli1/public_html/subdominios/wms/app/class/Almacen/Almacen.php:491
+Stack trace:
+#0 /home/samenli1/public_html/subdominios/wms/app/class/Almacen/Almacen.php(491): PDOStatement->execute()
+#1 /home/samenli1/public_html/subdominios/wms/api/almacen/update/index.php(356): Almacen\Almacen->buscarArticulos('1', '')
+#2 {main}
+  thrown in /home/samenli1/public_html/subdominios/wms/app/class/Almacen/Almacen.php on line 491
+[06-Nov-2017 16:59:45 America/Los_Angeles] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'samenli1_wms.v_existenciagral' doesn't exist in /home/samenli1/public_html/subdominios/wms/app/class/Almacen/Almacen.php:480
+Stack trace:
+#0 /home/samenli1/public_html/subdominios/wms/app/class/Almacen/Almacen.php(480): PDOStatement->execute()
+#1 /home/samenli1/public_html/subdominios/wms/api/almacen/update/index.php(342): Almacen\Almacen->traerArticulosDeAlmacenExist('')
+#2 {main}
+  thrown in /home/samenli1/public_html/subdominios/wms/app/class/Almacen/Almacen.php on line 480
+[06-Nov-2017 16:59:46 America/Los_Angeles] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'samenli1_wms.v_existenciagral' doesn't exist in /home/samenli1/public_html/subdominios/wms/app/class/Almacen/Almacen.php:491
+Stack trace:
+#0 /home/samenli1/public_html/subdominios/wms/app/class/Almacen/Almacen.php(491): PDOStatement->execute()
+#1 /home/samenli1/public_html/subdominios/wms/api/almacen/update/index.php(356): Almacen\Almacen->buscarArticulos('', '')
+#2 {main}
+  thrown in /home/samenli1/public_html/subdominios/wms/app/class/Almacen/Almacen.php on line 491
+[06-Nov-2017 16:59:47 America/Los_Angeles] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'samenli1_wms.v_existenciagral' doesn't exist in /home/samenli1/public_html/subdominios/wms/app/class/Almacen/Almacen.php:491
+Stack trace:
+#0 /home/samenli1/public_html/subdominios/wms/app/class/Almacen/Almacen.php(491): PDOStatement->execute()
+#1 /home/samenli1/public_html/subdominios/wms/api/almacen/update/index.php(356): Almacen\Almacen->buscarArticulos('', '')
+#2 {main}
+  thrown in /home/samenli1/public_html/subdominios/wms/app/class/Almacen/Almacen.php on line 491
+[06-Nov-2017 16:59:48 America/Los_Angeles] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'samenli1_wms.v_existenciagral' doesn't exist in /home/samenli1/public_html/subdominios/wms/app/class/Almacen/Almacen.php:480
+Stack trace:
+#0 /home/samenli1/public_html/subdominios/wms/app/class/Almacen/Almacen.php(480): PDOStatement->execute()
+#1 /home/samenli1/public_html/subdominios/wms/api/almacen/update/index.php(342): Almacen\Almacen->traerArticulosDeAlmacenExist('1')
+#2 {main}
+  thrown in /home/samenli1/public_html/subdominios/wms/app/class/Almacen/Almacen.php on line 480
+[06-Nov-2017 16:59:49 America/Los_Angeles] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'samenli1_wms.v_existenciagral' doesn't exist in /home/samenli1/public_html/subdominios/wms/app/class/Almacen/Almacen.php:491
+Stack trace:
+#0 /home/samenli1/public_html/subdominios/wms/app/class/Almacen/Almacen.php(491): PDOStatement->execute()
+#1 /home/samenli1/public_html/subdominios/wms/api/almacen/update/index.php(356): Almacen\Almacen->buscarArticulos('1', '')
+#2 {main}
+  thrown in /home/samenli1/public_html/subdominios/wms/app/class/Almacen/Almacen.php on line 491
+[06-Nov-2017 18:40:38 America/Los_Angeles] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'samenli1_wms.v_existenciagral' doesn't exist in /home/samenli1/public_html/subdominios/wms/app/class/Almacen/Almacen.php:480
+Stack trace:
+#0 /home/samenli1/public_html/subdominios/wms/app/class/Almacen/Almacen.php(480): PDOStatement->execute()
+#1 /home/samenli1/public_html/subdominios/wms/api/almacen/update/index.php(342): Almacen\Almacen->traerArticulosDeAlmacenExist('1')
+#2 {main}
+  thrown in /home/samenli1/public_html/subdominios/wms/app/class/Almacen/Almacen.php on line 480
+[06-Nov-2017 18:40:39 America/Los_Angeles] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'samenli1_wms.v_existenciagral' doesn't exist in /home/samenli1/public_html/subdominios/wms/app/class/Almacen/Almacen.php:491
+Stack trace:
+#0 /home/samenli1/public_html/subdominios/wms/app/class/Almacen/Almacen.php(491): PDOStatement->execute()
+#1 /home/samenli1/public_html/subdominios/wms/api/almacen/update/index.php(356): Almacen\Almacen->buscarArticulos('1', '')
+#2 {main}
+  thrown in /home/samenli1/public_html/subdominios/wms/app/class/Almacen/Almacen.php on line 491
+[06-Nov-2017 18:44:48 America/Los_Angeles] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'samenli1_wms.v_existenciagral' doesn't exist in /home/samenli1/public_html/subdominios/wms/app/class/Almacen/Almacen.php:491
+Stack trace:
+#0 /home/samenli1/public_html/subdominios/wms/app/class/Almacen/Almacen.php(491): PDOStatement->execute()
+#1 /home/samenli1/public_html/subdominios/wms/api/almacen/update/index.php(356): Almacen\Almacen->buscarArticulos('1', 'combo')
+#2 {main}
+  thrown in /home/samenli1/public_html/subdominios/wms/app/class/Almacen/Almacen.php on line 491
+[06-Nov-2017 18:44:50 America/Los_Angeles] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'samenli1_wms.v_existenciagral' doesn't exist in /home/samenli1/public_html/subdominios/wms/app/class/Almacen/Almacen.php:491
+Stack trace:
+#0 /home/samenli1/public_html/subdominios/wms/app/class/Almacen/Almacen.php(491): PDOStatement->execute()
+#1 /home/samenli1/public_html/subdominios/wms/api/almacen/update/index.php(356): Almacen\Almacen->buscarArticulos('1', 'combo')
+#2 {main}
+  thrown in /home/samenli1/public_html/subdominios/wms/app/class/Almacen/Almacen.php on line 491
+[06-Nov-2017 18:44:58 America/Los_Angeles] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'samenli1_wms.v_existenciagral' doesn't exist in /home/samenli1/public_html/subdominios/wms/app/class/Almacen/Almacen.php:491
+Stack trace:
+#0 /home/samenli1/public_html/subdominios/wms/app/class/Almacen/Almacen.php(491): PDOStatement->execute()
+#1 /home/samenli1/public_html/subdominios/wms/api/almacen/update/index.php(356): Almacen\Almacen->buscarArticulos('1', 'combo fragancia...')
+#2 {main}
+  thrown in /home/samenli1/public_html/subdominios/wms/app/class/Almacen/Almacen.php on line 491
+[07-Nov-2017 18:18:15 America/Los_Angeles] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'samenli1_wms.v_existenciagral' doesn't exist in /home/samenli1/public_html/subdominios/wms/app/class/Almacen/Almacen.php:480
+Stack trace:
+#0 /home/samenli1/public_html/subdominios/wms/app/class/Almacen/Almacen.php(480): PDOStatement->execute()
+#1 /home/samenli1/public_html/subdominios/wms/api/almacen/update/index.php(342): Almacen\Almacen->traerArticulosDeAlmacenExist('1')
+#2 {main}
+  thrown in /home/samenli1/public_html/subdominios/wms/app/class/Almacen/Almacen.php on line 480
+[07-Nov-2017 18:18:20 America/Los_Angeles] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'samenli1_wms.v_existenciagral' doesn't exist in /home/samenli1/public_html/subdominios/wms/app/class/Almacen/Almacen.php:491
+Stack trace:
+#0 /home/samenli1/public_html/subdominios/wms/app/class/Almacen/Almacen.php(491): PDOStatement->execute()
+#1 /home/samenli1/public_html/subdominios/wms/api/almacen/update/index.php(356): Almacen\Almacen->buscarArticulos('1', '')
+#2 {main}
+  thrown in /home/samenli1/public_html/subdominios/wms/app/class/Almacen/Almacen.php on line 491
+[07-Nov-2017 18:18:37 America/Los_Angeles] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'samenli1_wms.v_existenciagral' doesn't exist in /home/samenli1/public_html/subdominios/wms/app/class/Almacen/Almacen.php:480
+Stack trace:
+#0 /home/samenli1/public_html/subdominios/wms/app/class/Almacen/Almacen.php(480): PDOStatement->execute()
+#1 /home/samenli1/public_html/subdominios/wms/api/almacen/update/index.php(342): Almacen\Almacen->traerArticulosDeAlmacenExist('5')
+#2 {main}
+  thrown in /home/samenli1/public_html/subdominios/wms/app/class/Almacen/Almacen.php on line 480
+[07-Nov-2017 18:18:42 America/Los_Angeles] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'samenli1_wms.v_existenciagral' doesn't exist in /home/samenli1/public_html/subdominios/wms/app/class/Almacen/Almacen.php:491
+Stack trace:
+#0 /home/samenli1/public_html/subdominios/wms/app/class/Almacen/Almacen.php(491): PDOStatement->execute()
+#1 /home/samenli1/public_html/subdominios/wms/api/almacen/update/index.php(356): Almacen\Almacen->buscarArticulos('5', '')
+#2 {main}
+  thrown in /home/samenli1/public_html/subdominios/wms/app/class/Almacen/Almacen.php on line 491
+[07-Nov-2017 18:18:55 America/Los_Angeles] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'samenli1_wms.v_existenciagral' doesn't exist in /home/samenli1/public_html/subdominios/wms/app/class/Almacen/Almacen.php:480
+Stack trace:
+#0 /home/samenli1/public_html/subdominios/wms/app/class/Almacen/Almacen.php(480): PDOStatement->execute()
+#1 /home/samenli1/public_html/subdominios/wms/api/almacen/update/index.php(342): Almacen\Almacen->traerArticulosDeAlmacenExist('1')
+#2 {main}
+  thrown in /home/samenli1/public_html/subdominios/wms/app/class/Almacen/Almacen.php on line 480
+[07-Nov-2017 18:24:36 America/Los_Angeles] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'samenli1_wms.v_existenciagral' doesn't exist in /home/samenli1/public_html/subdominios/wms/app/class/Almacen/Almacen.php:480
+Stack trace:
+#0 /home/samenli1/public_html/subdominios/wms/app/class/Almacen/Almacen.php(480): PDOStatement->execute()
+#1 /home/samenli1/public_html/subdominios/wms/api/almacen/update/index.php(342): Almacen\Almacen->traerArticulosDeAlmacenExist('1')
+#2 {main}
+  thrown in /home/samenli1/public_html/subdominios/wms/app/class/Almacen/Almacen.php on line 480
+[07-Nov-2017 19:19:59 America/Los_Angeles] PHP Warning:  Creating default object from empty value in /home/samenli1/public_html/subdominios/wms/api/almacen/update/index.php on line 351
+[07-Nov-2017 19:19:59 America/Los_Angeles] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, array given in /home/samenli1/public_html/subdominios/wms/api/almacen/update/index.php on line 358
+[07-Nov-2017 19:19:59 America/Los_Angeles] PHP Warning:  Creating default object from empty value in /home/samenli1/public_html/subdominios/wms/api/almacen/update/index.php on line 351
+[07-Nov-2017 19:19:59 America/Los_Angeles] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, array given in /home/samenli1/public_html/subdominios/wms/api/almacen/update/index.php on line 358
+[07-Nov-2017 19:20:09 America/Los_Angeles] PHP Warning:  Creating default object from empty value in /home/samenli1/public_html/subdominios/wms/api/almacen/update/index.php on line 351
+[07-Nov-2017 19:20:09 America/Los_Angeles] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, array given in /home/samenli1/public_html/subdominios/wms/api/almacen/update/index.php on line 358
+[07-Nov-2017 19:23:05 America/Los_Angeles] PHP Warning:  Creating default object from empty value in /home/samenli1/public_html/subdominios/wms/api/almacen/update/index.php on line 351
+[07-Nov-2017 19:23:05 America/Los_Angeles] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, array given in /home/samenli1/public_html/subdominios/wms/api/almacen/update/index.php on line 358
+[07-Nov-2017 19:23:05 America/Los_Angeles] PHP Warning:  Creating default object from empty value in /home/samenli1/public_html/subdominios/wms/api/almacen/update/index.php on line 351
+[07-Nov-2017 19:23:05 America/Los_Angeles] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, array given in /home/samenli1/public_html/subdominios/wms/api/almacen/update/index.php on line 358
+[07-Nov-2017 19:23:49 America/Los_Angeles] PHP Warning:  Creating default object from empty value in /home/samenli1/public_html/subdominios/wms/api/almacen/update/index.php on line 374
+[07-Nov-2017 19:23:49 America/Los_Angeles] PHP Warning:  Creating default object from empty value in /home/samenli1/public_html/subdominios/wms/api/almacen/update/index.php on line 374
+[08-Nov-2017 13:57:00 America/Los_Angeles] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/samenli1/public_html/subdominios/wms/api/almacen/update/index.php on line 381
+[08-Nov-2017 13:58:11 America/Los_Angeles] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/samenli1/public_html/subdominios/wms/api/almacen/update/index.php on line 381
+[08-Nov-2017 13:59:00 America/Los_Angeles] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/samenli1/public_html/subdominios/wms/api/almacen/update/index.php on line 381
+[16-Nov-2017 02:02:09 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ')' in /home/samenli1/public_html/subdominios/wms/api/almacen/update/index.php on line 385
+[16-Nov-2017 02:02:16 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ')' in /home/samenli1/public_html/subdominios/wms/api/almacen/update/index.php on line 385
+[15-Nov-2017 18:07:39 America/Los_Angeles] PHP Warning:  utf8_encode() expects exactly 1 parameter, 2 given in /home/samenli1/public_html/subdominios/wms/api/almacen/update/index.php on line 385
+[15-Nov-2017 18:07:39 America/Los_Angeles] PHP Warning:  utf8_encode() expects exactly 1 parameter, 2 given in /home/samenli1/public_html/subdominios/wms/api/almacen/update/index.php on line 385
+[15-Nov-2017 18:07:39 America/Los_Angeles] PHP Warning:  utf8_encode() expects exactly 1 parameter, 2 given in /home/samenli1/public_html/subdominios/wms/api/almacen/update/index.php on line 385
+[15-Nov-2017 18:07:39 America/Los_Angeles] PHP Warning:  utf8_encode() expects exactly 1 parameter, 2 given in /home/samenli1/public_html/subdominios/wms/api/almacen/update/index.php on line 385
+[15-Nov-2017 18:07:39 America/Los_Angeles] PHP Warning:  utf8_encode() expects exactly 1 parameter, 2 given in /home/samenli1/public_html/subdominios/wms/api/almacen/update/index.php on line 385
+[15-Nov-2017 18:10:41 America/Los_Angeles] PHP Warning:  utf8_encode() expects exactly 1 parameter, 2 given in /home/samenli1/public_html/subdominios/wms/api/almacen/update/index.php on line 385
+[15-Nov-2017 18:10:41 America/Los_Angeles] PHP Warning:  utf8_encode() expects exactly 1 parameter, 2 given in /home/samenli1/public_html/subdominios/wms/api/almacen/update/index.php on line 385
+[15-Nov-2017 18:10:41 America/Los_Angeles] PHP Warning:  utf8_encode() expects exactly 1 parameter, 2 given in /home/samenli1/public_html/subdominios/wms/api/almacen/update/index.php on line 385
+[15-Nov-2017 18:10:41 America/Los_Angeles] PHP Warning:  utf8_encode() expects exactly 1 parameter, 2 given in /home/samenli1/public_html/subdominios/wms/api/almacen/update/index.php on line 385
+[15-Nov-2017 18:10:41 America/Los_Angeles] PHP Warning:  utf8_encode() expects exactly 1 parameter, 2 given in /home/samenli1/public_html/subdominios/wms/api/almacen/update/index.php on line 385
+[15-Nov-2017 18:10:53 America/Los_Angeles] PHP Warning:  utf8_encode() expects exactly 1 parameter, 2 given in /home/samenli1/public_html/subdominios/wms/api/almacen/update/index.php on line 385
+[15-Nov-2017 18:10:53 America/Los_Angeles] PHP Warning:  utf8_encode() expects exactly 1 parameter, 2 given in /home/samenli1/public_html/subdominios/wms/api/almacen/update/index.php on line 385
+[15-Nov-2017 18:10:53 America/Los_Angeles] PHP Warning:  utf8_encode() expects exactly 1 parameter, 2 given in /home/samenli1/public_html/subdominios/wms/api/almacen/update/index.php on line 385
+[15-Nov-2017 18:10:53 America/Los_Angeles] PHP Warning:  utf8_encode() expects exactly 1 parameter, 2 given in /home/samenli1/public_html/subdominios/wms/api/almacen/update/index.php on line 385
+[15-Nov-2017 18:10:53 America/Los_Angeles] PHP Warning:  utf8_encode() expects exactly 1 parameter, 2 given in /home/samenli1/public_html/subdominios/wms/api/almacen/update/index.php on line 385
+[15-Nov-2017 18:14:06 America/Los_Angeles] PHP Warning:  utf8_encode() expects exactly 1 parameter, 2 given in /home/samenli1/public_html/subdominios/wms/api/almacen/update/index.php on line 385
+[15-Nov-2017 18:14:06 America/Los_Angeles] PHP Warning:  utf8_encode() expects exactly 1 parameter, 2 given in /home/samenli1/public_html/subdominios/wms/api/almacen/update/index.php on line 385
+[15-Nov-2017 18:14:06 America/Los_Angeles] PHP Warning:  utf8_encode() expects exactly 1 parameter, 2 given in /home/samenli1/public_html/subdominios/wms/api/almacen/update/index.php on line 385
+[15-Nov-2017 18:14:06 America/Los_Angeles] PHP Warning:  utf8_encode() expects exactly 1 parameter, 2 given in /home/samenli1/public_html/subdominios/wms/api/almacen/update/index.php on line 385
+[15-Nov-2017 18:14:06 America/Los_Angeles] PHP Warning:  utf8_encode() expects exactly 1 parameter, 2 given in /home/samenli1/public_html/subdominios/wms/api/almacen/update/index.php on line 385
+[20-Nov-2017 03:19:40 UTC] PHP Parse error:  syntax error, unexpected 'utf8_encode' (T_STRING), expecting ')' in /home/samenli1/public_html/subdominios/wms/api/almacen/update/index.php on line 430
+[20-Nov-2017 03:19:44 UTC] PHP Parse error:  syntax error, unexpected 'utf8_encode' (T_STRING), expecting ')' in /home/samenli1/public_html/subdominios/wms/api/almacen/update/index.php on line 430
+[20-Nov-2017 03:19:58 UTC] PHP Parse error:  syntax error, unexpected 'utf8_encode' (T_STRING), expecting ')' in /home/samenli1/public_html/subdominios/wms/api/almacen/update/index.php on line 430
+[20-Nov-2017 03:20:01 UTC] PHP Parse error:  syntax error, unexpected 'utf8_encode' (T_STRING), expecting ')' in /home/samenli1/public_html/subdominios/wms/api/almacen/update/index.php on line 430
+[21-Feb-2018 15:16:35 America/Los_Angeles] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/samenli1/public_html/subdominios/wms/app/class/Almacen/Almacen.php on line 374
+[21-Feb-2018 15:16:35 America/Los_Angeles] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AS ubicacion,
+			u.cve_rack as rack,
+			u.Seccion as seccion,
+			u.cve_nivel as ' at line 1 in /home/samenli1/public_html/subdominios/wms/app/class/Almacen/Almacen.php:418
+Stack trace:
+#0 /home/samenli1/public_html/subdominios/wms/app/class/Almacen/Almacen.php(418): PDOStatement->execute()
+#1 /home/samenli1/public_html/subdominios/wms/api/almacen/update/index.php(273): Almacen\Almacen->loadUbicacionesDeZonas('46', '1', 'false', '1', false)
+#2 {main}
+  thrown in /home/samenli1/public_html/subdominios/wms/app/class/Almacen/Almacen.php on line 418
+[21-Feb-2018 15:16:46 America/Los_Angeles] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/samenli1/public_html/subdominios/wms/app/class/Almacen/Almacen.php on line 374
+[21-Feb-2018 15:16:46 America/Los_Angeles] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AS ubicacion,
+			u.cve_rack as rack,
+			u.Seccion as seccion,
+			u.cve_nivel as ' at line 1 in /home/samenli1/public_html/subdominios/wms/app/class/Almacen/Almacen.php:418
+Stack trace:
+#0 /home/samenli1/public_html/subdominios/wms/app/class/Almacen/Almacen.php(418): PDOStatement->execute()
+#1 /home/samenli1/public_html/subdominios/wms/api/almacen/update/index.php(273): Almacen\Almacen->loadUbicacionesDeZonas('46', '1', 'false', '1', false)
+#2 {main}
+  thrown in /home/samenli1/public_html/subdominios/wms/app/class/Almacen/Almacen.php on line 418
+[21-Feb-2018 15:17:50 America/Los_Angeles] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/samenli1/public_html/subdominios/wms/app/class/Almacen/Almacen.php on line 374
+[21-Feb-2018 15:17:50 America/Los_Angeles] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AS ubicacion,
+			u.cve_rack as rack,
+			u.Seccion as seccion,
+			u.cve_nivel as ' at line 1 in /home/samenli1/public_html/subdominios/wms/app/class/Almacen/Almacen.php:418
+Stack trace:
+#0 /home/samenli1/public_html/subdominios/wms/app/class/Almacen/Almacen.php(418): PDOStatement->execute()
+#1 /home/samenli1/public_html/subdominios/wms/api/almacen/update/index.php(273): Almacen\Almacen->loadUbicacionesDeZonas('46', '1', 'false', '1', false)
+#2 {main}
+  thrown in /home/samenli1/public_html/subdominios/wms/app/class/Almacen/Almacen.php on line 418
+[06-Apr-2018 12:51:25 America/Los_Angeles] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND cve_ubicacion IN (SELECT cve_ubicacion FROM V_ExistenciaGralProduccion WHERE' at line 1 in /home/samenli1/public_html/subdominios/wms/app/class/Almacen/Almacen.php:426
+Stack trace:
+#0 /home/samenli1/public_html/subdominios/wms/app/class/Almacen/Almacen.php(426): PDOStatement->execute()
+#1 /home/samenli1/public_html/subdominios/wms/api/almacen/update/index.php(273): Almacen\Almacen->loadUbicacionesDeZonas('28', '', 'true', NULL, false)
+#2 {main}
+  thrown in /home/samenli1/public_html/subdominios/wms/app/class/Almacen/Almacen.php on line 426
+[27-Jun-2018 00:58:39 UTC] PHP Parse error:  syntax error, unexpected ']' in /home/samenli1/public_html/subdominios/wms/api/almacen/update/index.php on line 580
+[27-Jun-2018 00:58:41 UTC] PHP Parse error:  syntax error, unexpected ']' in /home/samenli1/public_html/subdominios/wms/api/almacen/update/index.php on line 580
+[27-Jun-2018 00:59:09 UTC] PHP Parse error:  syntax error, unexpected ']' in /home/samenli1/public_html/subdominios/wms/api/almacen/update/index.php on line 580
+[27-Jun-2018 00:59:09 UTC] PHP Parse error:  syntax error, unexpected ']' in /home/samenli1/public_html/subdominios/wms/api/almacen/update/index.php on line 580
+[27-Jun-2018 00:59:11 UTC] PHP Parse error:  syntax error, unexpected ']' in /home/samenli1/public_html/subdominios/wms/api/almacen/update/index.php on line 580
+[27-Jun-2018 00:59:35 UTC] PHP Parse error:  syntax error, unexpected ']' in /home/samenli1/public_html/subdominios/wms/api/almacen/update/index.php on line 580
+[27-Jun-2018 00:59:36 UTC] PHP Parse error:  syntax error, unexpected ']' in /home/samenli1/public_html/subdominios/wms/api/almacen/update/index.php on line 580
+[01-Aug-2018 13:48:44 America/Los_Angeles] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AS ubicacion,
+			u.cve_rack as rack,
+			u.Seccion as seccion,
+			u.cve_nivel as ' at line 1 in /home/samenli1/public_html/subdominios/wms/app/class/Almacen/Almacen.php:416
+Stack trace:
+#0 /home/samenli1/public_html/subdominios/wms/app/class/Almacen/Almacen.php(416): PDOStatement->execute()
+#1 /home/samenli1/public_html/subdominios/wms/api/almacen/update/index.php(273): Almacen\Almacen->loadUbicacionesDeZonas('3', '', 'false', '2', false)
+#2 {main}
+  thrown in /home/samenli1/public_html/subdominios/wms/app/class/Almacen/Almacen.php on line 416
+[06-Sep-2018 09:20:35 America/Los_Angeles] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AS ubicacion,
+			u.cve_rack as rack,
+			u.Seccion as seccion,
+			u.cve_nivel as ' at line 1 in /home/assistproadl/public_html/subdominios/wms.nikken/app/class/Almacen/Almacen.php:416
+Stack trace:
+#0 /home/assistproadl/public_html/subdominios/wms.nikken/app/class/Almacen/Almacen.php(416): PDOStatement->execute()
+#1 /home/assistproadl/public_html/subdominios/wms.nikken/api/almacen/update/index.php(273): Almacen\Almacen->loadUbicacionesDeZonas('4', '', 'false', '3', false)
+#2 {main}
+  thrown in /home/assistproadl/public_html/subdominios/wms.nikken/app/class/Almacen/Almacen.php on line 416
+[14-Nov-2018 16:08:03 America/Los_Angeles] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AS ubicacion,
+			u.cve_rack as rack,
+			u.Seccion as seccion,
+			u.cve_nivel as ' at line 1 in /home/assistproadl/public_html/subdominios/wms.nikken/app/class/Almacen/Almacen.php:416
+Stack trace:
+#0 /home/assistproadl/public_html/subdominios/wms.nikken/app/class/Almacen/Almacen.php(416): PDOStatement->execute()
+#1 /home/assistproadl/public_html/subdominios/wms.nikken/api/almacen/update/index.php(273): Almacen\Almacen->loadUbicacionesDeZonas('4', '100', 'false', '3', false)
+#2 {main}
+  thrown in /home/assistproadl/public_html/subdominios/wms.nikken/app/class/Almacen/Almacen.php on line 416
+[18-Nov-2018 19:16:14 America/Los_Angeles] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'z1' for key 'clave_almacen' in /home/assistproadl/public_html/subdominios/wms.nikken/app/class/Almacen/Almacen.php:167
+Stack trace:
+#0 /home/assistproadl/public_html/subdominios/wms.nikken/app/class/Almacen/Almacen.php(167): PDOStatement->execute()
+#1 /home/assistproadl/public_html/subdominios/wms.nikken/api/almacen/update/index.php(14): Almacen\Almacen->save(Array)
+#2 {main}
+  thrown in /home/assistproadl/public_html/subdominios/wms.nikken/app/class/Almacen/Almacen.php on line 167
+[18-Nov-2018 19:23:18 America/Los_Angeles] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'z1' for key 'clave_almacen' in /home/assistproadl/public_html/subdominios/wms.nikken/app/class/Almacen/Almacen.php:167
+Stack trace:
+#0 /home/assistproadl/public_html/subdominios/wms.nikken/app/class/Almacen/Almacen.php(167): PDOStatement->execute()
+#1 /home/assistproadl/public_html/subdominios/wms.nikken/api/almacen/update/index.php(14): Almacen\Almacen->save(Array)
+#2 {main}
+  thrown in /home/assistproadl/public_html/subdominios/wms.nikken/app/class/Almacen/Almacen.php on line 167
+[01-Mar-2019 08:40:18 America/Los_Angeles] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'u.idy_ubica' in 'IN/ALL/ANY subquery' in /home/assistproadl/public_html/subdominios/wms/app/class/Almacen/Almacen.php:449
+Stack trace:
+#0 /home/assistproadl/public_html/subdominios/wms/app/class/Almacen/Almacen.php(449): PDOStatement->execute()
+#1 /home/assistproadl/public_html/subdominios/wms/api/almacen/update/index.php(299): Almacen\Almacen->loadRackDeZonas('1', false)
+#2 {main}
+  thrown in /home/assistproadl/public_html/subdominios/wms/app/class/Almacen/Almacen.php on line 449
+[01-Mar-2019 08:41:08 America/Los_Angeles] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'c_ubicacion.cve_rack' in 'field list' in /home/assistproadl/public_html/subdominios/wms/app/class/Almacen/Almacen.php:449
+Stack trace:
+#0 /home/assistproadl/public_html/subdominios/wms/app/class/Almacen/Almacen.php(449): PDOStatement->execute()
+#1 /home/assistproadl/public_html/subdominios/wms/api/almacen/update/index.php(299): Almacen\Almacen->loadRackDeZonas('1', false)
+#2 {main}
+  thrown in /home/assistproadl/public_html/subdominios/wms/app/class/Almacen/Almacen.php on line 449
+[01-Mar-2019 08:52:35 America/Los_Angeles] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'ORDER BY rack asc' at line 6 in /home/assistproadl/public_html/subdominios/wms/app/class/Almacen/Almacen.php:449
+Stack trace:
+#0 /home/assistproadl/public_html/subdominios/wms/app/class/Almacen/Almacen.php(449): PDOStatement->execute()
+#1 /home/assistproadl/public_html/subdominios/wms/api/almacen/update/index.php(299): Almacen\Almacen->loadRackDeZonas('1', false)
+#2 {main}
+  thrown in /home/assistproadl/public_html/subdominios/wms/app/class/Almacen/Almacen.php on line 449
+[05-Mar-2019 14:09:39 America/Los_Angeles] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '0' at line 19 in /home/assistproadl/public_html/subdominios/wms/app/class/Almacen/Almacen.php:441
+Stack trace:
+#0 /home/assistproadl/public_html/subdominios/wms/app/class/Almacen/Almacen.php(441): PDOStatement->execute()
+#1 /home/assistproadl/public_html/subdominios/wms/api/almacen/update/index.php(276): Almacen\Almacen->loadUbicacionesDeZonas('12', '', 'false', '7', false, '')
+#2 {main}
+  thrown in /home/assistproadl/public_html/subdominios/wms/app/class/Almacen/Almacen.php on line 441
+[05-Mar-2019 14:10:02 America/Los_Angeles] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '0' at line 19 in /home/assistproadl/public_html/subdominios/wms/app/class/Almacen/Almacen.php:441
+Stack trace:
+#0 /home/assistproadl/public_html/subdominios/wms/app/class/Almacen/Almacen.php(441): PDOStatement->execute()
+#1 /home/assistproadl/public_html/subdominios/wms/api/almacen/update/index.php(276): Almacen\Almacen->loadUbicacionesDeZonas('12', '', 'false', '7', false, '')
+#2 {main}
+  thrown in /home/assistproadl/public_html/subdominios/wms/app/class/Almacen/Almacen.php on line 441
+[05-Mar-2019 14:10:39 America/Los_Angeles] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'a.cve_almac = '12' and u.idy_ubica  IN (
+                            SELECT cve_' at line 14 in /home/assistproadl/public_html/subdominios/wms/app/class/Almacen/Almacen.php:440
+Stack trace:
+#0 /home/assistproadl/public_html/subdominios/wms/app/class/Almacen/Almacen.php(440): PDOStatement->execute()
+#1 /home/assistproadl/public_html/subdominios/wms/api/almacen/update/index.php(276): Almacen\Almacen->loadUbicacionesDeZonas('12', '', 'false', '7', false, '')
+#2 {main}
+  thrown in /home/assistproadl/public_html/subdominios/wms/app/class/Almacen/Almacen.php on line 440
+[04-Jul-2019 10:36:35 America/Los_Angeles] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'undefined' in 'where clause' in /home/assistproadl/public_html/subdominios/wms/app/class/Almacen/Almacen.php:445
+Stack trace:
+#0 /home/assistproadl/public_html/subdominios/wms/app/class/Almacen/Almacen.php(445): PDOStatement->execute()
+#1 /home/assistproadl/public_html/subdominios/wms/api/almacen/update/index.php(273): Almacen\Almacen->loadUbicacionesDeZonas('14', 'undefined', 'false', '3', false, '')
+#2 {main}
+  thrown in /home/assistproadl/public_html/subdominios/wms/app/class/Almacen/Almacen.php on line 445
+[04-Jul-2019 10:36:38 America/Los_Angeles] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'undefined' in 'where clause' in /home/assistproadl/public_html/subdominios/wms/app/class/Almacen/Almacen.php:445
+Stack trace:
+#0 /home/assistproadl/public_html/subdominios/wms/app/class/Almacen/Almacen.php(445): PDOStatement->execute()
+#1 /home/assistproadl/public_html/subdominios/wms/api/almacen/update/index.php(273): Almacen\Almacen->loadUbicacionesDeZonas('14', 'undefined', 'false', '3', false, '')
+#2 {main}
+  thrown in /home/assistproadl/public_html/subdominios/wms/app/class/Almacen/Almacen.php on line 445

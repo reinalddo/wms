@@ -1,0 +1,2 @@
+[17-Aug-2017 19:15:43 UTC] PHP Warning:  mysqli_close() expects exactly 1 parameter, 0 given in /home/samenli1/public_html/subdominios/wms/api/administracionrecepcion/lista/index.php on line 29
+[17-Aug-2017 19:16:28 UTC] PHP Warning:  mysqli_close() expects exactly 1 parameter, 0 given in /home/samenli1/public_html/subdominios/wms/api/administracionrecepcion/lista/index.php on line 29

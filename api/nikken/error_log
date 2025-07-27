@@ -1,0 +1,2 @@
+[24-Jun-2018 19:51:50 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/samenli1/public_html/subdominios/wms/api/nikken/webservice.php on line 76
+[24-Jun-2018 19:51:53 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/samenli1/public_html/subdominios/wms/api/nikken/webservice.php on line 76

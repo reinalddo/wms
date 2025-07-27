@@ -1,0 +1,30 @@
+{
+    "sEmptyTable":      "Ne postoje podatci u tabeli",
+    "sInfo":            "_START_ do _END_ od ukupno _TOTAL_ unosa",
+    "sInfoEmpty":       "0 do 0 od 0 Unosa",
+    "sInfoFiltered":    "(filtrirano od _MAX_ Unosa)",
+    "sInfoPostFix":     "",
+    "sInfoThousands":   ".",
+    "sLengthMenu":      "Prikaži _MENU_ unosa",
+    "sLoadingRecords":  "Učitava...",
+    "sProcessing":      "Molimo sačekajte...",
+    "sSearch":          "Pretraga",
+    "sZeroRecords":     "Nema dostupnih unosa.",
+    "oPaginate": {
+        "sFirst":       "Prvi",
+        "sPrevious":    "Natrag",
+        "sNext":        "Sljedeći",
+        "sLast":        "Zadnji"
+    },
+    "oAria": {
+        "sSortAscending":  ": aktivirati za sortiranje stupaca u rastućem redoslijedu",
+        "sSortDescending": ": Aktivirajte za sortiranje stupca u padajućem redoslijedu"
+    },
+    "select": {
+            "rows": {
+                "_": "%d Odabrane linije",
+                "0": "Kliknite redak da biste ga odabrali",
+                "1": "1 Redak odabran"
+            }
+    }
+}

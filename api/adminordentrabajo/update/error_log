@@ -1,0 +1,5 @@
+[15-Sep-2017 21:02:58 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/samenli1/public_html/subdominios/wms/api/adminordentrabajo/update/index.php:1) in /home/samenli1/public_html/subdominios/wms/app/load.php on line 3
+[15-Sep-2017 14:02:58 America/Los_Angeles] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/samenli1/public_html/subdominios/wms/api/adminordentrabajo/update/index.php on line 33
+[15-Sep-2017 14:02:58 America/Los_Angeles] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/samenli1/public_html/subdominios/wms/api/adminordentrabajo/update/index.php on line 42
+[15-Sep-2017 14:02:58 America/Los_Angeles] PHP Warning:  Creating default object from empty value in /home/samenli1/public_html/subdominios/wms/api/adminordentrabajo/update/index.php on line 66
+[15-Sep-2017 14:02:58 America/Los_Angeles] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/samenli1/public_html/subdominios/wms/api/adminordentrabajo/update/index.php on line 72

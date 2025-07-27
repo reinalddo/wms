@@ -1,0 +1,26 @@
+--- INICIO DEL LOG DE CONSULTAS 2025-07-23 19:20:44 ---
+PREPARE: INSERT IGNORE INTO `t_tipomovimiento` (`nombre`) VALUES ('Traslado');
+PREPARE: SELECT id_TipoMovimiento AS id FROM `t_tipomovimiento` WHERE nombre = 'Traslado';
+PREPARE: SELECT cve_almacenp AS id FROM c_almacen WHERE cve_almac = (SELECT cve_almac FROM c_ubicacion WHERE idy_ubica = '32514')
+PREPARE: SELECT clave FROM c_almacenp WHERE id = 35
+PREPARE: SELECT IFNULL(cve_nivel, 0) as nivel FROM c_ubicacion WHERE idy_ubica = '32514'
+PREPARE: SELECT COUNT(*) as existe FROM ts_existenciatarima WHERE idy_ubica='35415' AND ntarima = (SELECT IDContenedor FROM c_charolas WHERE CveLP = '45552575$10001-001-M12$12$007')
+PREPARE: UPDATE c_charolas SET Tipo = 'Caja', cve_almac = '35' WHERE CveLP = '45552575$10001-001-M12$12$007'
+PREPARE: SELECT IDContenedor FROM c_charolas WHERE clave_contenedor = '45552575$10001-001-M12$12$007'
+PREPARE: INSERT IGNORE INTO ts_existenciacajas (idy_ubica, cve_articulo, cve_lote, PiezasXCaja, Id_Caja, nTarima, Cve_Almac, Id_Pzs) VALUES ('32514', '10001-001-M12', '', '12.0000', '254089', (SELECT IDContenedor FROM c_charolas WHERE CveLP = 'LP230725B01' LIMIT 1),'35', 1)
+PREPARE: UPDATE ts_existenciatarima SET Existencia = Existencia - 12.0000 WHERE cve_articulo = '10001-001-M12' AND lote = '' AND idy_ubica='35415' AND ntarima = (SELECT IDContenedor FROM c_charolas WHERE CveLP = '45552575$10001-001-M12$12$007' LIMIT 1)
+PREPARE: INSERT INTO ts_existenciatarima (cve_almac, idy_ubica, cve_articulo, lote, Fol_Folio, ntarima, capcidad, existencia, Activo, ID_Proveedor, Cuarentena) VALUES ('35', '32514', '10001-001-M12', '', 0, (SELECT IDContenedor FROM c_charolas WHERE CveLP = 'LP230725B01' LIMIT 1), 0, '12.0000', 1, '3136',  0) ON DUPLICATE KEY UPDATE existencia = existencia+12.0000
+PREPARE: SELECT *, (SELECT IDContenedor FROM c_charolas WHERE CveLP = 'LP230725B01') as id_tarima  FROM ts_existenciatarima WHERE idy_ubica='35415' AND ntarima = (SELECT IDContenedor FROM c_charolas WHERE CveLP = 'LP230725B01')
+PREPARE: UPDATE t_trazabilidad_existencias SET idy_ubica='32514', cve_almac = '35' WHERE idy_ubica = '35415' AND id_tipo_movimiento = 2 AND IFNULL(factura_ent, '') = '' AND IFNULL(ntarima, '') = (SELECT IDContenedor FROM c_charolas WHERE CveLP = 'LP230725B01' LIMIT 1)
+PREPARE: UPDATE ts_existenciatarima set existencia = existencia-12.0000, idy_ubica='32514', cve_almac = '35' where idy_ubica='35415' and ntarima = (SELECT IDContenedor FROM c_charolas WHERE CveLP = '45552575$10001-001-M12$12$007' LIMIT 1);
+PREPARE: INSERT INTO t_cardex (cve_articulo, cve_lote, fecha, origen, destino, cantidad, id_TipoMovimiento, cve_usuario, Cve_Almac, Activo, stockinicial, ajuste) VALUES ('10001-001-M12', '', NOW(), '35415', '32514','12.0000', '12', 'wmsmaster', '35', 1, '12.0000', 0);
+PREPARE: INSERT IGNORE INTO t_MovCharolas(Cve_Almac, id_kardex, ID_Contenedor, Fecha, Origen, Destino, Id_TipoMovimiento, Cve_Usuario, Status)
+                    VALUES('WH2', (SELECT MAX(id) FROM t_cardex), (SELECT IDContenedor FROM c_charolas WHERE CveLP = 'LP230725B01' LIMIT 1), NOW(), '35415', '32514', '12', 'wmsmaster', 'I')
+PREPARE: INSERT IGNORE INTO t_cardex (cve_articulo, cve_lote, fecha, origen, destino, cantidad, id_TipoMovimiento, cve_usuario, Cve_Almac, Activo, stockinicial, ajuste) VALUES ('10001-001-M12', '', NOW(), '35415', '32514','12.0000', '12', 'wmsmaster', '35', 1, '12.0000', 0);
+PREPARE: INSERT IGNORE INTO t_MovCharolas(Cve_Almac, id_kardex, ID_Contenedor, Fecha, Origen, Destino, Id_TipoMovimiento, Cve_Usuario, Status, EsCaja)
+                    VALUES('WH2', (SELECT MAX(id) FROM t_cardex), 254089, NOW(), '35415', '32514', '12', 'wmsmaster', 'I', 'S')
+PREPARE: DELETE from ts_existenciapiezas where Existencia<=0;
+            
+            DELETE from ts_existenciatarima where Existencia<=0;
+        
+PREPARE: SELECT DISTINCT cve_almac FROM V_ExistenciaGralProduccion WHERE cve_ubicacion = ? AND tipo = 'ubicacion' LIMIT 1

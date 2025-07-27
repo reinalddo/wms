@@ -1,0 +1,15 @@
+{
+    "name": "koolreport/visualquery",
+    "version":"2.0.0",
+    "description": "Create query by using UI",
+    "keywords": ["PHP","Reporting Tools","Data Report","visual query","query builder"],
+    "homepage": "https://www.koolreport.com",
+    "type": "library",
+    "license": "https://www.koolreport.com/license#regular-license",
+    "authors": [
+        {
+            "name": "KoolPHP Inc",
+            "homepage": "https://www.koolphp.net"
+        }
+    ]
+}

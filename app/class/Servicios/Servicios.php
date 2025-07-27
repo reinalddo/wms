@@ -1,0 +1,254 @@
+<?php
+
+  namespace Servicios;
+
+  class Servicios {
+
+    const TABLE = 'c_servicios';
+    var $identifier;
+
+    public function __construct( $clave = false, $key = false ) {
+
+      if( $clave ) {
+        $this->id = (int) $clave;
+      }
+/*
+      if($key) {
+
+        $sql = sprintf('
+          SELECT
+            cve_umed
+          FROM
+            %s
+          WHERE
+            cve_umed = ?
+        ',
+          self::TABLE
+        );
+
+        $sth = \db()->prepare($sql);
+        $sth->setFetchMode(\PDO::FETCH_CLASS, '\UnidadesMedida\UnidadesMedida');
+        $sth->execute(array($key));
+
+        $unidadesmedida = $sth->fetch();
+
+        $this->cve_umed = $unidadesmedida->cve_umed;
+
+      }
+*/
+    }
+
+    private function load() {
+
+      $sql = sprintf('
+        SELECT
+          *
+        FROM
+          %s
+
+        WHERE Id_Servicio = ?
+      ',
+        self::TABLE
+      );
+
+      $sth = \db()->prepare( $sql );
+      $sth->setFetchMode( \PDO::FETCH_CLASS, '\Servicios\Servicios' );
+      $sth->execute( array( $this->clave ) );
+
+      $this->data = $sth->fetch();
+
+    }
+
+    function getAll() {
+
+        $sql = '
+        SELECT
+          *
+        FROM
+          ' . self::TABLE . '
+		#where Activo=1
+      ';
+
+        $sth = \db()->prepare( $sql );
+        $sth->setFetchMode( \PDO::FETCH_CLASS, '\Servicios\Servicios' );
+        $sth->execute( array( $cve_umed ) );
+
+        return $sth->fetchAll();
+
+    }	
+
+    function __get( $key ) {
+
+      switch($key) {
+          case 'clave':
+          $this->load();
+          return @$this->data->$key;
+        default:
+          return $this->key;
+      }
+
+    }
+
+    function save( $_post ) {
+
+      //if( !$_post['des_umed'] ) { throw new \ErrorException( 'des_umed is required.' ); }
+
+      $sql = sprintf('
+        INSERT INTO
+          ' . self::TABLE . '
+        SET       
+          Cve_Servicio = :Clave,
+          Des_Servicio = :descripcion,
+          UniMedida = :unimedida,
+          Gpo_Servicio = :gpo_id,
+          IVA = :iva
+      ');
+
+      $this->save = \db()->prepare($sql);
+
+      $this->save->bindValue( ':Clave', $_post['Clave'], \PDO::PARAM_STR );
+      $this->save->bindValue( ':descripcion', $_post['descripcion'], \PDO::PARAM_STR );
+      $this->save->bindValue( ':unimedida', $_post['unimedida'], \PDO::PARAM_STR );
+      $this->save->bindValue( ':gpo_id', $_post['gpo_id'], \PDO::PARAM_STR );
+      $this->save->bindValue( ':iva', $_post['iva'], \PDO::PARAM_STR );
+
+      return $this->save->execute();
+
+    }
+
+    /*function password( $data ) {
+
+      if( !$data['password'] ) { throw new \ErrorException( 'Unfortuantly you wont get far without a password.' ); }
+
+      $sql = sprintf('
+        UPDATE
+          ' . self::TABLE . '
+        SET
+          password = :password
+        WHERE
+          id_user = ' . $this->id_user . '
+      ');
+
+      $this->save = \db()->prepare($sql);
+
+      $password = password_hash( $data['password'], PASSWORD_BCRYPT, array( 'cost' => 11 ) );
+
+      $this->save->bindValue( ':password', $password, \PDO::PARAM_STR );
+      $this->save->execute();
+
+    }*/
+
+      function borrarServicio( $data ) {
+          $sql = '
+        DELETE FROM 
+          ' . self::TABLE . '
+        WHERE
+          Id_Servicio = ?
+      ';
+          $this->save = \db()->prepare($sql);
+          $this->save->execute( array(
+              $data['clave']
+          ) );
+      }
+	  
+	  	function recovery( $data ) {
+
+             $sql = '
+        UPDATE
+          ' . self::TABLE . '
+        SET
+          Activo = 1
+        WHERE
+          cve_umed = ?
+      ';
+          $this->save = \db()->prepare($sql);
+          $this->save->execute( array(
+              $data['cve_umed']
+          ) );
+    }
+
+	function actualizarServicios( $data ) {
+      $sql = '
+        UPDATE
+          ' . self::TABLE . '
+        SET
+          Cve_Servicio = ?
+          ,Des_Servicio = ?
+          ,UniMedida = ?
+          ,Gpo_Servicio = ?
+          ,IVA = ?
+          WHERE
+          Id_Servicio = ?
+      ';
+      $this->save = \db()->prepare($sql);
+      $this->save->execute( array(
+        $data['Clave']
+    , $data['descripcion']
+    , $data['unimedida']
+    , $data['gpo_id']
+    , $data['iva']
+    , $data['id']
+      ) );
+    }
+	
+		   function exist($cve_umed) {
+
+      $sql = sprintf('
+        SELECT
+          *
+        FROM
+			 ' . self::TABLE . '
+        WHERE
+          Cve_Servicio = ?
+      ',
+        self::TABLE
+      );
+
+      $sth = \db()->prepare( $sql );
+
+      $sth->execute( array( $cve_umed ) );
+
+      $this->data = $sth->fetch();
+	  
+	  if(!$this->data)
+		  return false; 
+				else 
+					return true;
+    }
+
+    /*function settings_design( $data ) {
+
+      $sql = '
+        UPDATE
+          ' . self::TABLE . '
+        SET
+          Empresa = ?
+        , VendId = ?
+        , ID_Externo = ?
+        WHERE
+          ID_Proveedor = ?
+      ';
+
+      $this->save = \db()->prepare($sql);
+      $this->save->execute( array(
+        $data['Empresa']
+      , $data['VendId']
+      , $data['ID_Externo']
+      ) );
+
+    }*/
+    public function inUse( $data ) {
+
+
+      $sql = "SELECT cve_umed FROM `c_articulo` WHERE cve_umed = '".$data['cve_umed']."'";
+      $sth = \db()->prepare($sql);
+      $sth->execute();
+      $data = $sth->fetch();
+    
+    if ($data['cve_umed']) 
+        return true;
+    else
+        return false;
+  }
+
+  }

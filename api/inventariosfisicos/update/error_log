@@ -1,0 +1,20 @@
+[15-Dec-2017 11:51:29 America/Los_Angeles] PHP Notice:  ob_flush(): failed to flush buffer. No buffer to flush in /home/samenli1/public_html/subdominios/wms/app/class/InventariosFisicos/InventariosFisicos.php on line 405
+[15-Dec-2017 11:51:29 America/Los_Angeles] PHP Notice:  ob_flush(): failed to flush buffer. No buffer to flush in /home/samenli1/public_html/subdominios/wms/app/class/InventariosFisicos/InventariosFisicos.php on line 453
+[15-Dec-2017 11:51:29 America/Los_Angeles] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/samenli1/public_html/subdominios/wms/app/class/InventariosFisicos/InventariosFisicos.php:405) in /home/samenli1/public_html/subdominios/wms/app/vendor/mpdf/mpdf/mpdf.php on line 9403
+[15-Dec-2017 11:51:29 America/Los_Angeles] PHP Fatal error:  Uncaught MpdfException: Some data has already been output to browser, can't send PDF file in /home/samenli1/public_html/subdominios/wms/app/vendor/mpdf/mpdf/mpdf.php:9405
+Stack trace:
+#0 /home/samenli1/public_html/subdominios/wms/app/class/ReportePDF/PDF.php(52): mPDF->Output('Inventario F\xC3\xADs...', 'I')
+#1 /home/samenli1/public_html/subdominios/wms/app/class/InventariosFisicos/InventariosFisicos.php(460): ReportePDF\PDF->stream()
+#2 /home/samenli1/public_html/subdominios/wms/api/inventariosfisicos/update/index.php(15): InventariosFisicos\InventariosFisicos::printReport('8')
+#3 {main}
+  thrown in /home/samenli1/public_html/subdominios/wms/app/vendor/mpdf/mpdf/mpdf.php on line 9405
+[15-Dec-2017 11:51:41 America/Los_Angeles] PHP Notice:  ob_flush(): failed to flush buffer. No buffer to flush in /home/samenli1/public_html/subdominios/wms/app/class/InventariosFisicos/InventariosFisicos.php on line 405
+[15-Dec-2017 11:51:41 America/Los_Angeles] PHP Notice:  ob_flush(): failed to flush buffer. No buffer to flush in /home/samenli1/public_html/subdominios/wms/app/class/InventariosFisicos/InventariosFisicos.php on line 453
+[15-Dec-2017 11:51:41 America/Los_Angeles] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/samenli1/public_html/subdominios/wms/app/class/InventariosFisicos/InventariosFisicos.php:405) in /home/samenli1/public_html/subdominios/wms/app/vendor/mpdf/mpdf/mpdf.php on line 9403
+[15-Dec-2017 11:51:41 America/Los_Angeles] PHP Fatal error:  Uncaught MpdfException: Some data has already been output to browser, can't send PDF file in /home/samenli1/public_html/subdominios/wms/app/vendor/mpdf/mpdf/mpdf.php:9405
+Stack trace:
+#0 /home/samenli1/public_html/subdominios/wms/app/class/ReportePDF/PDF.php(52): mPDF->Output('Inventario F\xC3\xADs...', 'I')
+#1 /home/samenli1/public_html/subdominios/wms/app/class/InventariosFisicos/InventariosFisicos.php(460): ReportePDF\PDF->stream()
+#2 /home/samenli1/public_html/subdominios/wms/api/inventariosfisicos/update/index.php(15): InventariosFisicos\InventariosFisicos::printReport('5')
+#3 {main}
+  thrown in /home/samenli1/public_html/subdominios/wms/app/vendor/mpdf/mpdf/mpdf.php on line 9405

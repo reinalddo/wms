@@ -1,0 +1,22 @@
+[19-May-2017 16:59:54 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'samenli1_wms'@'localhost' (using password: YES) in /home/samenli1/public_html/subdominios/wms/api/proveedores/index.php on line 16
+[19-May-2017 16:59:54 UTC] PHP Warning:  mysqli_error() expects exactly 1 parameter, 0 given in /home/samenli1/public_html/subdominios/wms/api/proveedores/index.php on line 19
+[23-Jun-2017 18:18:48 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'samenli1_wms'@'localhost' (using password: YES) in /home/samenli1/public_html/subdominios/wms/api/proveedores/index.php on line 16
+[23-Jun-2017 18:18:48 UTC] PHP Warning:  mysqli_error() expects exactly 1 parameter, 0 given in /home/samenli1/public_html/subdominios/wms/api/proveedores/index.php on line 19
+[23-Jun-2017 19:00:32 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'samenli1_wms'@'localhost' (using password: YES) in /home/samenli1/public_html/subdominios/wms/api/proveedores/index.php on line 16
+[23-Jun-2017 19:00:32 UTC] PHP Warning:  mysqli_error() expects exactly 1 parameter, 0 given in /home/samenli1/public_html/subdominios/wms/api/proveedores/index.php on line 19
+[25-Jun-2017 10:59:17 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'samenli1_wms'@'localhost' (using password: YES) in /home/samenli1/public_html/subdominios/wms/api/proveedores/index.php on line 16
+[25-Jun-2017 10:59:17 UTC] PHP Warning:  mysqli_error() expects exactly 1 parameter, 0 given in /home/samenli1/public_html/subdominios/wms/api/proveedores/index.php on line 19
+[26-Jun-2017 01:19:42 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'samenli1_wms'@'localhost' (using password: YES) in /home/samenli1/public_html/subdominios/wms/api/proveedores/index.php on line 16
+[26-Jun-2017 01:19:42 UTC] PHP Warning:  mysqli_error() expects exactly 1 parameter, 0 given in /home/samenli1/public_html/subdominios/wms/api/proveedores/index.php on line 19
+[26-Jun-2017 16:14:14 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'samenli1_wms'@'localhost' (using password: YES) in /home/samenli1/public_html/subdominios/wms/api/proveedores/index.php on line 16
+[26-Jun-2017 16:14:14 UTC] PHP Warning:  mysqli_error() expects exactly 1 parameter, 0 given in /home/samenli1/public_html/subdominios/wms/api/proveedores/index.php on line 19
+[28-Jun-2017 00:31:06 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'samenli1_wms'@'localhost' (using password: YES) in /home/samenli1/public_html/subdominios/wms/api/proveedores/index.php on line 16
+[28-Jun-2017 00:31:06 UTC] PHP Warning:  mysqli_error() expects exactly 1 parameter, 0 given in /home/samenli1/public_html/subdominios/wms/api/proveedores/index.php on line 19
+[03-Jul-2017 17:32:48 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'samenli1_wms'@'localhost' (using password: YES) in /home/samenli1/public_html/subdominios/wms/api/proveedores/index.php on line 16
+[03-Jul-2017 17:32:48 UTC] PHP Warning:  mysqli_error() expects exactly 1 parameter, 0 given in /home/samenli1/public_html/subdominios/wms/api/proveedores/index.php on line 19
+[10-Jul-2017 14:42:39 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'samenli1_wms'@'localhost' (using password: YES) in /home/samenli1/public_html/subdominios/wms/api/proveedores/index.php on line 16
+[10-Jul-2017 14:42:39 UTC] PHP Warning:  mysqli_error() expects exactly 1 parameter, 0 given in /home/samenli1/public_html/subdominios/wms/api/proveedores/index.php on line 19
+[10-Jul-2017 14:44:55 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'samenli1_wms'@'localhost' (using password: YES) in /home/samenli1/public_html/subdominios/wms/api/proveedores/index.php on line 16
+[10-Jul-2017 14:44:55 UTC] PHP Warning:  mysqli_error() expects exactly 1 parameter, 0 given in /home/samenli1/public_html/subdominios/wms/api/proveedores/index.php on line 19
+[11-Jul-2017 16:49:16 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'samenli1_wms'@'localhost' (using password: YES) in /home/samenli1/public_html/subdominios/wms/api/proveedores/index.php on line 16
+[11-Jul-2017 16:49:16 UTC] PHP Warning:  mysqli_error() expects exactly 1 parameter, 0 given in /home/samenli1/public_html/subdominios/wms/api/proveedores/index.php on line 19

@@ -1,0 +1,36 @@
+[16-May-2017 13:11:17 America/Los_Angeles] PHP Fatal error:  Uncaught Error: Undefined class constant 'COMPANIA' in /home/samenli1/public_html/subdominios/wms/app/class/Transporte/Transporte.php:169
+Stack trace:
+#0 /home/samenli1/public_html/subdominios/wms/api/transporte/update/index.php(16): Transporte\Transporte->actualizarTransporte(Array)
+#1 {main}
+  thrown in /home/samenli1/public_html/subdominios/wms/app/class/Transporte/Transporte.php on line 169
+[16-May-2017 13:12:01 America/Los_Angeles] PHP Fatal error:  Uncaught Error: Undefined class constant 'COMPANIA' in /home/samenli1/public_html/subdominios/wms/app/class/Transporte/Transporte.php:169
+Stack trace:
+#0 /home/samenli1/public_html/subdominios/wms/api/transporte/update/index.php(16): Transporte\Transporte->actualizarTransporte(Array)
+#1 {main}
+  thrown in /home/samenli1/public_html/subdominios/wms/app/class/Transporte/Transporte.php on line 169
+[16-May-2017 13:12:46 America/Los_Angeles] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens in /home/samenli1/public_html/subdominios/wms/app/class/Transporte/Transporte.php:201
+Stack trace:
+#0 /home/samenli1/public_html/subdominios/wms/app/class/Transporte/Transporte.php(201): PDOStatement->execute()
+#1 /home/samenli1/public_html/subdominios/wms/api/transporte/update/index.php(16): Transporte\Transporte->actualizarTransporte(Array)
+#2 {main}
+  thrown in /home/samenli1/public_html/subdominios/wms/app/class/Transporte/Transporte.php on line 201
+[16-May-2017 13:13:35 America/Los_Angeles] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens in /home/samenli1/public_html/subdominios/wms/app/class/Transporte/Transporte.php:202
+Stack trace:
+#0 /home/samenli1/public_html/subdominios/wms/app/class/Transporte/Transporte.php(202): PDOStatement->execute()
+#1 /home/samenli1/public_html/subdominios/wms/api/transporte/update/index.php(16): Transporte\Transporte->actualizarTransporte(Array)
+#2 {main}
+  thrown in /home/samenli1/public_html/subdominios/wms/app/class/Transporte/Transporte.php on line 202
+[16-May-2017 13:14:43 America/Los_Angeles] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'where 
+		IDTransp = '11'' at line 15 in /home/samenli1/public_html/subdominios/wms/app/class/Transporte/Transporte.php:201
+Stack trace:
+#0 /home/samenli1/public_html/subdominios/wms/app/class/Transporte/Transporte.php(201): PDOStatement->execute()
+#1 /home/samenli1/public_html/subdominios/wms/api/transporte/update/index.php(16): Transporte\Transporte->actualizarTransporte(Array)
+#2 {main}
+  thrown in /home/samenli1/public_html/subdominios/wms/app/class/Transporte/Transporte.php on line 201
+[16-May-2017 13:20:08 America/Los_Angeles] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'where 
+		IDTransp = '11'' at line 15 in /home/samenli1/public_html/subdominios/wms/app/class/Transporte/Transporte.php:201
+Stack trace:
+#0 /home/samenli1/public_html/subdominios/wms/app/class/Transporte/Transporte.php(201): PDOStatement->execute()
+#1 /home/samenli1/public_html/subdominios/wms/api/transporte/update/index.php(16): Transporte\Transporte->actualizarTransporte(Array)
+#2 {main}
+  thrown in /home/samenli1/public_html/subdominios/wms/app/class/Transporte/Transporte.php on line 201

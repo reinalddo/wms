@@ -1,0 +1,420 @@
+[27-Jun-2017 18:16:54 America/Los_Angeles] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'clave_usuario = ""' at line 9 in /home/samenli1/public_html/subdominios/wms/app/class/AdministradorPedidos/AdministradorPedidos.php:319
+Stack trace:
+#0 /home/samenli1/public_html/subdominios/wms/app/class/AdministradorPedidos/AdministradorPedidos.php(319): PDOStatement->execute()
+#1 /home/samenli1/public_html/subdominios/wms/api/administradorpedidos/update/index.php(198): AdministradorPedidos\AdministradorPedidos->guardarOla(Array)
+#2 {main}
+  thrown in /home/samenli1/public_html/subdominios/wms/app/class/AdministradorPedidos/AdministradorPedidos.php on line 319
+[27-Jun-2017 18:17:04 America/Los_Angeles] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'clave_usuario = ""' at line 9 in /home/samenli1/public_html/subdominios/wms/app/class/AdministradorPedidos/AdministradorPedidos.php:319
+Stack trace:
+#0 /home/samenli1/public_html/subdominios/wms/app/class/AdministradorPedidos/AdministradorPedidos.php(319): PDOStatement->execute()
+#1 /home/samenli1/public_html/subdominios/wms/api/administradorpedidos/update/index.php(198): AdministradorPedidos\AdministradorPedidos->guardarOla(Array)
+#2 {main}
+  thrown in /home/samenli1/public_html/subdominios/wms/app/class/AdministradorPedidos/AdministradorPedidos.php on line 319
+[27-Jun-2017 18:17:27 America/Los_Angeles] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'clave_usuario = ""' at line 9 in /home/samenli1/public_html/subdominios/wms/app/class/AdministradorPedidos/AdministradorPedidos.php:319
+Stack trace:
+#0 /home/samenli1/public_html/subdominios/wms/app/class/AdministradorPedidos/AdministradorPedidos.php(319): PDOStatement->execute()
+#1 /home/samenli1/public_html/subdominios/wms/api/administradorpedidos/update/index.php(198): AdministradorPedidos\AdministradorPedidos->guardarOla(Array)
+#2 {main}
+  thrown in /home/samenli1/public_html/subdominios/wms/app/class/AdministradorPedidos/AdministradorPedidos.php on line 319
+[07-Jul-2017 17:26:10 America/Los_Angeles] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Fol_Consolidado' in 'field list' in /home/samenli1/public_html/subdominios/wms/app/class/AdministradorPedidos/AdministradorPedidos.php:308
+Stack trace:
+#0 /home/samenli1/public_html/subdominios/wms/app/class/AdministradorPedidos/AdministradorPedidos.php(308): PDOStatement->execute()
+#1 /home/samenli1/public_html/subdominios/wms/api/administradorpedidos/update/index.php(198): AdministradorPedidos\AdministradorPedidos->guardarOla(Array)
+#2 {main}
+  thrown in /home/samenli1/public_html/subdominios/wms/app/class/AdministradorPedidos/AdministradorPedidos.php on line 308
+[07-Jul-2017 17:26:15 America/Los_Angeles] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Fol_Consolidado' in 'field list' in /home/samenli1/public_html/subdominios/wms/app/class/AdministradorPedidos/AdministradorPedidos.php:308
+Stack trace:
+#0 /home/samenli1/public_html/subdominios/wms/app/class/AdministradorPedidos/AdministradorPedidos.php(308): PDOStatement->execute()
+#1 /home/samenli1/public_html/subdominios/wms/api/administradorpedidos/update/index.php(198): AdministradorPedidos\AdministradorPedidos->guardarOla(Array)
+#2 {main}
+  thrown in /home/samenli1/public_html/subdominios/wms/app/class/AdministradorPedidos/AdministradorPedidos.php on line 308
+[07-Jul-2017 17:26:16 America/Los_Angeles] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Fol_Consolidado' in 'field list' in /home/samenli1/public_html/subdominios/wms/app/class/AdministradorPedidos/AdministradorPedidos.php:308
+Stack trace:
+#0 /home/samenli1/public_html/subdominios/wms/app/class/AdministradorPedidos/AdministradorPedidos.php(308): PDOStatement->execute()
+#1 /home/samenli1/public_html/subdominios/wms/api/administradorpedidos/update/index.php(198): AdministradorPedidos\AdministradorPedidos->guardarOla(Array)
+#2 {main}
+  thrown in /home/samenli1/public_html/subdominios/wms/app/class/AdministradorPedidos/AdministradorPedidos.php on line 308
+[07-Jul-2017 17:26:16 America/Los_Angeles] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Fol_Consolidado' in 'field list' in /home/samenli1/public_html/subdominios/wms/app/class/AdministradorPedidos/AdministradorPedidos.php:308
+Stack trace:
+#0 /home/samenli1/public_html/subdominios/wms/app/class/AdministradorPedidos/AdministradorPedidos.php(308): PDOStatement->execute()
+#1 /home/samenli1/public_html/subdominios/wms/api/administradorpedidos/update/index.php(198): AdministradorPedidos\AdministradorPedidos->guardarOla(Array)
+#2 {main}
+  thrown in /home/samenli1/public_html/subdominios/wms/app/class/AdministradorPedidos/AdministradorPedidos.php on line 308
+[07-Jul-2017 17:26:17 America/Los_Angeles] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Fol_Consolidado' in 'field list' in /home/samenli1/public_html/subdominios/wms/app/class/AdministradorPedidos/AdministradorPedidos.php:308
+Stack trace:
+#0 /home/samenli1/public_html/subdominios/wms/app/class/AdministradorPedidos/AdministradorPedidos.php(308): PDOStatement->execute()
+#1 /home/samenli1/public_html/subdominios/wms/api/administradorpedidos/update/index.php(198): AdministradorPedidos\AdministradorPedidos->guardarOla(Array)
+#2 {main}
+  thrown in /home/samenli1/public_html/subdominios/wms/app/class/AdministradorPedidos/AdministradorPedidos.php on line 308
+[07-Jul-2017 17:26:17 America/Los_Angeles] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Fol_Consolidado' in 'field list' in /home/samenli1/public_html/subdominios/wms/app/class/AdministradorPedidos/AdministradorPedidos.php:308
+Stack trace:
+#0 /home/samenli1/public_html/subdominios/wms/app/class/AdministradorPedidos/AdministradorPedidos.php(308): PDOStatement->execute()
+#1 /home/samenli1/public_html/subdominios/wms/api/administradorpedidos/update/index.php(198): AdministradorPedidos\AdministradorPedidos->guardarOla(Array)
+#2 {main}
+  thrown in /home/samenli1/public_html/subdominios/wms/app/class/AdministradorPedidos/AdministradorPedidos.php on line 308
+[07-Jul-2017 17:26:18 America/Los_Angeles] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Fol_Consolidado' in 'field list' in /home/samenli1/public_html/subdominios/wms/app/class/AdministradorPedidos/AdministradorPedidos.php:308
+Stack trace:
+#0 /home/samenli1/public_html/subdominios/wms/app/class/AdministradorPedidos/AdministradorPedidos.php(308): PDOStatement->execute()
+#1 /home/samenli1/public_html/subdominios/wms/api/administradorpedidos/update/index.php(198): AdministradorPedidos\AdministradorPedidos->guardarOla(Array)
+#2 {main}
+  thrown in /home/samenli1/public_html/subdominios/wms/app/class/AdministradorPedidos/AdministradorPedidos.php on line 308
+[07-Jul-2017 17:26:18 America/Los_Angeles] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Fol_Consolidado' in 'field list' in /home/samenli1/public_html/subdominios/wms/app/class/AdministradorPedidos/AdministradorPedidos.php:308
+Stack trace:
+#0 /home/samenli1/public_html/subdominios/wms/app/class/AdministradorPedidos/AdministradorPedidos.php(308): PDOStatement->execute()
+#1 /home/samenli1/public_html/subdominios/wms/api/administradorpedidos/update/index.php(198): AdministradorPedidos\AdministradorPedidos->guardarOla(Array)
+#2 {main}
+  thrown in /home/samenli1/public_html/subdominios/wms/app/class/AdministradorPedidos/AdministradorPedidos.php on line 308
+[07-Jul-2017 17:26:18 America/Los_Angeles] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Fol_Consolidado' in 'field list' in /home/samenli1/public_html/subdominios/wms/app/class/AdministradorPedidos/AdministradorPedidos.php:308
+Stack trace:
+#0 /home/samenli1/public_html/subdominios/wms/app/class/AdministradorPedidos/AdministradorPedidos.php(308): PDOStatement->execute()
+#1 /home/samenli1/public_html/subdominios/wms/api/administradorpedidos/update/index.php(198): AdministradorPedidos\AdministradorPedidos->guardarOla(Array)
+#2 {main}
+  thrown in /home/samenli1/public_html/subdominios/wms/app/class/AdministradorPedidos/AdministradorPedidos.php on line 308
+[07-Jul-2017 17:26:18 America/Los_Angeles] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Fol_Consolidado' in 'field list' in /home/samenli1/public_html/subdominios/wms/app/class/AdministradorPedidos/AdministradorPedidos.php:308
+Stack trace:
+#0 /home/samenli1/public_html/subdominios/wms/app/class/AdministradorPedidos/AdministradorPedidos.php(308): PDOStatement->execute()
+#1 /home/samenli1/public_html/subdominios/wms/api/administradorpedidos/update/index.php(198): AdministradorPedidos\AdministradorPedidos->guardarOla(Array)
+#2 {main}
+  thrown in /home/samenli1/public_html/subdominios/wms/app/class/AdministradorPedidos/AdministradorPedidos.php on line 308
+[07-Jul-2017 17:26:19 America/Los_Angeles] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Fol_Consolidado' in 'field list' in /home/samenli1/public_html/subdominios/wms/app/class/AdministradorPedidos/AdministradorPedidos.php:308
+Stack trace:
+#0 /home/samenli1/public_html/subdominios/wms/app/class/AdministradorPedidos/AdministradorPedidos.php(308): PDOStatement->execute()
+#1 /home/samenli1/public_html/subdominios/wms/api/administradorpedidos/update/index.php(198): AdministradorPedidos\AdministradorPedidos->guardarOla(Array)
+#2 {main}
+  thrown in /home/samenli1/public_html/subdominios/wms/app/class/AdministradorPedidos/AdministradorPedidos.php on line 308
+[07-Jul-2017 17:26:19 America/Los_Angeles] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Fol_Consolidado' in 'field list' in /home/samenli1/public_html/subdominios/wms/app/class/AdministradorPedidos/AdministradorPedidos.php:308
+Stack trace:
+#0 /home/samenli1/public_html/subdominios/wms/app/class/AdministradorPedidos/AdministradorPedidos.php(308): PDOStatement->execute()
+#1 /home/samenli1/public_html/subdominios/wms/api/administradorpedidos/update/index.php(198): AdministradorPedidos\AdministradorPedidos->guardarOla(Array)
+#2 {main}
+  thrown in /home/samenli1/public_html/subdominios/wms/app/class/AdministradorPedidos/AdministradorPedidos.php on line 308
+[07-Jul-2017 17:26:19 America/Los_Angeles] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Fol_Consolidado' in 'field list' in /home/samenli1/public_html/subdominios/wms/app/class/AdministradorPedidos/AdministradorPedidos.php:308
+Stack trace:
+#0 /home/samenli1/public_html/subdominios/wms/app/class/AdministradorPedidos/AdministradorPedidos.php(308): PDOStatement->execute()
+#1 /home/samenli1/public_html/subdominios/wms/api/administradorpedidos/update/index.php(198): AdministradorPedidos\AdministradorPedidos->guardarOla(Array)
+#2 {main}
+  thrown in /home/samenli1/public_html/subdominios/wms/app/class/AdministradorPedidos/AdministradorPedidos.php on line 308
+[07-Jul-2017 17:26:19 America/Los_Angeles] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Fol_Consolidado' in 'field list' in /home/samenli1/public_html/subdominios/wms/app/class/AdministradorPedidos/AdministradorPedidos.php:308
+Stack trace:
+#0 /home/samenli1/public_html/subdominios/wms/app/class/AdministradorPedidos/AdministradorPedidos.php(308): PDOStatement->execute()
+#1 /home/samenli1/public_html/subdominios/wms/api/administradorpedidos/update/index.php(198): AdministradorPedidos\AdministradorPedidos->guardarOla(Array)
+#2 {main}
+  thrown in /home/samenli1/public_html/subdominios/wms/app/class/AdministradorPedidos/AdministradorPedidos.php on line 308
+[07-Jul-2017 17:26:19 America/Los_Angeles] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Fol_Consolidado' in 'field list' in /home/samenli1/public_html/subdominios/wms/app/class/AdministradorPedidos/AdministradorPedidos.php:308
+Stack trace:
+#0 /home/samenli1/public_html/subdominios/wms/app/class/AdministradorPedidos/AdministradorPedidos.php(308): PDOStatement->execute()
+#1 /home/samenli1/public_html/subdominios/wms/api/administradorpedidos/update/index.php(198): AdministradorPedidos\AdministradorPedidos->guardarOla(Array)
+#2 {main}
+  thrown in /home/samenli1/public_html/subdominios/wms/app/class/AdministradorPedidos/AdministradorPedidos.php on line 308
+[07-Jul-2017 17:26:20 America/Los_Angeles] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Fol_Consolidado' in 'field list' in /home/samenli1/public_html/subdominios/wms/app/class/AdministradorPedidos/AdministradorPedidos.php:308
+Stack trace:
+#0 /home/samenli1/public_html/subdominios/wms/app/class/AdministradorPedidos/AdministradorPedidos.php(308): PDOStatement->execute()
+#1 /home/samenli1/public_html/subdominios/wms/api/administradorpedidos/update/index.php(198): AdministradorPedidos\AdministradorPedidos->guardarOla(Array)
+#2 {main}
+  thrown in /home/samenli1/public_html/subdominios/wms/app/class/AdministradorPedidos/AdministradorPedidos.php on line 308
+[07-Jul-2017 17:26:20 America/Los_Angeles] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Fol_Consolidado' in 'field list' in /home/samenli1/public_html/subdominios/wms/app/class/AdministradorPedidos/AdministradorPedidos.php:308
+Stack trace:
+#0 /home/samenli1/public_html/subdominios/wms/app/class/AdministradorPedidos/AdministradorPedidos.php(308): PDOStatement->execute()
+#1 /home/samenli1/public_html/subdominios/wms/api/administradorpedidos/update/index.php(198): AdministradorPedidos\AdministradorPedidos->guardarOla(Array)
+#2 {main}
+  thrown in /home/samenli1/public_html/subdominios/wms/app/class/AdministradorPedidos/AdministradorPedidos.php on line 308
+[07-Jul-2017 17:26:20 America/Los_Angeles] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Fol_Consolidado' in 'field list' in /home/samenli1/public_html/subdominios/wms/app/class/AdministradorPedidos/AdministradorPedidos.php:308
+Stack trace:
+#0 /home/samenli1/public_html/subdominios/wms/app/class/AdministradorPedidos/AdministradorPedidos.php(308): PDOStatement->execute()
+#1 /home/samenli1/public_html/subdominios/wms/api/administradorpedidos/update/index.php(198): AdministradorPedidos\AdministradorPedidos->guardarOla(Array)
+#2 {main}
+  thrown in /home/samenli1/public_html/subdominios/wms/app/class/AdministradorPedidos/AdministradorPedidos.php on line 308
+[07-Jul-2017 17:26:20 America/Los_Angeles] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Fol_Consolidado' in 'field list' in /home/samenli1/public_html/subdominios/wms/app/class/AdministradorPedidos/AdministradorPedidos.php:308
+Stack trace:
+#0 /home/samenli1/public_html/subdominios/wms/app/class/AdministradorPedidos/AdministradorPedidos.php(308): PDOStatement->execute()
+#1 /home/samenli1/public_html/subdominios/wms/api/administradorpedidos/update/index.php(198): AdministradorPedidos\AdministradorPedidos->guardarOla(Array)
+#2 {main}
+  thrown in /home/samenli1/public_html/subdominios/wms/app/class/AdministradorPedidos/AdministradorPedidos.php on line 308
+[07-Jul-2017 17:26:20 America/Los_Angeles] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Fol_Consolidado' in 'field list' in /home/samenli1/public_html/subdominios/wms/app/class/AdministradorPedidos/AdministradorPedidos.php:308
+Stack trace:
+#0 /home/samenli1/public_html/subdominios/wms/app/class/AdministradorPedidos/AdministradorPedidos.php(308): PDOStatement->execute()
+#1 /home/samenli1/public_html/subdominios/wms/api/administradorpedidos/update/index.php(198): AdministradorPedidos\AdministradorPedidos->guardarOla(Array)
+#2 {main}
+  thrown in /home/samenli1/public_html/subdominios/wms/app/class/AdministradorPedidos/AdministradorPedidos.php on line 308
+[07-Jul-2017 17:26:21 America/Los_Angeles] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Fol_Consolidado' in 'field list' in /home/samenli1/public_html/subdominios/wms/app/class/AdministradorPedidos/AdministradorPedidos.php:308
+Stack trace:
+#0 /home/samenli1/public_html/subdominios/wms/app/class/AdministradorPedidos/AdministradorPedidos.php(308): PDOStatement->execute()
+#1 /home/samenli1/public_html/subdominios/wms/api/administradorpedidos/update/index.php(198): AdministradorPedidos\AdministradorPedidos->guardarOla(Array)
+#2 {main}
+  thrown in /home/samenli1/public_html/subdominios/wms/app/class/AdministradorPedidos/AdministradorPedidos.php on line 308
+[07-Jul-2017 17:26:22 America/Los_Angeles] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Fol_Consolidado' in 'field list' in /home/samenli1/public_html/subdominios/wms/app/class/AdministradorPedidos/AdministradorPedidos.php:308
+Stack trace:
+#0 /home/samenli1/public_html/subdominios/wms/app/class/AdministradorPedidos/AdministradorPedidos.php(308): PDOStatement->execute()
+#1 /home/samenli1/public_html/subdominios/wms/api/administradorpedidos/update/index.php(198): AdministradorPedidos\AdministradorPedidos->guardarOla(Array)
+#2 {main}
+  thrown in /home/samenli1/public_html/subdominios/wms/app/class/AdministradorPedidos/AdministradorPedidos.php on line 308
+[07-Jul-2017 17:26:23 America/Los_Angeles] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Fol_Consolidado' in 'field list' in /home/samenli1/public_html/subdominios/wms/app/class/AdministradorPedidos/AdministradorPedidos.php:308
+Stack trace:
+#0 /home/samenli1/public_html/subdominios/wms/app/class/AdministradorPedidos/AdministradorPedidos.php(308): PDOStatement->execute()
+#1 /home/samenli1/public_html/subdominios/wms/api/administradorpedidos/update/index.php(198): AdministradorPedidos\AdministradorPedidos->guardarOla(Array)
+#2 {main}
+  thrown in /home/samenli1/public_html/subdominios/wms/app/class/AdministradorPedidos/AdministradorPedidos.php on line 308
+[07-Jul-2017 17:26:23 America/Los_Angeles] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Fol_Consolidado' in 'field list' in /home/samenli1/public_html/subdominios/wms/app/class/AdministradorPedidos/AdministradorPedidos.php:308
+Stack trace:
+#0 /home/samenli1/public_html/subdominios/wms/app/class/AdministradorPedidos/AdministradorPedidos.php(308): PDOStatement->execute()
+#1 /home/samenli1/public_html/subdominios/wms/api/administradorpedidos/update/index.php(198): AdministradorPedidos\AdministradorPedidos->guardarOla(Array)
+#2 {main}
+  thrown in /home/samenli1/public_html/subdominios/wms/app/class/AdministradorPedidos/AdministradorPedidos.php on line 308
+[07-Jul-2017 17:26:23 America/Los_Angeles] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Fol_Consolidado' in 'field list' in /home/samenli1/public_html/subdominios/wms/app/class/AdministradorPedidos/AdministradorPedidos.php:308
+Stack trace:
+#0 /home/samenli1/public_html/subdominios/wms/app/class/AdministradorPedidos/AdministradorPedidos.php(308): PDOStatement->execute()
+#1 /home/samenli1/public_html/subdominios/wms/api/administradorpedidos/update/index.php(198): AdministradorPedidos\AdministradorPedidos->guardarOla(Array)
+#2 {main}
+  thrown in /home/samenli1/public_html/subdominios/wms/app/class/AdministradorPedidos/AdministradorPedidos.php on line 308
+[07-Jul-2017 17:26:23 America/Los_Angeles] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Fol_Consolidado' in 'field list' in /home/samenli1/public_html/subdominios/wms/app/class/AdministradorPedidos/AdministradorPedidos.php:308
+Stack trace:
+#0 /home/samenli1/public_html/subdominios/wms/app/class/AdministradorPedidos/AdministradorPedidos.php(308): PDOStatement->execute()
+#1 /home/samenli1/public_html/subdominios/wms/api/administradorpedidos/update/index.php(198): AdministradorPedidos\AdministradorPedidos->guardarOla(Array)
+#2 {main}
+  thrown in /home/samenli1/public_html/subdominios/wms/app/class/AdministradorPedidos/AdministradorPedidos.php on line 308
+[07-Jul-2017 17:26:23 America/Los_Angeles] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Fol_Consolidado' in 'field list' in /home/samenli1/public_html/subdominios/wms/app/class/AdministradorPedidos/AdministradorPedidos.php:308
+Stack trace:
+#0 /home/samenli1/public_html/subdominios/wms/app/class/AdministradorPedidos/AdministradorPedidos.php(308): PDOStatement->execute()
+#1 /home/samenli1/public_html/subdominios/wms/api/administradorpedidos/update/index.php(198): AdministradorPedidos\AdministradorPedidos->guardarOla(Array)
+#2 {main}
+  thrown in /home/samenli1/public_html/subdominios/wms/app/class/AdministradorPedidos/AdministradorPedidos.php on line 308
+[07-Jul-2017 17:26:24 America/Los_Angeles] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Fol_Consolidado' in 'field list' in /home/samenli1/public_html/subdominios/wms/app/class/AdministradorPedidos/AdministradorPedidos.php:308
+Stack trace:
+#0 /home/samenli1/public_html/subdominios/wms/app/class/AdministradorPedidos/AdministradorPedidos.php(308): PDOStatement->execute()
+#1 /home/samenli1/public_html/subdominios/wms/api/administradorpedidos/update/index.php(198): AdministradorPedidos\AdministradorPedidos->guardarOla(Array)
+#2 {main}
+  thrown in /home/samenli1/public_html/subdominios/wms/app/class/AdministradorPedidos/AdministradorPedidos.php on line 308
+[07-Jul-2017 17:27:23 America/Los_Angeles] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Fol_Consolidado' in 'field list' in /home/samenli1/public_html/subdominios/wms/app/class/AdministradorPedidos/AdministradorPedidos.php:308
+Stack trace:
+#0 /home/samenli1/public_html/subdominios/wms/app/class/AdministradorPedidos/AdministradorPedidos.php(308): PDOStatement->execute()
+#1 /home/samenli1/public_html/subdominios/wms/api/administradorpedidos/update/index.php(198): AdministradorPedidos\AdministradorPedidos->guardarOla(Array)
+#2 {main}
+  thrown in /home/samenli1/public_html/subdominios/wms/app/class/AdministradorPedidos/AdministradorPedidos.php on line 308
+[07-Jul-2017 17:29:54 America/Los_Angeles] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Fol_Consolidado' in 'field list' in /home/samenli1/public_html/subdominios/wms/app/class/AdministradorPedidos/AdministradorPedidos.php:308
+Stack trace:
+#0 /home/samenli1/public_html/subdominios/wms/app/class/AdministradorPedidos/AdministradorPedidos.php(308): PDOStatement->execute()
+#1 /home/samenli1/public_html/subdominios/wms/api/administradorpedidos/update/index.php(198): AdministradorPedidos\AdministradorPedidos->guardarOla(Array)
+#2 {main}
+  thrown in /home/samenli1/public_html/subdominios/wms/app/class/AdministradorPedidos/AdministradorPedidos.php on line 308
+[07-Jul-2017 17:29:55 America/Los_Angeles] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Fol_Consolidado' in 'field list' in /home/samenli1/public_html/subdominios/wms/app/class/AdministradorPedidos/AdministradorPedidos.php:308
+Stack trace:
+#0 /home/samenli1/public_html/subdominios/wms/app/class/AdministradorPedidos/AdministradorPedidos.php(308): PDOStatement->execute()
+#1 /home/samenli1/public_html/subdominios/wms/api/administradorpedidos/update/index.php(198): AdministradorPedidos\AdministradorPedidos->guardarOla(Array)
+#2 {main}
+  thrown in /home/samenli1/public_html/subdominios/wms/app/class/AdministradorPedidos/AdministradorPedidos.php on line 308
+[07-Jul-2017 17:29:55 America/Los_Angeles] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Fol_Consolidado' in 'field list' in /home/samenli1/public_html/subdominios/wms/app/class/AdministradorPedidos/AdministradorPedidos.php:308
+Stack trace:
+#0 /home/samenli1/public_html/subdominios/wms/app/class/AdministradorPedidos/AdministradorPedidos.php(308): PDOStatement->execute()
+#1 /home/samenli1/public_html/subdominios/wms/api/administradorpedidos/update/index.php(198): AdministradorPedidos\AdministradorPedidos->guardarOla(Array)
+#2 {main}
+  thrown in /home/samenli1/public_html/subdominios/wms/app/class/AdministradorPedidos/AdministradorPedidos.php on line 308
+[07-Jul-2017 17:29:55 America/Los_Angeles] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Fol_Consolidado' in 'field list' in /home/samenli1/public_html/subdominios/wms/app/class/AdministradorPedidos/AdministradorPedidos.php:308
+Stack trace:
+#0 /home/samenli1/public_html/subdominios/wms/app/class/AdministradorPedidos/AdministradorPedidos.php(308): PDOStatement->execute()
+#1 /home/samenli1/public_html/subdominios/wms/api/administradorpedidos/update/index.php(198): AdministradorPedidos\AdministradorPedidos->guardarOla(Array)
+#2 {main}
+  thrown in /home/samenli1/public_html/subdominios/wms/app/class/AdministradorPedidos/AdministradorPedidos.php on line 308
+[07-Jul-2017 17:29:55 America/Los_Angeles] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Fol_Consolidado' in 'field list' in /home/samenli1/public_html/subdominios/wms/app/class/AdministradorPedidos/AdministradorPedidos.php:308
+Stack trace:
+#0 /home/samenli1/public_html/subdominios/wms/app/class/AdministradorPedidos/AdministradorPedidos.php(308): PDOStatement->execute()
+#1 /home/samenli1/public_html/subdominios/wms/api/administradorpedidos/update/index.php(198): AdministradorPedidos\AdministradorPedidos->guardarOla(Array)
+#2 {main}
+  thrown in /home/samenli1/public_html/subdominios/wms/app/class/AdministradorPedidos/AdministradorPedidos.php on line 308
+[07-Jul-2017 17:30:01 America/Los_Angeles] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Fol_Consolidado' in 'field list' in /home/samenli1/public_html/subdominios/wms/app/class/AdministradorPedidos/AdministradorPedidos.php:308
+Stack trace:
+#0 /home/samenli1/public_html/subdominios/wms/app/class/AdministradorPedidos/AdministradorPedidos.php(308): PDOStatement->execute()
+#1 /home/samenli1/public_html/subdominios/wms/api/administradorpedidos/update/index.php(198): AdministradorPedidos\AdministradorPedidos->guardarOla(Array)
+#2 {main}
+  thrown in /home/samenli1/public_html/subdominios/wms/app/class/AdministradorPedidos/AdministradorPedidos.php on line 308
+[07-Jul-2017 17:30:02 America/Los_Angeles] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Fol_Consolidado' in 'field list' in /home/samenli1/public_html/subdominios/wms/app/class/AdministradorPedidos/AdministradorPedidos.php:308
+Stack trace:
+#0 /home/samenli1/public_html/subdominios/wms/app/class/AdministradorPedidos/AdministradorPedidos.php(308): PDOStatement->execute()
+#1 /home/samenli1/public_html/subdominios/wms/api/administradorpedidos/update/index.php(198): AdministradorPedidos\AdministradorPedidos->guardarOla(Array)
+#2 {main}
+  thrown in /home/samenli1/public_html/subdominios/wms/app/class/AdministradorPedidos/AdministradorPedidos.php on line 308
+[07-Jul-2017 17:30:02 America/Los_Angeles] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Fol_Consolidado' in 'field list' in /home/samenli1/public_html/subdominios/wms/app/class/AdministradorPedidos/AdministradorPedidos.php:308
+Stack trace:
+#0 /home/samenli1/public_html/subdominios/wms/app/class/AdministradorPedidos/AdministradorPedidos.php(308): PDOStatement->execute()
+#1 /home/samenli1/public_html/subdominios/wms/api/administradorpedidos/update/index.php(198): AdministradorPedidos\AdministradorPedidos->guardarOla(Array)
+#2 {main}
+  thrown in /home/samenli1/public_html/subdominios/wms/app/class/AdministradorPedidos/AdministradorPedidos.php on line 308
+[07-Jul-2017 17:30:03 America/Los_Angeles] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Fol_Consolidado' in 'field list' in /home/samenli1/public_html/subdominios/wms/app/class/AdministradorPedidos/AdministradorPedidos.php:308
+Stack trace:
+#0 /home/samenli1/public_html/subdominios/wms/app/class/AdministradorPedidos/AdministradorPedidos.php(308): PDOStatement->execute()
+#1 /home/samenli1/public_html/subdominios/wms/api/administradorpedidos/update/index.php(198): AdministradorPedidos\AdministradorPedidos->guardarOla(Array)
+#2 {main}
+  thrown in /home/samenli1/public_html/subdominios/wms/app/class/AdministradorPedidos/AdministradorPedidos.php on line 308
+[07-Jul-2017 17:30:03 America/Los_Angeles] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Fol_Consolidado' in 'field list' in /home/samenli1/public_html/subdominios/wms/app/class/AdministradorPedidos/AdministradorPedidos.php:308
+Stack trace:
+#0 /home/samenli1/public_html/subdominios/wms/app/class/AdministradorPedidos/AdministradorPedidos.php(308): PDOStatement->execute()
+#1 /home/samenli1/public_html/subdominios/wms/api/administradorpedidos/update/index.php(198): AdministradorPedidos\AdministradorPedidos->guardarOla(Array)
+#2 {main}
+  thrown in /home/samenli1/public_html/subdominios/wms/app/class/AdministradorPedidos/AdministradorPedidos.php on line 308
+[07-Jul-2017 17:30:03 America/Los_Angeles] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Fol_Consolidado' in 'field list' in /home/samenli1/public_html/subdominios/wms/app/class/AdministradorPedidos/AdministradorPedidos.php:308
+Stack trace:
+#0 /home/samenli1/public_html/subdominios/wms/app/class/AdministradorPedidos/AdministradorPedidos.php(308): PDOStatement->execute()
+#1 /home/samenli1/public_html/subdominios/wms/api/administradorpedidos/update/index.php(198): AdministradorPedidos\AdministradorPedidos->guardarOla(Array)
+#2 {main}
+  thrown in /home/samenli1/public_html/subdominios/wms/app/class/AdministradorPedidos/AdministradorPedidos.php on line 308
+[07-Jul-2017 17:30:03 America/Los_Angeles] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Fol_Consolidado' in 'field list' in /home/samenli1/public_html/subdominios/wms/app/class/AdministradorPedidos/AdministradorPedidos.php:308
+Stack trace:
+#0 /home/samenli1/public_html/subdominios/wms/app/class/AdministradorPedidos/AdministradorPedidos.php(308): PDOStatement->execute()
+#1 /home/samenli1/public_html/subdominios/wms/api/administradorpedidos/update/index.php(198): AdministradorPedidos\AdministradorPedidos->guardarOla(Array)
+#2 {main}
+  thrown in /home/samenli1/public_html/subdominios/wms/app/class/AdministradorPedidos/AdministradorPedidos.php on line 308
+[07-Jul-2017 17:30:03 America/Los_Angeles] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Fol_Consolidado' in 'field list' in /home/samenli1/public_html/subdominios/wms/app/class/AdministradorPedidos/AdministradorPedidos.php:308
+Stack trace:
+#0 /home/samenli1/public_html/subdominios/wms/app/class/AdministradorPedidos/AdministradorPedidos.php(308): PDOStatement->execute()
+#1 /home/samenli1/public_html/subdominios/wms/api/administradorpedidos/update/index.php(198): AdministradorPedidos\AdministradorPedidos->guardarOla(Array)
+#2 {main}
+  thrown in /home/samenli1/public_html/subdominios/wms/app/class/AdministradorPedidos/AdministradorPedidos.php on line 308
+[07-Jul-2017 17:30:04 America/Los_Angeles] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Fol_Consolidado' in 'field list' in /home/samenli1/public_html/subdominios/wms/app/class/AdministradorPedidos/AdministradorPedidos.php:308
+Stack trace:
+#0 /home/samenli1/public_html/subdominios/wms/app/class/AdministradorPedidos/AdministradorPedidos.php(308): PDOStatement->execute()
+#1 /home/samenli1/public_html/subdominios/wms/api/administradorpedidos/update/index.php(198): AdministradorPedidos\AdministradorPedidos->guardarOla(Array)
+#2 {main}
+  thrown in /home/samenli1/public_html/subdominios/wms/app/class/AdministradorPedidos/AdministradorPedidos.php on line 308
+[07-Jul-2017 17:30:04 America/Los_Angeles] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Fol_Consolidado' in 'field list' in /home/samenli1/public_html/subdominios/wms/app/class/AdministradorPedidos/AdministradorPedidos.php:308
+Stack trace:
+#0 /home/samenli1/public_html/subdominios/wms/app/class/AdministradorPedidos/AdministradorPedidos.php(308): PDOStatement->execute()
+#1 /home/samenli1/public_html/subdominios/wms/api/administradorpedidos/update/index.php(198): AdministradorPedidos\AdministradorPedidos->guardarOla(Array)
+#2 {main}
+  thrown in /home/samenli1/public_html/subdominios/wms/app/class/AdministradorPedidos/AdministradorPedidos.php on line 308
+[07-Jul-2017 17:30:04 America/Los_Angeles] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Fol_Consolidado' in 'field list' in /home/samenli1/public_html/subdominios/wms/app/class/AdministradorPedidos/AdministradorPedidos.php:308
+Stack trace:
+#0 /home/samenli1/public_html/subdominios/wms/app/class/AdministradorPedidos/AdministradorPedidos.php(308): PDOStatement->execute()
+#1 /home/samenli1/public_html/subdominios/wms/api/administradorpedidos/update/index.php(198): AdministradorPedidos\AdministradorPedidos->guardarOla(Array)
+#2 {main}
+  thrown in /home/samenli1/public_html/subdominios/wms/app/class/AdministradorPedidos/AdministradorPedidos.php on line 308
+[07-Jul-2017 17:30:04 America/Los_Angeles] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Fol_Consolidado' in 'field list' in /home/samenli1/public_html/subdominios/wms/app/class/AdministradorPedidos/AdministradorPedidos.php:308
+Stack trace:
+#0 /home/samenli1/public_html/subdominios/wms/app/class/AdministradorPedidos/AdministradorPedidos.php(308): PDOStatement->execute()
+#1 /home/samenli1/public_html/subdominios/wms/api/administradorpedidos/update/index.php(198): AdministradorPedidos\AdministradorPedidos->guardarOla(Array)
+#2 {main}
+  thrown in /home/samenli1/public_html/subdominios/wms/app/class/AdministradorPedidos/AdministradorPedidos.php on line 308
+[07-Jul-2017 17:30:08 America/Los_Angeles] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Fol_Consolidado' in 'field list' in /home/samenli1/public_html/subdominios/wms/app/class/AdministradorPedidos/AdministradorPedidos.php:308
+Stack trace:
+#0 /home/samenli1/public_html/subdominios/wms/app/class/AdministradorPedidos/AdministradorPedidos.php(308): PDOStatement->execute()
+#1 /home/samenli1/public_html/subdominios/wms/api/administradorpedidos/update/index.php(198): AdministradorPedidos\AdministradorPedidos->guardarOla(Array)
+#2 {main}
+  thrown in /home/samenli1/public_html/subdominios/wms/app/class/AdministradorPedidos/AdministradorPedidos.php on line 308
+[07-Jul-2017 17:30:08 America/Los_Angeles] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Fol_Consolidado' in 'field list' in /home/samenli1/public_html/subdominios/wms/app/class/AdministradorPedidos/AdministradorPedidos.php:308
+Stack trace:
+#0 /home/samenli1/public_html/subdominios/wms/app/class/AdministradorPedidos/AdministradorPedidos.php(308): PDOStatement->execute()
+#1 /home/samenli1/public_html/subdominios/wms/api/administradorpedidos/update/index.php(198): AdministradorPedidos\AdministradorPedidos->guardarOla(Array)
+#2 {main}
+  thrown in /home/samenli1/public_html/subdominios/wms/app/class/AdministradorPedidos/AdministradorPedidos.php on line 308
+[07-Jul-2017 17:30:09 America/Los_Angeles] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Fol_Consolidado' in 'field list' in /home/samenli1/public_html/subdominios/wms/app/class/AdministradorPedidos/AdministradorPedidos.php:308
+Stack trace:
+#0 /home/samenli1/public_html/subdominios/wms/app/class/AdministradorPedidos/AdministradorPedidos.php(308): PDOStatement->execute()
+#1 /home/samenli1/public_html/subdominios/wms/api/administradorpedidos/update/index.php(198): AdministradorPedidos\AdministradorPedidos->guardarOla(Array)
+#2 {main}
+  thrown in /home/samenli1/public_html/subdominios/wms/app/class/AdministradorPedidos/AdministradorPedidos.php on line 308
+[07-Jul-2017 17:30:09 America/Los_Angeles] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Fol_Consolidado' in 'field list' in /home/samenli1/public_html/subdominios/wms/app/class/AdministradorPedidos/AdministradorPedidos.php:308
+Stack trace:
+#0 /home/samenli1/public_html/subdominios/wms/app/class/AdministradorPedidos/AdministradorPedidos.php(308): PDOStatement->execute()
+#1 /home/samenli1/public_html/subdominios/wms/api/administradorpedidos/update/index.php(198): AdministradorPedidos\AdministradorPedidos->guardarOla(Array)
+#2 {main}
+  thrown in /home/samenli1/public_html/subdominios/wms/app/class/AdministradorPedidos/AdministradorPedidos.php on line 308
+[07-Jul-2017 17:30:09 America/Los_Angeles] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Fol_Consolidado' in 'field list' in /home/samenli1/public_html/subdominios/wms/app/class/AdministradorPedidos/AdministradorPedidos.php:308
+Stack trace:
+#0 /home/samenli1/public_html/subdominios/wms/app/class/AdministradorPedidos/AdministradorPedidos.php(308): PDOStatement->execute()
+#1 /home/samenli1/public_html/subdominios/wms/api/administradorpedidos/update/index.php(198): AdministradorPedidos\AdministradorPedidos->guardarOla(Array)
+#2 {main}
+  thrown in /home/samenli1/public_html/subdominios/wms/app/class/AdministradorPedidos/AdministradorPedidos.php on line 308
+[07-Jul-2017 17:30:17 America/Los_Angeles] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Fol_Consolidado' in 'field list' in /home/samenli1/public_html/subdominios/wms/app/class/AdministradorPedidos/AdministradorPedidos.php:308
+Stack trace:
+#0 /home/samenli1/public_html/subdominios/wms/app/class/AdministradorPedidos/AdministradorPedidos.php(308): PDOStatement->execute()
+#1 /home/samenli1/public_html/subdominios/wms/api/administradorpedidos/update/index.php(198): AdministradorPedidos\AdministradorPedidos->guardarOla(Array)
+#2 {main}
+  thrown in /home/samenli1/public_html/subdominios/wms/app/class/AdministradorPedidos/AdministradorPedidos.php on line 308
+[07-Jul-2017 17:30:19 America/Los_Angeles] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Fol_Consolidado' in 'field list' in /home/samenli1/public_html/subdominios/wms/app/class/AdministradorPedidos/AdministradorPedidos.php:308
+Stack trace:
+#0 /home/samenli1/public_html/subdominios/wms/app/class/AdministradorPedidos/AdministradorPedidos.php(308): PDOStatement->execute()
+#1 /home/samenli1/public_html/subdominios/wms/api/administradorpedidos/update/index.php(198): AdministradorPedidos\AdministradorPedidos->guardarOla(Array)
+#2 {main}
+  thrown in /home/samenli1/public_html/subdominios/wms/app/class/AdministradorPedidos/AdministradorPedidos.php on line 308
+[07-Jul-2017 17:30:19 America/Los_Angeles] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Fol_Consolidado' in 'field list' in /home/samenli1/public_html/subdominios/wms/app/class/AdministradorPedidos/AdministradorPedidos.php:308
+Stack trace:
+#0 /home/samenli1/public_html/subdominios/wms/app/class/AdministradorPedidos/AdministradorPedidos.php(308): PDOStatement->execute()
+#1 /home/samenli1/public_html/subdominios/wms/api/administradorpedidos/update/index.php(198): AdministradorPedidos\AdministradorPedidos->guardarOla(Array)
+#2 {main}
+  thrown in /home/samenli1/public_html/subdominios/wms/app/class/AdministradorPedidos/AdministradorPedidos.php on line 308
+[01-Sep-2017 06:27:57 America/Los_Angeles] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Fol_Consolidado' in 'field list' in /home/samenli1/public_html/subdominios/wms/app/class/AdministradorPedidos/AdministradorPedidos.php:314
+Stack trace:
+#0 /home/samenli1/public_html/subdominios/wms/app/class/AdministradorPedidos/AdministradorPedidos.php(314): PDOStatement->execute()
+#1 /home/samenli1/public_html/subdominios/wms/api/administradorpedidos/update/index.php(198): AdministradorPedidos\AdministradorPedidos->guardarOla(Array)
+#2 {main}
+  thrown in /home/samenli1/public_html/subdominios/wms/app/class/AdministradorPedidos/AdministradorPedidos.php on line 314
+[01-Sep-2017 06:28:01 America/Los_Angeles] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Fol_Consolidado' in 'field list' in /home/samenli1/public_html/subdominios/wms/app/class/AdministradorPedidos/AdministradorPedidos.php:314
+Stack trace:
+#0 /home/samenli1/public_html/subdominios/wms/app/class/AdministradorPedidos/AdministradorPedidos.php(314): PDOStatement->execute()
+#1 /home/samenli1/public_html/subdominios/wms/api/administradorpedidos/update/index.php(198): AdministradorPedidos\AdministradorPedidos->guardarOla(Array)
+#2 {main}
+  thrown in /home/samenli1/public_html/subdominios/wms/app/class/AdministradorPedidos/AdministradorPedidos.php on line 314
+[01-Sep-2017 06:28:45 America/Los_Angeles] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Fol_Consolidado' in 'field list' in /home/samenli1/public_html/subdominios/wms/app/class/AdministradorPedidos/AdministradorPedidos.php:314
+Stack trace:
+#0 /home/samenli1/public_html/subdominios/wms/app/class/AdministradorPedidos/AdministradorPedidos.php(314): PDOStatement->execute()
+#1 /home/samenli1/public_html/subdominios/wms/api/administradorpedidos/update/index.php(198): AdministradorPedidos\AdministradorPedidos->guardarOla(Array)
+#2 {main}
+  thrown in /home/samenli1/public_html/subdominios/wms/app/class/AdministradorPedidos/AdministradorPedidos.php on line 314
+[01-Sep-2017 06:28:46 America/Los_Angeles] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Fol_Consolidado' in 'field list' in /home/samenli1/public_html/subdominios/wms/app/class/AdministradorPedidos/AdministradorPedidos.php:314
+Stack trace:
+#0 /home/samenli1/public_html/subdominios/wms/app/class/AdministradorPedidos/AdministradorPedidos.php(314): PDOStatement->execute()
+#1 /home/samenli1/public_html/subdominios/wms/api/administradorpedidos/update/index.php(198): AdministradorPedidos\AdministradorPedidos->guardarOla(Array)
+#2 {main}
+  thrown in /home/samenli1/public_html/subdominios/wms/app/class/AdministradorPedidos/AdministradorPedidos.php on line 314
+[01-Sep-2017 06:28:46 America/Los_Angeles] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Fol_Consolidado' in 'field list' in /home/samenli1/public_html/subdominios/wms/app/class/AdministradorPedidos/AdministradorPedidos.php:314
+Stack trace:
+#0 /home/samenli1/public_html/subdominios/wms/app/class/AdministradorPedidos/AdministradorPedidos.php(314): PDOStatement->execute()
+#1 /home/samenli1/public_html/subdominios/wms/api/administradorpedidos/update/index.php(198): AdministradorPedidos\AdministradorPedidos->guardarOla(Array)
+#2 {main}
+  thrown in /home/samenli1/public_html/subdominios/wms/app/class/AdministradorPedidos/AdministradorPedidos.php on line 314
+[01-Sep-2017 06:28:46 America/Los_Angeles] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Fol_Consolidado' in 'field list' in /home/samenli1/public_html/subdominios/wms/app/class/AdministradorPedidos/AdministradorPedidos.php:314
+Stack trace:
+#0 /home/samenli1/public_html/subdominios/wms/app/class/AdministradorPedidos/AdministradorPedidos.php(314): PDOStatement->execute()
+#1 /home/samenli1/public_html/subdominios/wms/api/administradorpedidos/update/index.php(198): AdministradorPedidos\AdministradorPedidos->guardarOla(Array)
+#2 {main}
+  thrown in /home/samenli1/public_html/subdominios/wms/app/class/AdministradorPedidos/AdministradorPedidos.php on line 314
+[01-Sep-2017 07:04:58 America/Los_Angeles] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Fol_Consolidado' in 'field list' in /home/samenli1/public_html/subdominios/wms/app/class/AdministradorPedidos/AdministradorPedidos.php:314
+Stack trace:
+#0 /home/samenli1/public_html/subdominios/wms/app/class/AdministradorPedidos/AdministradorPedidos.php(314): PDOStatement->execute()
+#1 /home/samenli1/public_html/subdominios/wms/api/administradorpedidos/update/index.php(198): AdministradorPedidos\AdministradorPedidos->guardarOla(Array)
+#2 {main}
+  thrown in /home/samenli1/public_html/subdominios/wms/app/class/AdministradorPedidos/AdministradorPedidos.php on line 314
+[04-Sep-2017 15:21:50 America/Los_Angeles] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Fol_Consolidado' in 'field list' in /home/samenli1/public_html/subdominios/wms/app/class/AdministradorPedidos/AdministradorPedidos.php:314
+Stack trace:
+#0 /home/samenli1/public_html/subdominios/wms/app/class/AdministradorPedidos/AdministradorPedidos.php(314): PDOStatement->execute()
+#1 /home/samenli1/public_html/subdominios/wms/api/administradorpedidos/update/index.php(198): AdministradorPedidos\AdministradorPedidos->guardarOla(Array)
+#2 {main}
+  thrown in /home/samenli1/public_html/subdominios/wms/app/class/AdministradorPedidos/AdministradorPedidos.php on line 314
+[04-Sep-2017 15:21:53 America/Los_Angeles] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Fol_Consolidado' in 'field list' in /home/samenli1/public_html/subdominios/wms/app/class/AdministradorPedidos/AdministradorPedidos.php:314
+Stack trace:
+#0 /home/samenli1/public_html/subdominios/wms/app/class/AdministradorPedidos/AdministradorPedidos.php(314): PDOStatement->execute()
+#1 /home/samenli1/public_html/subdominios/wms/api/administradorpedidos/update/index.php(198): AdministradorPedidos\AdministradorPedidos->guardarOla(Array)
+#2 {main}
+  thrown in /home/samenli1/public_html/subdominios/wms/app/class/AdministradorPedidos/AdministradorPedidos.php on line 314
+[17-Sep-2018 16:02:39 UTC] PHP Parse error:  syntax error, unexpected 'mysqli_multi_query' (T_STRING), expecting ',' or ';' in /home/assistproadl/public_html/subdominios/wms.nikken/api/administradorpedidos/update/index.php on line 469
+[17-Sep-2018 16:54:09 UTC] PHP Parse error:  syntax error, unexpected 'mysqli_multi_query' (T_STRING), expecting ',' or ';' in /home/assistproadl/public_html/subdominios/wms.nikken/api/administradorpedidos/update/index.php on line 469
+[19-Mar-2019 23:55:17 UTC] PHP Parse error:  syntax error, unexpected 'if' (T_IF), expecting ',' or ';' in /home/assistproadl/public_html/subdominios/wms/api/administradorpedidos/update/index.php on line 534
+[01-Jul-2019 22:10:38 UTC] PHP Parse error:  syntax error, unexpected '$row2' (T_VARIABLE), expecting ')' in /home/assistproadl/public_html/subdominios/wms/api/administradorpedidos/update/index.php on line 148
+[01-Jul-2019 22:10:38 UTC] PHP Parse error:  syntax error, unexpected '$row2' (T_VARIABLE), expecting ')' in /home/assistproadl/public_html/subdominios/wms/api/administradorpedidos/update/index.php on line 148
+[01-Jul-2019 22:10:38 UTC] PHP Parse error:  syntax error, unexpected '$row2' (T_VARIABLE), expecting ')' in /home/assistproadl/public_html/subdominios/wms/api/administradorpedidos/update/index.php on line 148
+[01-Jul-2019 22:11:05 UTC] PHP Parse error:  syntax error, unexpected '$row2' (T_VARIABLE), expecting ')' in /home/assistproadl/public_html/subdominios/wms/api/administradorpedidos/update/index.php on line 148
+[01-Jul-2019 22:11:05 UTC] PHP Parse error:  syntax error, unexpected '$row2' (T_VARIABLE), expecting ')' in /home/assistproadl/public_html/subdominios/wms/api/administradorpedidos/update/index.php on line 148
+[01-Jul-2019 22:11:05 UTC] PHP Parse error:  syntax error, unexpected '$row2' (T_VARIABLE), expecting ')' in /home/assistproadl/public_html/subdominios/wms/api/administradorpedidos/update/index.php on line 148
+[01-Jul-2019 22:11:47 UTC] PHP Parse error:  syntax error, unexpected '$row2' (T_VARIABLE), expecting ')' in /home/assistproadl/public_html/subdominios/wms/api/administradorpedidos/update/index.php on line 148
+[01-Jul-2019 22:11:54 UTC] PHP Parse error:  syntax error, unexpected '$row2' (T_VARIABLE), expecting ')' in /home/assistproadl/public_html/subdominios/wms/api/administradorpedidos/update/index.php on line 148
+[01-Jul-2019 22:11:54 UTC] PHP Parse error:  syntax error, unexpected '$row2' (T_VARIABLE), expecting ')' in /home/assistproadl/public_html/subdominios/wms/api/administradorpedidos/update/index.php on line 148
+[01-Jul-2019 22:12:04 UTC] PHP Parse error:  syntax error, unexpected '$row2' (T_VARIABLE), expecting ')' in /home/assistproadl/public_html/subdominios/wms/api/administradorpedidos/update/index.php on line 148
+[01-Jul-2019 22:12:04 UTC] PHP Parse error:  syntax error, unexpected '$row2' (T_VARIABLE), expecting ')' in /home/assistproadl/public_html/subdominios/wms/api/administradorpedidos/update/index.php on line 148
+[01-Jul-2019 22:12:04 UTC] PHP Parse error:  syntax error, unexpected '$row2' (T_VARIABLE), expecting ')' in /home/assistproadl/public_html/subdominios/wms/api/administradorpedidos/update/index.php on line 148
+[01-Jul-2019 22:12:54 UTC] PHP Parse error:  syntax error, unexpected '$row2' (T_VARIABLE), expecting ')' in /home/assistproadl/public_html/subdominios/wms/api/administradorpedidos/update/index.php on line 148
+[01-Jul-2019 22:12:54 UTC] PHP Parse error:  syntax error, unexpected '$row2' (T_VARIABLE), expecting ')' in /home/assistproadl/public_html/subdominios/wms/api/administradorpedidos/update/index.php on line 148
+[01-Jul-2019 22:12:54 UTC] PHP Parse error:  syntax error, unexpected '$row2' (T_VARIABLE), expecting ')' in /home/assistproadl/public_html/subdominios/wms/api/administradorpedidos/update/index.php on line 148
+[01-Jul-2019 22:13:10 UTC] PHP Parse error:  syntax error, unexpected '$row2' (T_VARIABLE), expecting ')' in /home/assistproadl/public_html/subdominios/wms/api/administradorpedidos/update/index.php on line 148
+[01-Jul-2019 22:13:10 UTC] PHP Parse error:  syntax error, unexpected '$row2' (T_VARIABLE), expecting ')' in /home/assistproadl/public_html/subdominios/wms/api/administradorpedidos/update/index.php on line 148
+[01-Jul-2019 22:13:10 UTC] PHP Parse error:  syntax error, unexpected '$row2' (T_VARIABLE), expecting ')' in /home/assistproadl/public_html/subdominios/wms/api/administradorpedidos/update/index.php on line 148
+[01-Jul-2019 22:13:33 UTC] PHP Parse error:  syntax error, unexpected '$row2' (T_VARIABLE), expecting ')' in /home/assistproadl/public_html/subdominios/wms/api/administradorpedidos/update/index.php on line 148
+[01-Jul-2019 22:13:33 UTC] PHP Parse error:  syntax error, unexpected '$row2' (T_VARIABLE), expecting ')' in /home/assistproadl/public_html/subdominios/wms/api/administradorpedidos/update/index.php on line 148
+[01-Jul-2019 22:13:33 UTC] PHP Parse error:  syntax error, unexpected '$row2' (T_VARIABLE), expecting ')' in /home/assistproadl/public_html/subdominios/wms/api/administradorpedidos/update/index.php on line 148

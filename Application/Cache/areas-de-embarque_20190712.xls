@@ -1,0 +1,32 @@
+ubicacion	almacen	descripcion	status	AreaStagging	largo	ancho	alto	Activo
+1	3	Isla 1	2	N	1200	900	1800	1
+2	3	Isla 2	2	N	1200	900	1800	1
+3	3	Isla 3	2	N	1200	900	1800	1
+4	3	Isla 4	1	N	1200	900	1800	1
+5	3	Isla 5	1	N	1200	900	1800	1
+6	3	Isla 6	1	N	1200	900	1800	1
+7	3	Isla 7	1	N	1200	900	1800	1
+8	3	Isla 8	1	N	1200	900	1800	1
+9	3	Isla 9	1	N	1200	900	1800	1
+10	3	Isla 10	1	N	1200	900	1800	1
+11	3	Isla 11	1	N	1200	900	1800	1
+12	3	Isla 12	1	N	1200	900	1800	1
+13	3	Isla 13	1	N	1200	900	1800	1
+14	3	Isla 14	1	N	1200	900	1800	1
+15	3	Isla 15	1	N	1200	900	1800	1
+16	3	Isla 16	1	N	1200	900	1800	1
+17	3	Isla 17	1	N	1200	900	1800	1
+18	3	Isla 18	1	N	1200	900	1800	1
+19	3	Isla 19	1	N	1200	900	1800	1
+20	3	Isla 20	1	N	1200	900	1800	1
+21	3	Isla 21	1	N	1200	900	1800	1
+22	3	Isla 22	1	N	1200	900	1800	1
+23	3	Isla 23	1	S	1200	900	1800	1
+24	3	Isla 24	1	N				1
+25	3	Isla 25	1	N				1
+26	3	Isla26	1	S				1
+1	7	Area Embarque Demo 01	1	N				1
+1	8	isla1	1	N				1
+2	3	isla2	1	S				0
+2	8	isla2	1	S				1
+99	7	Mesita	1	N				1

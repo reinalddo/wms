@@ -1,0 +1,66 @@
+[21-Aug-2017 11:45:13 America/Los_Angeles] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'ADL01' in 'where clause' in /home/samenli1/public_html/subdominios/wms/app/class/Articulos/Articulos.php:390
+Stack trace:
+#0 /home/samenli1/public_html/subdominios/wms/app/class/Articulos/Articulos.php(390): PDOStatement->execute()
+#1 /home/samenli1/public_html/subdominios/wms/api/resumenejecutivo/update/index.php(15): Articulos\Articulos->getAllForDashboard('ADL01')
+#2 {main}
+  thrown in /home/samenli1/public_html/subdominios/wms/app/class/Articulos/Articulos.php on line 390
+[21-Aug-2017 11:46:24 America/Los_Angeles] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'ADL01' in 'where clause' in /home/samenli1/public_html/subdominios/wms/app/class/Articulos/Articulos.php:390
+Stack trace:
+#0 /home/samenli1/public_html/subdominios/wms/app/class/Articulos/Articulos.php(390): PDOStatement->execute()
+#1 /home/samenli1/public_html/subdominios/wms/api/resumenejecutivo/update/index.php(15): Articulos\Articulos->getAllForDashboard('ADL01')
+#2 {main}
+  thrown in /home/samenli1/public_html/subdominios/wms/app/class/Articulos/Articulos.php on line 390
+[12-Sep-2017 23:28:34 America/Los_Angeles] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'ADL01' in 'where clause' in /home/samenli1/public_html/subdominios/wms/app/class/Articulos/Articulos.php:390
+Stack trace:
+#0 /home/samenli1/public_html/subdominios/wms/app/class/Articulos/Articulos.php(390): PDOStatement->execute()
+#1 /home/samenli1/public_html/subdominios/wms/api/resumenejecutivo/update/index.php(15): Articulos\Articulos->getAllForDashboard('ADL01')
+#2 {main}
+  thrown in /home/samenli1/public_html/subdominios/wms/app/class/Articulos/Articulos.php on line 390
+[12-Sep-2017 23:28:53 America/Los_Angeles] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'losamigos' in 'where clause' in /home/samenli1/public_html/subdominios/wms/app/class/Articulos/Articulos.php:390
+Stack trace:
+#0 /home/samenli1/public_html/subdominios/wms/app/class/Articulos/Articulos.php(390): PDOStatement->execute()
+#1 /home/samenli1/public_html/subdominios/wms/api/resumenejecutivo/update/index.php(15): Articulos\Articulos->getAllForDashboard('losamigos')
+#2 {main}
+  thrown in /home/samenli1/public_html/subdominios/wms/app/class/Articulos/Articulos.php on line 390
+[03-Jan-2018 09:51:52 America/Los_Angeles] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'losamigos' in 'where clause' in /home/samenli1/public_html/subdominios/wms/app/class/Articulos/Articulos.php:390
+Stack trace:
+#0 /home/samenli1/public_html/subdominios/wms/app/class/Articulos/Articulos.php(390): PDOStatement->execute()
+#1 /home/samenli1/public_html/subdominios/wms/api/resumenejecutivo/update/index.php(15): Articulos\Articulos->getAllForDashboard('losamigos')
+#2 {main}
+  thrown in /home/samenli1/public_html/subdominios/wms/app/class/Articulos/Articulos.php on line 390
+[03-Jan-2018 09:54:05 America/Los_Angeles] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'losamigos' in 'where clause' in /home/samenli1/public_html/subdominios/wms/app/class/Articulos/Articulos.php:390
+Stack trace:
+#0 /home/samenli1/public_html/subdominios/wms/app/class/Articulos/Articulos.php(390): PDOStatement->execute()
+#1 /home/samenli1/public_html/subdominios/wms/api/resumenejecutivo/update/index.php(15): Articulos\Articulos->getAllForDashboard('losamigos')
+#2 {main}
+  thrown in /home/samenli1/public_html/subdominios/wms/app/class/Articulos/Articulos.php on line 390
+[19-Feb-2018 08:55:53 America/Los_Angeles] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'ADL01' in 'where clause' in /home/samenli1/public_html/subdominios/wms/app/class/Articulos/Articulos.php:390
+Stack trace:
+#0 /home/samenli1/public_html/subdominios/wms/app/class/Articulos/Articulos.php(390): PDOStatement->execute()
+#1 /home/samenli1/public_html/subdominios/wms/api/resumenejecutivo/update/index.php(15): Articulos\Articulos->getAllForDashboard('ADL01')
+#2 {main}
+  thrown in /home/samenli1/public_html/subdominios/wms/app/class/Articulos/Articulos.php on line 390
+[19-Feb-2018 08:55:57 America/Los_Angeles] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'losamigos' in 'where clause' in /home/samenli1/public_html/subdominios/wms/app/class/Articulos/Articulos.php:390
+Stack trace:
+#0 /home/samenli1/public_html/subdominios/wms/app/class/Articulos/Articulos.php(390): PDOStatement->execute()
+#1 /home/samenli1/public_html/subdominios/wms/api/resumenejecutivo/update/index.php(15): Articulos\Articulos->getAllForDashboard('losamigos')
+#2 {main}
+  thrown in /home/samenli1/public_html/subdominios/wms/app/class/Articulos/Articulos.php on line 390
+[02-Apr-2018 13:55:22 America/Los_Angeles] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'ADL01' in 'where clause' in /home/samenli1/public_html/subdominios/wms/app/class/Articulos/Articulos.php:390
+Stack trace:
+#0 /home/samenli1/public_html/subdominios/wms/app/class/Articulos/Articulos.php(390): PDOStatement->execute()
+#1 /home/samenli1/public_html/subdominios/wms/api/resumenejecutivo/update/index.php(15): Articulos\Articulos->getAllForDashboard('ADL01')
+#2 {main}
+  thrown in /home/samenli1/public_html/subdominios/wms/app/class/Articulos/Articulos.php on line 390
+[16-Apr-2018 15:19:24 America/Los_Angeles] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'ADL01' in 'where clause' in /home/samenli1/public_html/subdominios/wms/app/class/Articulos/Articulos.php:390
+Stack trace:
+#0 /home/samenli1/public_html/subdominios/wms/app/class/Articulos/Articulos.php(390): PDOStatement->execute()
+#1 /home/samenli1/public_html/subdominios/wms/api/resumenejecutivo/update/index.php(15): Articulos\Articulos->getAllForDashboard('ADL01')
+#2 {main}
+  thrown in /home/samenli1/public_html/subdominios/wms/app/class/Articulos/Articulos.php on line 390
+[21-Jun-2018 10:16:23 America/Los_Angeles] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'ADL01' in 'where clause' in /home/samenli1/public_html/subdominios/wms/app/class/Articulos/Articulos.php:479
+Stack trace:
+#0 /home/samenli1/public_html/subdominios/wms/app/class/Articulos/Articulos.php(479): PDOStatement->execute()
+#1 /home/samenli1/public_html/subdominios/wms/api/resumenejecutivo/update/index.php(15): Articulos\Articulos->getAllForDashboard('ADL01')
+#2 {main}
+  thrown in /home/samenli1/public_html/subdominios/wms/app/class/Articulos/Articulos.php on line 479

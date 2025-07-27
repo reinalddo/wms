@@ -1,0 +1,11 @@
+
+POST    http://wms.nikken.assistpro-adl.com/api/index.php
+
+  RESPONSE HEADER
+
+  date: Fri, 24 May 2018 13:31:13 GMT
+  server: Apache
+  pragma: no-cache
+  transfer-encoding: chunked
+  content-type: text/html; charset=UTF-8
+  cache-control: no-store, no-cache, must-revalidate

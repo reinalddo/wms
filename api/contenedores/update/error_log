@@ -1,0 +1,18 @@
+[15-May-2017 14:12:58 America/Los_Angeles] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [2002] No such file or directory in /home/samenli1/public_html/subdominios/wms/app/load.php:25
+Stack trace:
+#0 /home/samenli1/public_html/subdominios/wms/app/load.php(25): PDO->__construct('mysql:host=loca...', 'samenli1_wms', 'TnJ;Sf*ml]SR')
+#1 /home/samenli1/public_html/subdominios/wms/api/contenedores/update/index.php(2): include('/home/samenli1/...')
+#2 {main}
+  thrown in /home/samenli1/public_html/subdominios/wms/app/load.php on line 25
+[15-May-2017 14:13:00 America/Los_Angeles] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [2002] No such file or directory in /home/samenli1/public_html/subdominios/wms/app/load.php:25
+Stack trace:
+#0 /home/samenli1/public_html/subdominios/wms/app/load.php(25): PDO->__construct('mysql:host=loca...', 'samenli1_wms', 'TnJ;Sf*ml]SR')
+#1 /home/samenli1/public_html/subdominios/wms/api/contenedores/update/index.php(2): include('/home/samenli1/...')
+#2 {main}
+  thrown in /home/samenli1/public_html/subdominios/wms/app/load.php on line 25
+[15-May-2017 14:13:02 America/Los_Angeles] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [2002] No such file or directory in /home/samenli1/public_html/subdominios/wms/app/load.php:25
+Stack trace:
+#0 /home/samenli1/public_html/subdominios/wms/app/load.php(25): PDO->__construct('mysql:host=loca...', 'samenli1_wms', 'TnJ;Sf*ml]SR')
+#1 /home/samenli1/public_html/subdominios/wms/api/contenedores/update/index.php(2): include('/home/samenli1/...')
+#2 {main}
+  thrown in /home/samenli1/public_html/subdominios/wms/app/load.php on line 25

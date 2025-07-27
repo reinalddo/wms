@@ -1,0 +1,134 @@
+<?php
+include '../../../app/load.php';
+
+// Initalize Slim
+$app = new \Slim\Slim();
+
+if( !isset( $_SESSION['id_user'] ) AND !$_SESSION['id_user'] ) {
+    exit();
+}
+
+$ga = new \Contenedores\Contenedores();
+
+if( $_POST['action'] == 'add' ) {
+    $data = $ga->GenerarLP($_POST);
+    $arr = array(
+		"success"=>$data
+	);
+    echo json_encode($arr);
+} 
+	
+	
+if( $_POST['action'] == 'edit' ) {
+    $ga->actualizarContenedor($_POST);
+    $success = true;
+
+    $arr = array(
+        "success" => $success,
+        "err" => $resp
+    );
+    echo json_encode($arr);
+}
+
+if( $_POST['action'] == 'exists' ) {
+	
+    $clave=$ga->exist($_POST["clave_contenedor"]);
+	
+ 
+
+   if($clave==true)
+        $success = true;
+    else 
+		$success= false;
+
+    $arr = array(
+		"success"=>$success
+ );
+
+    echo json_encode($arr);
+
+}
+
+
+if( $_POST['action'] == 'delete' ) {
+    $ga->borrarContenedor($_POST);
+    $ga->clave_contenedor = $_POST["clave_contenedor"];
+    $ga->__get("clave_contenedor");
+    $arr = array(
+        "success" => true,
+        //"nombre_proveedor" => $ga->data->Empresa,
+        //"contacto" => $ga->data->VendId
+    );
+
+    echo json_encode($arr);
+
+} if( $_POST['action'] == 'load' ) {
+    $ga->IDContenedor = $_POST["IDContenedor"];
+    $ga->__get("IDContenedor");
+    $arr = array(
+        "success" => true,
+        "cve_almac" => $ga->data->cve_almac,
+		"descripcion" => $ga->data->descripcion,
+        "clave_contenedor" => $ga->data->clave_contenedor,
+		"ancho" => $ga->data->ancho,
+		"alto" => $ga->data->alto,
+		"fondo" => $ga->data->fondo,		
+		"peso" => $ga->data->peso,	
+		"pesomax" => $ga->data->pesomax,	
+		"capavol" => $ga->data->capavol,		
+        "tipo" => $ga->data->tipo,
+        "TipoGenVal" => $ga->data->Permanente
+    );
+
+    echo json_encode($arr);
+
+}
+
+
+if( $_POST['action'] == 'recovery' ) {
+    $ga->recovery($_POST);
+    $ga->IDContenedor = $_POST["IDContenedor"];
+    $ga->__get("IDContenedor");
+    $arr = array(
+        "success" => true,
+    );
+
+    echo json_encode($arr);
+
+}
+
+if( $_POST['action'] == 'inUse' ) {
+    $data = $ga->inUse($_POST);
+    $arr = array(
+        "success" => $use,
+    );
+
+    echo json_encode($arr);
+
+}
+
+if( $_POST['action'] == 'loadcon' ) {
+    $data = $ga->loadcon($_POST);
+     echo json_encode(array(
+    "success" => true,
+    "data"  => $data[0],
+  ));
+}
+
+if( $_POST['action'] == 'activar_lps' ) {
+
+    $lps = $_POST['lps'];
+    $activar = $_POST['activar'];
+
+    $lps = implode(",",$lps);
+
+    $conn = mysqli_connect(DB_HOST, DB_USER, DB_PASSWORD, DB_NAME);
+    $sql = "UPDATE c_charolas SET Activo = '$activar' WHERE CveLP IN ({$lps})";
+    if (!($res = mysqli_query($conn, $sql)))echo "Falló la preparación 3: (" . mysqli_error($conn) . ") ";
+
+    $arr = array(
+        "success" => true
+    );
+
+    echo json_encode($arr);
+}

@@ -1,0 +1,15 @@
+[16-May-2017 13:03:07 UTC] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO), expecting ';' in /home/samenli1/public_html/subdominios/wms/api/almacen/lista/index.php on line 89
+[17-Jan-2018 18:21:49 UTC] PHP Parse error:  syntax error, unexpected ')' in /home/samenli1/public_html/subdominios/wms/api/reportes/lista/entrada.php on line 231
+[17-Jan-2018 18:21:53 UTC] PHP Parse error:  syntax error, unexpected ')' in /home/samenli1/public_html/subdominios/wms/api/reportes/lista/entrada.php on line 231
+[17-Jan-2018 18:26:29 UTC] PHP Parse error:  syntax error, unexpected ')' in /home/samenli1/public_html/subdominios/wms/api/reportes/lista/entrada.php on line 232
+[17-Jan-2018 18:26:34 UTC] PHP Parse error:  syntax error, unexpected ')' in /home/samenli1/public_html/subdominios/wms/api/reportes/lista/entrada.php on line 232
+[17-Jan-2018 18:26:35 UTC] PHP Parse error:  syntax error, unexpected ')' in /home/samenli1/public_html/subdominios/wms/api/reportes/lista/entrada.php on line 232
+[17-Jan-2018 18:26:42 UTC] PHP Parse error:  syntax error, unexpected ')' in /home/samenli1/public_html/subdominios/wms/api/reportes/lista/entrada.php on line 232
+[17-Jan-2018 18:26:46 UTC] PHP Parse error:  syntax error, unexpected ')' in /home/samenli1/public_html/subdominios/wms/api/reportes/lista/entrada.php on line 232
+[27-Feb-2019 20:00:51 UTC] PHP Parse error:  syntax error, unexpected 'var' (T_VAR) in /home/assistproadl/public_html/subdominios/wms/api/reportes/lista/existenciaubica.php on line 270
+[16-Mar-2019 21:19:00 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/assistproadl/public_html/subdominios/wms/api/reportes/lista/difconteos.php on line 48
+[16-Mar-2019 21:20:32 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/assistproadl/public_html/subdominios/wms/api/reportes/lista/difconteos.php on line 48
+[16-Mar-2019 21:20:38 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/assistproadl/public_html/subdominios/wms/api/reportes/lista/difconteos.php on line 48
+[17-Mar-2019 01:27:06 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/assistproadl/public_html/subdominios/wms/api/reportes/lista/difconteos.php on line 48
+[18-Mar-2019 14:05:13 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/assistproadl/public_html/subdominios/wms/api/reportes/lista/difconteos.php on line 48
+[22-Mar-2019 19:15:46 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/assistproadl/public_html/subdominios/wms/api/reportes/lista/difconteos.php on line 48
